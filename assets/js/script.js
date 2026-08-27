@@ -158,6 +158,17 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(sentinel);
 // Sticky header ends
 
+// Header height CSS variable start
+if (header) {
+    new ResizeObserver(() => {
+        document.documentElement.style.setProperty(
+            '--header-height',
+            `${header.offsetHeight}px`
+        );
+    }).observe(header);
+}
+// Header height CSS variable ends
+
 // Program offered mobile slider start
 (function () {
     const slider = document.getElementById('programSlider');
@@ -197,3 +208,15 @@ document.addEventListener("DOMContentLoaded", () => {
     updateNavState();
 })();
 // Program offered mobile slider ends
+// Inner Menu heading height start 
+const innerMenuHeading = document.getElementById('inner_menu_heading_id');
+
+if (innerMenuHeading) {
+    new ResizeObserver(() => {
+        document.documentElement.style.setProperty(
+            '--inner-menu-heading-height',
+            `${innerMenuHeading.offsetHeight}px`
+        );
+    }).observe(innerMenuHeading);
+}
+// Inner Menu heading height ends 

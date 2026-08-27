@@ -20,7 +20,10 @@
     --link-hover-color: #C4161C;
     --red-color: #C4161C;
     --yellow-color: #F5A302;
+    --red-background-color: #C4161C0D;
     --transition-fast: 0.2s ease-in-out;
+    --header-height: 0px;
+    --inner-menu-heading-height: 0px;
 }
 
 @font-face {
@@ -90,7 +93,7 @@ body {
 
 p {
     margin: 0 0 1em;
-    line-height: normal;
+    line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {

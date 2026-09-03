@@ -12,19 +12,19 @@ members, showcasing their academic backgrounds & research contributions.')
             <img src="{{ asset('assets/images/inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid">
         </div>
     </div>
+    <div class="inner_banner_overlay_box"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="inner_banner_mainbox">
                     <div class="inner_banner_headingbox">
-                        <h1 class="inner_banner_heading">Faculty <span>Profiles</span></h1>
-                        <!-- <nav aria-label="breadcrumb">
+                        <h1 class="inner_banner_heading"><span>Faculty</span> Profiles</h1>
+                        <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Programmes</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">M.Sc. in Geoinformatics</li>
+                                <li class="breadcrumb-item active" aria-current="page">Faculty Profiles</li>
                             </ol>
-                        </nav> -->
+                        </nav>
                     </div>
                     <div class="inner_banner_rightbox"></div>
                 </div>

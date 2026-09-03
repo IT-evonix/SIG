@@ -12,19 +12,19 @@ by insights from our directors, faculty, alumni, and students.')
             <img src="{{ asset('assets/images/inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid">
         </div>
     </div>
+    <div class="inner_banner_overlay_box"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="inner_banner_mainbox">
                     <div class="inner_banner_headingbox">
                         <h1 class="inner_banner_heading"><span>Blog</span></h1>
-                        <!-- <nav aria-label="breadcrumb">
+                        <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Programmes</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">M.Sc. in Geoinformatics</li>
+                                <li class="breadcrumb-item active" aria-current="page">Blog</li>
                             </ol>
-                        </nav> -->
+                        </nav>
                     </div>
                     <div class="inner_banner_rightbox"></div>
                 </div>
@@ -74,7 +74,7 @@ by insights from our directors, faculty, alumni, and students.')
                                 <div class="blog_card_overlay">
                                     <div class="blog_card_top_content">
                                         <div class="blog_card_top_row">
-                                            <div class="blog_card_category">Home</div>
+                                            <div class="blog_card_category blog_student_badge">Student</div>
                                             <div class="blog_card_top_right">
                                                 <div class="blog_card_top_right_list">
                                                     <div class="blog_card_top_right_list_icon"></div>
@@ -119,7 +119,7 @@ by insights from our directors, faculty, alumni, and students.')
                                 <div class="blog_card_overlay">
                                     <div class="blog_card_top_content">
                                         <div class="blog_card_top_row">
-                                            <div class="blog_card_category">Faculty</div>
+                                            <div class="blog_card_category blog_faculty_badge">Faculty</div>
                                             <div class="blog_card_top_right">
                                                 <div class="blog_card_top_right_list">
                                                     <div class="blog_card_top_right_list_icon"></div>
@@ -171,7 +171,7 @@ by insights from our directors, faculty, alumni, and students.')
                                 <div class="blog_card_overlay">
                                     <div class="blog_card_top_content">
                                         <div class="blog_card_top_row">
-                                            <div class="blog_card_category">Faculty</div>
+                                            <div class="blog_card_category blog_faculty_badge">Faculty</div>
                                             <div class="blog_card_top_right">
                                                 <div class="blog_card_top_right_list">
                                                     <div class="blog_card_top_right_list_icon"></div>
@@ -214,7 +214,7 @@ by insights from our directors, faculty, alumni, and students.')
                                 <div class="blog_card_overlay">
                                     <div class="blog_card_top_content">
                                         <div class="blog_card_top_row">
-                                            <div class="blog_card_category">Faculty</div>
+                                            <div class="blog_card_category blog_faculty_badge">Faculty</div>
                                             <div class="blog_card_top_right">
                                                 <div class="blog_card_top_right_list">
                                                     <div class="blog_card_top_right_list_icon"></div>
@@ -260,7 +260,7 @@ by insights from our directors, faculty, alumni, and students.')
                                 <div class="blog_card_overlay">
                                     <div class="blog_card_top_content">
                                         <div class="blog_card_top_row">
-                                            <div class="blog_card_category">Faculty</div>
+                                            <div class="blog_card_category blog_faculty_badge">Faculty</div>
                                             <div class="blog_card_top_right">
                                                 <div class="blog_card_top_right_list">
                                                     <div class="blog_card_top_right_list_icon"></div>
@@ -304,7 +304,7 @@ by insights from our directors, faculty, alumni, and students.')
                                 <div class="blog_card_overlay">
                                     <div class="blog_card_top_content">
                                         <div class="blog_card_top_row">
-                                            <div class="blog_card_category">Student</div>
+                                            <div class="blog_card_category blog_student_badge">Student</div>
                                             <div class="blog_card_top_right">
                                                 <div class="blog_card_top_right_list">
                                                     <div class="blog_card_top_right_list_icon"></div>

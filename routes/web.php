@@ -32,4 +32,6 @@ Route::get('/blog-detail', function () {
 
 // BLOG ENDS ---------------------------------------------------
 
-
+Route::get('/faculty-profile', function () {
+    return view('pages.faculty-profile');
+})->name('pages.faculty-profile');

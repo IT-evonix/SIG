@@ -49,7 +49,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                     <div class="inner_page_menu_mainbox">
                         <div class="inner_page_menu_box">
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
-                            @include('components.programme-menu')
+                            @include('components.msc-geoinformatics-programme-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="programmes_page_first_mainbox">

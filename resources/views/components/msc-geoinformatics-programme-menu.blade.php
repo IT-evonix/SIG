@@ -20,7 +20,8 @@
         </div>
         <div class="inner_page_menu_text">Graduate Attributes and Pogramme outcome</div>
     </a>
-    <a href="" class="inner_page_menu_listing">
+    <a href="{{ route('pages.programmes.msc-geoinformatics-programme-structure') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics-programme-structure') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -83,7 +84,7 @@
         </div>
         <div class="inner_page_menu_text">Fee structure</div>
     </a>
-    <a href="" class="inner_page_menu_listing">
+    <a href="{{ asset('assets/pdf/Rules-for-Refund-of-Fees.pdf') }}" target="_blank" class="inner_page_menu_listing">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -93,7 +94,8 @@
         </div>
         <div class="inner_page_menu_text">Rules for refund of Fees</div>
     </a>
-    <a href="" class="inner_page_menu_listing">
+    <a href="{{ route('pages.programmes.scholarships') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.scholarships') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -114,7 +116,8 @@
         </div>
         <div class="inner_page_menu_text">How to apply</div>
     </a>
-    <a href="" class="inner_page_menu_listing">
+    <a href="{{ route('pages.programmes.admission-contact') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.admission-contact') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path

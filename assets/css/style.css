@@ -1764,8 +1764,9 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
     grid-template-columns: 50px 1fr;
     align-items: center;
     gap: 0px;
-    border: 1px solid #dedede;
+    /* border: 1px solid #dedede; */
     border-radius: 12px;
+    background-color: #ffeaeb;
 }
 
 .admission_calender_listing_left_icon {
@@ -1775,7 +1776,9 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #ffeaeb;
+    /* background-color: #ffeaeb; */
+    background-color: var(--white-color);
+    border: 1px solid var(--red-color);
     margin: 0 0 0 -20px;
 }
 
@@ -1802,6 +1805,10 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
 .admission_calender_listing_right_heading,
 .admission_calender_listing_left_heading {
   font-family: var(--font-roboto-600);
+}
+
+.admission_calender_listing:nth-child(even) .admission_calender_listing_left {
+    background-color: #f4f4f4;
 }
 
 /* ADMISSION CALENDAR PAGE ENDS */
@@ -2124,7 +2131,9 @@ table th {
 .sholarships_listing {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 40px;
+    margin: 20px 0 0 0;
+    align-items: center;
 }
 
 .sholarships_heading {
@@ -2132,7 +2141,297 @@ table th {
   font-family: var(--font-roboto-600);
 }
 
+.sholarships_image {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.sholarships_image img {
+  border-radius: 20px;
+  transition: transform 0.9s ease;
+}
+
+.sholarships_image img:hover {
+  transform: scale(1.05);
+}
+
+.sholarships_wraper_listing:nth-child(even) {
+    padding: 40px 0 0 0;
+    margin: 40px 0 0 0;
+    position: relative;
+}
+
+.sholarships_wraper_listing:nth-child(even)::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(196, 22, 28, 1) 50%,
+        rgba(255, 255, 255, 0.8) 100%
+    );
+}
+
+.sholarships_wraper_listing:nth-child(even) .sholarships_listing .sholarships_image {
+  grid-column: 2/3;
+}
+
+.sholarships_wraper_listing:nth-child(even) .sholarships_listing .sholarships_content {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.key_benefit_wraper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0 0 0;
+}
+
+.key_benefit_mainbox {
+    padding: 20px;
+    margin: 60px 0 0 0;
+    background-color: var(--red-background-color);
+    border-radius: 20px;
+}
+
+.key_benefit_icon,
+.email_icon,
+.admission_contact_first_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffeaeb;
+}
+
+.key_benefit_icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.key_benefit_listing {
+    padding: 15px;
+    background-color: var(--white-color);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.3s linear;
+}
+
+.key_benefit_listing:hover {
+  transform: scale(1.02) translateY(-5px);
+}
+
+.email_mainbox {
+    margin: 60px 0 0 0;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #dedede;
+    display: grid;
+    grid-template-columns: 60px 1.5px 1fr;
+    gap: 30px;
+    align-items: center;
+    transition: border 0.3s linear;
+}
+
+.email_mainbox:hover {
+  border: 1px solid var(--yellow-color);
+}
+
+.email_devider {
+    width: 1.5px;
+    height: 100%;
+    background-color: #dedede;
+}
+
+.email_mainbox a {
+  color: var(--red-color);
+  margin: 10px 0 0 0;
+  display: inline-block;
+  transition: color 0.3s linear;
+}
+
+.email_mainbox a:hover {
+  color: var(--yellow-color);
+}
+
 /* SCHOLARSHIPS PAGE ENDS */
+
+/* Tabbing start */
+
+.my_tabbing .nav-tabs .nav-item.show .nav-link, 
+.my_tabbing .nav-tabs .nav-link.active {
+    color: var(--red-color);
+    font-family: var(--font-roboto-800);
+    border: 0;
+    border-bottom: 3px solid var(--red-color);
+    background-color: #ffeaeb;
+}
+
+
+.my_tabbing .nav-tabs .nav-link {
+    margin-bottom: 0;
+    border: 0;
+    color: var(--black-color);
+    background-color: #f4f4f4;
+    border-bottom: 3px solid #f4f4f4;
+    font-family: var(--font-roboto-600);
+}
+
+
+.my_tabbing .nav {
+    gap: 20px;
+}
+
+.my_tabbing .tab-content {
+    margin: 25px 0 0 0;
+}
+
+/* Tabbing ends */
+
+/* PROGRAM STRUCTURE PAGE START */
+
+.program_structure_heading {
+    font-size: 20px;
+    font-family: var(--font-roboto-600);
+    margin: 0 0 20px 0;
+}
+
+.program_structure_content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* PROGRAM STRUCTURE PAGE ENDS */
+
+/* ADMISSION CONTACT US PAGE START */
+
+.admission_contact_firstbox {
+    display: grid;
+}
+
+.admission_contact_firstbox > * {
+    grid-area: 1/1;
+}
+
+.admission_contact_background {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+}
+
+.admission_contact_first_content {
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+}
+
+.admission_contact_first_icon img {
+  width: 35px;
+  height: 35px;
+}
+
+.admission_contact_first_content_left {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 30px;
+}
+
+.admission_contact_firstbox {
+    display: grid;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0.8) 0%, rgba(255, 234, 235, 0.8) 100%);
+    box-shadow: 4px 4px 16px #dedede;
+}
+
+.admission_contact_background_right img {
+  border-radius: 20px;
+}
+
+.admission_contact_first_wraper {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    gap: 20px;
+}
+
+.admission_contact_detail_header_heading {
+  font-size: 20px;
+  font-family: var(--font-roboto-600);
+}
+
+.admission_contact_detail_listing_icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffeaeb;
+}
+
+.admission_contact_detail_listing {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    gap: 15px;
+}
+
+
+.admission_contact_detail_listing:not(:last-child) {
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dashed #dedede;
+}
+
+.admission_contact_detailbox {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: var(--red-background-color);
+    box-shadow: 4px 4px 16px #dedede;
+}
+
+.admission_contact_first_content_left {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 30px;
+    align-self: center;
+    padding: 0 0 0 20px;
+}
+
+.admission_contact_first_heading {
+  font-size: 20px;
+  font-family: var(--font-roboto-600);
+  margin: 0 0 10px 0;
+}
+
+.admission_contact_background_right {
+  width: 100%;
+  height: 100%;
+}
+
+.admission_contact_background_right img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.admission_contact_third_icon img {
+  width: 35px;
+  height: 35px;
+}
+
+.admission_contact_third {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+/* ADMISSION CONTACT US PAGE ENDS */
 
 /* ================ MEDIA QUIRIES START ===================== */
 

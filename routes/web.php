@@ -63,3 +63,8 @@ Route::get('/blog-detail', function () {
 Route::get('/faculty-profile', function () {
     return view('pages.faculty-profile');
 })->name('pages.faculty-profile');
+
+
+Route::get('/coming-soon', function () {
+    return view('pages.coming-soon');
+})->name('pages.coming-soon');

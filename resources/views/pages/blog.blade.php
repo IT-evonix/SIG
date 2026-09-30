@@ -99,7 +99,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="">
+                                        <a href="{{ route('pages.blog-detail') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -151,7 +151,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="">
+                                        <a href="{{ route('pages.blog-detail') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -194,7 +194,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="">
+                                        <a href="{{ route('pages.blog-detail') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -240,7 +240,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="">
+                                        <a href="{{ route('pages.blog-detail') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -284,7 +284,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="">
+                                        <a href="{{ route('pages.blog-detail') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -328,7 +328,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="">
+                                        <a href="{{ route('pages.blog-detail') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path

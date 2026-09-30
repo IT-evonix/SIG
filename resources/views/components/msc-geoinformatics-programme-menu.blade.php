@@ -10,7 +10,7 @@
         </div>
         <div class="inner_page_menu_text">Overview</div>
     </a>
-    <a href="" class="inner_page_menu_listing">
+    <a href="{{ route('pages.coming-soon') }}" class="inner_page_menu_listing">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -31,7 +31,7 @@
         </div>
         <div class="inner_page_menu_text">Programme structure</div>
     </a>
-    <a href="" class="inner_page_menu_listing">
+    <a href="{{ route('pages.coming-soon') }}" class="inner_page_menu_listing">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -41,7 +41,7 @@
         </div>
         <div class="inner_page_menu_text">Stackholder's feedback</div>
     </a>
-    <a href="" class="inner_page_menu_listing">
+    <a href="{{ route('pages.faculty-profile') }}" class="inner_page_menu_listing">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path

@@ -55,13 +55,16 @@ courses and advance your career with a master\'s in Geoinformatics.')
                             <div class="programmes_page_first_mainbox">
                                 <div class="programmes_first_left">
                                     <h2 class="inner_heading">
-                                        M.Sc.(Geoinformatics) offered by Symbiosis Institute of Geoinformatics (SIG)
+                                        Master of Science (Geoinformatics) (M. Sc. Geoinformatics)
                                     </h2>
                                     <p class="m-0">
-                                        Symbiosis Institute of Geoinformatics (SIG) comprises 80 credits, spread across
-                                        4 semesters. Comprising two projects as expected from a good masters in
-                                        geoinformatics in India, the degree is conferred under the Symbiosis
-                                        International University.
+                                        The M.Sc. in Geoinformatics at the Symbiosis Institute of Geoinformatics (SIG)
+                                        is an 80-credit, four-semester postgraduate programme designed to prepare
+                                        aspiring geospatial professionals for advanced roles in the evolving world of
+                                        spatial science and technology. By integrating scientific knowledge, advanced
+                                        geospatial technologies, and real-world applications, the programme enables
+                                        students to transform spatial data into meaningful insights and impactful
+                                        solutions.
                                     </p>
                                 </div>
                                 <div class="programmes_first_right">
@@ -75,38 +78,33 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         alt="Programmes image" class="img-fluid">
                                 </div>
                                 <div class="programmes_second_right">
+                                    <p>
+                                        The curriculum offers comprehensive learning in Remote Sensing, Geographic
+                                        Information Systems (GIS), Global Navigation Satellite Systems (GNSS), Spatial
+                                        Data Analysis, and Information Technology. Through hands-on learning and
+                                        projects-based learnings, students strengthen their technical, analytical,
+                                        research, and problem-solving capabilities.
+                                    </p>
                                     <p class="m-0">
-                                        Earth and atmospheric science relies on spatial data acquired from
-                                        satellite,aerial images or other means, which are analyzed by the expert using
-                                        Geospatial technology. The field of Geoinformatics consists of Remote Sensing,
-                                        Geographic Information System (GIS), Global Navigation Satellite System (GNSS)
-                                        with Information Technology among many other aspects. Many fields benefit from
-                                        geoinformatics, including urban planning and land use management, navigation
-                                        systems, public health, environmental modeling and analysis, military, transport
-                                        network planning and management, agriculture, meteorology and climate change,
-                                        oceanography and atmosphere modeling, business location planning, architecture
-                                        and archaeological reconstruction, telecommunications, criminology and crime
-                                        simulation, Business management, aviation and maritime transport.
+                                        As future geospatial professionals, graduates are equipped to contribute to
+                                        solutions for challenges related to urbanisation, climate change, environmental
+                                        sustainability, infrastructure, and disaster resilience. The programme empowers them
+                                        to support smarter planning, sustainable development, and informed decision-making
+                                        and technology-driven solutions, creating meaningful impact across industries,
+                                        communities, and society.
                                     </p>
                                 </div>
                             </div>
-                            <div class="programmes_page_third_mainbox">
-                                <p>
-                                    Geoinformatics and by extension MSc geoinformatics colleges in India have become
-                                    very important for decision-makers. Many national and international agencies are
-                                    using spatial data for managing their day to day activities.
-                                </p>
-                                <p>
-                                    Geoinformatics is a specialized field necessitating expert knowledge. SIG has
-                                    emerged as one of the leading MSc geoinformatics colleges in India with their
-                                    commitment, quality of education and legacy as a Symbiosis institute.
-                                </p>
+                            <!-- <div class="programmes_page_third_mainbox">
                                 <p class="m-0">
-                                    Students from Engineering, Science, geography, geology, agriculture, environment,
-                                    forestry engineering, IT or computer science fields can opt for a masters in
-                                    geoinformatics in India from SIG.
+                                    As future geospatial professionals, graduates are equipped to contribute to
+                                    solutions for challenges related to urbanisation, climate change, environmental
+                                    sustainability, infrastructure, and disaster resilience. The programme empowers them
+                                    to support smarter planning, sustainable development, and informed decision-making
+                                    and technology-driven solutions, creating meaningful impact across industries,
+                                    communities, and society.
                                 </p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

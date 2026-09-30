@@ -57,13 +57,95 @@
                                                 </li> -->
                                             </ul>
                                         </li>
-                                        <li><a href="">Programmes</a></li>
-                                        <li><a href="">Placement</a></li>
-                                        <li><a href="">Research</a></li>
-                                        <li><a href="">Student Corner</a></li>
-                                        <li><a href="">Blog</a></li>
+                                        <!-- <li class="has-submenu {{ request()->routeIs('pages.programmes.*') ? 'has-submenu_active' : '' }}"> -->
+                                        <li class="has-submenu">
+                                            <a href="#">
+                                                Programmes
+                                                <span class="submenu-arrow">▼</span>
+                                                <span class="submenu-toggle">+</span>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="{{ route('pages.programmes.msc-in-geoinformatics') }}">M.Sc. Geoinformatics</a></li>
+                                                <li><a href="#">M. Sc. Data Science and Spatial Analytics</a></li>
+                                                <li><a href="#">MSc. Data Science and Spatial Analytics - Dual Degree</a></li>
+                                                <li><a href="#">M.Tech Geoinformatics</a></li>
+                                                <li><a href="#">Certificate Course Drone Data Acquisition and Processing</a></li>
+                                                <li><a href="#">Certification in Data Visualization</a></li>
+                                                <li><a href="#">Ph.D. Programme</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu">
+                                            <a href="#">
+                                                Placement
+                                                <span class="submenu-arrow">▼</span>
+                                                <span class="submenu-toggle">+</span>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="#">Placement at SIG</a></li>
+                                                <li><a href="#">Internship</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu">
+                                            <a href="#">
+                                                Research
+                                                <span class="submenu-arrow">▼</span>
+                                                <span class="submenu-toggle">+</span>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="#">Research Publication</a></li>
+                                                <li><a href="#">Research Projects</a></li>
+                                                <li><a href="#">Student Research</a></li>
+                                                <li><a href="#">Drought System</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu">
+                                            <a href="#">
+                                                Student Corner
+                                                <span class="submenu-arrow">▼</span>
+                                                <span class="submenu-toggle">+</span>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li class="has-submenu sum_menu_inner">
+                                                    <a href="#">
+                                                        Section 1
+                                                        <span class="submenu-arrow">▼</span>
+                                                        <span class="submenu-toggle">+</span>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <a href="#">Learning Management System (LMS)</a>
+                                                        <a href="#">Examination Portal</a>
+                                                        <a href="#">Eligibility Portal</a>
+                                                        <a href="#">Scholarship</a>
+                                                        <a href="#">Hostel Facilities</a>
+                                                        <a href="#">Library Portal</a>
+                                                        <a href="#">Student Uniform</a>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu sum_menu_inner">
+                                                    <a href="#">
+                                                         Section 2
+                                                        <span class="submenu-arrow">▼</span>
+                                                        <span class="submenu-toggle">+</span>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <a href="#">CSR</a>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu sum_menu_inner">
+                                                    <a href="#">
+                                                        Section 3
+                                                        <span class="submenu-arrow">▼</span>
+                                                        <span class="submenu-toggle">+</span>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <a href="#">CSR</a>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="{{ route('pages.blog') }}">Blog</a></li>
                                         <li><a href="">Social Initiatives</a></li>
-                                        <li><a href="">Contact Us</a></li>
+                                        <li><a href="{{ route('pages.contact') }}">Contact Us</a></li>
                                     </ul>
                                 </nav>
                             </div>

@@ -2444,6 +2444,11 @@ table th {
 }
 
 @media (max-width: 1400px) {
+
+  .nav-menu ul li a {
+    padding: 6px 12px;
+}
+
   .legacy_listing_icon img {
     max-width: 85%;
   }

@@ -428,12 +428,14 @@ button {
     padding: 10px 8px;
 }
 
-.nav-menu li:hover a {
+.nav-menu li:hover a,
+.nav-menu li.has-submenu_active a {
     background: #c4161c;
     color: #fff;
 }
 
-.nav-menu li:hover .submenu-arrow {
+.nav-menu li:hover .submenu-arrow,
+.nav-menu li.has-submenu_active .submenu-arrow {
     color: #ffffff;
 }
 

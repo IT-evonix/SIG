@@ -226,7 +226,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="email_devider"></div>
                                             <div class="email_content">
                                                 <div class="admission_contact_detail_header_heading mb-2">Contact Person</div>
-                                                Ms Sonal Rawal, Admission in-charge
+                                                Ms Sonal Rawal, Admission in-charge <br>
                                                 Ms Vrushali Kende, Admission Co-ordinator.
                                             </div>
                                         </div>

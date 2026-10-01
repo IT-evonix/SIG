@@ -2416,9 +2416,11 @@ table th {
 }
 
 .admission_contact_background_right img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    mix-blend-mode: luminosity;
+    opacity: 0.14;
 }
 
 .admission_contact_third_icon img {

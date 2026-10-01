@@ -128,7 +128,8 @@
                                                         <span class="submenu-toggle">+</span>
                                                     </a>
                                                     <ul class="submenu">
-                                                        <a href="#">CSR</a>
+                                                        <a href="#">AI Club</a>
+                                                        <a href="#">SIG committee</a>
                                                     </ul>
                                                 </li>
                                                 <li class="has-submenu sum_menu_inner">
@@ -138,7 +139,7 @@
                                                         <span class="submenu-toggle">+</span>
                                                     </a>
                                                     <ul class="submenu">
-                                                        <a href="#">CSR</a>
+                                                        <a href="#">Achievements</a>
                                                     </ul>
                                                 </li>
                                             </ul>

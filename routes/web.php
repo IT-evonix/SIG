@@ -48,6 +48,28 @@ Route::get('/admission-contact', function () {
 
 // PROGRAMMES MENU ENDS ---------------------------------------------------
 
+// PLACEMENT START ---------------------------------------------------
+
+Route::get('/placement', function () {
+    return view('pages.placement.placement');
+})->name('pages.placement.placement');
+
+Route::get('/placement-brochure', function () {
+    return view('pages.placement.placement-brochure');
+})->name('pages.placement.placement-brochure');
+
+Route::get('/placement-process', function () {
+    return view('pages.placement.placement-process');
+})->name('pages.placement.placement-process');
+
+
+
+Route::get('/placement-policy', function () {
+    return view('pages.placement.placement-policy');
+})->name('pages.placement.placement-policy');
+
+// PLACEMENT ENDS ---------------------------------------------------
+
 // BLOG START ---------------------------------------------------
 
 Route::get('/blog', function () {

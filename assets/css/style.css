@@ -1246,7 +1246,7 @@ body:has(.one_liner_heading) .inner_banner_heading span {
 }
 
 .blog_card:hover .blog_card_overlay::before {
-  background-color: #ffeaeb;
+  background-color: var(--icon-color);
 }
 
 .blog_card_overlay>* {
@@ -1606,7 +1606,7 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
   height: 0;
   left: 0;
   bottom: 0;
-  background-color: #ffeaeb;
+  background-color: var(--icon-color);
   transition: all 0.5s linear;
   opacity: 0;
 
@@ -1766,7 +1766,7 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
     gap: 0px;
     /* border: 1px solid #dedede; */
     border-radius: 12px;
-    background-color: #ffeaeb;
+    background-color: var(--icon-color);
 }
 
 .admission_calender_listing_left_icon {
@@ -1776,7 +1776,7 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    /* background-color: #ffeaeb; */
+    /* background-color: var(--icon-color); */
     background-color: var(--white-color);
     border: 1px solid var(--red-color);
     margin: 0 0 0 -20px;
@@ -1793,7 +1793,7 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
     grid-template-columns: 20px 1fr;
     align-items: center;
     gap: 20px;
-    background-color: #ffeaeb;
+    background-color: var(--icon-color);
     border-radius: 12px;
     padding: 0 20px;
 }
@@ -1962,7 +1962,7 @@ table {
 
 /* Table Header */
 table thead th {
-    background: #ffeaeb !important;
+    background: var(--icon-color) !important;
     font-weight: 600;
     vertical-align: middle;
     padding: 13px 14px !important;
@@ -2077,7 +2077,7 @@ table th {
   left: 0;
   width: 100%;
   height: 90%;
-  background-color: #ffeaeb;
+  background-color: var(--icon-color);
   z-index: -1;
   border-radius: 12px 12px 0 0;
 }
@@ -2208,7 +2208,7 @@ table th {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffeaeb;
+  background-color: var(--icon-color);
 }
 
 .key_benefit_icon img {
@@ -2273,7 +2273,7 @@ table th {
     font-family: var(--font-roboto-800);
     border: 0;
     border-bottom: 3px solid var(--red-color);
-    background-color: #ffeaeb;
+    background-color: var(--icon-color);
 }
 
 
@@ -2373,7 +2373,7 @@ table th {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #ffeaeb;
+  background-color: var(--icon-color);
 }
 
 .admission_contact_detail_listing {
@@ -2434,6 +2434,203 @@ table th {
     gap: 20px;
 }
 /* ADMISSION CONTACT US PAGE ENDS */
+
+/* PLACEMENT PAGE START */
+
+.placement_overview_listing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.placement_overview_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--icon-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placement_overview_icon img {
+  width: 25px;
+  height: 25px;
+}
+
+.placement_overview_devider {
+    width: 1.5px;
+    height: 40px;
+    background-color: #dedede;
+}
+
+.placement_overview_listing_conent {
+    display: grid;
+    grid-template-columns: 40px 1.5px 1fr;
+    gap: 20px;
+}
+
+.placement_overview_listing_img {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.placement_overview_listing_img img {
+  border-radius: 20px;
+}
+
+.placement_overview_listing:nth-child(even) .placement_overview_listing_img {
+    grid-column: 2/3;
+}
+
+.placement_overview_listing:nth-child(even) .placement_overview_listing_conent {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.placement_overview_listing:not(:first-child) {
+    padding: 40px 0 0 0;
+    margin: 40px 0 0 0;
+    position: relative;
+}
+
+.placement_overview_listing:not(:first-child)::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(196, 22, 28, 1) 50%,
+        rgba(255, 255, 255, 0.8) 100%
+    );
+}
+
+.pdf_card_wraper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.pdf_card_icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--icon-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.pdf_card_icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.pdf_card_heading {
+    font-size: 18px;
+    font-family: var(--font-roboto-600);
+    margin: 0 0 4px 0;
+}
+
+.pdf_card_subheading {
+    font-size: 14px;
+    color: #707070;
+}
+
+.pdf_card_btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 0 0;
+  font-family: var(--font-roboto-600);
+}
+
+.pdf_card_list {
+    position: relative;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px #dedede;
+    overflow: hidden;
+}
+
+.pdf_card_list::after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid var(--red-background-color);
+    transition: border 0.4s ease;
+}
+
+.pdf_card_list:hover::after {
+    border: 10px solid var(--red-color);
+}
+
+.pdf_card_btn .pdf_card_btn_icon svg path {
+  transition: fill 0.3s ease;
+}
+
+.pdf_card_btn:hover .pdf_card_btn_icon svg path {
+  fill: var(--yellow-color);
+}
+
+.general_card_mainheading {
+    font-size: 20px;
+    font-family: var(--font-roboto-600);
+}
+
+.general_card_listing {
+    padding: 15px;
+    background-color: var(--white-color);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.3s linear;
+}
+
+.general_card_wraper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 10px;
+    margin: 20px 0 0 0;
+}
+
+.general_card_mainbox {
+    padding: 20px;
+    background-color: var(--red-background-color);
+    border-radius: 20px;
+}
+
+.general_card_heading {
+    font-size: 18px;
+    font-family: var(--font-roboto-600);
+}
+
+.general_card_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--icon-color);
+}
+
+.general_card_icon img {
+    width: 30px;
+    height: 30px;
+}
+/* PLACEMENT PAGE ENDS */
 
 /* ================ MEDIA QUIRIES START ===================== */
 

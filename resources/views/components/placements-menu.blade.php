@@ -65,8 +65,8 @@
         </div>
         <div class="inner_page_menu_text">Placement Highlights</div>
     </a>
-    <a href="{{ route('pages.placement.placement') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.placement.placement') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.placement.recruiters') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.placement.recruiters') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -76,8 +76,8 @@
         </div>
         <div class="inner_page_menu_text">Recruiters</div>
     </a>
-    <a href="{{ route('pages.placement.placement') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.placement.placement') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.placement.for-recruiters') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.placement.for-recruiters') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -87,8 +87,8 @@
         </div>
         <div class="inner_page_menu_text">For Recruiters</div>
     </a>
-    <a href="{{ route('pages.placement.placement') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.placement.placement') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.placement.student-success-stories') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.placement.student-success-stories') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path

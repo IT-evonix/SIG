@@ -2630,6 +2630,210 @@ table th {
     width: 30px;
     height: 30px;
 }
+
+.recruiters_wrapper {
+    padding: 20px;
+    background-color: var(--red-background-color);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+}
+
+.recruiters_listing {
+    width: 100%;
+    height: 70px;
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #dedede;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recruiters_listing:hover {
+  border: 1px solid var(--icon-color);
+  box-shadow: 0px 0px 10px #dedede;
+}
+
+.recruiters_listing:hover img {
+  transform: scale(0.93);
+}
+
+.recruiters_listing img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.for_recruters_mainbox {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.for_recruters_firstbox .general_card_mainbox {
+  margin: 30px 0 0 0;
+}
+
+.student_success_storis_icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--icon-color);
+  border-radius: 50%;
+}
+
+.student_success_storis_icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.student_success_storis_listing {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.student_success_storis_headingbox {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    font-family: var(--font-roboto-600);
+}
+
+.student_success_storis_subheadingbox {
+    font-size: 16px;
+    color: #707070;
+    margin: 0 0 20px 0;
+    padding: 0 0 15px 0;
+    position: relative;
+}
+
+.student_success_storis_subheadingbox::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  background-color: var(--red-color);
+  border-radius: 20px;
+}
+
+.student_success_storis_list {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 20px;
+}
+
+.student_success_storis_para_heading {
+    margin: 0;
+    font-size: 14px;
+    color: var(--red-color);
+}
+
+.student_success_storis_para_text {
+  font-size: 18px;
+  font-family: var(--font-roboto-800);
+}
+
+.student_success_storis_list:nth-child(2) {
+  margin: 15px 0 0 0;
+}
+
+.student_success_storis_selected_box {
+    width: 250px;
+    height: 70px;
+    background-color: var(--red-background-color);
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #dedede;
+    margin: 10px 0 0 0;
+}
+
+.student_success_storis_selected_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.student_success_storis_packagebox {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    margin: 30px 0 0 60px;
+    width: 250px;
+    text-align: center;
+    background-color: var(--red-background-color);
+}
+
+.student_success_storis_package_heading {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 8px 20px;
+    color: var(--white-color);
+    font-family: var(--font-roboto-600);
+    background-color: var(--yellow-color);
+    width: fit-content;
+    margin: -26px auto 0 auto;
+    border-radius: 12px;
+}
+
+.student_success_storis_package {
+    font-size: 40px;
+    font-family: var(--font-roboto-900);
+}
+
+.student_success_storis_package span {
+  font-size: 25px;
+}
+
+.student_success_storis_image {
+    border-radius: 20px;
+    position: relative;
+}
+
+.student_success_storis_image::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--red-color);
+    right: -6px;
+    top: -6px;
+    z-index: -1;
+    border-radius: 20px;
+    transform: rotate(-2deg);
+}
+
+.student_success_storis_image img {
+    border-radius: 20px;
+}
+
+.student_success_storis_listing:not(:first-child) {
+    padding: 60px 0 0 0;
+    margin: 60px 0 0 0;
+    position: relative;
+}
+
+.student_success_storis_listing:not(:first-child)::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(196, 22, 28, 1) 50%,
+        rgba(255, 255, 255, 0.8) 100%
+    );
+}
+
 /* PLACEMENT PAGE ENDS */
 
 /* ================ MEDIA QUIRIES START ===================== */

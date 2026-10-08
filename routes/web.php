@@ -62,11 +62,21 @@ Route::get('/placement-process', function () {
     return view('pages.placement.placement-process');
 })->name('pages.placement.placement-process');
 
-
-
 Route::get('/placement-policy', function () {
     return view('pages.placement.placement-policy');
 })->name('pages.placement.placement-policy');
+
+Route::get('/recruiters', function () {
+    return view('pages.placement.recruiters');
+})->name('pages.placement.recruiters');
+
+Route::get('/for-recruiters', function () {
+    return view('pages.placement.for-recruiters');
+})->name('pages.placement.for-recruiters');
+
+Route::get('/student-success-stories', function () {
+    return view('pages.placement.student-success-stories');
+})->name('pages.placement.student-success-stories');
 
 // PLACEMENT ENDS ---------------------------------------------------
 

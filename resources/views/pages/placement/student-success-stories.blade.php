@@ -56,6 +56,11 @@ placement opportunities. Get more details here.')
                                 <div class="student_success_storis_listing">
                                     <div class="student_success_storis_image">
                                         <img src="{{ asset('assets/images/placement/success-story-01.webp') }}" alt="" class="img-fluid">
+                                        <div class="student_success_storis_packagebox">
+                                            <div class="student_success_storis_package_heading">Package</div>
+                                            <div class="student_success_storis_package_devider"></div>
+                                            <div class="student_success_storis_package">14 <span>LPA</span></div>
+                                        </div>
                                     </div>
                                     <div class="student_success_storis_content">
                                         <h3 class="student_success_storis_headingbox">Shravani Pawar</h3>
@@ -76,14 +81,10 @@ placement opportunities. Get more details here.')
                                                 </div>
                                                 <div class="student_success_storis_para">
                                                     <h4 class="student_success_storis_para_heading">Selected At</h4>
-                                                    <div class="student_success_storis_selected_box">
-                                                        <img src="{{ asset('assets/images/placement/2.webp') }}" alt="" class="img-fluid">
+                                                    <div class="student_success_storis_para_text">
+                                                        Hindalco Industries
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="student_success_storis_packagebox">
-                                                <div class="student_success_storis_package_heading">Package</div>
-                                                <div class="student_success_storis_package">14 <span>LPA</span></div>
                                             </div>
                                         </div>
                                     </div>
@@ -111,15 +112,11 @@ placement opportunities. Get more details here.')
                                                 </div>
                                                 <div class="student_success_storis_para">
                                                     <h4 class="student_success_storis_para_heading">Selected At</h4>
-                                                    <div class="student_success_storis_selected_box">
-                                                        <img src="{{ asset('assets/images/placement/1.webp') }}" alt="" class="img-fluid">
+                                                    <div class="student_success_storis_para_text">
+                                                        Deloitte
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <div class="student_success_storis_packagebox">
-                                                <div class="student_success_storis_package_heading">Package</div>
-                                                <div class="student_success_storis_package">14 <span>LPA</span></div>
-                                            </div> -->
                                         </div>
                                     </div>
                                 </div>

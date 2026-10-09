@@ -68,7 +68,7 @@ placement opportunities. Get more details here.')
                                         <div class="general_card_wraper">
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/dashboard.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
@@ -86,7 +86,7 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/problem-solving.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
@@ -98,7 +98,7 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/data-science.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
@@ -117,7 +117,7 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/web.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
@@ -136,7 +136,7 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/document.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
@@ -154,7 +154,7 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/group.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
@@ -173,7 +173,7 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/responsibility.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
@@ -185,7 +185,7 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/user.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
@@ -206,7 +206,7 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    <img src="{{ asset('assets/images/programmes/icon/documen.svg') }}"
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">

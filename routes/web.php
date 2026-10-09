@@ -62,9 +62,17 @@ Route::get('/placement-process', function () {
     return view('pages.placement.placement-process');
 })->name('pages.placement.placement-process');
 
+Route::get('/placement-grooming', function () {
+    return view('pages.placement.placement-grooming');
+})->name('pages.placement.placement-grooming');
+
 Route::get('/placement-policy', function () {
     return view('pages.placement.placement-policy');
 })->name('pages.placement.placement-policy');
+
+Route::get('/placement-highlights', function () {
+    return view('pages.placement.placement-highlights');
+})->name('pages.placement.placement-highlights');
 
 Route::get('/recruiters', function () {
     return view('pages.placement.recruiters');
@@ -77,6 +85,10 @@ Route::get('/for-recruiters', function () {
 Route::get('/student-success-stories', function () {
     return view('pages.placement.student-success-stories');
 })->name('pages.placement.student-success-stories');
+
+Route::get('/placement-faq', function () {
+    return view('pages.placement.placement-faq');
+})->name('pages.placement.placement-faq');
 
 // PLACEMENT ENDS ---------------------------------------------------
 

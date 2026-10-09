@@ -2444,6 +2444,10 @@ table th {
     align-items: center;
 }
 
+.placement_overview_listing:hover .placement_overview_listing_img img {
+  transform: scale(1.05);
+}
+
 .placement_overview_icon {
   width: 40px;
   height: 40px;
@@ -2478,6 +2482,7 @@ table th {
 
 .placement_overview_listing_img img {
   border-radius: 20px;
+  transition: transform 0.9s ease;
 }
 
 .placement_overview_listing:nth-child(even) .placement_overview_listing_img {
@@ -2677,8 +2682,8 @@ table th {
 }
 
 .student_success_storis_icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2687,28 +2692,21 @@ table th {
 }
 
 .student_success_storis_icon img {
-  width: 20px;
-  height: 20px;
-}
-
-.student_success_storis_listing {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    gap: 60px;
-    align-items: start;
+  width: 16px;
+  height: 16px;
 }
 
 .student_success_storis_headingbox {
-    margin: 0 0 5px 0;
-    font-size: 22px;
+    margin: 15px 0 5px 0;
+    font-size: 18px;
     font-family: var(--font-roboto-600);
 }
 
 .student_success_storis_subheadingbox {
-    font-size: 16px;
-    color: #707070;
+    font-size: 14px;
+    color: #666;
     margin: 0 0 20px 0;
-    padding: 0 0 15px 0;
+    padding: 0 0 13px 0;
     position: relative;
 }
 
@@ -2725,26 +2723,29 @@ table th {
 
 .student_success_storis_list {
     display: grid;
-    grid-template-columns: 40px 1fr;
-    gap: 20px;
+    grid-template-columns: 30px 1fr;
+    gap: 15px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .student_success_storis_para_heading {
-    margin: 0;
-    font-size: 14px;
+    margin: 0 0 4px 0;
+    font-size: 12px;
     color: var(--red-color);
 }
 
 .student_success_storis_para_text {
-  font-size: 18px;
+  font-size: 14px;
   font-family: var(--font-roboto-800);
 }
 
-.student_success_storis_list:nth-child(2) {
+/* .student_success_storis_list:nth-child(2) {
   margin: 15px 0 0 0;
-}
+} */
 
-.student_success_storis_selected_box {
+/* .student_success_storis_selected_box {
     width: 250px;
     height: 70px;
     background-color: var(--red-background-color);
@@ -2758,42 +2759,51 @@ table th {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
+} */
 
 .student_success_storis_packagebox {
-    padding: 10px 10px 10px 10px;
-    border: 1px solid #dedede;
-    border-radius: 12px;
-    margin: 30px 0 0 60px;
-    width: 250px;
+    padding: 6px 16px;
+    border-radius: 32px;
+    margin: 0;
     text-align: center;
-    background-color: var(--red-background-color);
+    background-color: var(--yellow-color);
+    position: absolute;
+    right: -45px;
+    top: 10px;
+    display: grid;
+    grid-template-columns: auto 1.5fr auto;
+    align-items: center;
+    gap: 6px;
+}
+
+.student_success_storis_package_devider {
+  width: 1.5px;
+  height: 100%;
+  background-color: #ffffff82;
 }
 
 .student_success_storis_package_heading {
     text-transform: uppercase;
-    font-size: 16px;
-    padding: 8px 20px;
+    font-size: 12px;
     color: var(--white-color);
     font-family: var(--font-roboto-600);
-    background-color: var(--yellow-color);
-    width: fit-content;
-    margin: -26px auto 0 auto;
-    border-radius: 12px;
 }
 
 .student_success_storis_package {
-    font-size: 40px;
+    font-size: 18px;
     font-family: var(--font-roboto-900);
+    color: var(--white-color);
 }
 
 .student_success_storis_package span {
-  font-size: 25px;
+  font-size: 12px;
 }
 
 .student_success_storis_image {
     border-radius: 20px;
     position: relative;
+    width: fit-content;
+    margin: 20px 0 0 0;
 }
 
 .student_success_storis_image::after {
@@ -2802,36 +2812,398 @@ table th {
     width: 100%;
     height: 100%;
     background-color: var(--red-color);
-    right: -6px;
-    top: -6px;
+    right: -20px;
+    top: -20px;
     z-index: -1;
     border-radius: 20px;
-    transform: rotate(-2deg);
+    /* transform: rotate(-2deg); */
 }
 
 .student_success_storis_image img {
     border-radius: 20px;
 }
 
-.student_success_storis_listing:not(:first-child) {
-    padding: 60px 0 0 0;
-    margin: 60px 0 0 0;
-    position: relative;
+.student_success_storis_mainbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
-.student_success_storis_listing:not(:first-child)::after {
-    content: "";
-    position: absolute;
+.student_success_storis_wraper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.student_success_storis_listing {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 16px #dedede;
+    border: 1px solid #dedede;
+    transition: transform 0.4s ease, border 0.4s ease;
+}
+
+.student_success_storis_listing:hover {
+  transform: translateY(-5px);
+  border: 1px solid var(--red-color);
+}
+
+.placement_heigh_firstbox_icon {
+  width: 80px;
+  height: 80px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placement_heigh_firstbox_icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.placement_heigh_firstbox_listing {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    gap: 25px;
+}
+
+.placement_heigh_firstbox {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: var(--red-background-color);
+    gap: 40px;
+    margin: 0 0 20px 0;
+}
+
+.placement_heigh_firstbox_devider {
+    width: 2px;
+    height: 100%;
+    background-color: #dedede;
+}
+
+.placement_heigh_firstbox_counter {
+    font-size: 50px;
+    font-family: var(--font-roboto-900);
+}
+
+.placement_heigh_firstbox_text {
+    font-size: 20px;
+    font-family: var(--font-roboto-600);
+    color: #666;
+}
+
+.placement_heigh_secondbox {
+  margin: 60px 0  ;
+}
+
+.placement_grooming_mainbox {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* =====================================================
+   PREMIUM FAQ ACCORDION
+===================================================== */
+
+.premium-faq {
+    margin: 0 auto;
+}
+
+
+/* =====================================================
+   ITEM
+===================================================== */
+
+.premium-faq-item {
+    position: relative;
+
+    border-top: 1px solid #dcdcdc;
+
+    transition:
+        border-color 0.4s ease;
+}
+
+
+/* Last border */
+
+.premium-faq-item:last-child {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+
+/* =====================================================
+   QUESTION
+===================================================== */
+
+.premium-faq-question {
+    position: relative;
+
     width: 100%;
-    height: 1px;
-    left: 0;
-    top: 0;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.8) 0%,
-        rgba(196, 22, 28, 1) 50%,
-        rgba(255, 255, 255, 0.8) 100%
-    );
+
+    display: grid;
+    grid-template-columns: 80px 1fr 60px;
+
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 20px 0;
+
+    border: 0;
+    outline: 0;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    text-align: left;
+}
+
+
+/* =====================================================
+   NUMBER
+===================================================== */
+
+.premium-faq-index {
+    font-size: 13px;
+    font-weight: 600;
+
+    letter-spacing: 0.12em;
+
+    color: #999;
+
+    transition:
+        color 0.4s ease,
+        transform 0.4s ease;
+}
+
+
+/* Active number */
+
+.premium-faq-item.active
+.premium-faq-index {
+
+    color: #111;
+
+    transform: translateX(4px);
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.premium-faq-heading {
+    position: relative;
+    display: inline-block;
+    color: var(--black-color);
+    font-size: 20px;
+    font-weight: 500;
+    transition:
+        transform 0.45s cubic-bezier(.4, 0, .2, 1),
+        color 0.4s ease;
+}
+
+
+/* Hover heading */
+
+.premium-faq-question:hover
+.premium-faq-heading {
+
+    transform: translateX(8px);
+}
+
+
+/* Active heading */
+
+.premium-faq-item.active
+.premium-faq-heading {
+
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   TOGGLE
+===================================================== */
+
+.premium-faq-toggle {
+
+    position: relative;
+
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #d7d7d7;
+
+    border-radius: 50%;
+
+    transition:
+        background 0.45s ease,
+        border-color 0.45s ease,
+        transform 0.45s cubic-bezier(.4, 0, .2, 1);
+}
+
+
+/* Lines */
+
+.premium-faq-toggle span {
+
+    position: absolute;
+
+    width: 17px;
+    height: 1.5px;
+
+    background: #111;
+
+    transition:
+        transform 0.4s ease,
+        opacity 0.3s ease,
+        background 0.3s ease;
+}
+
+
+/* Vertical line */
+
+.premium-faq-toggle span:nth-child(2) {
+
+    transform: rotate(90deg);
+}
+
+
+/* Hover */
+
+.premium-faq-question:hover
+.premium-faq-toggle {
+
+    border-color: #111;
+
+    transform: rotate(90deg);
+}
+
+
+/* =====================================================
+   ACTIVE TOGGLE
+===================================================== */
+
+.premium-faq-item.active
+.premium-faq-toggle {
+    background: var(--red-color);
+    border-color: var(--red-color);
+    transform: rotate(180deg);
+}
+
+
+.premium-faq-item.active
+.premium-faq-toggle span {
+    background: #fff;
+}
+
+.premium-faq-item.active
+.premium-faq-toggle span:nth-child(2) {
+    opacity: 0;
+    transform: rotate(0deg);
+}
+
+
+.premium-faq-answer {
+
+    display: grid;
+
+    grid-template-rows: 0fr;
+
+    transition:
+        grid-template-rows 0.55s cubic-bezier(.4, 0, .2, 1);
+}
+
+
+.premium-faq-item.active
+.premium-faq-answer {
+
+    grid-template-rows: 1fr;
+}
+
+
+/* =====================================================
+   ANSWER INNER
+===================================================== */
+
+.premium-faq-answer-inner {
+
+    overflow: hidden;
+
+    display: grid;
+
+    grid-template-columns: 80px 1fr 60px;
+
+    gap: 25px;
+
+    padding: 0;
+
+    opacity: 0;
+
+    transform: translateY(-10px);
+
+    transition:
+        opacity 0.35s ease,
+        transform 0.55s ease,
+        padding 0.55s ease;
+}
+
+
+/* Active */
+
+.premium-faq-item.active
+.premium-faq-answer-inner {
+
+    padding:
+        0 0 38px 0;
+
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+
+/* =====================================================
+   ACCENT LINE
+===================================================== */
+
+.premium-faq-answer-line {
+
+    width: 1px;
+
+    min-height: 100%;
+
+    margin-left: 4px;
+
+    background: #111;
+
+    opacity: 0.15;
+}
+
+.premium-faq-answer p {
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+}
+
+
+.premium-faq-item:not(.active)
+.premium-faq-question:hover
+.premium-faq-index {
+
+    color: #111;
 }
 
 /* PLACEMENT PAGE ENDS */
@@ -3230,6 +3602,35 @@ table th {
     grid-template-columns: repeat(5, 1fr);
   }
 
+  .premium-faq-section {
+        padding: 50px 0;
+    }
+    .premium-faq-question {
+        grid-template-columns: 40px 1fr 45px;
+        gap: 12px;
+        padding: 24px 0;
+    }
+    .premium-faq-index {
+        font-size: 11px;
+    }
+    .premium-faq-heading {
+        font-size: 18px;
+    }
+    .premium-faq-toggle {
+        width: 40px;
+        height: 40px;
+    }
+    .premium-faq-toggle span {
+        width: 14px;
+    }
+    .premium-faq-answer-inner {
+        grid-template-columns: 40px 1fr 45px;
+        gap: 12px;
+    }
+    .premium-faq-item.active
+    .premium-faq-answer-inner {
+        padding-bottom: 28px;
+    }
 }
 
 @media (max-width: 575.98px) {

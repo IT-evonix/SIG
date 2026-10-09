@@ -220,3 +220,36 @@ if (innerMenuHeading) {
     }).observe(innerMenuHeading);
 }
 // Inner Menu heading height ends
+
+// Accordion start
+document.addEventListener("DOMContentLoaded", function () {
+    const accordionItems =
+        document.querySelectorAll(".premium-faq-item");
+    accordionItems.forEach(function (item) {
+        const button =
+            item.querySelector(".premium-faq-question");
+        button.addEventListener("click", function () {
+            const isActive =
+                item.classList.contains("active");
+            accordionItems.forEach(function (otherItem) {
+                otherItem.classList.remove("active");
+                const otherButton =
+                    otherItem.querySelector(
+                        ".premium-faq-question"
+                    );
+                otherButton.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
+            });
+            if (!isActive) {
+                item.classList.add("active");
+                button.setAttribute(
+                    "aria-expanded",
+                    "true"
+                );
+            }
+        });
+    });
+});
+// Accordion ends

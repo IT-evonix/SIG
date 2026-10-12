@@ -74,17 +74,7 @@
                                                 <li><a href="#">Ph.D. Programme</a></li>
                                             </ul>
                                         </li>
-                                        <li class="has-submenu">
-                                            <a href="#">
-                                                Placement
-                                                <span class="submenu-arrow">▼</span>
-                                                <span class="submenu-toggle">+</span>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li><a href="#">Placement at SIG</a></li>
-                                                <li><a href="#">Internship</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="{{ route('pages.placement.placement') }}">Placement</a></li>
                                         <li class="has-submenu">
                                             <a href="#">
                                                 Research

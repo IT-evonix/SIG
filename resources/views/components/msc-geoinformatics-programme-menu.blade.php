@@ -10,7 +10,8 @@
         </div>
         <div class="inner_page_menu_text">Overview</div>
     </a>
-    <a href="{{ route('pages.coming-soon') }}" class="inner_page_menu_listing">
+    <a href="{{ route('pages.programmes.msc-geoinformatics-programme-outcome') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics-programme-outcome') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path

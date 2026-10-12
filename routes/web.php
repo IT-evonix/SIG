@@ -4,6 +4,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.index')->name('index');
 
+// ABOUT START -------------------------------------------------------
+
+Route::get('/director', function () {
+    return view('pages.about.director');
+})->name('pages.about.director');
+
+Route::get('/deputy-director', function () {
+    return view('pages.about.deputy-director');
+})->name('pages.about.deputy-director');
+
+
+// ABOUT ENDS -------------------------------------------------------
+
 // CONTACT US START -------------------------------------------------------
 
 Route::get('/contact', function () {
@@ -17,6 +30,10 @@ Route::get('/contact', function () {
 Route::get('/msc-in-geoinformatics', function () {
     return view('pages.programmes.msc-in-geoinformatics');
 })->name('pages.programmes.msc-in-geoinformatics');
+
+Route::get('/msc-geoinformatics-programme-outcome', function () {
+    return view('pages.programmes.msc-geoinformatics-programme-outcome');
+})->name('pages.programmes.msc-geoinformatics-programme-outcome');
 
 Route::get('/msc-geoinformatics-eligibility-criteria', function () {
     return view('pages.programmes.msc-geoinformatics-eligibility-criteria');

@@ -3272,7 +3272,7 @@ table th {
 /* DIRECTR PAGE START */
 
 .director_first_section {
-  padding: 60px 0 0 0;
+  padding: 80px 0 0 0;
   display: grid;
   position: relative;
   overflow: hidden;
@@ -3321,7 +3321,7 @@ table th {
 .director_content_box {
     padding: 40px;
     background-color: #F2F3F5;
-    border-radius: 30px 30px 30px 0;
+    border-radius: 30px;
 }
 
 .director_designation {
@@ -3423,14 +3423,14 @@ table th {
 }
 
 .director_imgbox img {
-  border-radius: 30px 30px 30px 0;
+  border-radius: 30px;
 }
 
 .director_second_maonbox {
     padding: 40px;
     border-radius: 30px;
     background-color: var(--red-background-color);
-    margin: 60px 0;
+    margin: 60px 0 80px 0;
 }
 /* DIRECTR PAGE ENDS */
 
@@ -3454,10 +3454,6 @@ table th {
 }
 
 @media (max-width: 1400px) {
-
-  .nav-menu ul li a {
-    padding: 6px 12px;
-}
 
   .legacy_listing_icon img {
     max-width: 85%;

@@ -1,6 +1,6 @@
 <div class="inner_page_menu_listing_box">
-    <a href="{{ route('pages.programmes.msc-in-geoinformatics') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-in-geoinformatics') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -10,8 +10,8 @@
         </div>
         <div class="inner_page_menu_text">Overview</div>
     </a>
-    <a href="{{ route('pages.programmes.msc-geoinformatics-programme-outcome') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics-programme-outcome') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.programme-outcome') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.programme-outcome') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -21,8 +21,8 @@
         </div>
         <div class="inner_page_menu_text">Graduate Attributes and Pogramme outcome</div>
     </a>
-    <a href="{{ route('pages.programmes.msc-geoinformatics-programme-structure') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics-programme-structure') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.programme-structure') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.programme-structure') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -52,8 +52,8 @@
         </div>
         <div class="inner_page_menu_text">Faculty</div>
     </a>
-    <a href="{{ route('pages.programmes.msc-geoinformatics-eligibility-criteria') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics-eligibility-criteria') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.eligibility-criteria') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.eligibility-criteria') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -63,8 +63,8 @@
         </div>
         <div class="inner_page_menu_text">Eligibility criteria</div>
     </a>
-    <a href="{{ route('pages.programmes.admission-calendar') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.admission-calendar') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.admission-calendar') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.admission-calendar') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -74,8 +74,8 @@
         </div>
         <div class="inner_page_menu_text">Admission calender</div>
     </a>
-    <a href="{{ route('pages.programmes.msc-geoinformatics-fees-structure') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics-fees-structure') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.fees-structure') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.fees-structure') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -95,8 +95,8 @@
         </div>
         <div class="inner_page_menu_text">Rules for refund of Fees</div>
     </a>
-    <a href="{{ route('pages.programmes.scholarships') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.scholarships') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.scholarships') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.scholarships') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -106,8 +106,8 @@
         </div>
         <div class="inner_page_menu_text">Scholarship</div>
     </a>
-    <a href="{{ route('pages.programmes.how-to-apply') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.how-to-apply') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.how-to-apply') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.how-to-apply') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path
@@ -117,8 +117,8 @@
         </div>
         <div class="inner_page_menu_text">How to apply</div>
     </a>
-    <a href="{{ route('pages.programmes.admission-contact') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.admission-contact') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.admission-contact') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.admission-contact') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path

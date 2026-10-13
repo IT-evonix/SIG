@@ -65,7 +65,7 @@
                                                 <span class="submenu-toggle">+</span>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="{{ route('pages.programmes.msc-in-geoinformatics') }}">M.Sc. Geoinformatics</a></li>
+                                                <li><a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}">M.Sc. Geoinformatics</a></li>
                                                 <li><a href="#">M. Sc. Data Science and Spatial Analytics</a></li>
                                                 <li><a href="#">MSc. Data Science and Spatial Analytics - Dual Degree</a></li>
                                                 <li><a href="#">M.Tech Geoinformatics</a></li>

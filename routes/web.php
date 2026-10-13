@@ -28,40 +28,40 @@ Route::get('/contact', function () {
 // PROGRAMMES MENU START --------------------------------------------------
 
 Route::get('/msc-in-geoinformatics', function () {
-    return view('pages.programmes.msc-in-geoinformatics');
-})->name('pages.programmes.msc-in-geoinformatics');
+    return view('pages.programmes.msc-geoinformatics.msc-in-geoinformatics');
+})->name('pages.programmes.msc-geoinformatics.msc-in-geoinformatics');
 
-Route::get('/msc-geoinformatics-programme-outcome', function () {
-    return view('pages.programmes.msc-geoinformatics-programme-outcome');
-})->name('pages.programmes.msc-geoinformatics-programme-outcome');
+Route::get('/programme-outcome', function () {
+    return view('pages.programmes.msc-geoinformatics.programme-outcome');
+})->name('pages.programmes.msc-geoinformatics.programme-outcome');
 
-Route::get('/msc-geoinformatics-eligibility-criteria', function () {
-    return view('pages.programmes.msc-geoinformatics-eligibility-criteria');
-})->name('pages.programmes.msc-geoinformatics-eligibility-criteria');
+Route::get('/eligibility-criteria', function () {
+    return view('pages.programmes.msc-geoinformatics.eligibility-criteria');
+})->name('pages.programmes.msc-geoinformatics.eligibility-criteria');
 
-Route::get('/msc-geoinformatics-fees-structure', function () {
-    return view('pages.programmes.msc-geoinformatics-fees-structure');
-})->name('pages.programmes.msc-geoinformatics-fees-structure');
+Route::get('/fees-structure', function () {
+    return view('pages.programmes.msc-geoinformatics.fees-structure');
+})->name('pages.programmes.msc-geoinformatics.fees-structure');
 
-Route::get('/msc-geoinformatics-programme-structure', function () {
-    return view('pages.programmes.msc-geoinformatics-programme-structure');
-})->name('pages.programmes.msc-geoinformatics-programme-structure');
+Route::get('/programme-structure', function () {
+    return view('pages.programmes.msc-geoinformatics.programme-structure');
+})->name('pages.programmes.msc-geoinformatics.programme-structure');
 
 Route::get('/admission-calendar', function () {
-    return view('pages.programmes.admission-calendar');
-})->name('pages.programmes.admission-calendar');
+    return view('pages.programmes.msc-geoinformatics.admission-calendar');
+})->name('pages.programmes.msc-geoinformatics.admission-calendar');
 
 Route::get('/how-to-apply', function () {
-    return view('pages.programmes.how-to-apply');
-})->name('pages.programmes.how-to-apply');
+    return view('pages.programmes.msc-geoinformatics.how-to-apply');
+})->name('pages.programmes.msc-geoinformatics.how-to-apply');
 
 Route::get('/scholarships', function () {
-    return view('pages.programmes.scholarships');
-})->name('pages.programmes.scholarships');
+    return view('pages.programmes.msc-geoinformatics.scholarships');
+})->name('pages.programmes.msc-geoinformatics.scholarships');
 
 Route::get('/admission-contact', function () {
-    return view('pages.programmes.admission-contact');
-})->name('pages.programmes.admission-contact');
+    return view('pages.programmes.msc-geoinformatics.admission-contact');
+})->name('pages.programmes.msc-geoinformatics.admission-contact');
 
 // PROGRAMMES MENU ENDS ---------------------------------------------------
 

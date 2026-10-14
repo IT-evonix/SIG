@@ -47,45 +47,75 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
                             @include('components.msc-geoinformatics-programme-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="sholarships_mainbox">
                                 <p class="m-0">
-                                    Symbiosis International (Deemed University) has various scholarship schemes: With the objective of encouraging meritorious students and academic excellence, Scholarships/ Awards are offered to deserving students of the University by the Symbiosis Society Foundation.
+                                    Symbiosis International (Deemed University) has various scholarship schemes: With
+                                    the objective of encouraging meritorious students and academic excellence,
+                                    Scholarships/ Awards are offered to deserving students of the University by the
+                                    Symbiosis Society Foundation.
                                 </p>
                                 <div class="sholarships_wraper">
                                     <div class="sholarships_wraper_listing">
                                         <h2 class="sholarships_heading">
-                                            Merit Scholarship for Semester/Annual Toppers at Symbiosis International (Deemed University)
+                                            Merit Scholarship for Semester/Annual Toppers at Symbiosis International
+                                            (Deemed University)
                                         </h2>
                                         <div class="sholarships_listing">
                                             <div class="sholarships_image">
-                                                <img src="{{ asset('assets/images/programmes/scholarship-01.webp') }}" alt="Scholarship image" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/scholarship-01.webp') }}"
+                                                    alt="Scholarship image" class="img-fluid">
                                             </div>
                                             <div class="sholarships_content">
                                                 <p>
-                                                    Symbiosis International (Deemed University) encourages academic excellence through merit-based scholarships. These scholarships are awarded to the top four students in the order of merit from each semester in every UG and PG degree program. Additionally, scholarships are also extended to the top four students in programs following an annual pattern
+                                                    Symbiosis International (Deemed University) encourages academic
+                                                    excellence through merit-based scholarships. These scholarships are
+                                                    awarded to the top four students in the order of merit from each
+                                                    semester in every UG and PG degree program. Additionally,
+                                                    scholarships are also extended to the top four students in programs
+                                                    following an annual pattern
                                                 </p>
                                                 <p class="m-0">
-                                                    The primary objective of these scholarships is to recognize and reward academic excellence, motivating students to take the initiative, compete, and excel in their studies. The scholarships are reviewed every three years
+                                                    The primary objective of these scholarships is to recognize and
+                                                    reward academic excellence, motivating students to take the
+                                                    initiative, compete, and excel in their studies. The scholarships
+                                                    are reviewed every three years
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="sholarships_wraper_listing">
                                         <h2 class="sholarships_heading">
-                                            NER Scholarship: Empowering North Eastern Students at Symbiosis International (Deemed University)
+                                            NER Scholarship: Empowering North Eastern Students at Symbiosis
+                                            International (Deemed University)
                                         </h2>
                                         <div class="sholarships_listing">
                                             <div class="sholarships_image">
-                                                <img src="{{ asset('assets/images/programmes/scholarship-02.webp') }}" alt="Scholarship image" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/scholarship-02.webp') }}"
+                                                    alt="Scholarship image" class="img-fluid">
                                             </div>
                                             <div class="sholarships_content">
                                                 <p class="m-0">
-                                                    The North East Region (NER) Scholarship is a special initiative for students from the North Eastern states of India, offering financial assistance to pursue advanced education at Symbiosis International (Deemed University) this scholarship covers full or partial tuition fees, providing opportunities for deserving students to study in cutting-edge fields like Geoinformatics, Data Science, Artificial Intelligence and Spatial Analytics.
+                                                    The North East Region (NER) Scholarship is a special initiative for
+                                                    students from the North Eastern states of India, offering financial
+                                                    assistance to pursue advanced education at Symbiosis International
+                                                    (Deemed University) this scholarship covers full or partial tuition
+                                                    fees, providing opportunities for deserving students to study in
+                                                    cutting-edge fields like Geoinformatics, Data Science, Artificial
+                                                    Intelligence and Spatial Analytics.
                                                 </p>
                                             </div>
                                         </div>
@@ -96,23 +126,28 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                     <div class="key_benefit_wraper">
                                         <div class="key_benefit_listing">
                                             <div class="key_benefit_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/group.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/group.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <p class="m-0">
-                                                Financial support for students from Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura.
+                                                Financial support for students from Assam, Arunachal Pradesh, Manipur,
+                                                Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura.
                                             </p>
                                         </div>
                                         <div class="key_benefit_listing">
                                             <div class="key_benefit_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/web.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/web.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <p class="m-0">
-                                                Access to world-class education and career opportunities in high-demand industries.
+                                                Access to world-class education and career opportunities in high-demand
+                                                industries.
                                             </p>
                                         </div>
                                         <div class="key_benefit_listing">
                                             <div class="key_benefit_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/medal.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/medal.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <p class="m-0">
                                                 Merit-based selection for students with excellent academic records.
@@ -133,8 +168,10 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                     </div>
                                     <div class="email_devider"></div>
                                     <div class="email_content">
-                                        SIU Scholarships details and other scholarships offered by SIU can be seen at - <br>
-                                        <a href="https://www.siu.edu.in/admissions/scholarship" target="_blank">https://www.siu.edu.in/admissions/scholarship</a>
+                                        SIU Scholarships details and other scholarships offered by SIU can be seen at -
+                                        <br>
+                                        <a href="https://www.siu.edu.in/admissions/scholarship"
+                                            target="_blank">https://www.siu.edu.in/admissions/scholarship</a>
                                     </div>
                                 </div>
                             </div>

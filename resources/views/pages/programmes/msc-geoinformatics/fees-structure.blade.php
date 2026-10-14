@@ -47,7 +47,16 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
                             @include('components.msc-geoinformatics-programme-menu')
                         </div>
@@ -117,7 +126,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                     </table>
                                 </div>
                                 <div class="fees_notebox">
-                                    <strong>Note:</strong> **Hostel and Mess Fees for the Subsequent year would be communicated before commencement of the next year.
+                                    <strong>Note:</strong> **Hostel and Mess Fees for the Subsequent year would be
+                                    communicated before commencement of the next year.
                                 </div>
                             </div>
                         </div>

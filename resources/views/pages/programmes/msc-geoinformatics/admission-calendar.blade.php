@@ -47,126 +47,168 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
                             @include('components.msc-geoinformatics-programme-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="admission_calender_mainbox">
                                 <div class="admission_calender_backgrond_img">
-                                    <img src="{{ asset('assets/images/programmes/admission-calender-background.webp') }}" alt="Background image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/programmes/admission-calender-background.webp') }}"
+                                        alt="Background image" class="img-fluid">
                                 </div>
                                 <div class="admission_calender_content">
                                     <div class="admission_calender_listing">
                                         <div class="admission_calender_listing_left">
                                             <div class="admission_calender_listing_left_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/documen.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/documen.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_left_heading">Programme Registration Begins</div>
+                                            <div class="admission_calender_listing_left_heading">Programme Registration
+                                                Begins</div>
                                         </div>
                                         <div class="admission_calender_listing_right">
                                             <div class="admission_calender_listing_right_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">19<sup>th</sup> October 2026</div>
+                                            <div class="admission_calender_listing_right_heading">19<sup>th</sup>
+                                                October 2026</div>
                                         </div>
                                     </div>
                                     <div class="admission_calender_listing">
                                         <div class="admission_calender_listing_left">
                                             <div class="admission_calender_listing_left_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/hourglass.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/hourglass.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_left_heading">Last date of Online registration</div>
+                                            <div class="admission_calender_listing_left_heading">Last date of Online
+                                                registration</div>
                                         </div>
                                         <div class="admission_calender_listing_right">
                                             <div class="admission_calender_listing_right_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">01<sup>st</sup> March 2027</div>
+                                            <div class="admission_calender_listing_right_heading">01<sup>st</sup> March
+                                                2027</div>
                                         </div>
                                     </div>
                                     <div class="admission_calender_listing">
                                         <div class="admission_calender_listing_left">
                                             <div class="admission_calender_listing_left_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/wallet.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/wallet.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_left_heading">Last Date of payment of Registration fees</div>
+                                            <div class="admission_calender_listing_left_heading">Last Date of payment of
+                                                Registration fees</div>
                                         </div>
                                         <div class="admission_calender_listing_right">
                                             <div class="admission_calender_listing_right_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">01<sup>st</sup> March 2027</div>
+                                            <div class="admission_calender_listing_right_heading">01<sup>st</sup> March
+                                                2027</div>
                                         </div>
                                     </div>
                                     <div class="admission_calender_listing">
                                         <div class="admission_calender_listing_left">
                                             <div class="admission_calender_listing_left_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/marketing.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/marketing.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_left_heading">Announcement of Shortlist for Entrance Examination & Personal Interaction </div>
+                                            <div class="admission_calender_listing_left_heading">Announcement of
+                                                Shortlist for Entrance Examination & Personal Interaction </div>
                                         </div>
                                         <div class="admission_calender_listing_right">
                                             <div class="admission_calender_listing_right_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">04<sup>st</sup> March 2027</div>
+                                            <div class="admission_calender_listing_right_heading">04<sup>st</sup> March
+                                                2027</div>
                                         </div>
                                     </div>
                                     <div class="admission_calender_listing">
                                         <div class="admission_calender_listing_left">
                                             <div class="admission_calender_listing_left_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/group.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/group.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_left_heading">Entrance Examination & Personal Interaction (Online)</div>
+                                            <div class="admission_calender_listing_left_heading">Entrance Examination &
+                                                Personal Interaction (Online)</div>
                                         </div>
                                         <div class="admission_calender_listing_right">
                                             <div class="admission_calender_listing_right_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">05<sup>th</sup> & 07<sup>th</sup> March 2027</div>
+                                            <div class="admission_calender_listing_right_heading">05<sup>th</sup> &
+                                                07<sup>th</sup> March 2027</div>
                                         </div>
                                     </div>
                                     <div class="admission_calender_listing">
                                         <div class="admission_calender_listing_left">
                                             <div class="admission_calender_listing_left_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/document.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/document.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_left_heading">Declaration of  Merit List </div>
+                                            <div class="admission_calender_listing_left_heading">Declaration of Merit
+                                                List </div>
                                         </div>
                                         <div class="admission_calender_listing_right">
                                             <div class="admission_calender_listing_right_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">12<sup>th</sup> March 2027</div>
+                                            <div class="admission_calender_listing_right_heading">12<sup>th</sup> March
+                                                2027</div>
                                         </div>
                                     </div>
                                     <div class="admission_calender_listing">
                                         <div class="admission_calender_listing_left">
                                             <div class="admission_calender_listing_left_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/rupee.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/rupee.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_left_heading">Last Date for Payment of Fees for Merit List</div>
+                                            <div class="admission_calender_listing_left_heading">Last Date for Payment
+                                                of Fees for Merit List</div>
                                         </div>
                                         <div class="admission_calender_listing_right">
                                             <div class="admission_calender_listing_right_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">27<sup>th</sup> March 2027</div>
+                                            <div class="admission_calender_listing_right_heading">27<sup>th</sup> March
+                                                2027</div>
                                         </div>
                                     </div>
                                     <div class="admission_calender_listing">
                                         <div class="admission_calender_listing_left">
                                             <div class="admission_calender_listing_left_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/graduate.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/graduate.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_left_heading">Programme Commencement</div>
+                                            <div class="admission_calender_listing_left_heading">Programme Commencement
+                                            </div>
                                         </div>
                                         <div class="admission_calender_listing_right">
                                             <div class="admission_calender_listing_right_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">23<sup>rd</sup> July 2027</div>
+                                            <div class="admission_calender_listing_right_heading">23<sup>rd</sup> July
+                                                2027</div>
                                         </div>
                                     </div>
                                 </div>

@@ -47,7 +47,16 @@ placement opportunities. Get more details here.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">Placements at SIG</h3>
                             @include('components.placements-menu')
                         </div>
@@ -204,7 +213,8 @@ placement opportunities. Get more details here.')
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
-                                                    <h4 class="general_card_heading">Consulting & Professional Services</h4>
+                                                    <h4 class="general_card_heading">Consulting & Professional Services
+                                                    </h4>
                                                     <ul class="custom_listing">
                                                         <li>Consulting</li>
                                                         <li>Technology Consulting</li>

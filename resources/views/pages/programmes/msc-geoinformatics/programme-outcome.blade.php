@@ -47,7 +47,16 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
                             @include('components.msc-geoinformatics-programme-menu')
                         </div>
@@ -68,23 +77,40 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <tbody>
                                                 <tr>
                                                     <td>Scholarship: research, inquiry and lifelong learning</td>
-                                                    <td>Teaching- learning process, curriculum design, updating of curriculum in emerging areas, student centric teaching methodologies, project based learning, case studies, FCP</td>
-                                                    <td>Research output by students, case studies, publishing and presenting papers; desire for further higher education</td>
+                                                    <td>Teaching- learning process, curriculum design, updating of
+                                                        curriculum in emerging areas, student centric teaching
+                                                        methodologies, project based learning, case studies, FCP</td>
+                                                    <td>Research output by students, case studies, publishing and
+                                                        presenting papers; desire for further higher education</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Global citizenship: ethical, social and professional understanding</td>
-                                                    <td>Projects, internships, field trips, service learning and extension activities, GIP, promoting social sensitivity</td>
-                                                    <td>Interest in volunteering and working for social causes, cross cultural sensitivity, ability to work in cross cultural groups</td>
+                                                    <td>Global citizenship: ethical, social and professional
+                                                        understanding</td>
+                                                    <td>Projects, internships, field trips, service learning and
+                                                        extension activities, GIP, promoting social sensitivity</td>
+                                                    <td>Interest in volunteering and working for social causes, cross
+                                                        cultural sensitivity, ability to work in cross cultural groups
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>Eco-literate: sensitivity towards a sustainable environment</td>
-                                                    <td>Programmes/courses related to environment sustainability, participation in activities related to environment/ecology preservation, environment projects and study tours</td>
-                                                    <td>Environmental sensitivity among students, involvement in NGOs, and commitment toeco-friendly spaces</td>
+                                                    <td>Programmes/courses related to environment sustainability,
+                                                        participation in activities related to environment/ecology
+                                                        preservation, environment projects and study tours</td>
+                                                    <td>Environmental sensitivity among students, involvement in NGOs,
+                                                        and commitment toeco-friendly spaces</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Employability: equipped with skills, attributes, leadership and entrepreneurial qualities that society needs; being capable of making a contribution to society through earning a living</td>
-                                                    <td>Domain specific expertise, training/internship with industry, enhancement and value added courses. Co-curricular activities. Assessments that include presentations, public speaking and oratory, class leads, team learning and group activities</td>
-                                                    <td>Excellent placements, Entrepreneurial opportunities, good team work skills, work ethic, understanding of corporate working, successful internships</td>
+                                                    <td>Employability: equipped with skills, attributes, leadership and
+                                                        entrepreneurial qualities that society needs; being capable of
+                                                        making a contribution to society through earning a living</td>
+                                                    <td>Domain specific expertise, training/internship with industry,
+                                                        enhancement and value added courses. Co-curricular activities.
+                                                        Assessments that include presentations, public speaking and
+                                                        oratory, class leads, team learning and group activities</td>
+                                                    <td>Excellent placements, Entrepreneurial opportunities, good team
+                                                        work skills, work ethic, understanding of corporate working,
+                                                        successful internships</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -97,7 +123,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="program_outcomes_numbers">PO1</div>
                                             <div class="program_outcomes_para">
                                                 <p class="m-0">
-                                                    The students should be able to apply Geospatial Technology to solve real world problems
+                                                    The students should be able to apply Geospatial Technology to solve
+                                                    real world problems
                                                 </p>
                                             </div>
                                         </div>
@@ -105,7 +132,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="program_outcomes_numbers">PO2</div>
                                             <div class="program_outcomes_para">
                                                 <p class="m-0">
-                                                    The students should analyse and formulate solutions using geospatial theories, models and techniques
+                                                    The students should analyse and formulate solutions using geospatial
+                                                    theories, models and techniques
                                                 </p>
                                             </div>
                                         </div>
@@ -113,7 +141,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="program_outcomes_numbers">PO3</div>
                                             <div class="program_outcomes_para">
                                                 <p class="m-0">
-                                                    The students should be able to design, develop, evaluate and implement geospatial solutions.
+                                                    The students should be able to design, develop, evaluate and
+                                                    implement geospatial solutions.
                                                 </p>
                                             </div>
                                         </div>
@@ -121,7 +150,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="program_outcomes_numbers">PO4</div>
                                             <div class="program_outcomes_para">
                                                 <p class="m-0">
-                                                    The student should be able to formulate, create and conduct innovative research involving spatial data and techniques
+                                                    The student should be able to formulate, create and conduct
+                                                    innovative research involving spatial data and techniques
                                                 </p>
                                             </div>
                                         </div>
@@ -129,7 +159,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="program_outcomes_numbers">PO5</div>
                                             <div class="program_outcomes_para">
                                                 <p class="m-0">
-                                                    The students should be able utilize spatial critical thinking to provide solutions and attain sustainable development Goals
+                                                    The students should be able utilize spatial critical thinking to
+                                                    provide solutions and attain sustainable development Goals
                                                 </p>
                                             </div>
                                         </div>
@@ -137,7 +168,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="program_outcomes_numbers">PO6</div>
                                             <div class="program_outcomes_para">
                                                 <p class="m-0">
-                                                    The students should be able to engage in continuous learning, adapt to evolving technologies, and pursue professional growth
+                                                    The students should be able to engage in continuous learning, adapt
+                                                    to evolving technologies, and pursue professional growth
                                                 </p>
                                             </div>
                                         </div>

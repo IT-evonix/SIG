@@ -47,7 +47,16 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
                             @include('components.msc-geoinformatics-programme-menu')
                         </div>
@@ -55,14 +64,19 @@ courses and advance your career with a master\'s in Geoinformatics.')
                             <div class="eligibility_creteria_mainbox">
                                 <div class="eligibility_creteria_left">
                                     <p class="big_font_para">
-                                        A student seeking admission to the programme must fulfil the following eligibility and admission requirements:
+                                        A student seeking admission to the programme must fulfil the following
+                                        eligibility and admission requirements:
                                     </p>
                                     <div class="eligibility_creteria_left_wraper">
                                         <div class="eligibility_creteria_left_listing">
                                             <div class="eligibility_creteria_left_listing_number">01</div>
                                             <div class="eligibility_creteria_left_listing_para">
                                                 <p class="m-0">
-                                                    Candidate should be Graduate in Engineering, IT, Science, Computer Science, Agriculture, Geography, Planning, Architecture, Commerce and Management from any recognised University/ Institution of National Importance with a minimum of 50% marks or equivalent grade (45% Marks or equivalent grade for Scheduled Caste/Scheduled Tribes)
+                                                    Candidate should be Graduate in Engineering, IT, Science, Computer
+                                                    Science, Agriculture, Geography, Planning, Architecture, Commerce
+                                                    and Management from any recognised University/ Institution of
+                                                    National Importance with a minimum of 50% marks or equivalent grade
+                                                    (45% Marks or equivalent grade for Scheduled Caste/Scheduled Tribes)
                                                 </p>
                                             </div>
                                         </div>
@@ -70,7 +84,9 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="eligibility_creteria_left_listing_number">02</div>
                                             <div class="eligibility_creteria_left_listing_para">
                                                 <p class="m-0">
-                                                    Candidates appearing for final year examinations can also apply, but their admission will be subject to obtaining a minimum of 50% marks (45% for SC/ST) in the qualifying examination.
+                                                    Candidates appearing for final year examinations can also apply, but
+                                                    their admission will be subject to obtaining a minimum of 50% marks
+                                                    (45% for SC/ST) in the qualifying examination.
                                                 </p>
                                             </div>
                                         </div>
@@ -78,7 +94,9 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="eligibility_creteria_left_listing_number">03</div>
                                             <div class="eligibility_creteria_left_listing_para">
                                                 <p class="m-0">
-                                                    A candidate who has completed qualifying qualification from any Foreign University must obtain an equivalence certificate from Association of Indian Universities (AIU).
+                                                    A candidate who has completed qualifying qualification from any
+                                                    Foreign University must obtain an equivalence certificate from
+                                                    Association of Indian Universities (AIU).
                                                 </p>
                                             </div>
                                         </div>
@@ -87,7 +105,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                 <div class="eligibility_creteria_right">
                                     <div class="eligibility_creteria_intake">
                                         <div class="eligibility_creteria_intake_icon">
-                                            <img src="{{ asset('assets/images/programmes/icon/group-white.svg') }}" alt="Icon" class="img-fluid">
+                                            <img src="{{ asset('assets/images/programmes/icon/group-white.svg') }}"
+                                                alt="Icon" class="img-fluid">
                                         </div>
                                         <div class="eligibility_creteria_intake_devider"></div>
                                         <div class="eligibility_creteria_intake_content">
@@ -101,7 +120,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         </h3>
                                         <div class="eligibility_creteria_reservation_listing_mainbox">
                                             <div class="eligibility_creteria_reservation_listing">
-                                                <div class="eligibility_creteria_reservation_subheading">Within the sanctioned intake</div>
+                                                <div class="eligibility_creteria_reservation_subheading">Within the
+                                                    sanctioned intake</div>
                                                 <div class="eligibility_creteria_list_mainbox">
                                                     <div class="eligibility_creteria_list">
                                                         <div class="eligibility_creteria_list_left">15%</div>
@@ -113,20 +133,24 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     </div>
                                                     <div class="eligibility_creteria_list">
                                                         <div class="eligibility_creteria_list_left">3%</div>
-                                                        <div class="eligibility_creteria_list_right">Persons with Disabilities (PwD)</div>
+                                                        <div class="eligibility_creteria_list_right">Persons with
+                                                            Disabilities (PwD)</div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="eligibility_creteria_reservation_listing">
-                                                <div class="eligibility_creteria_reservation_subheading">Over and above the sanctioned intake</div>
+                                                <div class="eligibility_creteria_reservation_subheading">Over and above
+                                                    the sanctioned intake</div>
                                                 <div class="eligibility_creteria_list_mainbox">
                                                     <div class="eligibility_creteria_list">
                                                         <div class="eligibility_creteria_list_left">2 seats</div>
-                                                        <div class="eligibility_creteria_list_right">Jammu and Kashmir Migrants</div>
+                                                        <div class="eligibility_creteria_list_right">Jammu and Kashmir
+                                                            Migrants</div>
                                                     </div>
                                                     <div class="eligibility_creteria_list">
                                                         <div class="eligibility_creteria_list_left">25%</div>
-                                                        <div class="eligibility_creteria_list_right">International Students including NRIs</div>
+                                                        <div class="eligibility_creteria_list_right">International
+                                                            Students including NRIs</div>
                                                     </div>
                                                 </div>
                                             </div>

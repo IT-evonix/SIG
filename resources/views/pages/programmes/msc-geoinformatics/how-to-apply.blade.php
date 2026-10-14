@@ -47,14 +47,25 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
                             @include('components.msc-geoinformatics-programme-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="how_to_apply_mainbox">
                                 <p class="m-0">
-                                    Admission to SIG programmes is based on a mandatory Entrance Examination and Personal Interaction (PI). Both will be conducted online on the same day and candidates are required to complete both stages of the admission process.
+                                    Admission to SIG programmes is based on a mandatory Entrance Examination and
+                                    Personal Interaction (PI). Both will be conducted online on the same day and
+                                    candidates are required to complete both stages of the admission process.
                                 </p>
                                 <div class="how_to_apply_wraper">
                                     <div class="how_to_apply_listing">
@@ -64,7 +75,11 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p class="m-0">
-                                                Candidates must complete the online application form through the registration link available on the SIG website: <a href="www.sig.ac.in" target="_blank">www.sig.ac.in</a>. Candidates should ensure that all required information is entered correctly and that the application is submitted within the specified timeline.
+                                                Candidates must complete the online application form through the
+                                                registration link available on the SIG website: <a href="www.sig.ac.in"
+                                                    target="_blank">www.sig.ac.in</a>. Candidates should ensure that all
+                                                required information is entered correctly and that the application is
+                                                submitted within the specified timeline.
                                             </p>
                                         </div>
                                     </div>
@@ -75,7 +90,9 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p class="m-0">
-                                                A non-refundable application fee of ₹1,500/- is payable online through Credit Card, Debit Card, Net Banking or UPI using the payment gateway provided in the application form.
+                                                A non-refundable application fee of ₹1,500/- is payable online through
+                                                Credit Card, Debit Card, Net Banking or UPI using the payment gateway
+                                                provided in the application form.
                                             </p>
                                         </div>
                                     </div>
@@ -86,7 +103,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p>
-                                                The online Entrance Examination will comprise Multiple Choice Questions (MCQs) covering:
+                                                The online Entrance Examination will comprise Multiple Choice Questions
+                                                (MCQs) covering:
                                             </p>
                                             <ul class="custom_listing">
                                                 <li>Aptitude</li>
@@ -103,7 +121,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p>
-                                                The online Personal Interaction (PI) will be conducted on the same day as the Entrance Examination. Candidates will be assessed on:
+                                                The online Personal Interaction (PI) will be conducted on the same day
+                                                as the Entrance Examination. Candidates will be assessed on:
                                             </p>
                                             <ul class="custom_listing">
                                                 <li>Communication Skills</li>
@@ -121,10 +140,13 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p>
-                                                The Entrance Examination and Personal Interaction schedule, along with the online meeting link, will be shared with registered candidates on their registered email ID closer to the scheduled date.
+                                                The Entrance Examination and Personal Interaction schedule, along with
+                                                the online meeting link, will be shared with registered candidates on
+                                                their registered email ID closer to the scheduled date.
                                             </p>
                                             <p class="m-0">
-                                                Candidates are advised to regularly check their registered email for admission-related updates.
+                                                Candidates are advised to regularly check their registered email for
+                                                admission-related updates.
                                             </p>
                                         </div>
                                     </div>
@@ -134,12 +156,14 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <h2 class="how_to_apply_header_heading">Final Selection</h2>
                                         </div>
                                         <div class="how_to_apply_body">
-                                            The final selection results will be declared as per the admission schedule published on the SIG website.
+                                            The final selection results will be declared as per the admission schedule
+                                            published on the SIG website.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="fees_notebox">
-                                    <strong>Note:</strong> Participation in both the Entrance Examination and Personal Interaction is mandatory for admission consideration.
+                                    <strong>Note:</strong> Participation in both the Entrance Examination and Personal
+                                    Interaction is mandatory for admission consideration.
                                 </div>
                             </div>
                         </div>

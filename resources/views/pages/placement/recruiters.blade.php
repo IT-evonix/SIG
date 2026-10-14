@@ -47,191 +47,260 @@ placement opportunities. Get more details here.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">Placements at SIG</h3>
                             @include('components.placements-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="recruiters_wrapper">
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/1.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/1.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/2.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/2.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/3.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/3.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/4.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/4.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/5.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/5.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/6.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/6.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/7.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/7.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/8.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/8.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/9.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/9.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/10.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/10.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/11.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/11.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/12.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/12.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/13.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/13.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/14.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/14.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/15.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/15.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/16.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/16.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/17.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/17.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/18.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/18.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/19.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/19.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/20.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/20.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/21.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/21.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/22.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/22.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/23.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/23.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/24.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/24.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/25.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/25.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/26.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/26.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/27.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/27.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/28.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/28.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/29.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/29.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/30.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/30.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/31.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/31.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/32.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/32.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/33.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/33.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/34.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/34.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/35.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/35.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/36.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/36.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/37.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/37.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/38.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/38.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/39.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/39.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/40.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/40.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/41.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/41.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/42.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/42.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/43.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/43.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/44.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/44.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/45.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/45.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/46.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/46.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/47.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/47.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/48.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/48.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/49.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/49.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/50.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/50.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/51.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/51.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/52.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/52.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/53.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/53.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/54.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/54.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/55.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/55.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/56.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/56.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/57.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/57.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/58.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/58.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/59.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/59.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                                 <div class="recruiters_listing">
-                                    <img src="{{ asset('assets/images/recruiters/logos/60.webp') }}" alt="Recruiters Logo" class="img-fluid">
+                                    <img src="{{ asset('assets/images/recruiters/logos/60.webp') }}"
+                                        alt="Recruiters Logo" class="img-fluid">
                                 </div>
                             </div>
                         </div>

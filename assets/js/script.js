@@ -208,6 +208,7 @@ if (header) {
     updateNavState();
 })();
 // Program offered mobile slider ends
+
 // Inner Menu heading height start 
 const innerMenuHeading = document.getElementById('inner_menu_heading_id');
 
@@ -220,6 +221,45 @@ if (innerMenuHeading) {
     }).observe(innerMenuHeading);
 }
 // Inner Menu heading height ends
+
+// Top red header maenu height start
+
+const topHeader = document.querySelector('.top_header_wrap');
+
+if (topHeader) {
+    new ResizeObserver(() => {
+        document.documentElement.style.setProperty(
+            '--top-red-header-height',
+            `${topHeader.offsetHeight}px`
+        );
+    }).observe(topHeader);
+}
+
+// Top red header maenu height ends
+
+// Inner banner height start
+
+const innerBannerHeight = document.querySelector('.inner_banner_section');
+
+if (innerBannerHeight) {
+    new ResizeObserver(() => {
+        document.documentElement.style.setProperty(
+            '--inner-banner-height',
+            `${innerBannerHeight.offsetHeight}px`
+        );
+    }).observe(innerBannerHeight);
+}
+
+// Inner banner height ends
+
+// Inner menu responsive start
+
+function menu() {
+    const main = document.querySelector("main");
+    main.classList.toggle("inner_menu_open");
+}
+
+// Inner menu responsive ends
 
 // Accordion start
 document.addEventListener("DOMContentLoaded", function () {

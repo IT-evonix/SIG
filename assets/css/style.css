@@ -1751,6 +1751,7 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
   opacity: 0.2;
   z-index: -1;
   align-self: center;
+  display: none;
 }
 
 .admission_calender_listing {
@@ -4118,16 +4119,58 @@ table th {
   .admission_calender_listing_right_heading {
     font-size: 12px;
   }
+
   .admission_calender_listing_right_icon img {
     width: 16px;
     height: 16px;
-}
+  }
 
-.admission_calender_listing_right {
+  .admission_calender_listing_right {
     grid-template-columns: 16px 1fr;
     gap: 10px;
     padding: 0 10px;
+  }
+
+  .sholarships_listing {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    column-gap: 0;
+  }
+
+  .sholarships_wraper_listing:nth-child(even) .sholarships_listing .sholarships_content {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .key_benefit_wraper {
+    grid-template-columns: 1fr;
+  }
+
+  .how_to_apply_header_heading {
+    font-size: 18px;
 }
+
+.how_to_apply_header_step {
+    font-size: 16px;
+}
+
+.admission_contact_first_wraper {
+    grid-template-columns: 1fr;
+}
+
+.admission_contact_first_content {
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+
+.admission_contact_third {
+    grid-template-columns: 1fr;
+}
+
+.admission_contact_mainbox .email_mainbox:last-child {
+  margin: 0;
+}
+
 }
 
 @media (max-width: 575.98px) {
@@ -4338,61 +4381,116 @@ table th {
 
   .inner_page_menu_box {
     width: 100%;
-}
+  }
 
-.admission_calender_listing {
+  .admission_calender_listing {
     gap: 0px;
-}
+  }
 
-.admission_calender_listing_left_heading {
+  .admission_calender_listing_left_heading {
     font-size: 12px;
-}
+  }
 
-.admission_calender_listing_right_heading {
-  font-size: 10px;
-}
+  .admission_calender_listing_right_heading {
+    font-size: 10px;
+  }
 
-.admission_calender_listing_left_icon {
+  .admission_calender_listing_left_icon {
     width: 30px;
     height: 30px;
     margin: 0;
-}
+  }
 
-.admission_calender_listing_left_icon img {
+  .admission_calender_listing_left_icon img {
     width: 16px;
     height: 16px;
-}
+  }
 
-.admission_calender_listing_left {
+  .admission_calender_listing_left {
     grid-template-columns: 30px 1fr;
     gap: 10px;
     border-radius: 0;
     padding: 0 10px;
     border-right: 1px solid #dedede;
-}
+  }
 
-.admission_calender_listing_right {
+  .admission_calender_listing_right {
     border-radius: 0;
     padding: 0 10px;
     grid-template-columns: 12px 1fr;
     gap: 8px;
-}
+  }
 
-.admission_calender_listing_right_icon img {
+  .admission_calender_listing_right_icon img {
     width: 12px;
     height: 12px;
-}
+  }
 
-.admission_calender_listing {
+  .admission_calender_listing {
     gap: 0px;
     padding: 10px 0;
     background-color: var(--icon-color);
     border-radius: 12px;
     grid-template-columns: 1fr 0.6fr;
+  }
+
+  .admission_calender_listing:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+
+  .sholarships_wraper_listing:nth-child(even) {
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
-.admission_calender_listing:nth-child(even) {
-    background-color: #f4f4f4;
+  .email_mainbox a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    font-size: 12px;
+  }
+
+  .email_icon,
+  .admission_contact_first_icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .email_icon svg,
+  .admission_contact_first_icon img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .email_mainbox {
+    margin: 40px 0 0 0;
+    padding: 15px;
+    grid-template-columns: 40px 1.5px 1fr;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.sholarships_wraper {
+    gap: 0px;
+}
+
+.how_to_apply_header_heading {
+    font-size: 16px;
+}
+
+.how_to_apply_header {
+    gap: 10px;
+}
+
+.admission_contact_first_content_left {
+    grid-template-columns: 40px 1fr;
+    gap: 20px;
+    padding: 0;
+}
+
+.admission_contact_detail_header_heading,
+.admission_contact_first_heading,
+.sholarships_heading {
+    font-size: 18px;
 }
 
 }

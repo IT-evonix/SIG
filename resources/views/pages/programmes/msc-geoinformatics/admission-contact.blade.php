@@ -85,7 +85,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     <div class="admission_contact_first_heading">
                                                         Symbiosis Institute of Geoinformatics (SIG)
                                                     </div>
-                                                    <div class="admission_contact_first_content">
+                                                    <div class="admission_contact_first_content_adderess">
                                                         5th Floor, Atur Centre, Gokhale Cross Road, Model Colony, Pune –
                                                         411016
                                                     </div>

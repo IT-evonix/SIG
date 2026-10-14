@@ -9,7 +9,8 @@ by insights from our directors, faculty, alumni, and students.')
 <div class="inner_banner_section">
     <div class="inner_banner_imgbox">
         <div class="banner_imgbox">
-            <img src="{{ asset('assets/images/inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid">
+            <img src="{{ asset('assets/images/inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid inner_desktop_banner_image">
+            <img src="{{ asset('assets/images/mobile-inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid inner_mobile_banner_image">
         </div>
     </div>
     <div class="inner_banner_overlay_box"></div>

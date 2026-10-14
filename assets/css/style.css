@@ -2052,6 +2052,13 @@ table th {
   border-bottom: 2px solid var(--red-color) !important;
 }
 
+.table-responsive {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+}
+
 .fees_notebox {
   margin: 40px 0 0 0;
   padding: 20px;
@@ -3792,6 +3799,14 @@ table th {
   .inner_heading {
     font-size: 25px;
   }
+
+  .inner_page_section {
+    display: block;
+  }
+
+  .faculty_profile_mainbox {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -3951,7 +3966,11 @@ table th {
 
   .header_main {
     background-color: var(--white-color);
-}
+  }
+
+  .faculty_profile_mainbox {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
 }
 
@@ -4081,15 +4100,33 @@ table th {
   .programmes_first_right {
     grid-row: 1/2;
     justify-self: center;
-}
+  }
 
-.programmes_page_second_mainbox {
+  .programmes_page_second_mainbox {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .programmes_second_left {
+    justify-self: center;
+  }
+
+  .eligibility_creteria_mainbox {
+    grid-template-columns: 1fr;
+  }
+
+  .admission_calender_listing_right_heading {
+    font-size: 12px;
+  }
+  .admission_calender_listing_right_icon img {
+    width: 16px;
+    height: 16px;
 }
 
-.programmes_second_left {
-    justify-self: center;
+.admission_calender_listing_right {
+    grid-template-columns: 16px 1fr;
+    gap: 10px;
+    padding: 0 10px;
 }
 }
 
@@ -4223,36 +4260,140 @@ table th {
 
   .inner_banner_heading {
     font-size: 25px;
-}
+  }
 
-.breadcrumb-item, .breadcrumb-item a {
+  .breadcrumb-item, .breadcrumb-item a {
     font-size: 10px;
-}
+  }
 
-.inner_banner_imgbox .banner_imgbox {
-  width: 100%;
-  height: 160px;
-}
+  .inner_banner_imgbox .banner_imgbox {
+    width: 100%;
+    height: 160px;
+  }
 
-.inner_banner_imgbox .banner_imgbox img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
+  .inner_banner_imgbox .banner_imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
 
-/* main section padding 80px to 60px start */
+  /* main section padding 80px to 60px start */
 
-.inner_page_menu_mainbox {
+  .inner_page_menu_mainbox {
     padding: 60px 0;
+  }
+
+  /* main section padding 80px to 60px ends */
+
+  /* section padding 60px to 40px start */
+
+  .programmes_page_second_mainbox {
+    padding: 40px 0 0 0;
+  }
+
+  .program_outcomes_mainbox {
+    gap: 40px;
+  }
+
+  /* section padding 60px to 40px ends */
+
+  .program_outcomes_listing {
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+  }
+
+  .program_outcomes_numbers {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .program_outcomes_numbers::after {
+    right: -6px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .program_outcomes_para p {
+    font-size: 13px;
+  }
+
+  .program_outcomes_listing {
+    padding: 10px;
+  }
+
+  .faculty_profile_mainbox {
+    grid-template-columns: 1fr;
+  }
+
+  .eligibility_creteria_left_listing {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .big_font_para {
+    font-size: 16px;
+  }
+
+  .inner_page_menu_box {
+    width: 100%;
 }
 
-/* main section padding 80px to 60px ends */
-/* section padding 60px to 40px start */
-.programmes_page_second_mainbox {
-    padding: 40px 0 0 0;
+.admission_calender_listing {
+    gap: 0px;
 }
-/* section padding 60px to 40px ends */
+
+.admission_calender_listing_left_heading {
+    font-size: 12px;
+}
+
+.admission_calender_listing_right_heading {
+  font-size: 10px;
+}
+
+.admission_calender_listing_left_icon {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+.admission_calender_listing_left_icon img {
+    width: 16px;
+    height: 16px;
+}
+
+.admission_calender_listing_left {
+    grid-template-columns: 30px 1fr;
+    gap: 10px;
+    border-radius: 0;
+    padding: 0 10px;
+    border-right: 1px solid #dedede;
+}
+
+.admission_calender_listing_right {
+    border-radius: 0;
+    padding: 0 10px;
+    grid-template-columns: 12px 1fr;
+    gap: 8px;
+}
+
+.admission_calender_listing_right_icon img {
+    width: 12px;
+    height: 12px;
+}
+
+.admission_calender_listing {
+    gap: 0px;
+    padding: 10px 0;
+    background-color: var(--icon-color);
+    border-radius: 12px;
+    grid-template-columns: 1fr 0.6fr;
+}
+
+.admission_calender_listing:nth-child(even) {
+    background-color: #f4f4f4;
+}
 
 }
 

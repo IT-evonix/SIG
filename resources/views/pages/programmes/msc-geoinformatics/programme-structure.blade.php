@@ -47,7 +47,16 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
                             @include('components.msc-geoinformatics-programme-menu')
                         </div>
@@ -130,7 +139,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     </div>
                                                 </div>
                                                 <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 2 - Generic Core Courses</h2>
+                                                    <h2 class="program_structure_heading">Semester 2 - Generic Core
+                                                        Courses</h2>
                                                     <div class="table-responsive">
                                                         <table class="table mb-0 fee_table">
                                                             <thead>
@@ -154,7 +164,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                 </tr>
                                                                 <tr>
                                                                     <td>3</td>
-                                                                    <td>Advance Python Programming for Spatial Analytics</td>
+                                                                    <td>Advance Python Programming for Spatial Analytics
+                                                                    </td>
                                                                     <td>3</td>
                                                                 </tr>
                                                                 <tr>
@@ -274,7 +285,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     </div>
                                                 </div>
                                                 <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective Course Group - I (Choose any one course)</h2>
+                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective
+                                                        Course Group - I (Choose any one course)</h2>
                                                     <div class="table-responsive">
                                                         <table class="table mb-0 fee_table">
                                                             <thead>
@@ -288,12 +300,14 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                             <tbody>
                                                                 <tr>
                                                                     <td>1</td>
-                                                                    <td>Geoinformatics applications in Facility and Utility management</td>
+                                                                    <td>Geoinformatics applications in Facility and
+                                                                        Utility management</td>
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>2</td>
-                                                                    <td>Geoinformatics Applications in Natural Resource Management</td>
+                                                                    <td>Geoinformatics Applications in Natural Resource
+                                                                        Management</td>
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
@@ -310,7 +324,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     </div>
                                                 </div>
                                                 <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective Course Group - II (Choose any one course)</h2>
+                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective
+                                                        Course Group - II (Choose any one course)</h2>
                                                     <div class="table-responsive">
                                                         <table class="table mb-0 fee_table">
                                                             <thead>
@@ -334,7 +349,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                 </tr>
                                                                 <tr>
                                                                     <td>3</td>
-                                                                    <td>Application of Geospatial Technology in Urban Development</td>
+                                                                    <td>Application of Geospatial Technology in Urban
+                                                                        Development</td>
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
@@ -346,7 +362,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     </div>
                                                 </div>
                                                 <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Audit Courses</h2>
+                                                    <h2 class="program_structure_heading">Semester 3 - Audit Courses
+                                                    </h2>
                                                     <div class="table-responsive">
                                                         <table class="table mb-0 fee_table">
                                                             <thead>
@@ -365,8 +382,10 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                 </tr>
                                                                 <tr>
                                                                     <td colspan="3">
-                                                                        <strong>Note:</strong> Student/s must complete "Generative AI and use cases" (0702410318)
-                                                                        in addition to the regular courses offered in this semester.
+                                                                        <strong>Note:</strong> Student/s must complete
+                                                                        "Generative AI and use cases" (0702410318)
+                                                                        in addition to the regular courses offered in
+                                                                        this semester.
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
@@ -415,7 +434,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                     <th>Total Credits</th>
                                                                 </tr>
                                                             </thead>
-                                                            
+
                                                             <tbody>
                                                                 <tr>
                                                                     <td>1</td>
@@ -476,7 +495,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                     <th>Total Credits</th>
                                                                 </tr>
                                                             </thead>
-                                                            
+
                                                             <tbody>
                                                                 <tr>
                                                                     <td>1</td>
@@ -490,7 +509,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                 </tr>
                                                                 <tr>
                                                                     <td>3</td>
-                                                                    <td>Advance Python Programming for Spatial Analytics</td>
+                                                                    <td>Advance Python Programming for Spatial Analytics
+                                                                    </td>
                                                                     <td>3</td>
                                                                 </tr>
                                                                 <tr>
@@ -548,7 +568,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                     <th>Total Credits</th>
                                                                 </tr>
                                                             </thead>
-                                                            
+
                                                             <tbody>
                                                                 <tr>
                                                                     <td>1</td>
@@ -587,7 +607,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                 </tr>
                                                                 <tr>
                                                                     <td>8</td>
-                                                                    <td>Geospatial Analytics with Advanced Computing</td>
+                                                                    <td>Geospatial Analytics with Advanced Computing
+                                                                    </td>
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
@@ -614,7 +635,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     </div>
                                                 </div>
                                                 <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective Course Group I (Choose any one)</h2>
+                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective
+                                                        Course Group I (Choose any one)</h2>
                                                     <div class="table-responsive">
                                                         <table class="table mb-0 fee_table">
                                                             <thead>
@@ -624,7 +646,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                     <th>Total Credits</th>
                                                                 </tr>
                                                             </thead>
-                                                            
+
                                                             <tbody>
                                                                 <tr>
                                                                     <td>1</td>
@@ -638,7 +660,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                 </tr>
                                                                 <tr>
                                                                     <td>3</td>
-                                                                    <td>Advanced Application of Geoinformatics in Water Resources Management</td>
+                                                                    <td>Advanced Application of Geoinformatics in Water
+                                                                        Resources Management</td>
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
@@ -650,7 +673,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     </div>
                                                 </div>
                                                 <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective Course Group II (Choose any one)</h2>
+                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective
+                                                        Course Group II (Choose any one)</h2>
                                                     <div class="table-responsive">
                                                         <table class="table mb-0 fee_table">
                                                             <thead>
@@ -660,7 +684,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                     <th>Total Credits</th>
                                                                 </tr>
                                                             </thead>
-                                                            
+
                                                             <tbody>
                                                                 <tr>
                                                                     <td>1</td>
@@ -674,12 +698,14 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                 </tr>
                                                                 <tr>
                                                                     <td>3</td>
-                                                                    <td>Application of Geospatial Technology in Urban Development</td>
+                                                                    <td>Application of Geospatial Technology in Urban
+                                                                        Development</td>
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>4</td>
-                                                                    <td>Geoinformatics Applications in Facility and Utility Management</td>
+                                                                    <td>Geoinformatics Applications in Facility and
+                                                                        Utility Management</td>
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
@@ -701,7 +727,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                     <th>Total Credits</th>
                                                                 </tr>
                                                             </thead>
-                                                            
+
                                                             <tbody>
                                                                 <tr>
                                                                     <td>1</td>

@@ -47,7 +47,16 @@ placement opportunities. Get more details here.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">Placements at SIG</h3>
                             @include('components.placements-menu')
                         </div>
@@ -55,128 +64,159 @@ placement opportunities. Get more details here.')
                             <div class="placement_policy_mainbox">
                                 <h2 class="inner_heading">Fair. Transparent. Professional.</h2>
                                 <p>
-                                    The SIG Placement Policy provides a structured framework for student participation in campus recruitment.
+                                    The SIG Placement Policy provides a structured framework for student participation
+                                    in campus recruitment.
                                 </p>
                                 <p>
-                                    The policy is designed to ensure a professional and transparent recruitment environment for <strong>students, recruiters and the Institute.</strong>
+                                    The policy is designed to ensure a professional and transparent recruitment
+                                    environment for <strong>students, recruiters and the Institute.</strong>
                                 </p>
                                 <div class="general_card_mainbox">
                                     <h3 class="general_card_mainheading">Key Guidelines</h3>
                                     <div class="general_card_wraper">
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Eligibility</h4>
                                                 <p class="m-0">
-                                                    Students must meet the eligibility criteria prescribed by SIG and the recruiting organization.
+                                                    Students must meet the eligibility criteria prescribed by SIG and
+                                                    the recruiting organization.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/documen.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/documen.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Placement Registration</h4>
                                                 <p class="m-0">
-                                                    Students participating in placements must complete the prescribed registration and provide accurate information.
+                                                    Students participating in placements must complete the prescribed
+                                                    registration and provide accurate information.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/calendar.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Attendance & Participation</h4>
                                                 <p class="m-0">
-                                                    Students are expected to actively participate in placement activities, assessments, interviews and grooming sessions.
+                                                    Students are expected to actively participate in placement
+                                                    activities, assessments, interviews and grooming sessions.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/document.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/document.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Recruitment Applications</h4>
                                                 <p class="m-0">
-                                                    Students must review the complete job description, eligibility criteria, location, compensation and other conditions before applying.
+                                                    Students must review the complete job description, eligibility
+                                                    criteria, location, compensation and other conditions before
+                                                    applying.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/group.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/group.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Professional Conduct</h4>
                                                 <p class="m-0">
-                                                    Students are expected to maintain punctuality, appropriate professional attire, respectful communication and professional behaviour throughout the recruitment process.
+                                                    Students are expected to maintain punctuality, appropriate
+                                                    professional attire, respectful communication and professional
+                                                    behaviour throughout the recruitment process.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/checked.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Integrity</h4>
                                                 <p class="m-0">
-                                                    Students must provide accurate information regarding their academic qualifications, projects, internships, certifications, technical skills and other credentials.
+                                                    Students must provide accurate information regarding their academic
+                                                    qualifications, projects, internships, certifications, technical
+                                                    skills and other credentials.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/graduate.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/graduate.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Withdrawal</h4>
                                                 <p class="m-0">
-                                                    Students should not withdraw from a recruitment process after being shortlisted or after student details have been shared with the recruiter, except under circumstances permitted by the Placement Team.
+                                                    Students should not withdraw from a recruitment process after being
+                                                    shortlisted or after student details have been shared with the
+                                                    recruiter, except under circumstances permitted by the Placement
+                                                    Team.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/user.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/user.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">One Student – One Offer</h4>
                                                 <p class="m-0">
-                                                    SIG follows a one-student-one-offer principle, subject to the provisions and exceptions specified in the prevailing Placement Policy.
+                                                    SIG follows a one-student-one-offer principle, subject to the
+                                                    provisions and exceptions specified in the prevailing Placement
+                                                    Policy.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/clipboard.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/clipboard.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Recruiter-Specific Requirements</h4>
                                                 <p class="m-0">
-                                                    Students must comply with additional eligibility or selection conditions specified by individual recruiters.
+                                                    Students must comply with additional eligibility or selection
+                                                    conditions specified by individual recruiters.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="general_card_listing">
                                             <div class="general_card_icon">
-                                                <img src="{{ asset('assets/images/programmes/icon/responsibility.svg') }}" alt="Icon" class="img-fluid">
+                                                <img src="{{ asset('assets/images/programmes/icon/responsibility.svg') }}"
+                                                    alt="Icon" class="img-fluid">
                                             </div>
                                             <div class="general_card_conent">
                                                 <h4 class="general_card_heading">Student Responsibility</h4>
                                                 <p class="m-0">
-                                                    Students are expected to take ownership of their placement preparation and regularly engage with placement communications and activities.
+                                                    Students are expected to take ownership of their placement
+                                                    preparation and regularly engage with placement communications and
+                                                    activities.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="fees_notebox">
-                                    <strong>Important:</strong> The detailed Placement Policy issued by SIG will prevail in case of any ambiguity. The policy may be revised from time to time based on academic, administrative and industry requirements.
+                                    <strong>Important:</strong> The detailed Placement Policy issued by SIG will prevail
+                                    in case of any ambiguity. The policy may be revised from time to time based on
+                                    academic, administrative and industry requirements.
                                 </div>
                             </div>
                         </div>

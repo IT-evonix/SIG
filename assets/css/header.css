@@ -701,6 +701,10 @@ body.header-sticky-active {
 
 @media (max-width: 1440px) {
 
+    .header {
+        gap: 12px;
+    }
+
     body {
         font-size: 14px;
     }
@@ -714,7 +718,7 @@ body.header-sticky-active {
     }
 
     .header_logo img {
-        max-width: 260px;
+        max-width: 250px;
     }
 
     .top_heading {

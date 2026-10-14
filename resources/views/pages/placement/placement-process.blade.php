@@ -47,7 +47,16 @@ placement opportunities. Get more details here.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">Placements at SIG</h3>
                             @include('components.placements-menu')
                         </div>
@@ -55,7 +64,8 @@ placement opportunities. Get more details here.')
                             <div class="placement_process_mainbox">
                                 <h2 class="inner_heading">From Preparation to Placement</h2>
                                 <p>
-                                    SIG follows a structured placement process to ensure that students are adequately prepared before participating in recruitment opportunities.
+                                    SIG follows a structured placement process to ensure that students are adequately
+                                    prepared before participating in recruitment opportunities.
                                 </p>
                                 <div class="how_to_apply_wraper">
                                     <div class="how_to_apply_listing">
@@ -65,14 +75,17 @@ placement opportunities. Get more details here.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p class="m-0">
-                                                Students are introduced to the placement process, eligibility requirements, placement guidelines, recruitment expectations and professional conduct.
+                                                Students are introduced to the placement process, eligibility
+                                                requirements, placement guidelines, recruitment expectations and
+                                                professional conduct.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="how_to_apply_listing">
                                         <div class="how_to_apply_header">
                                             <div class="how_to_apply_header_step">Step 2</div>
-                                            <h2 class="how_to_apply_header_heading">Student Profiling & Resume Building</h2>
+                                            <h2 class="how_to_apply_header_heading">Student Profiling & Resume Building
+                                            </h2>
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p>
@@ -89,7 +102,8 @@ placement opportunities. Get more details here.')
                                                 <li>Relevant extracurricular activities</li>
                                             </ul>
                                             <p class="mb-0 m-2">
-                                                Students are encouraged to customize their resumes according to specific job roles.
+                                                Students are encouraged to customize their resumes according to specific
+                                                job roles.
                                             </p>
                                         </div>
                                     </div>
@@ -100,7 +114,8 @@ placement opportunities. Get more details here.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p>
-                                                Students undergo assessments to evaluate their readiness across areas such as:
+                                                Students undergo assessments to evaluate their readiness across areas
+                                                such as:
                                             </p>
                                             <ul class="custom_listing">
                                                 <li>Aptitude</li>
@@ -111,7 +126,8 @@ placement opportunities. Get more details here.')
                                                 <li>Interview Readiness</li>
                                             </ul>
                                             <p class="mb-0 mt-2">
-                                                The assessment process helps identify individual skill gaps and areas requiring additional preparation.
+                                                The assessment process helps identify individual skill gaps and areas
+                                                requiring additional preparation.
                                             </p>
                                         </div>
                                     </div>
@@ -144,7 +160,8 @@ placement opportunities. Get more details here.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p>
-                                                The Placement Team engages with organizations to understand their talent requirements and identify relevant opportunities for SIG students.
+                                                The Placement Team engages with organizations to understand their talent
+                                                requirements and identify relevant opportunities for SIG students.
                                             </p>
                                             <p>
                                                 Recruiter engagement takes place through:
@@ -167,7 +184,8 @@ placement opportunities. Get more details here.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p>
-                                                Relevant internship and employment opportunities are shared with eligible students.
+                                                Relevant internship and employment opportunities are shared with
+                                                eligible students.
                                             </p>
                                             <p>
                                                 Students are required to carefully review:
@@ -198,7 +216,8 @@ placement opportunities. Get more details here.')
                                                 <li>Q&A interactions</li>
                                             </ul>
                                             <p class="mb-0 m-2">
-                                                This enables students to understand the organization, role, career path and recruitment process.
+                                                This enables students to understand the organization, role, career path
+                                                and recruitment process.
                                             </p>
                                         </div>
                                     </div>
@@ -209,7 +228,8 @@ placement opportunities. Get more details here.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p>
-                                                Depending on the organization and role, the recruitment process may include:
+                                                Depending on the organization and role, the recruitment process may
+                                                include:
                                             </p>
                                             <ul class="custom_listing">
                                                 <li>Aptitude Test</li>
@@ -231,7 +251,9 @@ placement opportunities. Get more details here.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p class="m-0">
-                                                Students selected by organizations are required to submit the relevant selection/offer documentation to the Placement Team within the prescribed timeline.
+                                                Students selected by organizations are required to submit the relevant
+                                                selection/offer documentation to the Placement Team within the
+                                                prescribed timeline.
                                             </p>
                                         </div>
                                     </div>
@@ -242,7 +264,9 @@ placement opportunities. Get more details here.')
                                         </div>
                                         <div class="how_to_apply_body">
                                             <p class="m-0">
-                                                Selected students complete the required formalities with the recruiter and prepare for their transition from campus to the professional workplace.
+                                                Selected students complete the required formalities with the recruiter
+                                                and prepare for their transition from campus to the professional
+                                                workplace.
                                             </p>
                                         </div>
                                     </div>

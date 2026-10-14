@@ -23,7 +23,8 @@ placement opportunities. Get more details here.')
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
                                 <li class="breadcrumb-item">Placements</li>
-                                <li class="breadcrumb-item active" aria-current="page">Grooming & Career Preparation</li>
+                                <li class="breadcrumb-item active" aria-current="page">Grooming & Career Preparation
+                                </li>
                             </ol>
                         </nav>
                     </div>
@@ -47,7 +48,16 @@ placement opportunities. Get more details here.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">Placements at SIG</h3>
                             @include('components.placements-menu')
                         </div>
@@ -59,7 +69,9 @@ placement opportunities. Get more details here.')
                                         At SIG, placement preparation starts well before the recruitment season.
                                     </p>
                                     <p class="m-0">
-                                        Our grooming programme focuses on developing the <strong>knowledge, skills, confidence and professional behaviour</strong> required to succeed in competitive recruitment processes.
+                                        Our grooming programme focuses on developing the <strong>knowledge, skills,
+                                            confidence and professional behaviour</strong> required to succeed in
+                                        competitive recruitment processes.
                                     </p>
                                 </div>
                                 <div class="placement_grooming_secondbox">
@@ -92,7 +104,8 @@ placement opportunities. Get more details here.')
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Technical Skills</h4>
                                                     <p class="m-0">
-                                                        Technical preparation is aligned with the student's programme and career interests.
+                                                        Technical preparation is aligned with the student's programme
+                                                        and career interests.
                                                     </p>
                                                 </div>
                                             </div>
@@ -102,7 +115,8 @@ placement opportunities. Get more details here.')
                                                         alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
-                                                    <h4 class="general_card_heading">Data Science & Spatial Analytics</h4>
+                                                    <h4 class="general_card_heading">Data Science & Spatial Analytics
+                                                    </h4>
                                                     <ul class="custom_listing">
                                                         <li>Python </li>
                                                         <li>SQL </li>
@@ -179,7 +193,8 @@ placement opportunities. Get more details here.')
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Technical Interviews</h4>
                                                     <p>
-                                                        Students participate in technical interview preparation based on their academic programme, technical skill set and target roles.
+                                                        Students participate in technical interview preparation based on
+                                                        their academic programme, technical skill set and target roles.
                                                     </p>
                                                 </div>
                                             </div>
@@ -190,7 +205,8 @@ placement opportunities. Get more details here.')
                                                 </div>
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">HR & Behavioural Interviews</h4>
-                                                    <p>Students are exposed to competency-based and situation-based questions covering:</p>
+                                                    <p>Students are exposed to competency-based and situation-based
+                                                        questions covering:</p>
                                                     <ul class="custom_listing">
                                                         <li>Teamwork </li>
                                                         <li>Leadership </li>
@@ -211,7 +227,8 @@ placement opportunities. Get more details here.')
                                                 </div>
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Mock Assessments</h4>
-                                                    <p>Students participate in simulated recruitment activities including:</p>
+                                                    <p>Students participate in simulated recruitment activities
+                                                        including:</p>
                                                     <ul class="custom_listing">
                                                         <li>Mock Aptitude Tests</li>
                                                         <li>Technical Assessments</li>
@@ -223,14 +240,16 @@ placement opportunities. Get more details here.')
                                             </div>
                                         </div>
                                         <p class="mb-0 mt-3">
-                                            These activities help students identify gaps and improve before participating in actual recruitment processes.
+                                            These activities help students identify gaps and improve before
+                                            participating in actual recruitment processes.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="placement_grooming_thirdbox">
                                     <h2 class="inner_heading">Industry & Alumni Engagement</h2>
                                     <p>
-                                        Placement preparation at SIG is strengthened through interaction with industry professionals, recruiters and alumni.
+                                        Placement preparation at SIG is strengthened through interaction with industry
+                                        professionals, recruiters and alumni.
                                     </p>
                                     <p>
                                         These interactions provide students with practical insights into:

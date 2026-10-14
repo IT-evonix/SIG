@@ -47,7 +47,16 @@ placement opportunities. Get more details here.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner_page_menu_mainbox">
+                        <div class="inner_menu_toggle" onclick="menu()">
+                            <img src="{{ asset('assets/images/programmes/icon/menu.svg') }}" alt="Icon"
+                                class="img-fluid">
+                        </div>
+                        <div class="inner_menu_overlay" onclick="menu()"></div>
                         <div class="inner_page_menu_box">
+                            <div class="inner_menu_closebox" onclick="menu()">
+                                <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
+                                    class="img-fluid">
+                            </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">Placements at SIG</h3>
                             @include('components.placements-menu')
                         </div>
@@ -56,7 +65,8 @@ placement opportunities. Get more details here.')
                                 <div class="for_recruters_firstbox">
                                     <h2 class="inner_heading">Partner With SIG</h2>
                                     <p>
-                                        Looking for skilled professionals in <strong>Geospatial Technology, Data Science, Spatial Analytics and emerging technology domains?</strong>
+                                        Looking for skilled professionals in <strong>Geospatial Technology, Data
+                                            Science, Spatial Analytics and emerging technology domains?</strong>
                                     </p>
                                     <p>
                                         Connect with SIG to explore campus hiring opportunities.
@@ -67,7 +77,8 @@ placement opportunities. Get more details here.')
                                         <div class="general_card_wraper">
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/employee.svg') }}" alt="Icon" class="img-fluid">
+                                                    <img src="{{ asset('assets/images/programmes/icon/employee.svg') }}"
+                                                        alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Full-Time Employment</h4>
@@ -75,7 +86,8 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/briefcase.svg') }}" alt="Icon" class="img-fluid">
+                                                    <img src="{{ asset('assets/images/programmes/icon/briefcase.svg') }}"
+                                                        alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Internships</h4>
@@ -83,7 +95,8 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/growth.svg') }}" alt="Icon" class="img-fluid">
+                                                    <img src="{{ asset('assets/images/programmes/icon/growth.svg') }}"
+                                                        alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Internship + PPO Opportunities</h4>
@@ -91,7 +104,8 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/graduate.svg') }}" alt="Icon" class="img-fluid">
+                                                    <img src="{{ asset('assets/images/programmes/icon/graduate.svg') }}"
+                                                        alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Graduate / Trainee Roles</h4>
@@ -99,7 +113,8 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/opportunity.svg') }}" alt="Icon" class="img-fluid">
+                                                    <img src="{{ asset('assets/images/programmes/icon/opportunity.svg') }}"
+                                                        alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Project-Based Opportunities</h4>
@@ -107,7 +122,8 @@ placement opportunities. Get more details here.')
                                             </div>
                                             <div class="general_card_listing">
                                                 <div class="general_card_icon">
-                                                    <img src="{{ asset('assets/images/programmes/icon/creativity.svg') }}" alt="Icon" class="img-fluid">
+                                                    <img src="{{ asset('assets/images/programmes/icon/creativity.svg') }}"
+                                                        alt="Icon" class="img-fluid">
                                                 </div>
                                                 <div class="general_card_conent">
                                                     <h4 class="general_card_heading">Technical & Research Roles</h4>
@@ -125,7 +141,8 @@ placement opportunities. Get more details here.')
                                                 <h2 class="how_to_apply_header_heading">Share Your Requirement</h2>
                                             </div>
                                             <div class="how_to_apply_body">
-                                                <p class="m-0">Provide the job description, eligibility criteria, location, compensation and selection process.</p>
+                                                <p class="m-0">Provide the job description, eligibility criteria,
+                                                    location, compensation and selection process.</p>
                                             </div>
                                         </div>
                                         <div class="how_to_apply_listing">
@@ -134,7 +151,8 @@ placement opportunities. Get more details here.')
                                                 <h2 class="how_to_apply_header_heading">Role Discussion</h2>
                                             </div>
                                             <div class="how_to_apply_body">
-                                                <p class="m-0">The Placement Team discusses the requirement and identifies suitable student cohorts.</p>
+                                                <p class="m-0">The Placement Team discusses the requirement and
+                                                    identifies suitable student cohorts.</p>
                                             </div>
                                         </div>
                                         <div class="how_to_apply_listing">
@@ -143,7 +161,8 @@ placement opportunities. Get more details here.')
                                                 <h2 class="how_to_apply_header_heading">Student Profiles</h2>
                                             </div>
                                             <div class="how_to_apply_body">
-                                                <p class="m-0">Eligible student profiles are shared as per the recruiter's requirements.</p>
+                                                <p class="m-0">Eligible student profiles are shared as per the
+                                                    recruiter's requirements.</p>
                                             </div>
                                         </div>
                                         <div class="how_to_apply_listing">
@@ -152,7 +171,8 @@ placement opportunities. Get more details here.')
                                                 <h2 class="how_to_apply_header_heading">Recruitment Process</h2>
                                             </div>
                                             <div class="how_to_apply_body">
-                                                <p class="m-0">Pre-placement interaction, assessment, GD and/or interviews are conducted as applicable.</p>
+                                                <p class="m-0">Pre-placement interaction, assessment, GD and/or
+                                                    interviews are conducted as applicable.</p>
                                             </div>
                                         </div>
                                         <div class="how_to_apply_listing">
@@ -170,7 +190,8 @@ placement opportunities. Get more details here.')
                                                 <h2 class="how_to_apply_header_heading">Offer & Onboarding</h2>
                                             </div>
                                             <div class="how_to_apply_body">
-                                                <p class="m-0">Offer documentation and subsequent joining formalities are coordinated.</p>
+                                                <p class="m-0">Offer documentation and subsequent joining formalities
+                                                    are coordinated.</p>
                                             </div>
                                         </div>
                                     </div>

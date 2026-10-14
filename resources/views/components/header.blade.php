@@ -18,7 +18,7 @@
                 <div class="col-lg-12">
                     <div class="header">
                         <div class="header_logo">
-                            <a href="">
+                            <a href="{{ route('index') }}">
                                 <img src="{{ asset('assets/images/home/header-logo.webp') }}" alt="SIG Logo"
                                     class="img-fluid">
                             </a>

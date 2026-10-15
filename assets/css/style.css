@@ -3451,14 +3451,14 @@ table th {
     position: relative;
 }
 
-.about_us_first_section::after {
+/* .about_us_first_section::after {
     content: url('../images/about/about-background-image.webp');
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
     opacity: 0.8;
-}
+} */
 
 .about_us_first_mainbox {
     display: grid;
@@ -3579,6 +3579,96 @@ table th {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 50px;
+}
+
+.vision_mission_mainbox {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 60px;
+}
+
+.vision_mission_heading {
+    font-size: 22px;
+    position: relative;
+    font-family: var(--font-roboto-600);
+    padding: 0 0 10px 0;
+    margin: 0 0 20px 0;
+}
+
+.vision_mission_heading::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    border-radius: 20px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--red-color);
+}
+
+.vission_mission_section {
+    padding: 0 0 80px 0;
+    position: relative;
+}
+
+.vission_mission_section::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-image: url(../images/about/wave-line-background.webp);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.15;
+}
+
+.vision_content {
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+}
+
+.vision_imgbox img {
+  border-radius: 20px 20px 0 0;
+}
+
+.vision_mission_leftbox {
+    box-shadow: 2px 4px 16px #dedede;
+    border-radius: 20px;
+    background-color: #F3F7FB;
+}
+
+.mission_box_wraper {
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 234, 235, 0.8) 100%);
+    box-shadow: 2px 4px 16px #dedede;
+    padding: 30px;
+}
+
+.vision_mission_right {
+    display: grid;
+}
+
+.vision_mission_right > * {
+    grid-area: 1/1;
+}
+
+.vision_mission_right_background {
+    align-self: center;
+    justify-self: end;
+    width: auto;
+    height: 100%;
+    opacity: 0.08;
+}
+
+.vision_mission_right_background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 20px 20px 0;
 }
 
 /* ABOUT US PAGE ENDS */

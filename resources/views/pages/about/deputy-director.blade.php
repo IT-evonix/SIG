@@ -9,8 +9,10 @@ extensive experience & academic background in Geospatial Technology.')
 <div class="inner_banner_section">
     <div class="inner_banner_imgbox">
         <div class="banner_imgbox">
-            <img src="{{ asset('assets/images/inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid inner_desktop_banner_image">
-            <img src="{{ asset('assets/images/mobile-inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid inner_mobile_banner_image">
+            <img src="{{ asset('assets/images/inner-banner.webp') }}" alt="Inner Banner Image"
+                class="img-fluid inner_desktop_banner_image">
+            <img src="{{ asset('assets/images/mobile-inner-banner.webp') }}" alt="Inner Banner Image"
+                class="img-fluid inner_mobile_banner_image">
         </div>
     </div>
     <div class="inner_banner_overlay_box"></div>
@@ -38,7 +40,7 @@ extensive experience & academic background in Geospatial Technology.')
 
 @section('content')
 
-<main class="about_main">
+<main class="about_main deputy_director_main">
     <section class="director_first_section">
         <div class="director_first_backgroundbox">
             <div class="director_first_backgroundbox_left"></div>
@@ -49,14 +51,13 @@ extensive experience & academic background in Geospatial Technology.')
                 <div class="col-lg-12">
                     <div class="director_mainbox">
                         <div class="director_imgbox">
-                            <img src="{{ asset('assets/images/user.webp') }}" alt="Director image"
-                                class="img-fluid">
+                            <img src="{{ asset('assets/images/about/deputy-director.webp') }}" alt="Director image" class="img-fluid">
                         </div>
                         <div class="director_content_box">
                             <h3 class="director_designation">
                                 <span>Message from the Deputy Director</span>
                             </h3>
-                            <h2 class="director_name">Lorem ipsum dolor</h2>
+                            <h2 class="director_name">Dr. Vidya Patkar</h2>
                             <p>
                                 Welcome to the Symbiosis Institute of Geoinformatics (SIG), where geospatial knowledge
                                 combined with Data Science, technology, and innovation come together to address the
@@ -73,32 +74,6 @@ extensive experience & academic background in Geospatial Technology.')
                             <div class="director_contact_wrapper">
                                 <div class="director_contact_listing">
                                     <div class="director_contact_icon">
-                                        <svg width="18" height="18" x="0" y="0" viewBox="0 0 682.667 682.667">
-                                            <g>
-                                                <defs>
-                                                    <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                                                        <path d="M0 512h512V0H0Z" fill="#ffffff" opacity="1"
-                                                            data-original="#000000"></path>
-                                                    </clipPath>
-                                                </defs>
-                                                <g clip-path="url(#a)"
-                                                    transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
-                                                    <path
-                                                        d="M0 0a128.55 128.55 0 0 1-90.889-37.646 128.55 128.55 0 0 1-37.644-90.887C-128.533-323.748 29.716-482 224.934-482a128.55 128.55 0 0 1 90.888 37.646 128.55 128.55 0 0 1 37.645 90.887L192.8-289.2l-32.133-80.333h-.017c-97.596 0-176.716 79.118-176.716 176.717v.016l80.333 32.133z"
-                                                        style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                                        transform="translate(143.533 497)" fill="none" stroke="#ffffff"
-                                                        stroke-width="30" stroke-linecap="round" stroke-linejoin="round"
-                                                        stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
-                                                        data-original="#000000" opacity="1"></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <a class="director_contact_link" href="tel:+02025672842">020 - 25672842</a>
-                                </div>
-                                <div class="director_contact_devider"></div>
-                                <div class="director_contact_listing">
-                                    <div class="director_contact_icon">
                                         <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
                                             <g>
                                                 <path
@@ -109,7 +84,7 @@ extensive experience & academic background in Geospatial Technology.')
                                         </svg>
                                     </div>
                                     <a class="director_contact_link"
-                                        href="mailto:+director@sig.ac.in">director@sig.ac.in</a>
+                                        href="mailto:deputydirector@sig.ac.in">deputydirector@sig.ac.in</a>
                                 </div>
                             </div>
                         </div>

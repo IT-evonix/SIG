@@ -3441,6 +3441,10 @@ table th {
   margin: 60px 0 80px 0;
 }
 
+.deputy_director_main .director_contact_wrapper {
+    grid-template-columns: 1fr;
+}
+
 /* DIRECTR PAGE ENDS */
 
 /* ABOUT US PAGE START */

@@ -108,7 +108,7 @@
                                         </svg>
                                     </div>
                                     <a class="director_contact_link"
-                                        href="mailto:+director@sig.ac.in">director@sig.ac.in</a>
+                                        href="mailto:director@sig.ac.in">director@sig.ac.in</a>
                                 </div>
                             </div>
                         </div>

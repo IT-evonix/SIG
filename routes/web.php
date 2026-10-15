@@ -6,6 +6,10 @@ Route::view('/', 'pages.index')->name('index');
 
 // ABOUT START -------------------------------------------------------
 
+Route::get('/about-us', function () {
+    return view('pages.about.about-us');
+})->name('pages.about.about-us');
+
 Route::get('/director', function () {
     return view('pages.about.director');
 })->name('pages.about.director');
@@ -13,7 +17,6 @@ Route::get('/director', function () {
 Route::get('/deputy-director', function () {
     return view('pages.about.deputy-director');
 })->name('pages.about.deputy-director');
-
 
 // ABOUT ENDS -------------------------------------------------------
 
@@ -106,6 +109,10 @@ Route::get('/student-success-stories', function () {
 Route::get('/placement-faq', function () {
     return view('pages.placement.placement-faq');
 })->name('pages.placement.placement-faq');
+
+Route::get('/placement-contact', function () {
+    return view('pages.placement.placement-contact');
+})->name('pages.placement.placement-contact');
 
 // PLACEMENT ENDS ---------------------------------------------------
 

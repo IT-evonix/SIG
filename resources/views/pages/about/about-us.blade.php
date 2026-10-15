@@ -146,6 +146,52 @@ own career paths in these dynamic fields.')
             </div>
         </div>
     </section>
+    <section class="vission_mission_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="vision_mission_mainbox">
+                        <div class="vision_mission_leftbox">
+                            <div class="vision_imgbox">
+                                <img src="{{ asset('assets/images/about/vision-image.webp') }}" alt="Vision image"
+                                    class="img-fluid">
+                            </div>
+                            <div class="vision_content">
+                                <h3 class="vision_mission_heading">Our Vision</h3>
+                                <p class="m-0 vision_para">
+                                    Promoting international understanding through quality education
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vision_mission_right">
+                            <div class="vision_mission_right_background">
+                                <img src="{{ asset('assets/images/programmes/contact-programmes-about-image.webp') }}"
+                                    alt="SIG image" class="img-fluid">
+                            </div>
+                            <div class="mission_box_wraper">
+                                <h3 class="vision_mission_heading">Our Mission</h3>
+                                <ul class="custom_listing">
+                                    <li>To inculcate the spirit of 'Vasudhaiva Kutumbakam' (the world is one family)
+                                    </li>
+                                    <li>To contribute towards knowledge generation and dissemination</li>
+                                    <li>To promote ethical and value-based learning</li>
+                                    <li>To foster the spirit of national development</li>
+                                    <li>To inculcate cross-cultural sensitization</li>
+                                    <li>To develop global competencies amongst students</li>
+                                    <li>To nurture creativity and encourage entrepreneurship</li>
+                                    <li>To enhance employability and contribute to human resource development</li>
+                                    <li>To promote health and wellness amongst students, staff and the community</li>
+                                    <li>To instil sensitivity amongst the youth towards the community and environment
+                                    </li>
+                                    <li>To produce thought provoking leaders for the society</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 @endsection

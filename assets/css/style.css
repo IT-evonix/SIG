@@ -2634,8 +2634,8 @@ table th {
 .pdf_card_list::after {
   content: "";
   position: absolute;
-  right: -15px;
-  top: -15px;
+  right: -18px;
+  top: -18px;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -3258,8 +3258,21 @@ table th {
 
 
 .premium-faq-item:not(.active) .premium-faq-question:hover .premium-faq-index {
-
   color: #111;
+}
+
+.placement_contact_mainbox .admission_contact_detail_header_heading {
+    font-size: 18px;
+    margin: 0 0 4px 0;
+}
+
+.placement_contact_designation {
+    margin: 0 0 15px 0;
+}
+
+.placement_contact_mainbox .admission_contact_detailbox {
+  width: fit-content;
+  padding: 30px;
 }
 
 /* PLACEMENT PAGE ENDS */
@@ -3430,6 +3443,146 @@ table th {
 
 /* DIRECTR PAGE ENDS */
 
+/* ABOUT US PAGE START */
+
+.about_us_first_section {
+    padding: 80px 0 40px 0;
+    /* background-color: var(--red-background-color); */
+    position: relative;
+}
+
+.about_us_first_section::after {
+    content: url('../images/about/about-background-image.webp');
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.about_us_first_mainbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about_us_first_left {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 20px;
+}
+
+.about_us_usp_icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.about_us_usp_wraper {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--icon-color);
+    padding: 10px;
+    transform: translateX(50px);
+    border-radius: 12px;
+    align-self: center;
+    margin: 0 0 40px 0;;
+}
+
+.about_us_first_img_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_us_usp_count {
+    font-size: 35px;
+    font-family: var(--font-roboto-900);
+}
+
+.about_us_usp_heading {
+    font-size: 14px;
+    font-family: var(--font-roboto-600);
+    color: #666;
+}
+
+.about_us_first_card_icon {
+  width: 30px;
+  height: 30px;
+  background-color: var(--icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px dashed var(--red-color);
+  
+}
+.about_us_first_card_icon img {
+  width: 18px;
+  height: 18px;
+}
+
+.about_us_first_card_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5px 1fr;
+    gap: 20px;
+    width: fit-content;
+    background-color: #f4f4f4;
+    padding:18px;
+    border-radius: 12px;
+    margin: 20px 0 0 0;
+}
+
+.about_us_first_card_devider {
+    width: 1.5px;
+    height: 100%;
+    background-color: #dedede;
+}
+
+.about_us_first_card_listing {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.about_us_first_card_heading {
+  font-size: 16px;
+  font-family: var(--font-roboto-600);
+}
+
+.about_us_first_img img,
+.about_us_second_img_box img {
+  border-radius: 12px;
+}
+
+.about_us_first_img {
+    position: relative;
+}
+
+.about_us_first_img::after {
+    position: absolute;
+    content: "";
+    right: -40px;
+    bottom: -40px;
+    width: 60%;
+    height: 60%;
+    border: 4px solid var(--red-color);
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.about_us_second_listing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+/* ABOUT US PAGE ENDS */
+
 /* Inner menu responsive start */
 
 .inner_menu_toggle,
@@ -3559,6 +3712,11 @@ table th {
   .director_first_backgroundbox {
     grid-template-columns: 0.75fr 1fr;
   }
+
+  .student_success_storis_image::after {
+    right: -10px;
+    top: -10px;
+}
 
 }
 
@@ -3808,6 +3966,10 @@ table th {
   .faculty_profile_mainbox {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .placement_heigh_firstbox_counter {
+    font-size: 40px;
+}
 }
 
 @media (max-width: 991.98px) {
@@ -4057,9 +4219,9 @@ table th {
     grid-template-columns: repeat(5, 1fr);
   }
 
-  .premium-faq-section {
+  /* .premium-faq-section {
     padding: 50px 0;
-  }
+  } */
 
   .premium-faq-question {
     grid-template-columns: 40px 1fr 45px;
@@ -4151,7 +4313,8 @@ table th {
 }
 
 .how_to_apply_header_step {
-    font-size: 16px;
+    font-size: 14px;
+    padding: 10px 35px 10px 20px;
 }
 
 .admission_contact_first_wraper {
@@ -4169,6 +4332,37 @@ table th {
 
 .admission_contact_mainbox .email_mainbox:last-child {
   margin: 0;
+}
+
+.placement_overview_listing {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.placement_overview_listing:nth-child(even) .placement_overview_listing_img {
+    grid-column: unset;
+}
+
+.placement_overview_listing:nth-child(even) .placement_overview_listing_conent {
+    grid-column: unset;
+    grid-row: unset;
+}
+
+.placement_heigh_firstbox_counter {
+    font-size: 25px;
+}
+
+.placement_heigh_firstbox_text {
+    font-size: 16px;
+}
+
+.student_success_storis_mainbox {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.student_success_storis_image {
+    margin: 20px auto 0 auto;
 }
 
 }
@@ -4474,7 +4668,7 @@ table th {
 }
 
 .how_to_apply_header_heading {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .how_to_apply_header {
@@ -4491,6 +4685,53 @@ table th {
 .admission_contact_first_heading,
 .sholarships_heading {
     font-size: 18px;
+}
+
+.placement_contact_mainbox .admission_contact_detailbox {
+  width: 100%;
+  padding: 20px;
+}
+
+.placement_grooming_mainbox {
+    gap: 40px;
+}
+
+.general_card_heading {
+    font-size: 16px;
+}
+
+.placement_heigh_firstbox {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.placement_heigh_firstbox_devider {
+    width: 100%;
+    height: 2px;
+}
+
+.placement_heigh_secondbox {
+    margin: 40px 0;
+}
+
+.for_recruters_mainbox {
+    gap: 40px;
+}
+
+.student_success_storis_packagebox {
+    right: -18px;
+}
+
+.student_success_storis_wraper {
+    grid-template-columns: 1fr;
+}
+
+.premium-faq-heading {
+    font-size: 16px;
+}
+
+.premium-faq-answer p {
+    font-size: 14px;
 }
 
 }

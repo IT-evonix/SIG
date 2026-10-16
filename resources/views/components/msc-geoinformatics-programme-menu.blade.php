@@ -32,7 +32,8 @@
         </div>
         <div class="inner_page_menu_text">Programme structure</div>
     </a>
-    <a href="{{ route('pages.coming-soon') }}" class="inner_page_menu_listing">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.stakeholder-feedback') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.stakeholder-feedback') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path

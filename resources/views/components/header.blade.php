@@ -68,10 +68,10 @@
                                                 <li><a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}">M.Sc. Geoinformatics</a></li>
                                                 <li><a href="#">M. Sc. Data Science and Spatial Analytics</a></li>
                                                 <li><a href="#">MSc. Data Science and Spatial Analytics - Dual Degree</a></li>
-                                                <li><a href="#">M.Tech Geoinformatics</a></li>
+                                                <li><a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank">M.Tech Geoinformatics</a></li>
                                                 <li><a href="#">Certificate Course Drone Data Acquisition and Processing</a></li>
                                                 <li><a href="#">Certification in Data Visualization</a></li>
-                                                <li><a href="#">Ph.D. Programme</a></li>
+                                                <li><a href="https://scri.siu.edu.in/" target="_blank">Ph.D. Programme</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="{{ route('pages.placement.placement') }}">Placement</a></li>

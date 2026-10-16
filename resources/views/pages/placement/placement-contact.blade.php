@@ -65,79 +65,91 @@ placement opportunities. Get more details here.')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="placement_contact_mainbox">
-                                <div class="admission_contact_detailbox">
-                                    <h3 class="admission_contact_detail_header_heading">Prashant Parekar</h3>
-                                    <div class="placement_contact_designation">Placement Supervisor</div>
-                                    <div class="admission_contact_detail_wraper">
-                                        <div class="admission_contact_detail_listing">
-                                            <div class="admission_contact_detail_listing_icon">
-                                                <svg width="16" height="16" x="0" y="0" viewBox="0 0 100 100">
-                                                <g>
-                                                    <path
-                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
-                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
-                                                    </path>
-                                                </g>
-                                            </svg>
-                                            </div>
-                                            <div class="admission_contact_detail_listing_text">
-                                                <div class="admission_contact_detail_listing_text_heading">Email
-                                                </div>
-                                                <div class="admission_contact_detail_listing_text_link">
-                                                    <a href="mailto:sigplacement@sig.ac.in">sigplacement@sig.ac.in</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="admission_contact_detail_listing">
-                                            <div class="admission_contact_detail_listing_icon">
-                                                <svg width="16" height="16" x="0" y="0" viewBox="0 0 682.667 682.667">
-                                                    <g>
-                                                        <defs>
-                                                            <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                                                                <path d="M0 512h512V0H0Z" fill="#C4161C" opacity="1"
-                                                                    data-original="#000000"></path>
-                                                            </clipPath>
-                                                        </defs>
-                                                        <g clip-path="url(#a)"
-                                                            transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+                                <div class="placement_contact_leftbox">
+                                    <h2 class="inner_heading">Placement Contact</h2>
+                                    <div class="placement_contact_detailbox">
+                                        <h3 class="placement_contact_detail_header_heading">Prashant Parekar</h3>
+                                        <div class="placement_contact_designation">Placement Supervisor</div>
+                                        <div class="placement_contact_detail_wraper">
+                                            <div class="admission_contact_detail_listing">
+                                                <div class="admission_contact_detail_listing_icon">
+                                                    <svg width="16" height="16" x="0" y="0" viewBox="0 0 100 100">
+                                                        <g>
                                                             <path
-                                                                d="M0 0h-201c-23.472 0-42.5 19.028-42.5 42.5v397.001c0 23.472 19.028 42.5 42.5 42.5H0c23.472 0 42.5-19.028 42.5-42.5V42.5C42.5 19.028 23.472 0 0 0"
-                                                                style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                                                transform="translate(356.5 15)" fill="none"
-                                                                stroke="#C4161C" stroke-width="30"
-                                                                stroke-linecap="round" stroke-linejoin="round"
-                                                                stroke-miterlimit="10" stroke-dasharray="none"
-                                                                stroke-opacity="" data-original="#000000" opacity="1">
-                                                            </path>
-                                                            <path d="M0 0h286"
-                                                                style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                                                transform="translate(113 102)" fill="none"
-                                                                stroke="#C4161C" stroke-width="30"
-                                                                stroke-linecap="round" stroke-linejoin="round"
-                                                                stroke-miterlimit="10" stroke-dasharray="none"
-                                                                stroke-opacity="" data-original="#000000" opacity="1">
-                                                            </path>
-                                                            <path d="M0 0v-2"
-                                                                style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                                                transform="translate(256 60)" fill="none"
-                                                                stroke="#C4161C" stroke-width="30"
-                                                                stroke-linecap="round" stroke-linejoin="round"
-                                                                stroke-miterlimit="10" stroke-dasharray="none"
-                                                                stroke-opacity="" data-original="#000000" opacity="1">
+                                                                d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
+                                                                fill="#c4161c" opacity="1" data-original="#000000"
+                                                                class="">
                                                             </path>
                                                         </g>
-                                                    </g>
-                                                </svg>
-                                            </div>
-                                            <div class="admission_contact_detail_listing_text">
-                                                <div class="admission_contact_detail_listing_text_heading">Mobile
+                                                    </svg>
                                                 </div>
-                                                <div class="admission_contact_detail_listing_text_link">
-                                                    <a href="tel:+918180844831">+91 8180844831</a>
+                                                <div class="admission_contact_detail_listing_text">
+                                                    <div class="admission_contact_detail_listing_text_heading">Email
+                                                    </div>
+                                                    <div class="admission_contact_detail_listing_text_link">
+                                                        <a
+                                                            href="mailto:sigplacement@sig.ac.in">sigplacement@sig.ac.in</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="admission_contact_detail_listing">
+                                                <div class="admission_contact_detail_listing_icon">
+                                                    <svg width="16" height="16" x="0" y="0"
+                                                        viewBox="0 0 682.667 682.667">
+                                                        <g>
+                                                            <defs>
+                                                                <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                                                                    <path d="M0 512h512V0H0Z" fill="#C4161C" opacity="1"
+                                                                        data-original="#000000"></path>
+                                                                </clipPath>
+                                                            </defs>
+                                                            <g clip-path="url(#a)"
+                                                                transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+                                                                <path
+                                                                    d="M0 0h-201c-23.472 0-42.5 19.028-42.5 42.5v397.001c0 23.472 19.028 42.5 42.5 42.5H0c23.472 0 42.5-19.028 42.5-42.5V42.5C42.5 19.028 23.472 0 0 0"
+                                                                    style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                                    transform="translate(356.5 15)" fill="none"
+                                                                    stroke="#C4161C" stroke-width="30"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-miterlimit="10" stroke-dasharray="none"
+                                                                    stroke-opacity="" data-original="#000000"
+                                                                    opacity="1">
+                                                                </path>
+                                                                <path d="M0 0h286"
+                                                                    style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                                    transform="translate(113 102)" fill="none"
+                                                                    stroke="#C4161C" stroke-width="30"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-miterlimit="10" stroke-dasharray="none"
+                                                                    stroke-opacity="" data-original="#000000"
+                                                                    opacity="1">
+                                                                </path>
+                                                                <path d="M0 0v-2"
+                                                                    style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                                    transform="translate(256 60)" fill="none"
+                                                                    stroke="#C4161C" stroke-width="30"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-miterlimit="10" stroke-dasharray="none"
+                                                                    stroke-opacity="" data-original="#000000"
+                                                                    opacity="1">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                                <div class="admission_contact_detail_listing_text">
+                                                    <div class="admission_contact_detail_listing_text_heading">Mobile
+                                                    </div>
+                                                    <div class="admission_contact_detail_listing_text_link">
+                                                        <a href="tel:+918180844831">+91 8180844831</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="placement_contact_right">
+                                    <img src="{{ asset('assets/images/placement/contact-image.webp') }}" alt="Contact image" class="img-fluid">
                                 </div>
                             </div>
                         </div>

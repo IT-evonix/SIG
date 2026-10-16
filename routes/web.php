@@ -46,6 +46,10 @@ Route::get('/fees-structure', function () {
     return view('pages.programmes.msc-geoinformatics.fees-structure');
 })->name('pages.programmes.msc-geoinformatics.fees-structure');
 
+Route::get('/stakeholder-feedback', function () {
+    return view('pages.programmes.msc-geoinformatics.stakeholder-feedback');
+})->name('pages.programmes.msc-geoinformatics.stakeholder-feedback');
+
 Route::get('/programme-structure', function () {
     return view('pages.programmes.msc-geoinformatics.programme-structure');
 })->name('pages.programmes.msc-geoinformatics.programme-structure');

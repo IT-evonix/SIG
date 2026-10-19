@@ -58,7 +58,7 @@ own career paths in these dynamic fields.')
                                             class="img-fluid">
                                     </div>
                                     <div class="about_us_usp_content">
-                                        <div class="about_us_usp_count">100%</div>
+                                        <div class="about_us_usp_count" data-target="100">0%</div>
                                         <div class="about_us_usp_heading">Campus Project & Placement Record*</div>
                                     </div>
                                 </div>

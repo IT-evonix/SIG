@@ -106,38 +106,62 @@ document.querySelectorAll(".submenu-toggle").forEach(toggle => {
 // Header Menu End
 // NUMBER ANIMATION START
 document.addEventListener("DOMContentLoaded", () => {
-    const section = document.querySelector(".legacy_section");
-    const counters = document.querySelectorAll(".legacy_listing_number");
 
-    if (!section || !counters.length) return;
+    const sections = document.querySelectorAll(
+        ".legacy_section, .about_us_first_section"
+    );
 
-    const observer = new IntersectionObserver(([entry]) => {
-        if (!entry.isIntersecting) return;
+    sections.forEach((section) => {
 
-        counters.forEach((counter, i) => {
-            const target = +counter.dataset.target;
-            const duration = 3000;
-            const start = performance.now();
+        const counters = section.querySelectorAll(
+            ".legacy_listing_number, .about_us_usp_count"
+        );
 
-            setTimeout(() => {
-                const update = (time) => {
-                    const progress = Math.min((time - start) / duration, 1);
-                    const eased = 1 - Math.pow(1 - progress, 3);
+        if (!counters.length) return;
 
-                    counter.textContent =
-                        Math.floor(target * eased).toLocaleString() + "+";
+        const observer = new IntersectionObserver(([entry]) => {
 
-                    if (progress < 1) requestAnimationFrame(update);
-                };
+            if (!entry.isIntersecting) return;
 
-                requestAnimationFrame(update);
-            }, i * 100);
-        });
+            counters.forEach((counter, i) => {
 
-        observer.disconnect();
-    }, { threshold: 0.3 });
+                const target = Number(counter.dataset.target);
+                const duration = 3000;
+                const start = performance.now();
 
-    observer.observe(section);
+                setTimeout(() => {
+
+                    const update = (time) => {
+
+                        const progress = Math.min(
+                            (time - start) / duration,
+                            1
+                        );
+
+                        const eased = 1 - Math.pow(1 - progress, 3);
+
+                        counter.textContent =
+                            Math.floor(target * eased).toLocaleString() + "+";
+
+                        if (progress < 1) {
+                            requestAnimationFrame(update);
+                        }
+                    };
+
+                    requestAnimationFrame(update);
+
+                }, i * 100);
+
+            });
+
+            observer.disconnect();
+
+        }, { threshold: 0.3 });
+
+        observer.observe(section);
+
+    });
+
 });
 // NUMBER ANIMATION ENDS
 

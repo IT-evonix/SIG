@@ -41,8 +41,9 @@
                                         <a href="tel:+02025672841">020: 25672841</a> / <a href="tel:+02025672843">43</a>
                                     </div>
                                     <div class="footer_content_second">
-                                        <a href="tel:+917709998185">+91 7709998185</a> / <a href="tel:+917709998185">+91
-                                            7709998185</a>
+                                        <a href="tel:+917709998185">+91 7709998185</a> 
+                                        <!-- / <a href="tel:+917709998185">+91
+                                            7709998185</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -225,3 +226,91 @@
         </div>
     </div>
 </div>
+
+<!-- popup model on top header start -->
+
+<!-- Popup Trigger Button -->
+<div class="top_header_popup">
+    <!-- Modal -->
+    <div class="modal fade top_header_popup_modal" id="topHeaderModal" tabindex="-1"
+        aria-labelledby="topHeaderModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content top_header_popup_content">
+                <!-- Modal Header -->
+                <div class="top_header_popup_header">
+                    <div class="top_header_popup_heading">
+                        Admissions Registration 2027
+                    </div>
+                    <button type="button" class="top_header_popup_close" data-bs-dismiss="modal" aria-label="Close">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                            <path d="m18 6-12 12" />
+                            <path d="m6 6 12 12" />
+                        </svg>
+
+                    </button>
+                </div>
+
+                <div class="top_header_popup_body">
+                    <div class="table-responsive">
+                        <table class="table mb-0 fee_table">
+                            <thead>
+                                <tr>
+                                    <th>Program</th>
+                                    <th width="22%">Registration Link (URL)</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>M.Sc. Geoinformatics</td>
+                                    <td>
+                                        <div class="my_btn_box">
+                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M.Sc. Data Science & Spatial Analytics</td>
+                                    <td>
+                                        <div class="my_btn_box">
+                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M.Tech. Geoinformatics</td>
+                                    <td>
+                                        <div class="my_btn_box">
+                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="top_header_table_content_wraper">
+                                            <div class="top_header_table_content_heading">
+                                                M.Sc. Data Science & Spatial Analytics- Dual Degree Programme
+                                            </div>
+                                            <div class="top_header_table_content_subheading">
+                                                (M.Sc. in Data Science & Spatial Analytics — Year 1 at Symbiosis International (Deemed University) , India and Master of Science Degree – Technical Systems Control – Artificial Intelligence and Space Science — Year 2 at RUDN University, Moscow, Russia)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="my_btn_box">
+                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- popup model on top header ends -->

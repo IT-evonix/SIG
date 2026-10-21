@@ -3372,6 +3372,21 @@ table th {
   opacity: 0.4;
 }
 
+.director_first_section::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-image: url("../images/about/wave-line-background.webp");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
 .director_first_section>* {
   grid-area: 1/1;
 }
@@ -3395,14 +3410,27 @@ table th {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
   gap: 80px;
-  align-items: center;
+  align-items: end;
+  position: relative;
 }
 
-.director_content_box {
+.director_mainbox::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    background-image: url("../images/programmes/icon/quot.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+}
+
+/* .director_content_box {
   padding: 40px;
   background-color: #F2F3F5;
   border-radius: 30px;
-}
+} */
 
 .director_designation {
   text-transform: uppercase;
@@ -3485,7 +3513,8 @@ table th {
 }
 
 .director_imgbox {
-  padding: 0 80px 0 0;
+  /* padding: 0 80px 0 0; */
+  padding: 0 80px 40px 0;
   position: relative;
 }
 
@@ -3507,10 +3536,10 @@ table th {
 }
 
 .director_second_maonbox {
-  padding: 40px;
-  border-radius: 30px;
-  background-color: var(--red-background-color);
-  margin: 60px 0 80px 0;
+  /* padding: 40px; */
+  /* border-radius: 30px; */
+  /* background-color: var(--red-background-color); */
+  margin: 30px 0 80px 0;
 }
 
 .director_contact_wrapper {
@@ -3809,12 +3838,17 @@ table th {
 
   .director_mainbox {
     grid-template-columns: 0.7fr 1fr;
-    align-items: start;
+    /* align-items: start; */
   }
 
   .director_first_backgroundbox {
     grid-template-columns: 0.65fr 1fr;
   }
+
+  .director_mainbox::after {
+    width: 100px;
+    height: 100px;
+}
 }
 
 @media (max-width: 1400px) {
@@ -3907,7 +3941,7 @@ table th {
 
   .director_mainbox {
     grid-template-columns: 0.8fr 1fr;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .director_first_backgroundbox {
@@ -3931,6 +3965,11 @@ table th {
   .blog_program_imgbox {
     width: 130px;
     height: 130px;
+  }
+
+    .director_mainbox::after {
+      width: 60px;
+      height: 60px;
   }
 
 }

@@ -1,5 +1,6 @@
 <div class="top_header_wrap">
-    <div class="top_header">
+    <!-- top header with scrolling button animation start -->
+    <!-- <div class="top_header">
         <a href="#" target="_blank" class="top_header_listing">Symbiosis Institute of Geoinformatics (SIG)</a>
         <a href="#" target="_blank" class="top_header_listing">Symbiosis Institute of Geoinformatics (SIG)</a>
         <a href="#" target="_blank" class="top_header_listing">Symbiosis Institute of Geoinformatics (SIG)</a>
@@ -8,7 +9,15 @@
         <a href="#" target="_blank" class="top_header_listing">Symbiosis Institute of Geoinformatics (SIG)</a>
         <a href="#" target="_blank" class="top_header_listing">Symbiosis Institute of Geoinformatics (SIG)</a>
         <a href="#" target="_blank" class="top_header_listing">Symbiosis Institute of Geoinformatics (SIG)</a>
+    </div> -->
+    <!-- top header with scrolling button animation ends -->
+
+    <!-- top header without scrolling button animation start -->
+     <div class="top_header_without_scrolling">
+        <a href="#" target="_blank" class="top_header_listing top_header_popup_trigger" data-bs-toggle="modal"
+        data-bs-target="#topHeaderModal">Admission Open 2027</a>
     </div>
+    <!-- top header without scrolling button animation ends -->
 </div>
 <section class="hero_section">
     @yield('banner')

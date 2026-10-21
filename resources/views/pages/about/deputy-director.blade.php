@@ -71,22 +71,13 @@ extensive experience & academic background in Geospatial Technology.')
                                 such as Artifical Intelligence, Geospatial Artificial Intelligence (GeoAI), spatial data
                                 science, digital technologies, and intelligent geospatial applications.
                             </p>
-                            <div class="director_contact_wrapper">
-                                <div class="director_contact_listing">
-                                    <div class="director_contact_icon">
-                                        <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
-                                            <g>
-                                                <path
-                                                    d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
-                                                    fill="#ffffff" opacity="1" data-original="#000000" class="">
-                                                </path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <a class="director_contact_link"
-                                        href="mailto:deputydirector@sig.ac.in">deputydirector@sig.ac.in</a>
-                                </div>
-                            </div>
+                            <p class="m-0">
+                                Our programmes are designed to provide students with a strong foundation in currculum
+                                concepts while developing their analytical, technological, and problem-solving capabilities.
+                                Through experiential learning, industry interaction, field-based activities, research, and
+                                interdisciplinary collaboration, we strive to prepare our students to meet the evolving
+                                needs of academia, industry, government, and society.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -99,13 +90,6 @@ extensive experience & academic background in Geospatial Technology.')
                 <div class="col-lg-12">
                     <div class="director_second_maonbox">
                         <p>
-                            Our programmes are designed to provide students with a strong foundation in currculum
-                            concepts while developing their analytical, technological, and problem-solving capabilities.
-                            Through experiential learning, industry interaction, field-based activities, research, and
-                            interdisciplinary collaboration, we strive to prepare our students to meet the evolving
-                            needs of academia, industry, government, and society.
-                        </p>
-                        <p>
                             Research and innovation remain central to our vision. We encourage our students and faculty
                             to explore emerging technologies, undertake meaningful research, collaborate with industry
                             and academic institutions, and translate knowledge into solutions with real-world impact.
@@ -117,10 +101,26 @@ extensive experience & academic background in Geospatial Technology.')
                             partners to be part of our journey towards shaping a smarter, more sustainable, and
                             spatially enabled future.
                         </p>
-                        <p class="m-0">
+                        <p>
                             Welcome to SIG—where geospatial knowledge empowers informed decisions and meaningful
                             change.
                         </p>
+                        <div class="director_contact_wrapper">
+                            <div class="director_contact_listing">
+                                <div class="director_contact_icon">
+                                    <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
+                                        <g>
+                                            <path
+                                                d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class="">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <a class="director_contact_link"
+                                    href="mailto:deputydirector@sig.ac.in">deputydirector@sig.ac.in</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -70,6 +70,93 @@ Route::get('/admission-contact', function () {
     return view('pages.programmes.msc-geoinformatics.admission-contact');
 })->name('pages.programmes.msc-geoinformatics.admission-contact');
 
+// Msc dual degree start
+Route::get('/msc-in-dssa-dual-degree', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree');
+})->name('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree');
+
+Route::get('/dssa-dual-degree-programme-outcome', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.programme-outcome');
+})->name('pages.programmes.msc-dssa-dual-degree.programme-outcome');
+
+Route::get('/dssa-dual-degree-eligibility-criteria', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.eligibility-criteria');
+})->name('pages.programmes.msc-dssa-dual-degree.eligibility-criteria');
+
+Route::get('/dssa-dual-degree-fees-structure', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.fees-structure');
+})->name('pages.programmes.msc-dssa-dual-degree.fees-structure');
+
+Route::get('/dssa-dual-degree-stakeholder-feedback', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.stakeholder-feedback');
+})->name('pages.programmes.msc-dssa-dual-degree.stakeholder-feedback');
+
+Route::get('/dssa-dual-degree-programme-structure', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.programme-structure');
+})->name('pages.programmes.msc-dssa-dual-degree.programme-structure');
+
+Route::get('/dssa-dual-degree-admission-calendar', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.admission-calendar');
+})->name('pages.programmes.msc-dssa-dual-degree.admission-calendar');
+
+Route::get('/dssa-dual-degree-how-to-apply', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.how-to-apply');
+})->name('pages.programmes.msc-dssa-dual-degree.how-to-apply');
+
+Route::get('/dssa-dual-degree-scholarships', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.scholarships');
+})->name('pages.programmes.msc-dssa-dual-degree.scholarships');
+
+Route::get('/dssa-dual-degree-admission-contact', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.admission-contact');
+})->name('pages.programmes.msc-dssa-dual-degree.admission-contact');
+
+// Msc dual degree end
+
+// msc dssa start
+
+Route::get('/msc-in-dssa', function () {
+    return view('pages.programmes.msc-dssa.msc-in-dssa');
+})->name('pages.programmes.msc-dssa.msc-in-dssa');
+
+Route::get('/dssa-programme-outcome', function () {
+    return view('pages.programmes.msc-dssa.programme-outcome');
+})->name('pages.programmes.msc-dssa.programme-outcome');
+
+Route::get('/dssa-eligibility-criteria', function () {
+    return view('pages.programmes.msc-dssa.eligibility-criteria');
+})->name('pages.programmes.msc-dssa.eligibility-criteria');
+
+Route::get('/dssa-fees-structure', function () {
+    return view('pages.programmes.msc-dssa.fees-structure');
+})->name('pages.programmes.msc-dssa.fees-structure');
+
+Route::get('/dssa-stakeholder-feedback', function () {
+    return view('pages.programmes.msc-dssa.stakeholder-feedback');
+})->name('pages.programmes.msc-dssa.stakeholder-feedback');
+
+Route::get('/dssa-programme-structure', function () {
+    return view('pages.programmes.msc-dssa.programme-structure');
+})->name('pages.programmes.msc-dssa.programme-structure');
+
+Route::get('/dssa-admission-calendar', function () {
+    return view('pages.programmes.msc-dssa.admission-calendar');
+})->name('pages.programmes.msc-dssa.admission-calendar');
+
+Route::get('/dssa-how-to-apply', function () {
+    return view('pages.programmes.msc-dssa.how-to-apply');
+})->name('pages.programmes.msc-dssa.how-to-apply');
+
+Route::get('/dssa-scholarships', function () {
+    return view('pages.programmes.msc-dssa.scholarships');
+})->name('pages.programmes.msc-dssa.scholarships');
+
+Route::get('/dssa-admission-contact', function () {
+    return view('pages.programmes.msc-dssa.admission-contact');
+})->name('pages.programmes.msc-dssa.admission-contact');
+
+// msc dssa end
+
 // PROGRAMMES MENU ENDS ---------------------------------------------------
 
 // PLACEMENT START ---------------------------------------------------
@@ -132,6 +219,14 @@ Route::get('/blog-detail', function () {
 
 // BLOG ENDS ---------------------------------------------------
 
+// STUDENT CORNER START -------------------------------------------
+
+Route::get('/student-corner', function () {
+    return view('pages.student-corner');
+})->name('pages.student-corner');
+
+// STUDENT CORNER ENDS --------------------------------------------
+
 Route::get('/faculty-profile', function () {
     return view('pages.faculty-profile');
 })->name('pages.faculty-profile');
@@ -140,3 +235,7 @@ Route::get('/faculty-profile', function () {
 Route::get('/coming-soon', function () {
     return view('pages.coming-soon');
 })->name('pages.coming-soon');
+
+Route::get('/comming-soon', function () {
+    return view('pages.comming-soon');
+})->name('pages.comming-soon');

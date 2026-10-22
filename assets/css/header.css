@@ -95,6 +95,7 @@ body {
 p {
     margin: 0 0 1em;
     line-height: 1.4;
+    text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -519,8 +520,9 @@ button {
 .submenu {
     position: absolute;
     top: 100%;
-    right: 0;
-    width: 180px;
+    /* right: 0; */
+    left: 0;
+    width: 300px;
     border-radius: 10px;
     background: #fff;
     opacity: 0;
@@ -529,6 +531,7 @@ button {
     transition: .3s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 /* HOVER OPEN */
@@ -597,6 +600,30 @@ button {
 
 .navbar ul li:last-child::after {
     display: none;
+}
+
+.submenu.about_submenu_wrapper {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    right: unset;
+    left: 0;
+}
+
+.about_submenu_listing ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_submenu_heading {
+    font-size: 20px;
+    color: var(--red-color);
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dashed var(--red-color);
+    font-family: var(--font-roboto-600);
 }
 
 /* --------------HEADER-MAIN-MENU-END-------------- */
@@ -1056,7 +1083,7 @@ body.header-sticky-active {
         padding: 8px 0 8px 0;
     }
 
-    ul.submenu {
+    .submenu {
         background-color: var(--red-background-color);
     }
 

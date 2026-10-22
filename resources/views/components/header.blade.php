@@ -46,25 +46,32 @@
                                                 <span class="submenu-arrow">▼</span>
                                                 <span class="submenu-toggle">+</span>
                                             </a>
-                                            <ul class="submenu">
-                                                <li><a href="#">About us</a></li>
-                                                <li><a href="#">Vision & Mission</a></li>
-                                                <li><a href="#">Leadership</a></li>
-                                                <li><a href="#">Executive council</a></li>
-                                                <li><a href="#">University Sports Board</a></li>
-                                                <li><a href="#}">Code of Conduct</a></li>
-                                                <!-- <li class="has-submenu sum_menu_inner">
-                                                    <a href="#">
-                                                        CSR
-                                                        <span class="submenu-arrow">▼</span>
-                                                        <span class="submenu-toggle">+</span>
-                                                    </a>
-                                                    <ul class="submenu">
-                                                        <a href="#">CSR Activities</a>
-                                                        <a href="{{ asset('assets/pdf/CSR-Policy-K-Drive.pdf') }}" target="_blank">CSR Policy</a>
+                                            <div class="submenu about_submenu_wrapper">
+                                                <div class="about_submenu_listing">
+                                                    <div class="about_submenu_heading">About SIU</div>
+                                                    <ul>
+                                                        <li><a href="https://www.siu.edu.in/" target="_blank">About SIU</a></li>
+                                                        <li><a href="https://www.siu.edu.in/about-us/vision-mission" target="_blank">Vision and Mission</a></li>
+                                                        <li><a href="https://www.siu.edu.in/about-us/leaderships" target="_blank">Leadership</a></li>
+                                                        <li><a href="https://www.siu.edu.in/about-us/authorities-committees/board-management" target="_blank">Executive council</a></li>
+                                                        <li><a href="https://www.siu.edu.in/about-us/authorities-committees/university-sports-board" target="_blank">University Sports Board</a></li>
+                                                        <li><a href="#">Code of Conduct</a></li>
                                                     </ul>
-                                                </li> -->
-                                            </ul>
+                                                </div>
+                                                <div class="about_submenu_listing">
+                                                    <div class="about_submenu_heading">About SIG</div>
+                                                    <ul>
+                                                        <li><a href="{{ route('pages.about.about-us') }}">About SIG</a></li>
+                                                        <li><a href="{{ route('pages.about.director') }}">Director's message</a></li>
+                                                        <li><a href="{{ route('pages.about.deputy-director') }}">Deputy director's message</a></li>
+                                                        <li><a href="{{ route('pages.faculty-profile') }}">Full Time Faculty</a></li>
+                                                        <li><a href="{{ route('pages.comming-soon') }}">Faculty Awards and recognition </a></li>
+                                                        <li><a href="{{ route('pages.comming-soon') }}">Visiting Faculty </a></li>
+                                                        <li><a href="{{ route('pages.faculty-profile') }}">Administrative Staff</a></li>
+                                                        <li><a href="{{ route('pages.comming-soon') }}">Infrastructure</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                         <!-- <li class="has-submenu {{ request()->routeIs('pages.programmes.*') ? 'has-submenu_active' : '' }}"> -->
                                         <li class="has-submenu">
@@ -75,8 +82,8 @@
                                             </a>
                                             <ul class="submenu">
                                                 <li><a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}">M.Sc. Geoinformatics</a></li>
-                                                <li><a href="#">M. Sc. Data Science and Spatial Analytics</a></li>
-                                                <li><a href="#">MSc. Data Science and Spatial Analytics - Dual Degree</a></li>
+                                                <li><a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}">M. Sc. Data Science and Spatial Analytics</a></li>
+                                                <li><a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}">MSc. Data Science and Spatial Analytics - Dual Degree</a></li>
                                                 <li><a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank">M.Tech Geoinformatics</a></li>
                                                 <li><a href="#">Certificate Course Drone Data Acquisition and Processing</a></li>
                                                 <li><a href="#">Certification in Data Visualization</a></li>
@@ -97,54 +104,9 @@
                                                 <li><a href="#">Drought System</a></li>
                                             </ul>
                                         </li>
-                                        <li class="has-submenu">
-                                            <a href="#">
-                                                Student Corner
-                                                <span class="submenu-arrow">▼</span>
-                                                <span class="submenu-toggle">+</span>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li class="has-submenu sum_menu_inner">
-                                                    <a href="#">
-                                                        Section 1
-                                                        <span class="submenu-arrow">▼</span>
-                                                        <span class="submenu-toggle">+</span>
-                                                    </a>
-                                                    <ul class="submenu">
-                                                        <a href="#">Learning Management System (LMS)</a>
-                                                        <a href="#">Examination Portal</a>
-                                                        <a href="#">Eligibility Portal</a>
-                                                        <a href="#">Scholarship</a>
-                                                        <a href="#">Hostel Facilities</a>
-                                                        <a href="#">Library Portal</a>
-                                                        <a href="#">Student Uniform</a>
-                                                    </ul>
-                                                </li>
-                                                <li class="has-submenu sum_menu_inner">
-                                                    <a href="#">
-                                                         Section 2
-                                                        <span class="submenu-arrow">▼</span>
-                                                        <span class="submenu-toggle">+</span>
-                                                    </a>
-                                                    <ul class="submenu">
-                                                        <a href="#">AI Club</a>
-                                                        <a href="#">SIG committee</a>
-                                                    </ul>
-                                                </li>
-                                                <li class="has-submenu sum_menu_inner">
-                                                    <a href="#">
-                                                        Section 3
-                                                        <span class="submenu-arrow">▼</span>
-                                                        <span class="submenu-toggle">+</span>
-                                                    </a>
-                                                    <ul class="submenu">
-                                                        <a href="#">Achievements</a>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="{{ route('pages.student-corner') }}">Student Corner</a></li>
                                         <li><a href="{{ route('pages.blog') }}">Blog</a></li>
-                                        <li><a href="">Social Initiatives</a></li>
+                                        <li><a href="{{ route('pages.comming-soon') }}">Social Initiatives</a></li>
                                         <li><a href="{{ route('pages.contact') }}">Contact Us</a></li>
                                     </ul>
                                 </nav>

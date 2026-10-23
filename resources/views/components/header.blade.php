@@ -85,8 +85,8 @@
                                                 <li><a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}">M. Sc. Data Science and Spatial Analytics</a></li>
                                                 <li><a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}">MSc. Data Science and Spatial Analytics - Dual Degree</a></li>
                                                 <li><a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank">M.Tech Geoinformatics</a></li>
-                                                <li><a href="#">Certificate Course Drone Data Acquisition and Processing</a></li>
-                                                <li><a href="#">Certification in Data Visualization</a></li>
+                                                <li><a href="{{ route('pages.programmes.certificate-course-drone-data-processing.certificate-course-in-data-processing') }}">Certificate Course Drone Data Acquisition and Processing</a></li>
+                                                <li><a href="{{ route('pages.programmes.certificate-course-data-visualization.certificate-course-in-data-visual') }}">Certification in Data Visualization</a></li>
                                                 <li><a href="https://scri.siu.edu.in/" target="_blank">Ph.D. Programme</a></li>
                                             </ul>
                                         </li>

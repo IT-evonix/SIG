@@ -278,7 +278,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                                 </div>
                             </a>
                             <div class="my_btn_box">
-                                <a href="">Explore More</a>
+                                <a href="{{ route('pages.student-corner.newsevents') }}">Explore More</a>
                             </div>
                         </div>
                         <div class="home_n_e_right">
@@ -325,75 +325,159 @@ industry-focused courses and build a future-ready career. Apply now!')
                 <div class="marquee-track reverse">
                     <!-- Set A (4 cards) -->
                     <div class="team-card bg-cream">
-                        <img src="{{ asset('assets/images/home/testi-01.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-01.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Sanjukta Choudhary</h5>
+                            <p>Map Content Engineer – Tomtom</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/sanjukta-choudhury-2a519731/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-pink">
-                        <img src="{{ asset('assets/images/home/testi-02.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-02.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Devarshi Tambe</h5>
+                            <p>Sales Enthusiast - Scrabble</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/devarshi-tambe-16556a149/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-blue">
-                        <img src="{{ asset('assets/images/home/testi-03.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-03.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Wasim Qureshi</h5>
+                            <p>Engineer at P.D. D Jammu and Kashmir</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/wasim-qureshi-7bb47628/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-lblue">
-                        <img src="{{ asset('assets/images/home/testi-04.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-04.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Manisha Dubey (Chaturvedi)</h5>
+                            <p>Manager at Accenture</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/manisha-chaturvedi-16088313b/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card bg-cream">
+                        <img src="{{ asset('assets/images/home/testi-05.webp') }}" class="team-img" alt="">
+                        <div class="team-text">
+                            <h5>Payal Patole</h5>
+                            <p>Geomatic Expert at Michelin</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/payal-patole-geomatician/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card bg-cream">
+                        <img src="{{ asset('assets/images/home/testi-06.webp') }}" class="team-img" alt="">
+                        <div class="team-text">
+                            <h5>Ankita Misra</h5>
+                            <p>Data Scientist at Eugenie.ai</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/ankita-misra-3a4342238/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Set B — EXACT duplicate of Set A above (required for seamless loop) -->
                     <div class="team-card bg-cream">
-                        <img src="{{ asset('assets/images/home/testi-05.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-01.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Sanjukta Choudhary</h5>
+                            <p>Map Content Engineer – Tomtom</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/sanjukta-choudhury-2a519731/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-pink">
-                        <img src="{{ asset('assets/images/home/testi-01.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-02.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Devarshi Tambe</h5>
+                            <p>Sales Enthusiast - Scrabble</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/devarshi-tambe-16556a149/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-blue">
-                        <img src="{{ asset('assets/images/home/testi-02.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-03.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Wasim Qureshi</h5>
+                            <p>Engineer at P.D. D Jammu and Kashmir</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/wasim-qureshi-7bb47628/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-lblue">
-                        <img src="{{ asset('assets/images/home/testi-03.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-04.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Manisha Dubey (Chaturvedi)</h5>
+                            <p>Manager at Accenture</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/manisha-chaturvedi-16088313b/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card bg-cream">
+                        <img src="{{ asset('assets/images/home/testi-05.webp') }}" class="team-img" alt="">
+                        <div class="team-text">
+                            <h5>Payal Patole</h5>
+                            <p>Geomatic Expert at Michelin</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/payal-patole-geomatician/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card bg-cream">
+                        <img src="{{ asset('assets/images/home/testi-06.webp') }}" class="team-img" alt="">
+                        <div class="team-text">
+                            <h5>Ankita Misra</h5>
+                            <p>Data Scientist at Eugenie.ai</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/ankita-misra-3a4342238/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -406,75 +490,159 @@ industry-focused courses and build a future-ready career. Apply now!')
 
                     <!-- Set A (4 cards) -->
                     <div class="team-card bg-gray">
-                        <img src="{{ asset('assets/images/home/testi-05.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-07.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Andrie Singh</h5>
+                            <p>Product Manager - Jio</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/andrie-singh-frgs-b4590876/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-lblue">
-                        <img src="{{ asset('assets/images/home/testi-04.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-08.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Ashish Arora</h5>
+                            <p>National Business Head - Commercial & AEC ESRI India</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/ashishfs/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-peach">
-                        <img src="{{ asset('assets/images/home/testi-03.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-09.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Ms. D’ Cunha Orlene Christine Oswald</h5>
+                            <p>Reliance Jio Infocomm Ltd</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/orlene-dcunha-33711288/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-cream">
-                        <img src="{{ asset('assets/images/home/testi-02.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-10.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Devdatta Tengshe</h5>
+                            <p>Co-Founder GeoPune , Senior GIS Manager Ola Campus Pune</p>
+                            <div class="team-linkdin">
+                                <a href="hhttps://www.linkedin.com/in/devdattat/" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card bg-cream">
+                        <img src="{{ asset('assets/images/home/testi-11.webp') }}" class="team-img" alt="">
+                        <div class="team-text">
+                            <h5>Dipto Sarkar</h5>
+                            <p>Assistant Professor, Carleton University, Ottawa, Canada</p>
+                            <div class="team-linkdin">
+                                <a href="linkedin.com/in/diptosarkar/" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card bg-cream">
+                        <img src="{{ asset('assets/images/home/testi-12.webp') }}" class="team-img" alt="">
+                        <div class="team-text">
+                            <h5>Vara Prasad Lingam</h5>
+                            <p>Lead GIS Stantec</p>
+                            <div class="team-linkdin">
+                                <a href="linkedin.com/in/prasadlingam/" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Set B — EXACT duplicate of Set A above (required for seamless loop) -->
                     <div class="team-card bg-gray">
-                        <img src="{{ asset('assets/images/home/testi-01.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-07.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Andrie Singh</h5>
+                            <p>Product Manager - Jio</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/andrie-singh-frgs-b4590876/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-lblue">
-                        <img src="{{ asset('assets/images/home/testi-03.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-08.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Ashish Arora</h5>
+                            <p>National Business Head - Commercial & AEC ESRI India</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/ashishfs/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-peach">
-                        <img src="{{ asset('assets/images/home/testi-04.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-09.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Ms. D’ Cunha Orlene Christine Oswald</h5>
+                            <p>Reliance Jio Infocomm Ltd</p>
+                            <div class="team-linkdin">
+                                <a href="https://www.linkedin.com/in/orlene-dcunha-33711288/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="team-card bg-cream">
-                        <img src="{{ asset('assets/images/home/testi-02.png') }}" class="team-img" alt="">
+                        <img src="{{ asset('assets/images/home/testi-10.webp') }}" class="team-img" alt="">
                         <div class="team-text">
-                            <h5>Lorem ipsum dolor sit amet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium.</p>
+                            <h5>Devdatta Tengshe</h5>
+                            <p>Co-Founder GeoPune , Senior GIS Manager Ola Campus Pune</p>
+                            <div class="team-linkdin">
+                                <a href="hhttps://www.linkedin.com/in/devdattat/" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card bg-cream">
+                        <img src="{{ asset('assets/images/home/testi-11.webp') }}" class="team-img" alt="">
+                        <div class="team-text">
+                            <h5>Dipto Sarkar</h5>
+                            <p>Assistant Professor, Carleton University, Ottawa, Canada</p>
+                            <div class="team-linkdin">
+                                <a href="linkedin.com/in/diptosarkar/" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card bg-cream">
+                        <img src="{{ asset('assets/images/home/testi-12.webp') }}" class="team-img" alt="">
+                        <div class="team-text">
+                            <h5>Vara Prasad Lingam</h5>
+                            <p>Lead GIS Stantec</p>
+                            <div class="team-linkdin">
+                                <a href="linkedin.com/in/prasadlingam/" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                </a>
+                            </div>
                         </div>
                     </div>
 

@@ -73,7 +73,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">Examination Portal</h2>
                                 <div class="student_corner_btn">
-                                    <a href="" target="_blank">
+                                    <a href=" http://eduwiz.intechsolutionspune.in/eduwiz/login.html" target="_blank">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -93,7 +93,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">Eligibility Portal</h2>
                                 <div class="student_corner_btn">
-                                    <a href="" target="_blank">
+                                    <a href="https://eligibility.ishinfo.com/EligibilityPortal/Login.aspx" target="_blank">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -113,7 +113,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">Scholarship</h2>
                                 <div class="student_corner_btn">
-                                    <a href="" target="_blank">
+                                    <a href="#">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -133,7 +133,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">Hostel Facilities</h2>
                                 <div class="student_corner_btn">
-                                    <a href="" target="_blank">
+                                    <a href="{{ route('pages.student-corner.hostelandamenities') }}">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -153,7 +153,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">Library Portal</h2>
                                 <div class="student_corner_btn">
-                                    <a href="" target="_blank">
+                                    <a href="https://elibrary.siu.edu.in/user/login" target="_blank">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -196,7 +196,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">AI Club</h2>
                                 <div class="student_corner_btn">
-                                    <a href="" target="_blank">
+                                    <a href="{{ route('pages.student-corner.ai-club') }}">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -216,7 +216,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">SIG committee</h2>
                                 <div class="student_corner_btn">
-                                    <a href="" target="_blank">
+                                    <a href="{{ route('pages.student-corner.sig-commitee') }}">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -240,7 +240,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">Achievements</h2>
                                 <div class="student_corner_btn">
-                                    <a href="" target="_blank">
+                                    <a href="{{ route('pages.student-corner.achievements') }}">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path

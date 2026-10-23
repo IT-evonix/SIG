@@ -112,7 +112,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         <div class="eligibility_creteria_intake_devider"></div>
                                         <div class="eligibility_creteria_intake_content">
                                             <div class="eligibility_creteria_intake_subheading">Intake</div>
-                                            <div class="eligibility_creteria_intake_heading">60 students</div>
+                                            <div class="eligibility_creteria_intake_heading">10 students</div>
                                         </div>
                                     </div>
                                     <div class="reservation_wrapper">

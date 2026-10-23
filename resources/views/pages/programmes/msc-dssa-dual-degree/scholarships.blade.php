@@ -70,7 +70,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                     Symbiosis Society Foundation.
                                 </p>
                                 <div class="sholarships_wraper">
-                                    <div class="sholarships_wraper_listing">
+                                    <!-- <div class="sholarships_wraper_listing">
                                         <h2 class="sholarships_heading">
                                             Merit Scholarship for Semester/Annual Toppers at Symbiosis International
                                             (Deemed University)
@@ -97,7 +97,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="sholarships_wraper_listing">
                                         <h2 class="sholarships_heading">
                                             NER Scholarship: Empowering North Eastern Students at Symbiosis

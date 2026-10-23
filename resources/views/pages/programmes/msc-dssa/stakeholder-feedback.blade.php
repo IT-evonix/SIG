@@ -72,7 +72,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         <div class="pdf_card_conent">
                                             <h3 class="pdf_card_heading">Stakeholder Feedback</h3>
                                             <h4 class="pdf_card_subheading">A.Y. 2024-25</h4>
-                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-geoinformatics-stakeholder-feedback-2024-25.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
+                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-dssa-stakeholder-feedback-2024-25.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
                                                 <div class="pdf_card_btn_name">Click Here</div>
                                                 <div class="pdf_card_btn_icon">
                                                     <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
@@ -92,7 +92,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         <div class="pdf_card_conent">
                                             <h3 class="pdf_card_heading">Stakeholder Feedback</h3>
                                             <h4 class="pdf_card_subheading">A.Y. 2022-23</h4>
-                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-geoinformatics-stakeholder-feedback-2022-23.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
+                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-dssa-stakeholder-feedback-2022-23.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
                                                 <div class="pdf_card_btn_name">Click Here</div>
                                                 <div class="pdf_card_btn_icon">
                                                     <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
@@ -112,7 +112,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         <div class="pdf_card_conent">
                                             <h3 class="pdf_card_heading">Stakeholder Feedback</h3>
                                             <h4 class="pdf_card_subheading">A.Y. 2021-22</h4>
-                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-geoinformatics-stakeholder-feedback-2021-22.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
+                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-dssa-stakeholder-feedback-2021-22.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
                                                 <div class="pdf_card_btn_name">Click Here</div>
                                                 <div class="pdf_card_btn_icon">
                                                     <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
@@ -132,7 +132,28 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         <div class="pdf_card_conent">
                                             <h3 class="pdf_card_heading">Stakeholder Feedback</h3>
                                             <h4 class="pdf_card_subheading">A.Y. 2020-21</h4>
-                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-geoinformatics-stakeholder-feedback-2020-21.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
+                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-dssa-stakeholder-feedback-2020-21.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
+                                                <div class="pdf_card_btn_name">Click Here</div>
+                                                <div class="pdf_card_btn_icon">
+                                                    <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
+                                                        <path
+                                                            d="M0 4.41211V3.38379H9.04395L6.14355 0.386719L6.4248 0L11.9971 3.69141V4.10449L6.4248 7.78711L6.14355 7.40039L9.04395 4.41211H0Z"
+                                                            fill="#000000" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                     <div class="pdf_card_list">
+                                        <div class="pdf_card_icon">
+                                            <img src="{{ asset('assets/images/programmes/icon/pdf.svg') }}"
+                                                alt="Pdf Icon" class="img-fluid">
+                                        </div>
+                                        <div class="pdf_card_conent">
+                                            <h3 class="pdf_card_heading">Stakeholder Feedback</h3>
+                                            <h4 class="pdf_card_subheading">A.Y. 2019-20</h4>
+                                            <a href="{{ asset('assets/pdf/stakeholder-feedback/msc-dssa-stakeholder-feedback-2019-20.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
                                                 <div class="pdf_card_btn_name">Click Here</div>
                                                 <div class="pdf_card_btn_icon">
                                                     <svg width="15" height="8" viewBox="0 0 12 8" fill="none">

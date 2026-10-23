@@ -157,6 +157,90 @@ Route::get('/dssa-admission-contact', function () {
 
 // msc dssa end
 
+// certificate course drone data processing start
+Route::get('/certificate-course-drone-data-processing', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.certificate-course-in-data-processing');
+})->name('pages.programmes.certificate-course-drone-data-processing.certificate-course-in-data-processing');
+
+Route::get('/drone-programme-outcome', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.programme-outcome');
+})->name('pages.programmes.certificate-course-drone-data-processing.programme-outcome');
+
+Route::get('/drone-eligibility-criteria', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.eligibility-criteria');
+})->name('pages.programmes.certificate-course-drone-data-processing.eligibility-criteria');
+
+Route::get('/drone-fees-structure', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.fees-structure');
+})->name('pages.programmes.certificate-course-drone-data-processing.fees-structure');
+
+Route::get('/drone-stakeholder-feedback', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.stakeholder-feedback');
+})->name('pages.programmes.certificate-course-drone-data-processing.stakeholder-feedback');
+
+Route::get('/drone-programme-structure', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.programme-structure');
+})->name('pages.programmes.certificate-course-drone-data-processing.programme-structure');
+
+Route::get('/drone-admission-calendar', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.admission-calendar');
+})->name('pages.programmes.certificate-course-drone-data-processing.admission-calendar');
+
+Route::get('/drone-how-to-apply', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.how-to-apply');
+})->name('pages.programmes.certificate-course-drone-data-processing.how-to-apply');
+
+Route::get('/drone-scholarships', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.scholarships');
+})->name('pages.programmes.certificate-course-drone-data-processing.scholarships');
+
+Route::get('/drone-admission-contact', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.admission-contact');
+})->name('pages.programmes.certificate-course-drone-data-processing.admission-contact');
+// certificate course drone data processing end
+
+// certificate course data visualization start
+Route::get('/certificate-course-data-visualization', function () {
+    return view('pages.programmes.certificate-course-data-visualization.certificate-course-in-data-visual');
+})->name('pages.programmes.certificate-course-data-visualization.certificate-course-in-data-visual');
+
+Route::get('/data-visual-programme-outcome', function () {
+    return view('pages.programmes.certificate-course-data-visualization.programme-outcome');
+})->name('pages.programmes.certificate-course-data-visualization.programme-outcome');
+
+Route::get('/data-visual-eligibility-criteria', function () {
+    return view('pages.programmes.certificate-course-data-visualization.eligibility-criteria');
+})->name('pages.programmes.certificate-course-data-visualization.eligibility-criteria');
+
+Route::get('/data-visual-fees-structure', function () {
+    return view('pages.programmes.certificate-course-data-visualization.fees-structure');
+})->name('pages.programmes.certificate-course-data-visualization.fees-structure');
+
+Route::get('/data-visual-stakeholder-feedback', function () {
+    return view('pages.programmes.certificate-course-data-visualization.stakeholder-feedback');
+})->name('pages.programmes.certificate-course-data-visualization.stakeholder-feedback');
+
+Route::get('/data-visual-programme-structure', function () {
+    return view('pages.programmes.certificate-course-data-visualization.programme-structure');
+})->name('pages.programmes.certificate-course-data-visualization.programme-structure');
+
+Route::get('/data-visual-admission-calendar', function () {
+    return view('pages.programmes.certificate-course-data-visualization.admission-calendar');
+})->name('pages.programmes.certificate-course-data-visualization.admission-calendar');
+
+Route::get('/data-visual-how-to-apply', function () {
+    return view('pages.programmes.certificate-course-data-visualization.how-to-apply');
+})->name('pages.programmes.certificate-course-data-visualization.how-to-apply');
+
+Route::get('/data-visual-scholarships', function () {
+    return view('pages.programmes.certificate-course-data-visualization.scholarships');
+})->name('pages.programmes.certificate-course-data-visualization.scholarships');
+
+Route::get('/data-visual-admission-contact', function () {
+    return view('pages.programmes.certificate-course-data-visualization.admission-contact');
+})->name('pages.programmes.certificate-course-data-visualization.admission-contact');
+// certificate course data visualization end
+
 // PROGRAMMES MENU ENDS ---------------------------------------------------
 
 // PLACEMENT START ---------------------------------------------------
@@ -241,12 +325,19 @@ Route::get('/achievements', function () {
     return view('pages.student-corner.achievements');
 })->name('pages.student-corner.achievements');
 
+Route::get('/newsevents', function () {
+    return view('pages.student-corner.newsevents');
+})->name('pages.student-corner.newsevents');
+
 // STUDENT CORNER ENDS --------------------------------------------
 
 Route::get('/faculty-profile', function () {
     return view('pages.faculty-profile');
 })->name('pages.faculty-profile');
 
+Route::get('/republic-day', function () {
+    return view('pages.republic-day');
+})->name('pages.republic-day');
 
 Route::get('/coming-soon', function () {
     return view('pages.coming-soon');
@@ -255,3 +346,11 @@ Route::get('/coming-soon', function () {
 Route::get('/comming-soon', function () {
     return view('pages.comming-soon');
 })->name('pages.comming-soon');
+
+Route::get('/drone-coming-soon', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.coming-soon');
+})->name('pages.programmes.certificate-course-drone-data-processing.coming-soon');
+
+Route::get('/data-visual-coming-soon', function () {
+    return view('pages.programmes.certificate-course-data-visualization.coming-soon');
+})->name('pages.programmes.certificate-course-data-visualization.coming-soon');

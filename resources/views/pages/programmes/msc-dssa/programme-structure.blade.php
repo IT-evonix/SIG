@@ -80,671 +80,832 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                     </ul>
                                     <div class="tab-content" id="batchTabsContent">
                                         <div class="tab-pane fade show active" id="batch-2026" role="tabpanel">
-                                            <div class="program_structure_content">
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 1 - Generic Core
-                                                        Courses</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Principles of GIS</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Principles of Remote Sensing</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Applied Statistics</td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>Python for Geospatial Technology</td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>Global Navigation Satellite Systems</td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>Logic Development and Programming Concepts</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td>Research Methodology in GIS</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>8</td>
-                                                                    <td>Health and Wellness Module I #</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 2 - Generic Core
-                                                        Courses</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Geo Image Processing</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Photogrammetry</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Advance Python Programming for Spatial Analytics
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>Essentials of Internet and Web Technologies</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>Principles of Database Management System</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>Spatial Analysis</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td>Flexi-Credit Course</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>8</td>
-                                                                    <td>R for Spatial Science</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>9</td>
-                                                                    <td>Programming for Enterprise GIS</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>10</td>
-                                                                    <td>Health and Wellness Module II #</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>23</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Core
-                                                        Courses</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Summer Project</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Business Communication</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>GIS Application Design</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>GIS Project Management</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>Organizational Behaviour</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>Spatial Data Base Management</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td>Spatial Modeling</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>8</td>
-                                                                    <td>Flexi-Credit Course</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>9</td>
-                                                                    <td>Web GIS</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>10</td>
-                                                                    <td></td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>11</td>
-                                                                    <td>Health and Wellness *</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective
-                                                        Course Group - I (Choose any one course)</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Geoinformatics applications in Facility and
-                                                                        Utility management</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Geoinformatics Applications in Natural Resource
-                                                                        Management</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Mobile GIS</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>2</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective
-                                                        Course Group - II (Choose any one course)</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Geospatial Application in Agriculture</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Disaster Scenario mapping</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Application of Geospatial Technology in Urban
-                                                                        Development</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>2</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Audit Courses
-                                                    </h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Generative AI and use cases</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="3">
-                                                                        <strong>Note:</strong> Student/s must complete
-                                                                        "Generative AI and use cases" (0702410318)
-                                                                        in addition to the regular courses offered in
-                                                                        this semester.
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 4 - Generic Core
-                                                        Courses</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Industry Project</td>
-                                                                    <td>12</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>12</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+    <div class="program_structure_content">
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 1 - Generic Core Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mathematics for Spatial Sciences</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Principles and Practices of Data Protection</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Statistics and Probability</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Python for Data Science</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Business Communication</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Introduction to Database Management System</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Research Methodology in Computational Sciences</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Introduction to Geospatial Technology</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Health and Wellness Module I #</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>21</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 2 - Generic Core Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Machine learning</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>SQL and Spatial Database management</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Flexi-Credit Course</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Data Driven Governance</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Inferential Statistics</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Health and Wellness Module II #</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>12</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 2 - Specialisation Core Courses : Artificial Intelligence Algorithms</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Data Analysis Using Python</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Computer Vision</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Programming for computational sciences</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Big Data Analytical Techniques and Practical Applications</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>11</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 2 - Specialisation Core Courses : Geointelligence</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Advance Python Programming for Spatial Analytics</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Programming for Spatial Sciences</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Geospatial Analytics</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Spatial Big Data and Storage Analytics</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>11</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Generic Core Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Summer Project</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Deep learning</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Artificial Intelligence</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Spatial Modeling</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Flexi-Credit Course</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Health and Wellness *</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>14</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Generic Elective Course Group - I (Choose any one course)</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Data Driven Journalism</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>IOT Spatial Analytics</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Spatial User Interface design and Implementation</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>System Dynamics Simulation</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Data Driven Banking, Insurance and Finance</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Data Driven Forensics and Crime Investigation</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>3</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Specialisation Core Courses : Artificial Intelligence Algorithms</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Block Chain Technology</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Introduction to Natural Language Processing</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Operations Research and Optimization Techniques</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>7</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Specialisation Core Courses : Geointelligence</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Machine Learning for Remote sensing</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Web GIS</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Citizen Science and Geospatial Technology</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>7</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Audit Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Generative AI and use cases</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <strong>Note:</strong> Student/s must complete
+                                "Generative AI and use cases" (0702410318)
+                                in addition to the regular courses offered in
+                                this semester.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 4 - Generic Core Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Industry Project</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>12</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
                                         <div class="tab-pane fade" id="batch-2025" role="tabpanel">
-                                            <div class="program_structure_content">
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 1</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Principles of GIS</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Principles of Remote Sensing</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Applied Statistics</td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>Python for Geospatial Technology</td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>Global Navigation Satellite Systems</td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>Logic Development and Programming Concepts</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td>Research Methodology in GIS</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>8</td>
-                                                                    <td>Health and Wellness Module I</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>21</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 2</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Geo Image Processing</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Photogrammetry</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Advance Python Programming for Spatial Analytics
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>Essentials of Internet and Web Technologies</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>Principles of Database Management System</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>Spatial Analysis</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td>Geospatial Artificial Intelligence</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>8</td>
-                                                                    <td>R for Spatial Science</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>9</td>
-                                                                    <td>Programming for Enterprise GIS</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>10</td>
-                                                                    <td>Health and Wellness Module II</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>23</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Core
-                                                        Courses</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Summer Project</td>
-                                                                    <td>4</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Business Communication</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>GIS Application Design</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>GIS Project Management</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>Organizational Behaviour</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>Spatial Data Base Management</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td>Spatial Modeling</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>8</td>
-                                                                    <td>Geospatial Analytics with Advanced Computing
-                                                                    </td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>9</td>
-                                                                    <td>Web GIS</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>10</td>
-                                                                    <td>Mandatory Non-Credit Course</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>11</td>
-                                                                    <td>Health and Wellness</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>20</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective
-                                                        Course Group I (Choose any one)</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Geoinformatics Applications in Forestry</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Geospatial Application in Agriculture</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Advanced Application of Geoinformatics in Water
-                                                                        Resources Management</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>2</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 3 - Generic Elective
-                                                        Course Group II (Choose any one)</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Mobile GIS</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>Disaster Scenario Mapping</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Application of Geospatial Technology in Urban
-                                                                        Development</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>Geoinformatics Applications in Facility and
-                                                                        Utility Management</td>
-                                                                    <td>2</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>2</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 4</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Industry Project</td>
-                                                                    <td>12</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>12</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+    <div class="program_structure_content">
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 1 - Generic Core Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mathematics for Spatial Sciences</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Principles and Practices of Data Protection</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Statistics and Probability</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Python for Data Science</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Business Communication</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Introduction to Database Management System</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Research Methodology in Computational Sciences</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Introduction to Geospatial Technology</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Health and Wellness Module I #</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>21</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 2 - Generic Core Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Machine learning</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>SQL and Spatial Database management</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Flexi-Credit Course</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Data Driven Governance</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Inferential Statistics</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Health and Wellness Module II #</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>12</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 2 - Specialisation Core Courses : Artificial Intelligence Algorithms</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Data Analysis Using Python</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Computer Vision</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Programming for computational sciences</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Big Data Analytical Techniques and Practical Applications</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>11</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 2 - Specialisation Core Courses : Geointelligence</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Advance Python Programming for Spatial Analytics</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Programming for Spatial Sciences</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Geospatial Analytics</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Spatial Big Data and Storage Analytics</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>11</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Generic Core Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Summer Project</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Deep learning</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Artificial Intelligence</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Spatial Modeling</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Flexi-Credit Courses</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Vasudhaiva kutumbakam</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Health and Wellness *</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>14</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Generic Elective Course Group - I (Choose any one course)</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Data Driven Journalism</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>IOT Spatial Analytics</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Spatial User Interface design and Implementation</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>System Dynamics Simulation</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Data Driven Banking, Insurance and Finance</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Data Driven Forensics and Crime Investigation</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>3</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Specialisation Core Courses : Artificial Intelligence Algorithms</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Block Chain Technology</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Introduction to Natural Language Processing</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Operations Research and Optimization Techniques</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>7</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 3 - Specialisation Core Courses : Geointelligence</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Machine Learning for Remote sensing</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Web GIS</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Citizen Science and Geospatial Technology</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>7</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="program_structure_listing">
+            <h2 class="program_structure_heading">Semester 4 - Generic Core Courses</h2>
+            <div class="table-responsive">
+                <table class="table mb-0 fee_table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Course Title</th>
+                            <th>Total Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Industry Project</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Total:</strong></td>
+                            <td><strong>12</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
                                     </div>
                                 </div>
                             </div>

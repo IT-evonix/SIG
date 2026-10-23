@@ -104,7 +104,7 @@
                                                 <li><a href="#">Drought System</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="{{ route('pages.student-corner') }}">Student Corner</a></li>
+                                        <li><a href="{{ route('pages.student-corner.student-corner') }}">Student Corner</a></li>
                                         <li><a href="{{ route('pages.blog') }}">Blog</a></li>
                                         <li><a href="{{ route('pages.comming-soon') }}">Social Initiatives</a></li>
                                         <li><a href="{{ route('pages.contact') }}">Contact Us</a></li>

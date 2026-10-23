@@ -222,8 +222,24 @@ Route::get('/blog-detail', function () {
 // STUDENT CORNER START -------------------------------------------
 
 Route::get('/student-corner', function () {
-    return view('pages.student-corner');
-})->name('pages.student-corner');
+    return view('pages.student-corner.student-corner');
+})->name('pages.student-corner.student-corner');
+
+Route::get('/sig-commitee', function () {
+    return view('pages.student-corner.sig-commitee');
+})->name('pages.student-corner.sig-commitee');
+
+Route::get('/hostelandamenities', function () {
+    return view('pages.student-corner.hostelandamenities');
+})->name('pages.student-corner.hostelandamenities');
+
+Route::get('/ai-club', function () {
+    return view('pages.student-corner.ai-club');
+})->name('pages.student-corner.ai-club');
+
+Route::get('/achievements', function () {
+    return view('pages.student-corner.achievements');
+})->name('pages.student-corner.achievements');
 
 // STUDENT CORNER ENDS --------------------------------------------
 

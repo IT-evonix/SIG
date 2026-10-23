@@ -226,61 +226,60 @@ industry-focused courses and build a future-ready career. Apply now!')
                 <div class="col-lg-12">
                     <div class="home_n_e_mainbox">
                         <div class="home_n_e_leftbox">
-                            <div class="home_n_e_listing">
+                            <a href="{{ asset('assets/pdf/news-and-events/DoorDash_Campus_Drive_News.pdf') }}" target="_blank" class="home_n_e_listing">
                                 <div class="home_n_e_listing_left">
                                     <img src="{{ asset('assets/images/home/news-event.webp') }}" alt="News Event Image"
                                         class="img-fluid">
                                 </div>
                                 <div class="home_n_e_listing_right">
-                                    <div class="home_n_e_listing_date">Feb 20, 2026</div>
-                                    <h4 class="home_n_e_listing_heading">GeoAI and Future Prospects</h4>
+                                    <div class="home_n_e_listing_date">17th-20th Aug 2026</div>
+                                    <!-- <h4 class="home_n_e_listing_heading">Successful Campus Drive at SIG By DoorDash</h4> -->
                                     <p class="home_n_e_listing_para">
-                                        Industry webinar featuring Dr. Vijay Kumar (CTO, ESRI India) discussing GeoAI,
-                                        AI trends, and future career opportunities in Geoinformatics.
+                                        Successful Campus Drive at SIG By DoorDash
                                     </p>
                                 </div>
                                 <div class="home_n_e_listing_icon">
                                     <img src="{{ asset('assets/images/home/news-event-background.webp') }}"
                                         alt="News Event Image" class="img-fluid">
                                 </div>
-                            </div>
-                            <div class="home_n_e_listing">
+                            </a>
+                            <a href="{{ asset('assets/pdf/news-and-events/Cognizant-NPN-2027.pdf') }}" target="_blank" class="home_n_e_listing">
                                 <div class="home_n_e_listing_left">
                                     <img src="{{ asset('assets/images/home/news-event.webp') }}" alt="News Event Image"
                                         class="img-fluid">
                                 </div>
                                 <div class="home_n_e_listing_right">
-                                    <div class="home_n_e_listing_date">Feb 20, 2026</div>
-                                    <h4 class="home_n_e_listing_heading">GeoAI and Future Prospects</h4>
+                                    <div class="home_n_e_listing_date"> 6th-8th Aug 2026</div>
+                                    <!-- <h4 class="home_n_e_listing_heading">SIG Hosts Cognizant Nurture Partner Network (NPN) Geoinformatics Program</h4> -->
                                     <p class="home_n_e_listing_para">
-                                        Industry webinar featuring Dr. Vijay Kumar (CTO, ESRI India) discussing GeoAI,
-                                        AI trends, and future career opportunities in Geoinformatics.
+                                        SIG Hosts Cognizant Nurture Partner Network (NPN) Geoinformatics Program
                                     </p>
                                 </div>
                                 <div class="home_n_e_listing_icon">
                                     <img src="{{ asset('assets/images/home/news-event-background.webp') }}"
                                         alt="News Event Image" class="img-fluid">
                                 </div>
-                            </div>
-                            <div class="home_n_e_listing">
+                            </a>
+                            <a href="https://www.topuniversities.com/universities/symbiosis-international-deemed-university/postgrad/master-science-geoinformatics#p2-rankings" target="_blank" class="home_n_e_listing">
                                 <div class="home_n_e_listing_left">
                                     <img src="{{ asset('assets/images/home/news-event.webp') }}" alt="News Event Image"
                                         class="img-fluid">
                                 </div>
                                 <div class="home_n_e_listing_right">
-                                    <div class="home_n_e_listing_date">Feb 20, 2026</div>
-                                    <h4 class="home_n_e_listing_heading">GeoAI and Future Prospects</h4>
+                                    <!-- <div class="home_n_e_listing_date">Feb 20, 2026</div> -->
+                                    <!-- <h4 class="home_n_e_listing_heading">GeoAI and Future Prospects</h4> -->
                                     <p class="home_n_e_listing_para">
-                                        Industry webinar featuring Dr. Vijay Kumar (CTO, ESRI India) discussing GeoAI,
-                                        AI trends, and future career opportunities in Geoinformatics.
+                                        SIG’s M.Sc Geoinformatics & M.Sc Data Science & Spatial Analytics Programmes Gain Global Recognition Under QS Ranking (351–400)
                                     </p>
                                 </div>
                                 <div class="home_n_e_listing_icon">
                                     <img src="{{ asset('assets/images/home/news-event-background.webp') }}"
                                         alt="News Event Image" class="img-fluid">
                                 </div>
+                            </a>
+                            <div class="my_btn_box">
+                                <a href="">Explore More</a>
                             </div>
-
                         </div>
                         <div class="home_n_e_right">
                             <div class="home_n_e_right_video">

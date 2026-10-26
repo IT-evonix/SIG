@@ -332,6 +332,30 @@ Route::get('/newsevents', function () {
 
 // STUDENT CORNER ENDS --------------------------------------------
 
+// RESEARCH START -------------------------------------------------
+
+Route::get('/research-publications', function () {
+    return view('pages.research.research-publications');
+})->name('pages.research.research-publications');
+
+Route::get('/research-projects', function () {
+    return view('pages.research.research-projects');
+})->name('pages.research.research-projects');
+
+Route::get('/research-student-geo', function () {
+    return view('pages.research.research-student-geo');
+})->name('pages.research.research-student-geo');
+
+Route::get('/research-student-dssa', function () {
+    return view('pages.research.research-student-dssa');
+})->name('pages.research.research-student-dssa');
+
+Route::get('/research-student-mtech', function () {
+    return view('pages.research.research-student-mtech');
+})->name('pages.research.research-student-mtech');
+
+// RESEARCH ENDS --------------------------------------------------
+
 Route::get('/faculty-profile', function () {
     return view('pages.faculty-profile');
 })->name('pages.faculty-profile');

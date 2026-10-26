@@ -98,10 +98,10 @@
                                                 <span class="submenu-toggle">+</span>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="#">Research Publication</a></li>
-                                                <li><a href="#">Research Projects</a></li>
-                                                <li><a href="#">Student Research</a></li>
-                                                <li><a href="#">Drought System</a></li>
+                                                <li><a href="{{ route('pages.research.research-publications') }}">Research Publication</a></li>
+                                                <li><a href="{{ route('pages.research.research-projects') }}">Research Projects</a></li>
+                                                <li><a href="{{ route('pages.research.research-student-geo') }}">Student Research</a></li>
+                                                <li><a href="https://dms.sig.ac.in/" target="_blank">Drought System</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="{{ route('pages.student-corner.student-corner') }}">Student Corner</a></li>

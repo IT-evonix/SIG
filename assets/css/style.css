@@ -4361,6 +4361,68 @@ table th {
 
 /* COMING SOON PAGE ENDS */
 
+/* RESEARCH PAGE START */
+
+.research_publication_listing_number {
+  width: 50px;
+  height: 50px;
+  background-color: var(--icon-color);
+  border-radius: 50%;
+  font-size: 16px;
+  font-family: var(--font-roboto-600);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--red-color);
+}
+
+.research_publication_listing {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.research_publication_listing:first-child {
+  padding: 0 20px 20px 20px;
+}
+
+.research_publication_listing:nth-child(even) {
+  background-color: var(--red-background-color);
+}
+
+.research_publication_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #dedede;
+}
+
+.research-linkdin img {
+  width: 30px;
+  height: 30px;
+}
+
+.research-linkdin {
+  display: flex;
+  gap: 6px;
+}
+
+.research_publication_mainbox .my_tabbing .table td a {
+  color: var(--red-color);
+  transition: color 0.4s ease;
+}
+
+.research_publication_mainbox .my_tabbing .table td a:hover {
+  color: var(--yellow-color);
+}
+
+/* RESEARCH PAGE ENDS */
+
 /* Inner menu responsive start */
 
 .inner_menu_toggle,

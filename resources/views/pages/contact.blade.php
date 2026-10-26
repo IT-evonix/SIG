@@ -49,21 +49,37 @@ Data Science in India. Contact us for your enquiries.')
                                 Please don't hesitate to reach out to us whenever you need assistance. We'll make sure
                                 to respond to you promptly
                             </p>
-                            <form action="" method="post">
+                            @if (session('success'))
+                            <div class="alert alert-success" style="padding: 12px 16px; background-color: #d1e7dd; color: #0f5132; border: 1px solid #badbcc; border-radius: 8px; margin-bottom: 18px; font-weight: 500;">
+                                {{ session('success') }}
+                            </div>
+                            @endif
+
+                            <form action="{{ route('contact.submit') }}" method="POST">
+                                @csrf
                                 <div class="form_group">
-                                    <input type="text" name="name" id="name" placeholder="Name" class="form-control">
+                                    <input type="text" name="name" id="name" placeholder="Name" class="form-control" value="{{ old('name') }}" maxlength="30" pattern="^[a-zA-Z\s]+$" title="Name must only contain letters and spaces" oninput="this.value = this.value.replace(/[^a-zA-Z\s]/g, '');" required>
+                                    @error('name')
+                                    <small style="color: #dc3545; display: block; margin-top: 4px;">{{ $message }}</small>
+                                    @enderror
                                 </div>
                                 <div class="form_group">
-                                    <input type="email" name="email" id="email" placeholder="Email"
-                                        class="form-control">
+                                    <input type="email" name="email" id="email" placeholder="Email" class="form-control" value="{{ old('email') }}" maxlength="100" required>
+                                    @error('email')
+                                    <small style="color: #dc3545; display: block; margin-top: 4px;">{{ $message }}</small>
+                                    @enderror
                                 </div>
                                 <div class="form_group">
-                                    <input type="text" name="phone" id="phone" placeholder="Phone No."
-                                        class="form-control">
+                                    <input type="tel" name="phone" id="phone" placeholder="Phone No. (10 digits)" class="form-control" value="{{ old('phone') }}" maxlength="10" minlength="10" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);" required>
+                                    @error('phone')
+                                    <small style="color: #dc3545; display: block; margin-top: 4px;">{{ $message }}</small>
+                                    @enderror
                                 </div>
                                 <div class="form_group">
-                                    <textarea name="message" id="message" placeholder="Message" class="form-control"
-                                        rows="1"></textarea>
+                                    <textarea name="message" id="message" placeholder="Message" class="form-control" rows="2" maxlength="200">{{ old('message') }}</textarea>
+                                    @error('message')
+                                    <small style="color: #dc3545; display: block; margin-top: 4px;">{{ $message }}</small>
+                                    @enderror
                                 </div>
                                 <div class="form_group">
                                     <input type="submit" value="Submit" class="send_button">

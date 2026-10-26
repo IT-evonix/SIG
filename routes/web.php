@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ContactController;
+
 Route::view('/', 'pages.index')->name('index');
 
 // ABOUT START -------------------------------------------------------
@@ -22,9 +24,8 @@ Route::get('/deputy-director', function () {
 
 // CONTACT US START -------------------------------------------------------
 
-Route::get('/contact', function () {
-    return view('pages.contact');
-})->name('pages.contact');
+Route::get('/contact', [ContactController::class, 'show'])->name('pages.contact');
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
 // CONTACT US ENDS --------------------------------------------------------
 

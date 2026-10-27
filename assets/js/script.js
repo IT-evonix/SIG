@@ -317,3 +317,86 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 // Accordion ends
+// Scroll tabbing start
+(function () {
+    function initializeScrollableTabs() {
+        document.querySelectorAll(".scrollable-tabbing").forEach(function (tabbing) {
+            if (tabbing.dataset.scrollInitialized === "true") {
+                return;
+            }
+
+            const scrollContainer = tabbing.querySelector(
+                ".tab-navigation-scroll"
+            );
+
+            const prevButton = tabbing.querySelector(".tab-prev");
+            const nextButton = tabbing.querySelector(".tab-next");
+            const tabs = tabbing.querySelector(".nav-tabs");
+
+            if (!scrollContainer || !prevButton || !nextButton || !tabs) {
+                return;
+            }
+
+            tabbing.dataset.scrollInitialized = "true";
+
+            function updateTabNavigation() {
+                const maxScroll =
+                    scrollContainer.scrollWidth -
+                    scrollContainer.clientWidth;
+
+                const hasOverflow = maxScroll > 2;
+
+                tabbing.classList.toggle("has-overflow", hasOverflow);
+
+                prevButton.disabled = scrollContainer.scrollLeft <= 2;
+
+                nextButton.disabled =
+                    scrollContainer.scrollLeft >= maxScroll - 2;
+            }
+
+            prevButton.addEventListener("click", function () {
+                scrollContainer.scrollBy({
+                    left: -200,
+                    behavior: "smooth"
+                });
+            });
+
+            nextButton.addEventListener("click", function () {
+                scrollContainer.scrollBy({
+                    left: 200,
+                    behavior: "smooth"
+                });
+            });
+
+            scrollContainer.addEventListener(
+                "scroll",
+                updateTabNavigation
+            );
+
+            window.addEventListener(
+                "resize",
+                updateTabNavigation
+            );
+
+            if ("ResizeObserver" in window) {
+                const observer = new ResizeObserver(updateTabNavigation);
+                observer.observe(scrollContainer);
+                observer.observe(tabs);
+            }
+
+            // Check after the browser calculates the layout.
+            requestAnimationFrame(updateTabNavigation);
+            window.addEventListener("load", updateTabNavigation);
+        });
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener(
+            "DOMContentLoaded",
+            initializeScrollableTabs
+        );
+    } else {
+        initializeScrollableTabs();
+    }
+})();
+// Scroll tabbing ends

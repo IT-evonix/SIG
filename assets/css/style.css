@@ -2335,6 +2335,86 @@ table th {
 
 /* Tabbing ends */
 
+/* Tabbing for scrollbar start */
+
+.research_publication_mainbox,
+.research_publication_mainbox .my_tabbing {
+    width: 100%;
+    min-width: 0;
+}
+
+.scrollable-tabbing .tab-navigation-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+}
+
+.scrollable-tabbing .tab-navigation-scroll {
+    flex: 1 1 0%;
+    width: 0;
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+.scrollable-tabbing .tab-navigation-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable-tabbing .nav-tabs {
+    display: flex;
+    flex-wrap: nowrap !important;
+    gap: 20px;
+    width: max-content;
+    min-width: max-content;
+    margin-bottom: 0;
+}
+
+.scrollable-tabbing .nav-tabs .nav-item {
+    flex: 0 0 auto;
+}
+
+.scrollable-tabbing .nav-tabs .nav-link {
+    white-space: nowrap;
+}
+
+/* Arrow buttons are hidden unless scrolling is required */
+.scrollable-tabbing .tab-scroll-btn {
+    display: none;
+    flex: 0 0 35px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--red-color);
+    border-radius: 50%;
+    background: #fff;
+    color: var(--red-color);
+    cursor: pointer;
+}
+
+.scrollable-tabbing.has-overflow .tab-scroll-btn {
+    display: flex;
+}
+
+.scrollable-tabbing .tab-scroll-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.scrollable-tabbing .tab-scroll-btn:hover:not(:disabled) {
+    background: var(--red-color);
+    color: #fff;
+}
+
+/* Tabbing for scrollbar ends */
+
 /* PROGRAM STRUCTURE PAGE START */
 
 .program_structure_heading {
@@ -5273,6 +5353,15 @@ table th {
   height: 100%;
   object-fit: cover;
 }
+
+.research_publication_wrapper {
+    padding: 15px;
+}
+
+.research_publication_listing:first-child {
+    padding: 0 0px 20px 0px;
+}
+
 }
 
 @media (max-width: 767.98px) {
@@ -5581,6 +5670,10 @@ table th {
   .follow_us_link {
     display: none;
   }
+
+  .research_publication_listing {
+    align-items: start;
+}
 
 }
 
@@ -6260,6 +6353,31 @@ table th {
 
 .acheivement_fifthbox_left_wrapper {
     padding: 15px;
+}
+
+.research_publication_listing {
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+/* .research_publication_listing:nth-child(odd) {
+    padding: 20px 0 20px 0;
+}
+
+.research_publication_listing:first-child {
+    padding: 0 0px 20px 0px;
+} */
+
+.research_publication_wrapper {
+    gap: 10px;
+}
+
+.research_publication_listing:nth-child(odd) {
+    background-color: var(--red-background-color);
+}
+
+.research_publication_listing:first-child {
+    padding: 20px;
 }
 
 }

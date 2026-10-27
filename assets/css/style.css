@@ -305,8 +305,8 @@
 }
 
 .home_n_e_listing_left {
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 }
 
 .home_n_e_listing_left img {
@@ -317,23 +317,24 @@
 }
 
 .team-linkdin a {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin: 8px 0 0 0px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 8px 0 0 0px;
 }
 
 .news_event_section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .news_event_mainbox .pdf_card_wraper {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .news_event_detail_section {
   padding: 80px 0;
 }
+
 /* NEWS AND EVENTS SECTION ENDS */
 /* TESTIMONIAL SECTION START */
 
@@ -3868,18 +3869,18 @@ table th {
 }
 
 .student_corner_section::before {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    background-image: url("../images/about/wave-line-background.webp");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.1;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  background-image: url("../images/about/wave-line-background.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.1;
 }
 
 .student_corner_mainbox {
@@ -3971,17 +3972,17 @@ table th {
 }
 
 .sig_commitee_section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .hostel_facility_section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .hostel_facility_firstbox {
-    display: grid;
-    grid-template-columns: 0.8fr 1fr;
-    gap: 80px;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 80px;
 }
 
 .hostel_facility_firstbox_icon {
@@ -4000,43 +4001,43 @@ table th {
 }
 
 .hostel_facility_firstbox_content {
-    display: grid;
-    grid-template-columns: 60px 2px 1fr;
-    gap: 30px;
-    padding: 30px;
-    background-color: var(--red-background-color);
-    border-radius: 20px;
+  display: grid;
+  grid-template-columns: 60px 2px 1fr;
+  gap: 30px;
+  padding: 30px;
+  background-color: var(--red-background-color);
+  border-radius: 20px;
 }
 
 .hostel_facility_firstbox_devider {
-    width: 2px;
-    height: 60px;
-    background-color: #dedede;
+  width: 2px;
+  height: 60px;
+  background-color: #dedede;
 }
 
 .hostel_facility_firstbox_img {
-    border-radius: 20px;
-    position: relative;
+  border-radius: 20px;
+  position: relative;
 }
 
 .hostel_facility_firstbox_img::after {
-    position: absolute;
-    content: "";
-    width: 100px;
-    height: 150px;
-    z-index: -1;
-    left: -20px;
-    top: -10px;
-    background-color: var(--red-color);
-    border-radius: 20px;
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 150px;
+  z-index: -1;
+  left: -20px;
+  top: -10px;
+  background-color: var(--red-color);
+  border-radius: 20px;
 }
 
 .hostel_facility_firstbox_img img {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .hostel_facility_secondbox {
-    padding: 60px 0 0 0;
+  padding: 60px 0 0 0;
 }
 
 .hostel_facility_card_icon {
@@ -4055,36 +4056,36 @@ table th {
 }
 
 .hostel_facility_card_wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    margin: 30px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px 0 0 0;
 }
 
 .hostel_facility_card_listing {
-    display: grid;
-    grid-template-columns: 60px 1fr;
-    align-items: center;
-    gap: 15px;
-    border-radius: 12px;
-    padding: 15px;
-    border: 1px solid #dedede;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  align-items: center;
+  gap: 15px;
+  border-radius: 12px;
+  padding: 15px;
+  border: 1px solid #dedede;
 }
 
 .hostel_facility_img_card_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0 0 0;
 }
 
 .hostel_facility_img_card_list {
-    display: grid;
-    grid-template-columns: 0.7fr 1fr;
-    gap: 30px;
-    align-items: center;
-    border-radius: 12px;
-    border: 1px solid #dedede;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  gap: 30px;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #dedede;
 }
 
 .hostel_facility_img_card_img img {
@@ -4092,24 +4093,24 @@ table th {
 }
 
 .hostel_facility_img_card_content {
-    padding: 0 15px 0 0;
+  padding: 0 15px 0 0;
 }
 
 .hostel_facility_img_card_heading {
-    font-size: 20px;
-    margin: 0 0 10px 0;
-    font-family: var(--font-roboto-600);
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  font-family: var(--font-roboto-600);
 }
 
 .ai_club_section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .ai_club_firstbox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
 }
 
 .ai_club_firstbox_right {
@@ -4121,25 +4122,25 @@ table th {
 }
 
 .ai_club_firstbox_right::after {
-    position: absolute;
-    content: "";
-    width: 100px;
-    height: 150px;
-    z-index: -1;
-    right: -20px;
-    top: -10px;
-    background-color: var(--red-color);
-    border-radius: 20px;
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 150px;
+  z-index: -1;
+  right: -20px;
+  top: -10px;
+  background-color: var(--red-color);
+  border-radius: 20px;
 }
 
 .ai_club_secondbox_icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white-color);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
 }
 
 .ai_club_secondbox_icon img {
@@ -4148,18 +4149,18 @@ table th {
 }
 
 .ai_club_secondbox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .ai_club_secondbox_list {
-    display: grid;
-    grid-template-columns: 60px 1fr;
-    gap: 30px;
-    padding: 20px;
-    background-color: var(--red-background-color);
-    border-radius: 12px;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 30px;
+  padding: 20px;
+  background-color: var(--red-background-color);
+  border-radius: 12px;
 }
 
 .ai_club_secondbox_list:last-child {
@@ -4174,15 +4175,15 @@ table th {
 }
 
 .ai_club_thirdbox_heading {
-    font-size: 18px;
-    font-family: var(--font-roboto-600);
-    margin: 0 0 8px 0;
+  font-size: 18px;
+  font-family: var(--font-roboto-600);
+  margin: 0 0 8px 0;
 }
 
 .ai_club_thirdbox_wrapper {
-    display: grid;
-    grid-template-columns: 0.8fr 0.8fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr 1fr;
+  gap: 20px;
 }
 
 .ai_club_thirdbox_listing .custom_listing {
@@ -4192,45 +4193,45 @@ table th {
 }
 
 .ai_club_thirdbox_listing {
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 3px 3px 14px #dedede;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 14px #dedede;
 }
 
 .ai_club_fourthbox .general_card_wraper {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
 }
 
 .ai_club_fifthbox_wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .ai_club_fifthbox_listing {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #dedede;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #dedede;
 }
 
 .acheivement_section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .acheivement_secondbox_imgbox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .acheivement_secondbox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .acheivement_secondbox_img img {
@@ -4238,69 +4239,69 @@ table th {
 }
 
 .acheivement_secondbox_listing {
-    padding: 20px;
-    background-color: var(--red-background-color);
-    border-radius: 20px;
+  padding: 20px;
+  background-color: var(--red-background-color);
+  border-radius: 20px;
 }
 
 .acheivement_secondbox_content {
-    margin: 15px 0 0 0;
+  margin: 15px 0 0 0;
 }
 
 .acheivement_secondbox_img img {
-    border-radius: 12px;
-    border: 2px solid var(--yellow-color);
+  border-radius: 12px;
+  border: 2px solid var(--yellow-color);
 }
 
 .acheivement_fifthbox {
-    display: grid;
-    grid-template-columns: 1fr 0.5fr;
-    gap: 60px;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  gap: 60px;
 }
 
 .acheivement_fifthbox_left {
   display: grid;
 }
 
-.acheivement_fifthbox_left > * {
+.acheivement_fifthbox_left>* {
   grid-area: 1/1;
 }
 
 .acheivement_fifthbox_left_background {
-    align-self: center;
-    justify-self: end;
-    width: auto;
-    height: 100%;
-    opacity: 0.08;
+  align-self: center;
+  justify-self: end;
+  width: auto;
+  height: 100%;
+  opacity: 0.08;
 }
 
 .acheivement_fifthbox_left_background img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0 20px 20px 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 20px 20px 0;
 }
 
 .acheivement_fifthbox_left_wrapper {
-    border-radius: 20px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 234, 235, 0.8) 100%);
-    box-shadow: 2px 4px 16px #dedede;
-    padding: 30px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 234, 235, 0.8) 100%);
+  box-shadow: 2px 4px 16px #dedede;
+  padding: 30px;
 }
 
 .acheivement_fifthbox_right_content {
-    padding: 15px;
-    border-radius: 0 0 20px 20px;
+  padding: 15px;
+  border-radius: 0 0 20px 20px;
 }
 
 .acheivement_fifthbox_right {
-    box-shadow: 2px 4px 16px #dedede;
-    border-radius: 20px;
-    background-color: #F3F7FB;
+  box-shadow: 2px 4px 16px #dedede;
+  border-radius: 20px;
+  background-color: #F3F7FB;
 }
 
 .acheivement_fifthbox_right_img img {
-    border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
 }
 
 /* STUDENT CORNER PAGE ENDS */
@@ -4377,12 +4378,12 @@ table th {
 }
 
 .research_publication_listing {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 12px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  align-items: center;
 }
 
 .research_publication_listing:first-child {
@@ -4394,12 +4395,12 @@ table th {
 }
 
 .research_publication_wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #dedede;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #dedede;
 }
 
 .research-linkdin img {
@@ -4932,6 +4933,25 @@ table th {
     height: 300px;
   }
 
+  .hostel_facility_firstbox {
+    gap: 40px;
+    align-items: center;
+  }
+
+  .hostel_facility_firstbox_content {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .hostel_facility_card_wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .acheivement_fifthbox {
+    gap: 20px;
+}
+
+
 }
 
 @media (max-width: 991.98px) {
@@ -5178,19 +5198,80 @@ table th {
     font-size: 16px;
     text-align: center;
     color: var(--white-color);
-}
+  }
 
-.conning_soon_header_para::after {
+  .conning_soon_header_para::after {
     left: 50%;
     transform: translateX(-50%);
-}
+  }
 
-.conning_soon_header_iconbox {
+  .conning_soon_header_iconbox {
     font-size: 16px;
     display: flex;
     justify-content: center;
     width: 100%;
     color: var(--white-color);
+  }
+
+  .hostel_facility_firstbox {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .hostel_facility_img_card_list {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .hostel_facility_img_card_img img {
+    border-radius: 12px 12px 0 0px;
+  }
+
+  .hostel_facility_img_card_content {
+    padding: 15px;
+  }
+
+  .hostel_facility_img_card_heading {
+    font-size: 18px;
+  }
+
+  .ai_club_firstbox {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .ai_club_firstbox_right {
+    grid-row: 1/2;
+}
+
+.ai_club_secondbox {
+    grid-template-columns: 1fr;
+}
+
+.ai_club_thirdbox_wrapper {
+    grid-template-columns: 1fr 1fr;
+}
+
+.ai_club_thirdbox_listing:last-child {
+  grid-column: span 2;
+}
+
+.ai_club_fifthbox_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.acheivement_secondbox {
+    grid-template-columns: 1fr;
+}
+
+.acheivement_fifthbox {
+    grid-template-columns: 1fr;
+}
+
+.acheivement_fifthbox_right_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 }
 
@@ -5657,6 +5738,10 @@ table th {
     padding: 60px 0;
   }
 
+  .student_corner_section {
+    padding: 60px 0;
+  }
+
   /* main section padding 80px to 60px ends */
 
   /* section padding 60px to 40px start */
@@ -6072,6 +6157,110 @@ table th {
   .send_button {
     margin: 10px 0 0 0;
   }
+
+  .student_corner_mainbox {
+    gap: 20px;
+  }
+
+  .student_corner_devider {
+    margin: 40px 0;
+  }
+
+  .hostel_facility_section {
+    padding: 60px 0;
+  }
+
+  .hostel_facility_firstbox_img::after {
+    left: -6px;
+    top: -10px;
+  }
+
+  .hostel_facility_firstbox_content {
+    grid-template-columns: 1fr;
+  }
+
+  .hostel_facility_firstbox_devider {
+    display: none;
+  }
+
+  .hostel_facility_firstbox_icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hostel_facility_firstbox_icon img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .hostel_facility_secondbox {
+    padding: 40px 0 0 0;
+  }
+
+  .hostel_facility_img_card_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .ai_club_section {
+    padding: 60px 0;
+}
+
+.ai_club_firstbox_right::after {
+    right: -6px;
+    top: -10px;
+}
+
+.ai_club_mainbox, .acheivement_mainbox {
+    gap: 40px;
+}
+
+.ai_club_secondbox_list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.ai_club_thirdbox_wrapper {
+    grid-template-columns: 1fr;
+}
+
+.ai_club_thirdbox_listing:last-child {
+    grid-column: span 1;
+}
+
+.general_card_mainheading {
+    font-size: 18px;
+}
+
+.general_card_icon {
+    width: 40px;
+    height: 40px;
+}
+
+.general_card_icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.ai_club_thirdbox_listing .custom_listing {
+    flex-direction: column;
+}
+
+.vision_mission_heading {
+    font-size: 20px;
+}
+
+.sig_commitee_section,
+.acheivement_section {
+    padding: 60px 0;
+}
+
+.acheivement_fifthbox_left_background img {
+    display: none;
+}
+
+.acheivement_fifthbox_left_wrapper {
+    padding: 15px;
+}
 
 }
 

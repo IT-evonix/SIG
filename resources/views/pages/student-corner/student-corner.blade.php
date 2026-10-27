@@ -113,7 +113,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">Scholarship</h2>
                                 <div class="student_corner_btn">
-                                    <a href="#">
+                                    <a href="{{ route('pages.comming-soon') }}">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path

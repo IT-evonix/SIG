@@ -65,27 +65,40 @@ experts and enhance your skills in geospatial technology.')
                         <div class="inner_page_contentbox">
                             <div class="research_publication_mainbox">
                                 <h2 class="inner_heading">Research Students Projects on MSc in Geoinformatics - SIG</h2>
-                                <div class="my_tabbing">
-                                    <ul class="nav nav-tabs custom-tabs" id="batchTabs" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="batch-2025-tab" data-bs-toggle="tab"
-                                                data-bs-target="#batch-2025" type="button" role="tab">
-                                                Batch 2022-24
-                                            </button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="batch-2024-tab" data-bs-toggle="tab"
-                                                data-bs-target="#batch-2024" type="button" role="tab">
-                                                Batch 2021-23
-                                            </button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="batch-2023-tab" data-bs-toggle="tab"
-                                                data-bs-target="#batch-2023" type="button" role="tab">
-                                                Batch 2020-22
-                                            </button>
-                                        </li>
-                                    </ul>
+                                <div class="my_tabbing scrollable-tabbing">
+                                    <div class="tab-navigation-wrapper">
+                                        <button type="button" class="tab-scroll-btn tab-prev"
+                                            aria-label="Previous tabs">
+                                            &#10094;
+                                        </button>
+                                        <div class="tab-navigation-scroll">
+                                            <ul class="nav nav-tabs custom-tabs" id="batchTabs" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="batch-2025-tab"
+                                                        data-bs-toggle="tab" data-bs-target="#batch-2025" type="button"
+                                                        role="tab">
+                                                        Batch 2022-24
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="batch-2024-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#batch-2024" type="button" role="tab">
+                                                        Batch 2021-23
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="batch-2023-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#batch-2023" type="button" role="tab">
+                                                        Batch 2020-22
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <button type="button" class="tab-scroll-btn tab-next" aria-label="Next tabs">
+                                            &#10095;
+                                        </button>
+                                    </div>
+
                                     <div class="tab-content" id="batchTabsContent">
                                         <div class="tab-pane fade show active" id="batch-2025" role="tabpanel">
                                             <div class="table-responsive">

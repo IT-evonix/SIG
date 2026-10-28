@@ -793,6 +793,29 @@ body.header-sticky-active {
     }
 }
 
+.top_header_popup_trigger {
+    animation: admissionPulse 1.5s ease-in-out infinite;
+    transition: background-color 0.3s ease;
+}
+
+@keyframes admissionPulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #f5a402ae;
+    }
+
+    50% {
+        transform: scale(1.02);
+        box-shadow: 0 0 0 4px #f5a4025b;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+    }
+}
+
+
 /* HEADER SECTION ENDS */
 
 .mobile_banner_image {

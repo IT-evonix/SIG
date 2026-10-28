@@ -32,6 +32,17 @@
         </div>
         <div class="inner_page_menu_text">Programme structure</div>
     </a>
+    <a href="{{ route('pages.programmes.msc-geoinformatics.academic-calendar') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.academic-calendar') ? 'inner_page_menu_listing_active' : '' }}">
+        <div class="inner_page_menu_icon">
+            <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
+                <path
+                    d="M0 4.41211V3.38379H9.04395L6.14355 0.386719L6.4248 0L11.9971 3.69141V4.10449L6.4248 7.78711L6.14355 7.40039L9.04395 4.41211H0Z"
+                    fill="#ffffff" />
+            </svg>
+        </div>
+        <div class="inner_page_menu_text">Academic Calendar</div>
+    </a>
     <a href="{{ route('pages.programmes.msc-geoinformatics.stakeholder-feedback') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.stakeholder-feedback') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
@@ -42,16 +53,6 @@
             </svg>
         </div>
         <div class="inner_page_menu_text">Stackholder's feedback</div>
-    </a>
-    <a href="{{ route('pages.faculty-profile') }}" class="inner_page_menu_listing">
-        <div class="inner_page_menu_icon">
-            <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
-                <path
-                    d="M0 4.41211V3.38379H9.04395L6.14355 0.386719L6.4248 0L11.9971 3.69141V4.10449L6.4248 7.78711L6.14355 7.40039L9.04395 4.41211H0Z"
-                    fill="#ffffff" />
-            </svg>
-        </div>
-        <div class="inner_page_menu_text">Faculty</div>
     </a>
     <a href="{{ route('pages.programmes.msc-geoinformatics.eligibility-criteria') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.eligibility-criteria') ? 'inner_page_menu_listing_active' : '' }}">

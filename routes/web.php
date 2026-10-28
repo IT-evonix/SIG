@@ -47,6 +47,10 @@ Route::get('/fees-structure', function () {
     return view('pages.programmes.msc-geoinformatics.fees-structure');
 })->name('pages.programmes.msc-geoinformatics.fees-structure');
 
+Route::get('/academic-calendar', function () {
+    return view('pages.programmes.msc-geoinformatics.academic-calendar');
+})->name('pages.programmes.msc-geoinformatics.academic-calendar');
+
 Route::get('/stakeholder-feedback', function () {
     return view('pages.programmes.msc-geoinformatics.stakeholder-feedback');
 })->name('pages.programmes.msc-geoinformatics.stakeholder-feedback');
@@ -112,6 +116,10 @@ Route::get('/dssa-dual-degree-admission-contact', function () {
     return view('pages.programmes.msc-dssa-dual-degree.admission-contact');
 })->name('pages.programmes.msc-dssa-dual-degree.admission-contact');
 
+Route::get('/dssa-dual-degree-academic-calendar', function () {
+    return view('pages.programmes.msc-dssa-dual-degree.dssa-dual-degree-academic-calendar');
+})->name('pages.programmes.msc-dssa-dual-degree.dssa-dual-degree-academic-calendar');
+
 // Msc dual degree end
 
 // msc dssa start
@@ -156,6 +164,10 @@ Route::get('/dssa-admission-contact', function () {
     return view('pages.programmes.msc-dssa.admission-contact');
 })->name('pages.programmes.msc-dssa.admission-contact');
 
+Route::get('/msc-dssa-academic-calendar', function () {
+    return view('pages.programmes.msc-dssa.msc-dssa-academic-calendar');
+})->name('pages.programmes.msc-dssa.msc-dssa-academic-calendar');
+
 // msc dssa end
 
 // certificate course drone data processing start
@@ -198,6 +210,11 @@ Route::get('/drone-scholarships', function () {
 Route::get('/drone-admission-contact', function () {
     return view('pages.programmes.certificate-course-drone-data-processing.admission-contact');
 })->name('pages.programmes.certificate-course-drone-data-processing.admission-contact');
+
+Route::get('/drone-academic-calendar', function () {
+    return view('pages.programmes.certificate-course-drone-data-processing.drone-academic-calendar');
+})->name('pages.programmes.certificate-course-drone-data-processing.drone-academic-calendar');
+
 // certificate course drone data processing end
 
 // certificate course data visualization start
@@ -240,6 +257,10 @@ Route::get('/data-visual-scholarships', function () {
 Route::get('/data-visual-admission-contact', function () {
     return view('pages.programmes.certificate-course-data-visualization.admission-contact');
 })->name('pages.programmes.certificate-course-data-visualization.admission-contact');
+
+Route::get('/data-visual-academic-calendar', function () {
+    return view('pages.programmes.certificate-course-data-visualization.data-visual-academic-calendar');
+})->name('pages.programmes.certificate-course-data-visualization.data-visual-academic-calendar');
 // certificate course data visualization end
 
 // PROGRAMMES MENU ENDS ---------------------------------------------------
@@ -359,6 +380,10 @@ Route::get('/research-student-mtech', function () {
 Route::get('/faculty-profile', function () {
     return view('pages.faculty-profile');
 })->name('pages.faculty-profile');
+
+Route::get('/social-initiative', function () {
+    return view('pages.social-initiative');
+})->name('pages.social-initiative');
 
 Route::get('/republic-day', function () {
     return view('pages.republic-day');

@@ -19,12 +19,12 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="col-lg-12">
                 <div class="inner_banner_mainbox">
                     <div class="inner_banner_headingbox">
-                        <h1 class="inner_banner_heading">Certificate Course <span>Drone Data Acquisition and Processing</span> </h1>
+                        <h1 class="inner_banner_heading">Drone Data <span>Acquisition & Processing</span></h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
                                 <li class="breadcrumb-item">Programmes</li>
-                                <li class="breadcrumb-item active" aria-current="page">Certificate Course Drone Data Acquisition and Processing</li>
+                                <li class="breadcrumb-item active" aria-current="page">Drone Data Acquisition & Processing</li>
                             </ol>
                         </nav>
                     </div>
@@ -78,12 +78,12 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         alt="Programmes image" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="programmes_page_second_mainbox">
+                            <!-- <div class="programmes_page_second_mainbox">
                                 <div class="programmes_second_left">
                                     <img src="{{ asset('assets/images/programmes/earth-image.webp') }}"
                                         alt="Programmes image" class="img-fluid">
                                 </div>
-                                <!-- <div class="programmes_second_right">
+                                <div class="programmes_second_right">
                                     <p>
                                         The curriculum offers comprehensive learning in Remote Sensing, Geographic
                                         Information Systems (GIS), Global Navigation Satellite Systems (GNSS), Spatial
@@ -101,8 +101,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         and technology-driven solutions, creating meaningful impact across industries,
                                         communities, and society.
                                     </p>
-                                </div> -->
-                            </div>
+                                </div>
+                            </div> -->
                             <!-- <div class="programmes_page_third_mainbox">
                                 <p class="m-0">
                                     As future geospatial professionals, graduates are equipped to contribute to

@@ -19,7 +19,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="col-lg-12">
                 <div class="inner_banner_mainbox">
                     <div class="inner_banner_headingbox">
-                        <h1 class="inner_banner_heading">Certification in Data Visualization</h1>
+                        <h1 class="inner_banner_heading">Certification in <span>Data Visualization</span></h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>

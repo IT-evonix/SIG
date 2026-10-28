@@ -163,35 +163,34 @@ industry-focused courses and build a future-ready career. Apply now!')
                     <div class="col-lg-12">
                         <div class="program_offered_wrap">
                             <div class="program_offered_mainbox" id="programSlider">
-                                <div class="program_offered_listing">
+                                <a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}" class="program_offered_listing">
                                     <div class="program_offered_listing_img">
                                         <img src="{{ asset('assets/images/home/program-offered-01.webp') }}" alt=""
                                             class="img-fluid">
                                     </div>
                                     <h3 class="program_offered_listing_heading">M.Sc. Geoinformatics</h3>
-                                </div>
-                                <div class="program_offered_listing">
+                                </a>
+                                <a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}" class="program_offered_listing">
                                     <div class="program_offered_listing_img">
                                         <img src="{{ asset('assets/images/home/program-offered-02.webp') }}" alt=""
                                             class="img-fluid">
                                     </div>
-                                    <h3 class="program_offered_listing_heading">M.Sc. Data Science</h3>
-                                </div>
-                                <div class="program_offered_listing">
+                                    <h3 class="program_offered_listing_heading">M.Sc. Data Science & Spatial Analytics</h3>
+                                </a>
+                                <a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}" class="program_offered_listing">
                                     <div class="program_offered_listing_img">
                                         <img src="{{ asset('assets/images/home/program-offered-03.webp') }}" alt=""
                                             class="img-fluid">
                                     </div>
-                                    <h3 class="program_offered_listing_heading">Spatial Analytics</h3>
-                                </div>
-                                <div class="program_offered_listing">
+                                    <h3 class="program_offered_listing_heading">M.Sc. Data Science & Spatial Analytics Dual Degree</h3>
+                                </a>
+                                <a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank" class="program_offered_listing">
                                     <div class="program_offered_listing_img">
                                         <img src="{{ asset('assets/images/home/program-offered-04.webp') }}" alt=""
                                             class="img-fluid">
                                     </div>
-                                    <h3 class="program_offered_listing_heading">M.Tech. Geoinformatics & Surveying
-                                        Technology</h3>
-                                </div>
+                                    <h3 class="program_offered_listing_heading">M.Tech. Geoinformatics</h3>
+                                </a>
                             </div>
                             <div class="program_offered_nav">
                                 <button class="program_nav_btn prev" id="programPrev" aria-label="Previous">
@@ -286,7 +285,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                                 <img src="{{ asset('assets/images/home/news-event-2.webp') }}" alt="" class="img-fluid"
                                     loading="lazy">
                             </div>
-                            <div class="home_n_e_right_video_icon">
+                            <!-- <div class="home_n_e_right_video_icon">
                                 <svg width="80" height="80" x="0" y="0" viewBox="0 0 512 512">
                                     <g>
                                         <circle cx="256.5" cy="256" r="256" fill="#ffffff"
@@ -297,7 +296,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                                             opacity="1" data-original="#ffffff"></path>
                                     </g>
                                 </svg>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

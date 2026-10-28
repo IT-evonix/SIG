@@ -39,7 +39,7 @@
                                 <div class="menu-toggle close-btn">✖</div>
                                 <nav class="nav-menu">                   
                                     <ul>
-                                        <li><a href="">Home</a></li>
+                                        <li><a href="{{ route('index') }}">Home</a></li>
                                         <li class="has-submenu">
                                             <a href="#">
                                                 About
@@ -66,7 +66,7 @@
                                                         <li><a href="{{ route('pages.about.deputy-director') }}">Deputy director's message</a></li>
                                                         <li><a href="{{ route('pages.faculty-profile') }}">Full Time Faculty</a></li>
                                                         <li><a href="{{ route('pages.comming-soon') }}">Faculty Awards and recognition </a></li>
-                                                        <li><a href="{{ route('pages.comming-soon') }}">Visiting Faculty </a></li>
+                                                        <!-- <li><a href="{{ route('pages.comming-soon') }}">Visiting Faculty </a></li> -->
                                                         <li><a href="{{ route('pages.faculty-profile') }}">Administrative Staff</a></li>
                                                         <li><a href="{{ route('pages.comming-soon') }}">Infrastructure</a></li>
                                                     </ul>
@@ -106,7 +106,7 @@
                                         </li>
                                         <li><a href="{{ route('pages.student-corner.student-corner') }}">Student Corner</a></li>
                                         <li><a href="{{ route('pages.blog') }}">Blog</a></li>
-                                        <li><a href="{{ route('pages.comming-soon') }}">Social Initiatives</a></li>
+                                        <li><a href="{{ route('pages.social-initiative') }}">Social Initiatives</a></li>
                                         <li><a href="{{ route('pages.contact') }}">Contact Us</a></li>
                                     </ul>
                                 </nav>

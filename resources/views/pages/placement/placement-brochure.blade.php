@@ -72,7 +72,7 @@ placement opportunities. Get more details here.')
                                         <div class="pdf_card_conent">
                                             <h3 class="pdf_card_heading">M.Sc. Geoinformatics</h3>
                                             <h4 class="pdf_card_subheading">Batch 2025-2027</h4>
-                                            <a href="#" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
+                                            <a href="{{ asset('assets/pdf/placement-brochure/MSc-Geoinformatics-2025-27-Placement-Brochure.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
                                                 <div class="pdf_card_btn_name">Click Here</div>
                                                 <div class="pdf_card_btn_icon">
                                                     <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
@@ -92,7 +92,7 @@ placement opportunities. Get more details here.')
                                         <div class="pdf_card_conent">
                                             <h3 class="pdf_card_heading">M.Sc. DSSA</h3>
                                             <h4 class="pdf_card_subheading">Batch 2025-2027</h4>
-                                            <a href="#" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
+                                            <a href="{{ asset('assets/pdf/placement-brochure/MSC-DSSA-2025-27-Placement-Brochure.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
                                                 <div class="pdf_card_btn_name">Click Here</div>
                                                 <div class="pdf_card_btn_icon">
                                                     <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
@@ -112,7 +112,7 @@ placement opportunities. Get more details here.')
                                         <div class="pdf_card_conent">
                                             <h3 class="pdf_card_heading">M.Tech. Geoinformatics</h3>
                                             <h4 class="pdf_card_subheading">Batch 2025-2027</h4>
-                                            <a href="#" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
+                                            <a href="{{ asset('assets/pdf/placement-brochure/MTech-Geoinformatics-2025-27-Placement-Brochure.pdf') }}" target="_blank" rel="noopener noreferrer" class="pdf_card_btn">
                                                 <div class="pdf_card_btn_name">Click Here</div>
                                                 <div class="pdf_card_btn_icon">
                                                     <svg width="15" height="8" viewBox="0 0 12 8" fill="none">

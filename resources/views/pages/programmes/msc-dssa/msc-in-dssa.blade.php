@@ -19,7 +19,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="col-lg-12">
                 <div class="inner_banner_mainbox">
                     <div class="inner_banner_headingbox">
-                        <h1 class="inner_banner_heading">M.Sc. in <span>Geoinformatics</span></h1>
+                        <h1 class="inner_banner_heading">M.Sc. in <span>DSSA</span></h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
@@ -38,7 +38,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
 
 @section('content')
 
-<main class="programs_main">
+<main class="programs_main one_liner_heading">
     <section class="inner_page_section">
         <div class="inner_page_backgrond_box">
             <div class="inner_page_backgrond_leftbox"></div>

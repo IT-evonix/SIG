@@ -4518,6 +4518,29 @@ table th {
 
 /* Inner menu responsive ends */
 
+.caution_red_para {
+  color: var(--red-color);
+}
+
+.caution_notice_btn {
+    width: fit-content;
+    padding: 6px 14px 4px 14px;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    background-color: var(--red-color);
+    border-radius: 8px 8px 0 0;
+    color: var(--white-color);
+    font-family: var(--font-roboto-600);
+    z-index: 999;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.caution_notice_btn:hover {
+  background-color: var(--yellow-color);
+}
+
 /* ================ MEDIA QUIRIES START ===================== */
 
 @media (max-width: 1440px) {

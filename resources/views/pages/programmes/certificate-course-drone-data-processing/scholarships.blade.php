@@ -23,7 +23,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item">Certificate Course Drone Data Acquisition and Processing</li>
+                                <li class="breadcrumb-item">Drone Data Acquisition & Processing</li>
                                 <li class="breadcrumb-item active" aria-current="page">Scholarships</li>
                             </ol>
                         </nav>

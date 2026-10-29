@@ -20,6 +20,10 @@ Route::get('/deputy-director', function () {
     return view('pages.about.deputy-director');
 })->name('pages.about.deputy-director');
 
+Route::get('/administrative-staff', function () {
+    return view('pages.about.administrative-staff');
+})->name('pages.about.administrative-staff');
+
 // ABOUT ENDS -------------------------------------------------------
 
 // CONTACT US START -------------------------------------------------------

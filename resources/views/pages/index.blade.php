@@ -6,40 +6,115 @@
 industry-focused courses and build a future-ready career. Apply now!')
 
 @section('banner')
-<div class="banner_mainbox">
-    <div class="banner_listing">
-        <div class="banner_imgbox">
-            <img src="{{ asset('assets/images/home/banner-image.webp') }}" alt="Banner Image" class="img-fluid desktop_banner_image">
-            <img src="{{ asset('assets/images/home/mobile-banner-image.webp') }}" alt="Banner Image" class="img-fluid mobile_banner_image">
-        </div>
-        <div class="container">
-            <div class="col-lg-12">
-                <div class="banner_content_box">
-                    <div class="banner_content_box_left">
-                        <h1 class="top_heading">
-                            <span class="top_heading_red">MAPS</span>
-                            <span>TODAY,</span>
-                            <span class="top_heading_red">BETTER</span>
-                            <span class="top_heading_yellow">TOMORROW</span>
-                        </h1>
-                        <p class="heading_para">
-                            Empowering future professionals in Geoinformatics and Data Science to solve real-world
-                            challenges for a sustainable planet.
-                        </p>
-                        <div class="banner_btn_box">
-                            <div class="my_btn_box">
-                                <a href="">Explore Programs</a>
-                            </div>
-                            <div class="my_btn_box">
-                                <a href="">Explore Programs</a>
+<div class="banner_mainbox swiper">
+    <div class="banner_wrapper swiper-wrapper">
+        <div class="banner_listing swiper-slide">
+            <div class="banner_imgbox">
+                <img src="{{ asset('assets/images/home/banner-image.webp') }}" alt="Banner Image"
+                    class="img-fluid desktop_banner_image">
+                <img src="{{ asset('assets/images/home/mobile-banner-image.webp') }}" alt="Banner Image"
+                    class="img-fluid mobile_banner_image">
+            </div>
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="banner_content_box">
+                        <div class="banner_content_box_left">
+                            <h1 class="top_heading">
+                                <span class="top_heading_red">MAPS</span>
+                                <span>TODAY,</span>
+                                <span class="top_heading_red">BETTER</span>
+                                <span class="top_heading_yellow">TOMORROW</span>
+                            </h1>
+                            <p class="heading_para">
+                                Empowering future professionals in Geoinformatics and Data Science to solve real-world
+                                challenges for a sustainable planet.
+                            </p>
+                            <div class="banner_btn_box">
+                                <div class="my_btn_box">
+                                    <a href="">Explore Programs</a>
+                                </div>
+                                <div class="my_btn_box">
+                                    <a href="">Explore Programs</a>
+                                </div>
                             </div>
                         </div>
+                        <div class="banner_content_box_right"></div>
                     </div>
-                    <div class="banner_content_box_right"></div>
+                </div>
+            </div>
+        </div>
+        <div class="banner_listing swiper-slide">
+            <div class="banner_imgbox">
+                <img src="{{ asset('assets/images/home/banner-image.webp') }}" alt="Banner Image"
+                    class="img-fluid desktop_banner_image">
+                <img src="{{ asset('assets/images/home/mobile-banner-image.webp') }}" alt="Banner Image"
+                    class="img-fluid mobile_banner_image">
+            </div>
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="banner_content_box">
+                        <div class="banner_content_box_left">
+                            <h1 class="top_heading">
+                                <span class="top_heading_red">MAPS</span>
+                                <span>TODAY,</span>
+                                <span class="top_heading_red">BETTER</span>
+                                <span class="top_heading_yellow">TOMORROW</span>
+                            </h1>
+                            <p class="heading_para">
+                                Empowering future professionals in Geoinformatics and Data Science to solve real-world
+                                challenges for a sustainable planet.
+                            </p>
+                            <div class="banner_btn_box">
+                                <div class="my_btn_box">
+                                    <a href="">Explore Programs</a>
+                                </div>
+                                <div class="my_btn_box">
+                                    <a href="">Explore Programs</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner_content_box_right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner_listing swiper-slide">
+            <div class="banner_imgbox">
+                <img src="{{ asset('assets/images/home/banner-image.webp') }}" alt="Banner Image"
+                    class="img-fluid desktop_banner_image">
+                <img src="{{ asset('assets/images/home/mobile-banner-image.webp') }}" alt="Banner Image"
+                    class="img-fluid mobile_banner_image">
+            </div>
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="banner_content_box">
+                        <div class="banner_content_box_left">
+                            <h1 class="top_heading">
+                                <span class="top_heading_red">MAPS</span>
+                                <span>TODAY,</span>
+                                <span class="top_heading_red">BETTER</span>
+                                <span class="top_heading_yellow">TOMORROW</span>
+                            </h1>
+                            <p class="heading_para">
+                                Empowering future professionals in Geoinformatics and Data Science to solve real-world
+                                challenges for a sustainable planet.
+                            </p>
+                            <div class="banner_btn_box">
+                                <div class="my_btn_box">
+                                    <a href="">Explore Programs</a>
+                                </div>
+                                <div class="my_btn_box">
+                                    <a href="">Explore Programs</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner_content_box_right"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="swiper-pagination"></div>
 </div>
 @endsection
 
@@ -163,28 +238,34 @@ industry-focused courses and build a future-ready career. Apply now!')
                     <div class="col-lg-12">
                         <div class="program_offered_wrap">
                             <div class="program_offered_mainbox" id="programSlider">
-                                <a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}" class="program_offered_listing">
+                                <a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}"
+                                    class="program_offered_listing">
                                     <div class="program_offered_listing_img">
                                         <img src="{{ asset('assets/images/home/program-offered-01.webp') }}" alt=""
                                             class="img-fluid">
                                     </div>
                                     <h3 class="program_offered_listing_heading">M.Sc. Geoinformatics</h3>
                                 </a>
-                                <a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}" class="program_offered_listing">
+                                <a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}"
+                                    class="program_offered_listing">
                                     <div class="program_offered_listing_img">
                                         <img src="{{ asset('assets/images/home/program-offered-02.webp') }}" alt=""
                                             class="img-fluid">
                                     </div>
-                                    <h3 class="program_offered_listing_heading">M.Sc. Data Science & Spatial Analytics</h3>
+                                    <h3 class="program_offered_listing_heading">M.Sc. Data Science & Spatial Analytics
+                                    </h3>
                                 </a>
-                                <a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}" class="program_offered_listing">
+                                <a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}"
+                                    class="program_offered_listing">
                                     <div class="program_offered_listing_img">
                                         <img src="{{ asset('assets/images/home/program-offered-03.webp') }}" alt=""
                                             class="img-fluid">
                                     </div>
-                                    <h3 class="program_offered_listing_heading">M.Sc. Data Science & Spatial Analytics Dual Degree</h3>
+                                    <h3 class="program_offered_listing_heading">M.Sc. Data Science & Spatial Analytics
+                                        Dual Degree</h3>
                                 </a>
-                                <a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank" class="program_offered_listing">
+                                <a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank"
+                                    class="program_offered_listing">
                                     <div class="program_offered_listing_img">
                                         <img src="{{ asset('assets/images/home/program-offered-04.webp') }}" alt=""
                                             class="img-fluid">
@@ -195,12 +276,14 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="program_offered_nav">
                                 <button class="program_nav_btn prev" id="programPrev" aria-label="Previous">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                        <path d="M15 19L8 12L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15 19L8 12L15 5" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                                 <button class="program_nav_btn next" id="programNext" aria-label="Next">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                        <path d="M9 5L16 12L9 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9 5L16 12L9 19" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -225,7 +308,8 @@ industry-focused courses and build a future-ready career. Apply now!')
                 <div class="col-lg-12">
                     <div class="home_n_e_mainbox">
                         <div class="home_n_e_leftbox">
-                            <a href="{{ asset('assets/pdf/news-and-events/DoorDash_Campus_Drive_News.pdf') }}" target="_blank" class="home_n_e_listing">
+                            <a href="{{ asset('assets/pdf/news-and-events/DoorDash_Campus_Drive_News.pdf') }}"
+                                target="_blank" class="home_n_e_listing">
                                 <div class="home_n_e_listing_left">
                                     <img src="{{ asset('assets/images/home/news-event.webp') }}" alt="News Event Image"
                                         class="img-fluid">
@@ -242,7 +326,8 @@ industry-focused courses and build a future-ready career. Apply now!')
                                         alt="News Event Image" class="img-fluid">
                                 </div>
                             </a>
-                            <a href="{{ asset('assets/pdf/news-and-events/Cognizant-NPN-2027.pdf') }}" target="_blank" class="home_n_e_listing">
+                            <a href="{{ asset('assets/pdf/news-and-events/Cognizant-NPN-2027.pdf') }}" target="_blank"
+                                class="home_n_e_listing">
                                 <div class="home_n_e_listing_left">
                                     <img src="{{ asset('assets/images/home/news-event.webp') }}" alt="News Event Image"
                                         class="img-fluid">
@@ -259,7 +344,8 @@ industry-focused courses and build a future-ready career. Apply now!')
                                         alt="News Event Image" class="img-fluid">
                                 </div>
                             </a>
-                            <a href="https://www.topuniversities.com/universities/symbiosis-international-deemed-university/postgrad/master-science-geoinformatics#p2-rankings" target="_blank" class="home_n_e_listing">
+                            <a href="https://www.topuniversities.com/universities/symbiosis-international-deemed-university/postgrad/master-science-geoinformatics#p2-rankings"
+                                target="_blank" class="home_n_e_listing">
                                 <div class="home_n_e_listing_left">
                                     <img src="{{ asset('assets/images/home/news-event.webp') }}" alt="News Event Image"
                                         class="img-fluid">
@@ -268,7 +354,8 @@ industry-focused courses and build a future-ready career. Apply now!')
                                     <!-- <div class="home_n_e_listing_date">Feb 20, 2026</div> -->
                                     <!-- <h4 class="home_n_e_listing_heading">GeoAI and Future Prospects</h4> -->
                                     <p class="home_n_e_listing_para">
-                                        SIG’s M.Sc Geoinformatics & M.Sc Data Science & Spatial Analytics Programmes Gain Global Recognition Under QS Ranking (351–400)
+                                        SIG’s M.Sc Geoinformatics & M.Sc Data Science & Spatial Analytics Programmes
+                                        Gain Global Recognition Under QS Ranking (351–400)
                                     </p>
                                 </div>
                                 <div class="home_n_e_listing_icon">
@@ -329,8 +416,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Sanjukta Choudhary</h5>
                             <p>Map Content Engineer – Tomtom</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/sanjukta-choudhury-2a519731/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/sanjukta-choudhury-2a519731/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -342,8 +431,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Devarshi Tambe</h5>
                             <p>Sales Enthusiast - Scrabble</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/devarshi-tambe-16556a149/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/devarshi-tambe-16556a149/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -355,8 +446,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Wasim Qureshi</h5>
                             <p>Engineer at P.D. D Jammu and Kashmir</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/wasim-qureshi-7bb47628/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/wasim-qureshi-7bb47628/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -368,8 +461,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Manisha Dubey (Chaturvedi)</h5>
                             <p>Manager at Accenture</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/manisha-chaturvedi-16088313b/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/manisha-chaturvedi-16088313b/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -381,8 +476,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Payal Patole</h5>
                             <p>Geomatic Expert at Michelin</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/payal-patole-geomatician/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/payal-patole-geomatician/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -394,8 +491,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Ankita Misra</h5>
                             <p>Data Scientist at Eugenie.ai</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/ankita-misra-3a4342238/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/ankita-misra-3a4342238/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -408,8 +507,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Sanjukta Choudhary</h5>
                             <p>Map Content Engineer – Tomtom</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/sanjukta-choudhury-2a519731/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/sanjukta-choudhury-2a519731/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -421,8 +522,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Devarshi Tambe</h5>
                             <p>Sales Enthusiast - Scrabble</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/devarshi-tambe-16556a149/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/devarshi-tambe-16556a149/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -434,8 +537,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Wasim Qureshi</h5>
                             <p>Engineer at P.D. D Jammu and Kashmir</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/wasim-qureshi-7bb47628/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/wasim-qureshi-7bb47628/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -447,8 +552,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Manisha Dubey (Chaturvedi)</h5>
                             <p>Manager at Accenture</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/manisha-chaturvedi-16088313b/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/manisha-chaturvedi-16088313b/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -460,8 +567,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Payal Patole</h5>
                             <p>Geomatic Expert at Michelin</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/payal-patole-geomatician/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/payal-patole-geomatician/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -473,8 +582,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Ankita Misra</h5>
                             <p>Data Scientist at Eugenie.ai</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/ankita-misra-3a4342238/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/ankita-misra-3a4342238/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -494,8 +605,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Andrie Singh</h5>
                             <p>Product Manager - Jio</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/andrie-singh-frgs-b4590876/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/andrie-singh-frgs-b4590876/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -507,8 +620,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Ashish Arora</h5>
                             <p>National Business Head - Commercial & AEC ESRI India</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/ashishfs/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/ashishfs/?isSelfProfile=false" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -520,8 +635,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Ms. D’ Cunha Orlene Christine Oswald</h5>
                             <p>Reliance Jio Infocomm Ltd</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/orlene-dcunha-33711288/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/orlene-dcunha-33711288/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -533,8 +650,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Devdatta Tengshe</h5>
                             <p>Co-Founder GeoPune , Senior GIS Manager Ola Campus Pune</p>
                             <div class="team-linkdin">
-                                <a href="hhttps://www.linkedin.com/in/devdattat/" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="hhttps://www.linkedin.com/in/devdattat/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -547,7 +666,8 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <p>Assistant Professor, Carleton University, Ottawa, Canada</p>
                             <div class="team-linkdin">
                                 <a href="linkedin.com/in/diptosarkar/" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -560,7 +680,8 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <p>Lead GIS Stantec</p>
                             <div class="team-linkdin">
                                 <a href="linkedin.com/in/prasadlingam/" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -573,8 +694,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Andrie Singh</h5>
                             <p>Product Manager - Jio</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/andrie-singh-frgs-b4590876/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/andrie-singh-frgs-b4590876/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -586,8 +709,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Ashish Arora</h5>
                             <p>National Business Head - Commercial & AEC ESRI India</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/ashishfs/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/ashishfs/?isSelfProfile=false" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -599,8 +724,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Ms. D’ Cunha Orlene Christine Oswald</h5>
                             <p>Reliance Jio Infocomm Ltd</p>
                             <div class="team-linkdin">
-                                <a href="https://www.linkedin.com/in/orlene-dcunha-33711288/?isSelfProfile=false" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="https://www.linkedin.com/in/orlene-dcunha-33711288/?isSelfProfile=false"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -612,8 +739,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Devdatta Tengshe</h5>
                             <p>Co-Founder GeoPune , Senior GIS Manager Ola Campus Pune</p>
                             <div class="team-linkdin">
-                                <a href="hhttps://www.linkedin.com/in/devdattat/" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                <a href="hhttps://www.linkedin.com/in/devdattat/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -626,7 +755,8 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <p>Assistant Professor, Carleton University, Ottawa, Canada</p>
                             <div class="team-linkdin">
                                 <a href="linkedin.com/in/diptosarkar/" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -639,7 +769,8 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <p>Lead GIS Stantec</p>
                             <div class="team-linkdin">
                                 <a href="linkedin.com/in/prasadlingam/" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}" alt="Linkdin icon" class="img-fluid">
+                                    <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
+                                        alt="Linkdin icon" class="img-fluid">
                                 </a>
                             </div>
                         </div>

@@ -67,7 +67,7 @@
                                                         <li><a href="{{ route('pages.faculty-profile') }}">Full Time Faculty</a></li>
                                                         <li><a href="{{ route('pages.comming-soon') }}">Faculty Awards and recognition </a></li>
                                                         <!-- <li><a href="{{ route('pages.comming-soon') }}">Visiting Faculty </a></li> -->
-                                                        <li><a href="{{ route('pages.faculty-profile') }}">Administrative Staff</a></li>
+                                                        <li><a href="{{ route('pages.about.administrative-staff') }}">Administrative Staff</a></li>
                                                         <li><a href="{{ route('pages.comming-soon') }}">Infrastructure</a></li>
                                                     </ul>
                                                 </div>

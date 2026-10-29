@@ -41,7 +41,7 @@
                                         <a href="tel:+02025672841">020: 25672841</a> / <a href="tel:+02025672843">43</a>
                                     </div>
                                     <div class="footer_content_second">
-                                        <a href="tel:+917709998185">+91 7709998185</a> 
+                                        <a href="tel:+917709998185">+91 7709998185</a>
                                         <!-- / <a href="tel:+917709998185">+91
                                             7709998185</a> -->
                                     </div>
@@ -267,7 +267,8 @@
                                     <td>M.Sc. Geoinformatics</td>
                                     <td>
                                         <div class="my_btn_box">
-                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx"
+                                                target="_blank" rel="noopener noreferrer">Apply Now</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -275,7 +276,8 @@
                                     <td>M.Sc. Data Science & Spatial Analytics</td>
                                     <td>
                                         <div class="my_btn_box">
-                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx"
+                                                target="_blank" rel="noopener noreferrer">Apply Now</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -283,7 +285,8 @@
                                     <td>M.Tech. Geoinformatics</td>
                                     <td>
                                         <div class="my_btn_box">
-                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx"
+                                                target="_blank" rel="noopener noreferrer">Apply Now</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -294,13 +297,17 @@
                                                 M.Sc. Data Science & Spatial Analytics- Dual Degree Programme
                                             </div>
                                             <div class="top_header_table_content_subheading">
-                                                (M.Sc. in Data Science & Spatial Analytics — Year 1 at Symbiosis International (Deemed University) , India and Master of Science Degree – Technical Systems Control – Artificial Intelligence and Space Science — Year 2 at RUDN University, Moscow, Russia)
+                                                (M.Sc. in Data Science & Spatial Analytics — Year 1 at Symbiosis
+                                                International (Deemed University) , India and Master of Science Degree –
+                                                Technical Systems Control – Artificial Intelligence and Space Science —
+                                                Year 2 at RUDN University, Moscow, Russia)
                                             </div>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="my_btn_box">
-                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                                            <a href="https://siu27.ishinfo.com/SIUPGFY27/Register/Index.aspx"
+                                                target="_blank" rel="noopener noreferrer">Apply Now</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -316,58 +323,85 @@
 <!-- popup model on top header ends -->
 
 <!-- caution notice start -->
- <div class="caution_notice_btn" data-bs-toggle="modal" data-bs-target="#cautionNoticeModal">
+<div class="caution_notice_btn" data-bs-toggle="modal" data-bs-target="#cautionNoticeModal">
     Caution Notice
- </div>
- <div class="caution_notice_popup">
+</div>
+<div class="caution_notice_popup">
     <div class="top_header_popup">
-    <!-- Modal -->
-    <div class="modal fade top_header_popup_modal" id="cautionNoticeModal" tabindex="-1"
-        aria-labelledby="topHeaderModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content top_header_popup_content">
-                <!-- Modal Header -->
-                <div class="top_header_popup_header">
-                    <div class="top_header_popup_heading">
-                        Caution Notice
+        <!-- Modal -->
+        <div class="modal fade top_header_popup_modal" id="cautionNoticeModal" tabindex="-1"
+            aria-labelledby="topHeaderModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content top_header_popup_content">
+                    <!-- Modal Header -->
+                    <div class="top_header_popup_header">
+                        <div class="top_header_popup_heading">
+                            Caution Notice
+                        </div>
+                        <button type="button" class="top_header_popup_close" data-bs-dismiss="modal" aria-label="Close">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                aria-hidden="true">
+                                <path d="m18 6-12 12" />
+                                <path d="m6 6 12 12" />
+                            </svg>
+
+                        </button>
                     </div>
-                    <button type="button" class="top_header_popup_close" data-bs-dismiss="modal" aria-label="Close">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
-                            <path d="m18 6-12 12" />
-                            <path d="m6 6 12 12" />
-                        </svg>
-
-                    </button>
-                </div>
-
-                <div class="top_header_popup_body">
-                    <p>
-                        Admission to all the courses and programmes at Symbiosis International (Deemed University) (SIU) are strictly on merit, based on the eligibility criteria, admission criteria and processes prescribed by the University from time to time and assessment of individual performance in different entrance tests / procedures conducted by SIU including Symbiosis National Aptitude Test [SNAP], Symbiosis Entrance Test [SET], Symbiosis Law Admission Test [SLAT], Symbiosis All India Admission Test [AIAT], Symbiosis Entrance Exam for Design [SEED], Symbiosis Institute of Technology Engineering Entrance Exam [SITEEE] and Symbiosis Ph.D. Entrance Test (PET).
-                    </p>
-                    <p>
-                        It is a matter of Policy that Symbiosis International (Deemed University) does not charge capitation fee for admission from students and this is widely and prominently published as well on all the relevant places like prospectus, website, Admission Booklets, etc.
-                    </p>
-                    <p>
-                        All aspirants / parents are hereby notified that some individuals and/or organisations are giving / making false and misleading advertisements / claims in newspapers, websites, social media platforms or other means that they can secure/ ensure admission to various programme offered by Symbiosis International (Deemed University). Such individuals or organisations may also seek or demand money from aspirants or their parents in consideration of such purported assurances.
-                    </p>
-                    <p>
-                        Aspirants and parents are advised to rely only on information and communications issued through the University's official channels, and to independently verify any claim regarding admission made by any third party.
-                    </p>
-                    <p>
-                        It is informed at large that the University has not authorised or appointed any individual, agent, consultant or organisation to guarantee, assure or otherwise represent that admission to any course or programme, can be secured against payment of money or through any means other than the prescribed admission process. In this regard, Symbiosis International (Deemed University) requests the aspirants / parents to refrain from entering into any transaction with such elements. Despite this Notice, if any aspirant / parent still proceeds with or enters into transaction with such elements, they would be doing so at their own risk and cost.
-                    </p>
-                    <p>
-                        Symbiosis International (Deemed University) further notifies that any aspirant attempting to approach Symbiosis International (Deemed University) for admission through or at the instances of such agents will be permanently debarred from admission to all the courses and programmes at Symbiosis International (Deemed University).
-                    </p>
-                    <p class="m-0"><strong>By order</strong></p>
-                    <p class="caution_red_para">Registrar</p>
+                    <div class="top_header_popup_body">
+                        <p>
+                            Admission to all the courses and programmes at Symbiosis International (Deemed University)
+                            (SIU) are strictly on merit, based on the eligibility criteria, admission criteria and
+                            processes prescribed by the University from time to time and assessment of individual
+                            performance in different entrance tests / procedures conducted by SIU including Symbiosis
+                            National Aptitude Test [SNAP], Symbiosis Entrance Test [SET], Symbiosis Law Admission Test
+                            [SLAT], Symbiosis All India Admission Test [AIAT], Symbiosis Entrance Exam for Design
+                            [SEED], Symbiosis Institute of Technology Engineering Entrance Exam [SITEEE] and Symbiosis
+                            Ph.D. Entrance Test (PET).
+                        </p>
+                        <p>
+                            It is a matter of Policy that Symbiosis International (Deemed University) does not charge
+                            capitation fee for admission from students and this is widely and prominently published as
+                            well on all the relevant places like prospectus, website, Admission Booklets, etc.
+                        </p>
+                        <p>
+                            All aspirants / parents are hereby notified that some individuals and/or organisations are
+                            giving / making false and misleading advertisements / claims in newspapers, websites, social
+                            media platforms or other means that they can secure/ ensure admission to various programme
+                            offered by Symbiosis International (Deemed University). Such individuals or organisations
+                            may also seek or demand money from aspirants or their parents in consideration of such
+                            purported assurances.
+                        </p>
+                        <p>
+                            Aspirants and parents are advised to rely only on information and communications issued
+                            through the University's official channels, and to independently verify any claim regarding
+                            admission made by any third party.
+                        </p>
+                        <p>
+                            It is informed at large that the University has not authorised or appointed any individual,
+                            agent, consultant or organisation to guarantee, assure or otherwise represent that admission
+                            to any course or programme, can be secured against payment of money or through any means
+                            other than the prescribed admission process. In this regard, Symbiosis International (Deemed
+                            University) requests the aspirants / parents to refrain from entering into any transaction
+                            with such elements. Despite this Notice, if any aspirant / parent still proceeds with or
+                            enters into transaction with such elements, they would be doing so at their own risk and
+                            cost.
+                        </p>
+                        <p>
+                            Symbiosis International (Deemed University) further notifies that any aspirant attempting to
+                            approach Symbiosis International (Deemed University) for admission through or at the
+                            instances of such agents will be permanently debarred from admission to all the courses and
+                            programmes at Symbiosis International (Deemed University).
+                        </p>
+                        <p class="m-0"><strong>By order</strong></p>
+                        <p class="caution_red_para">Registrar</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
- </div>
 
 <!-- caution notice ends -->

@@ -400,3 +400,43 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 })();
 // Scroll tabbing ends
+
+// Home banner slider start
+
+document.addEventListener('DOMContentLoaded', function () {
+    const bannerElement = document.querySelector('.banner_mainbox');
+
+    if (!bannerElement || typeof Swiper === 'undefined') {
+        return;
+    }
+
+    new Swiper(bannerElement, {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        speed: 400,
+        loop: true,
+        watchOverflow: true,
+
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+        },
+
+        pagination: {
+            el: bannerElement.querySelector('.swiper-pagination'),
+            clickable: true,
+        },
+
+        keyboard: {
+            enabled: true,
+            onlyInViewport: true,
+        },
+
+        a11y: {
+            paginationBulletMessage: 'Go to banner {{index}}',
+        },
+    });
+});
+
+// Home banner slider ends

@@ -1628,6 +1628,7 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
   box-shadow: 0px 2px 10px #0000001f;
   border-bottom: 4px solid var(--red-color);
   position: relative;
+  cursor: pointer;
 }
 
 .faculty_card::before {
@@ -1756,6 +1757,87 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
   fill: var(--yellow-color);
 }
 
+.faculty_popup_heading {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    font-family: var(--font-roboto-600);
+}
+
+.faculty_popup_mainbox .top_header_popup_heading {
+    color: var(--red-color);
+}
+
+.faculty_popup_subheading {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    font-family: var(--font-roboto-600);
+    color: #666;
+}
+
+.faculty_popup_firstbox_mainbox {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.faculty_popup_secondbox_icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--red-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.faculty_popup_secondbox_icon svg {
+  width: 10px;
+  height: 10px;
+}
+
+.faculty_popup_secondbox_wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.faculty_popup_secondbox_listing {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  gap: 20px;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.faculty_popup_secondbox_listing:hover {
+  background-color: var(--icon-color);
+  color: var(--black-color);
+}
+
+.faculty_popup_secondbox_listing:hover .faculty_popup_secondbox_icon {
+  background-color: var(--yellow-color);
+}
+
+.faculty_popup_secondbox_text {
+    font-size: 12px;
+}
+
+.faculty_popup_secondbox {
+    margin: 20px 0 0 0;
+}
+
+.staff_profile_main .faculty_headingbox {
+    padding: 0;
+    margin: 0;
+}
+
+.staff_profile_main .faculty_headingbox::after {
+    display: none;
+}
 /* FACULTY PAGE ENDS */
 
 /* ADMISSION CALENDAR PAGE START */

@@ -55,7 +55,7 @@
                                                         <li><a href="https://www.siu.edu.in/about-us/leaderships" target="_blank">Leadership</a></li>
                                                         <li><a href="https://www.siu.edu.in/about-us/authorities-committees/board-management" target="_blank">Executive council</a></li>
                                                         <li><a href="https://www.siu.edu.in/about-us/authorities-committees/university-sports-board" target="_blank">University Sports Board</a></li>
-                                                        <li><a href="#">Code of Conduct</a></li>
+                                                        <li><a href="{{ asset('assets/pdf/Code-of-Conduct.pdf') }}" target="_blank">Code of Conduct</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="about_submenu_listing">
@@ -68,7 +68,7 @@
                                                         <li><a href="{{ route('pages.comming-soon') }}">Faculty Awards and recognition </a></li>
                                                         <!-- <li><a href="{{ route('pages.comming-soon') }}">Visiting Faculty </a></li> -->
                                                         <li><a href="{{ route('pages.about.administrative-staff') }}">Administrative Staff</a></li>
-                                                        <li><a href="{{ route('pages.comming-soon') }}">Infrastructure</a></li>
+                                                        <li><a href="{{ route('pages.about.infrastructure') }}">Infrastructure</a></li>
                                                     </ul>
                                                 </div>
                                             </div>

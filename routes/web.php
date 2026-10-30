@@ -24,6 +24,10 @@ Route::get('/administrative-staff', function () {
     return view('pages.about.administrative-staff');
 })->name('pages.about.administrative-staff');
 
+Route::get('/infrastructure', function () {
+    return view('pages.about.infrastructure');
+})->name('pages.about.infrastructure');
+
 // ABOUT ENDS -------------------------------------------------------
 
 // CONTACT US START -------------------------------------------------------

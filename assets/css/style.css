@@ -1405,6 +1405,13 @@ body:has(.one_liner_heading) .inner_banner_heading span {
   margin: 0;
 }
 
+.blog_chain_imgbox {
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    gap: 40px;
+    align-items: center;
+}
+
 /* BLOG PAGE ENDS */
 
 /* BLOG DETAIL START */
@@ -5816,6 +5823,16 @@ table th {
 
   .research_publication_listing {
     align-items: start;
+}
+
+.blog_chain_imgbox {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.blog_chain_img {
+    grid-row: 1/2;
+    justify-self: center;
 }
 
 }

@@ -100,7 +100,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="{{ route('pages.blog-detail') }}">
+                                        <a href="{{ route('pages.blogs.data-science-education-and-curriculum-development') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -152,7 +152,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="{{ route('pages.blog-detail') }}">
+                                        <a href="{{ route('pages.blogs.top-10-factors-for-choosing-best-data-science-institute') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -195,7 +195,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="{{ route('pages.blog-detail') }}">
+                                        <a href="{{ route('pages.blogs.blockchain-technology') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -241,7 +241,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="{{ route('pages.blog-detail') }}">
+                                        <a href="{{ route('pages.blogs.data-science-an-insight-into-skills-and-career-opportunities-for-aspirants') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -285,7 +285,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="{{ route('pages.blog-detail') }}">
+                                        <a href="{{ route('pages.blogs.geoinformatics-a-unique-career-opportunity') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path
@@ -329,7 +329,7 @@ by insights from our directors, faculty, alumni, and students.')
                                         </div>
                                     </div>
                                     <div class="blog_card_top_button">
-                                        <a href="{{ route('pages.blog-detail') }}">
+                                        <a href="{{ route('pages.blogs.data-science-career-and-opportunities') }}">
                                             <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
                                                 <g>
                                                     <path

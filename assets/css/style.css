@@ -1838,6 +1838,44 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
 .staff_profile_main .faculty_headingbox::after {
     display: none;
 }
+
+.infrastructure_listing {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.infrastructure_listing::after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
+}
+
+.infrastructure_listing:hover::after {
+    height: 250%;
+    transition: all 600ms linear;
+    background-color: transparent;
+}
+
+.infrastructure_mainbox {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 15px;
+}
+
+.infrastructure_section {
+    padding: 80px 0;
+}
+
+.infrastructure_listing img {
+  border-radius: 12px;
+}
 /* FACULTY PAGE ENDS */
 
 /* ADMISSION CALENDAR PAGE START */

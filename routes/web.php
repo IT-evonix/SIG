@@ -331,6 +331,30 @@ Route::get('/blog-detail', function () {
     return view('pages.blog-detail');
 })->name('pages.blog-detail');
 
+Route::get('/data-science-education-and-curriculum-development', function () {
+    return view('pages.blogs.data-science-education-and-curriculum-development');
+})->name('pages.blogs.data-science-education-and-curriculum-development');
+
+Route::get('/top-10-factors-for-choosing-best-data-science-institute', function () {
+    return view('pages.blogs.top-10-factors-for-choosing-best-data-science-institute');
+})->name('pages.blogs.top-10-factors-for-choosing-best-data-science-institute');
+
+Route::get('/blockchain-technology', function () {
+    return view('pages.blogs.blockchain-technology');
+})->name('pages.blogs.blockchain-technology');
+
+Route::get('/data-science-an-insight-into-skills-and-career-opportunities-for-aspirants', function () {
+    return view('pages.blogs.data-science-an-insight-into-skills-and-career-opportunities-for-aspirants');
+})->name('pages.blogs.data-science-an-insight-into-skills-and-career-opportunities-for-aspirants');
+
+Route::get('/geoinformatics-a-unique-career-opportunity', function () {
+    return view('pages.blogs.geoinformatics-a-unique-career-opportunity');
+})->name('pages.blogs.geoinformatics-a-unique-career-opportunity');
+
+Route::get('/data-science-career-and-opportunities', function () {
+    return view('pages.blogs.data-science-career-and-opportunities');
+})->name('pages.blogs.data-science-career-and-opportunities');
+
 // BLOG ENDS ---------------------------------------------------
 
 // STUDENT CORNER START -------------------------------------------

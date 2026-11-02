@@ -97,8 +97,8 @@
         </div>
         <div class="inner_page_menu_text">Rules for refund of Fees</div>
     </a>
-    <a href="{{ route('pages.programmes.msc-geoinformatics.scholarships') }}"
-        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.scholarships') ? 'inner_page_menu_listing_active' : '' }}">
+    <a href="{{ route('pages.programmes.msc-geoinformatics.msc-geoinformatics-scholarships') }}"
+        class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.msc-geoinformatics-scholarships') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
                 <path

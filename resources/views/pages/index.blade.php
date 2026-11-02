@@ -31,10 +31,10 @@ industry-focused courses and build a future-ready career. Apply now!')
                             </p>
                             <div class="banner_btn_box">
                                 <div class="my_btn_box">
-                                    <a href="">Explore Programs</a>
+                                    <a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}">Explore Programs</a>
                                 </div>
                                 <div class="my_btn_box">
-                                    <a href="">Explore Programs</a>
+                                    <a href="{{ route('pages.placement.placement') }}">Explore Placement</a>
                                 </div>
                             </div>
                         </div>
@@ -746,7 +746,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                                     reducing their financial burden.
                                 </p>
                                 <div class="my_btn_box">
-                                    <a href="">Explore Scholarships</a>
+                                    <a href="{{ route('pages.student-corner.scholarships') }}">Explore Scholarships</a>
                                 </div>
                             </div>
                             <div class="scholar_main_rightbox"></div>

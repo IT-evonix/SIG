@@ -76,7 +76,7 @@
                                 <li><a href="{{ route('pages.about.about-us') }}">Overview</a></li>
                                 <li><a href="https://www.siu.edu.in/" target="_blank">Symbiosis</a></li>
                                 <li><a href="https://www.siu.edu.in/about-us/vision-mission" target="_blank">Vision & Mission</a></li>
-                                <li><a href="https://sig.ac.in/visionarie" target="_blank">Visionaries</a></li>
+                                <li><a href="{{ route('index') }}">Visionaries</a></li>
                                 <li><a href="https://www.siu.edu.in/leadership/prof-dr-s-b-mujumdar" target="_blank">Leadership</a></li>
                                 <li><a href="{{ route('pages.about.director') }}">Director</a></li>
                                 <li><a href="https://www.symbiosis.ac.in/" target="_blank">Society</a></li>

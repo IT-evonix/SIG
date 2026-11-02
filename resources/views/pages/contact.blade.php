@@ -261,7 +261,7 @@ Data Science in India. Contact us for your enquiries.')
                                         </svg>
                                     </div>
                                     <div class="contact_adderess_text">
-                                        <a href="https://wa.me/917709998185">+91 7709998185</a>
+                                        <a href="https://wa.me/917709998185" target="_blank" rel="noopener noreferrer">+91 7709998185</a>
                                     </div>
                                 </div>
                             </div>

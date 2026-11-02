@@ -75,9 +75,9 @@ Route::get('/how-to-apply', function () {
     return view('pages.programmes.msc-geoinformatics.how-to-apply');
 })->name('pages.programmes.msc-geoinformatics.how-to-apply');
 
-Route::get('/scholarships', function () {
-    return view('pages.programmes.msc-geoinformatics.scholarships');
-})->name('pages.programmes.msc-geoinformatics.scholarships');
+Route::get('/msc-geoinformatics-scholarships', function () {
+    return view('pages.programmes.msc-geoinformatics.msc-geoinformatics-scholarships');
+})->name('pages.programmes.msc-geoinformatics.msc-geoinformatics-scholarships');
 
 Route::get('/admission-contact', function () {
     return view('pages.programmes.msc-geoinformatics.admission-contact');
@@ -382,6 +382,10 @@ Route::get('/achievements', function () {
 Route::get('/newsevents', function () {
     return view('pages.student-corner.newsevents');
 })->name('pages.student-corner.newsevents');
+
+Route::get('/scholarships', function () {
+    return view('pages.student-corner.scholarships');
+})->name('pages.student-corner.scholarships');
 
 // STUDENT CORNER ENDS --------------------------------------------
 

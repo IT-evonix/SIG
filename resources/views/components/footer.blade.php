@@ -73,38 +73,38 @@
                         <div class="footer_topbox_right_listing">
                             <h4 class="footer_heading">Main Links</h4>
                             <ul class="footer_listing">
-                                <li><a href="#">Overview</a></li>
-                                <li><a href="#">Symbiosis</a></li>
-                                <li><a href="#">Vision & Mission</a></li>
-                                <li><a href="#">Visionaries</a></li>
-                                <li><a href="#">Leadership</a></li>
-                                <li><a href="#">Director</a></li>
-                                <li><a href="#">Society</a></li>
-                                <li><a href="#">SIU Committee</a></li>
+                                <li><a href="{{ route('pages.about.about-us') }}">Overview</a></li>
+                                <li><a href="https://www.siu.edu.in/" target="_blank">Symbiosis</a></li>
+                                <li><a href="https://www.siu.edu.in/about-us/vision-mission" target="_blank">Vision & Mission</a></li>
+                                <li><a href="https://sig.ac.in/visionarie" target="_blank">Visionaries</a></li>
+                                <li><a href="https://www.siu.edu.in/leadership/prof-dr-s-b-mujumdar" target="_blank">Leadership</a></li>
+                                <li><a href="{{ route('pages.about.director') }}">Director</a></li>
+                                <li><a href="https://www.symbiosis.ac.in/" target="_blank">Society</a></li>
+                                <li><a href="https://www.siu.edu.in/about-us/authorities-committees/board-management" target="_blank">SIU Committee</a></li>
                             </ul>
                         </div>
                         <div class="footer_topbox_right_listing">
                             <h4 class="footer_heading">Quick Links</h4>
                             <ul class="footer_listing">
-                                <li><a href="#">Academic Calendar</a></li>
-                                <li><a href="#">Placements</a></li>
-                                <li><a href="#">Alumni</a></li>
-                                <li><a href="#">Collaborations</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">News & Events</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Refund Rules</a></li>
+                                <li><a href="{{ route('pages.programmes.msc-geoinformatics.academic-calendar') }}">Academic Calendar</a></li>
+                                <li><a href="{{ route('pages.placement.placement') }}">Placements</a></li>
+                                <li><a href="{{ route('index') }}">Alumni</a></li>
+                                <li><a href="{{ route('index') }}">Collaborations</a></li>
+                                <li><a href="{{ route('index') }}">Testimonials</a></li>
+                                <li><a href="{{ route('pages.student-corner.newsevents') }}">News & Events</a></li>
+                                <li><a href="{{ route('index') }}">Careers</a></li>
+                                <li><a href="{{ asset('assets/pdf/Rules-for-Refund-of-Fees.pdf') }}" target="_blank">Refund Rules</a></li>
                             </ul>
                         </div>
                         <div class="footer_topbox_right_listing">
                             <h4 class="footer_heading">Admissions</h4>
                             <ul class="footer_listing">
-                                <li><a href="#">Post Graduate Programmes</a></li>
-                                <li><a href="#">Certificate Programme</a></li>
-                                <li><a href="#">Diploma Programme</a></li>
-                                <li><a href="#">Ph.D. Programme</a></li>
-                                <li><a href="#">Prospectus</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}">Post Graduate Programmes</a></li>
+                                <li><a href="{{ route('pages.programmes.certificate-course-drone-data-processing.certificate-course-in-data-processing') }}">Certificate Programme</a></li>
+                                <li><a href="{{ route('index') }}">Diploma Programme</a></li>
+                                <li><a href="https://scri.siu.edu.in/" target="_blank">Ph.D. Programme</a></li>
+                                <li><a href="https://www.siu.edu.in/admissions/overview#pgPro" target="_blank">Prospectus</a></li>
+                                <li><a href="{{ route('pages.contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="footer_topbox_right_listing">
@@ -112,14 +112,14 @@
                             <div class="footer_topbox_right_listing_last_mainbox">
                                 <div class="footer_btn_box">
                                     <div class="my_btn_box">
-                                        <a href="">Symbiosis Merchandise</a>
+                                        <a href="https://merchandisebysymbiosis.com/" target="_blank">Symbiosis Merchandise</a>
                                     </div>
                                     <div class="my_btn_box">
-                                        <a href="">Visit SIU Website</a>
+                                        <a href="https://www.siu.edu.in/" target="_blank">Visit SIU Website</a>
                                     </div>
                                 </div>
                                 <div class="social_media_box">
-                                    <a href="#" target="_blank" class="social_media_listing">
+                                    <a href="https://www.facebook.com/sigpune" target="_blank" class="social_media_listing">
                                         <svg width="35" height="35" x="0" y="0" viewBox="0 0 112.196 112.196"
                                             style="enable-background:new 0 0 512 512" xml:space="preserve">
                                             <g>
@@ -131,7 +131,7 @@
                                             </g>
                                         </svg>
                                     </a>
-                                    <a href="#" target="_blank" class="social_media_listing">
+                                    <a href="https://www.linkedin.com/in/sig-pune-753867113/" target="_blank" class="social_media_listing">
                                         <svg width="35" height="35" x="0" y="0" viewBox="0 0 112.196 112.196"
                                             style="enable-background:new 0 0 512 512" xml:space="preserve">
                                             <g>
@@ -143,7 +143,7 @@
                                             </g>
                                         </svg>
                                     </a>
-                                    <a href="#" target="_blank" class="social_media_listing">
+                                    <a href="https://x.com/sig_pune" target="_blank" class="social_media_listing">
                                         <svg width="35" height="35" x="0" y="0" viewBox="0 0 1227 1227"
                                             style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
                                             <g>
@@ -157,7 +157,7 @@
                                             </g>
                                         </svg>
                                     </a>
-                                    <a href="#" target="_blank" class="social_media_listing">
+                                    <a href="https://www.youtube.com/channel/UC3Lcha_pJDONdwajajy_8og" target="_blank" class="social_media_listing">
                                         <svg width="35" height="35" x="0" y="0" viewBox="0 0 64 64"
                                             style="enable-background:new 0 0 512 512" xml:space="preserve">
                                             <g>
@@ -175,7 +175,7 @@
                                             </g>
                                         </svg>
                                     </a>
-                                    <a href="#" target="_blank" class="social_media_listing">
+                                    <a href="https://www.instagram.com/sig.pune/" target="_blank" class="social_media_listing">
                                         <svg height="35" width="35" version="1.1" id="Layer_1"
                                             xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512"

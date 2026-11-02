@@ -44,73 +44,15 @@ industry-focused courses and build a future-ready career. Apply now!')
             </div>
         </div>
         <div class="banner_listing swiper-slide">
-            <div class="banner_imgbox">
-                <img src="{{ asset('assets/images/home/banner-image.webp') }}" alt="Banner Image"
-                    class="img-fluid desktop_banner_image">
-                <img src="{{ asset('assets/images/home/mobile-banner-image.webp') }}" alt="Banner Image"
-                    class="img-fluid mobile_banner_image">
-            </div>
-            <div class="container">
-                <div class="col-lg-12">
-                    <div class="banner_content_box">
-                        <div class="banner_content_box_left">
-                            <h1 class="top_heading">
-                                <span class="top_heading_red">MAPS</span>
-                                <span>TODAY,</span>
-                                <span class="top_heading_red">BETTER</span>
-                                <span class="top_heading_yellow">TOMORROW</span>
-                            </h1>
-                            <p class="heading_para">
-                                Empowering future professionals in Geoinformatics and Data Science to solve real-world
-                                challenges for a sustainable planet.
-                            </p>
-                            <div class="banner_btn_box">
-                                <div class="my_btn_box">
-                                    <a href="">Explore Programs</a>
-                                </div>
-                                <div class="my_btn_box">
-                                    <a href="">Explore Programs</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="banner_content_box_right"></div>
-                    </div>
-                </div>
+            <div class="banner_imgbox_listing">
+                <img src="{{ asset('assets/images/home/banner-image-02.webp') }}" alt="Banner Image"
+                    class="img-fluid">
             </div>
         </div>
         <div class="banner_listing swiper-slide">
-            <div class="banner_imgbox">
-                <img src="{{ asset('assets/images/home/banner-image.webp') }}" alt="Banner Image"
-                    class="img-fluid desktop_banner_image">
-                <img src="{{ asset('assets/images/home/mobile-banner-image.webp') }}" alt="Banner Image"
-                    class="img-fluid mobile_banner_image">
-            </div>
-            <div class="container">
-                <div class="col-lg-12">
-                    <div class="banner_content_box">
-                        <div class="banner_content_box_left">
-                            <h1 class="top_heading">
-                                <span class="top_heading_red">MAPS</span>
-                                <span>TODAY,</span>
-                                <span class="top_heading_red">BETTER</span>
-                                <span class="top_heading_yellow">TOMORROW</span>
-                            </h1>
-                            <p class="heading_para">
-                                Empowering future professionals in Geoinformatics and Data Science to solve real-world
-                                challenges for a sustainable planet.
-                            </p>
-                            <div class="banner_btn_box">
-                                <div class="my_btn_box">
-                                    <a href="">Explore Programs</a>
-                                </div>
-                                <div class="my_btn_box">
-                                    <a href="">Explore Programs</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="banner_content_box_right"></div>
-                    </div>
-                </div>
+            <div class="banner_imgbox_listing">
+                <img src="{{ asset('assets/images/home/banner-image-03.webp') }}" alt="Banner Image"
+                    class="img-fluid">
             </div>
         </div>
     </div>

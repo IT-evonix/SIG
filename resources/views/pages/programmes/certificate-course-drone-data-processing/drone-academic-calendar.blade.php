@@ -92,13 +92,6 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     </button>
                                                 </li>
 
-                                                <li class="nav-item" role="presentation">
-                                                    <button class="nav-link" id="batch-2023-tab" data-bs-toggle="tab"
-                                                        data-bs-target="#batch-2023" type="button" role="tab">
-                                                        PG 2025–2027 Batch
-                                                    </button>
-                                                </li>
-
                                             </ul>
                                         </div>
 
@@ -110,8 +103,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                     <div class="tab-content" id="batchTabsContent">
                                         <div class="tab-pane fade show active" id="batch-2025" role="tabpanel">
                                             <h2 class="program_structure_heading">
-                                                M.Sc.(Geoinformatics)/M.Sc(DSSA)/M.Tech (Geoinformatics)/Dual Degree
-                                                M.Sc. (DS&SA) SEMESTER I and II</h2>
+                                                SEMESTER I and II</h2>
                                             <div class="table-responsive">
                                                 <table class="table mb-0 fee_table">
                                                     <thead>
@@ -168,7 +160,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         </div>
                                         <div class="tab-pane fade" id="batch-2024" role="tabpanel">
                                             <h2 class="program_structure_heading">
-                                                M.Sc. (Geoinformatics) , M.Sc (DSSA) SEMESTER III and IV
+                                               SEMESTER III and IV
                                             </h2>
                                             <div class="table-responsive">
                                                 <table class="table mb-0 fee_table">
@@ -200,46 +192,6 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                             <td>Semester-III Tentative Exam Schedule</td>
                                                             <td>14/12/2026 to 29/12/2026</td>
                                                             <td>16 Days</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Semester-IV Industry Project</td>
-                                                            <td>01/01/2027 to 30/06/2027</td>
-                                                            <td>150 Days (Working Days)</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Term End Exam SemIV (Industry Project Presentation)</td>
-                                                            <td>01/07/2027 to 3/07/2027</td>
-                                                            <td>3 Day</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="batch-2023" role="tabpanel">
-                                            <h2 class="program_structure_heading">
-                                                M.Tech. (Geoinformatics) SEMESTER III and IV
-                                            </h2>
-                                            <div class="table-responsive">
-                                                <table class="table mb-0 fee_table">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Details</th>
-                                                            <th>Date</th>
-                                                            <th>Duration</th>
-                                                        </tr>
-                                                    </thead>
-
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>Semester-III Dissertation Phase 1</td>
-                                                            <td>03/08/2026 to 08/12/2026</td>
-                                                            <td>97 Days</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Semester-III Tentative Exam Schedule (Dissertation Phase
-                                                                1 presentation)</td>
-                                                            <td>12/12/2026</td>
-                                                            <td>01 Day</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Semester-IV Industry Project</td>

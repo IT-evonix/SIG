@@ -2306,6 +2306,7 @@ table th {
 .sholarships_heading {
   font-size: 20px;
   font-family: var(--font-roboto-600);
+  color: var(--red-color);
 }
 
 .sholarships_image {

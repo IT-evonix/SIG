@@ -278,7 +278,7 @@ Data Science in India. Contact us for your enquiries.')
                     <div class="follow_us_mainbox">
                         <h2 class="inner_heading">Follow Us</h2>
                         <div class="follow_us_listing_box">
-                            <a href="#" target="_blank" class="follow_us_listing">
+                            <a href="https://www.facebook.com/sigpune" target="_blank" class="follow_us_listing">
                                 <div class="follow_us_icon">
                                     <svg width="30" height="30" x="0" y="0" viewBox="0 0 112.196 112.196">
                                         <g>
@@ -294,7 +294,7 @@ Data Science in India. Contact us for your enquiries.')
                                     Facebook
                                 </div>
                             </a>
-                            <a href="#" target="_blank" class="follow_us_listing">
+                            <a href="https://x.com/sig_pune" target="_blank" class="follow_us_listing">
                                 <div class="follow_us_icon">
                                     <svg width="30" height="30" x="0" y="0" viewBox="0 0 1227 1227">
                                         <g>
@@ -311,7 +311,7 @@ Data Science in India. Contact us for your enquiries.')
                                     Twitter
                                 </div>
                             </a>
-                            <a href="#" target="_blank" class="follow_us_listing">
+                            <a href="https://www.instagram.com/sig.pune/" target="_blank" class="follow_us_listing">
                                 <div class="follow_us_icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                                         viewBox="0 0 152 152">
@@ -347,7 +347,7 @@ Data Science in India. Contact us for your enquiries.')
                                     Instagram
                                 </div>
                             </a>
-                            <a href="#" target="_blank" class="follow_us_listing">
+                            <a href="https://www.linkedin.com/in/sig-pune-753867113/" target="_blank" class="follow_us_listing">
                                 <div class="follow_us_icon">
                                     <svg width="30" height="30" x="0" y="0" viewBox="0 0 112.196 112.196">
                                         <g>
@@ -363,7 +363,7 @@ Data Science in India. Contact us for your enquiries.')
                                     Linkedin
                                 </div>
                             </a>
-                            <a href="#" target="_blank" class="follow_us_listing">
+                            <a href="https://www.youtube.com/channel/UC3Lcha_pJDONdwajajy_8og" target="_blank" class="follow_us_listing">
                                 <div class="follow_us_icon">
                                     <svg height="30" viewBox="0 0 152 152" width="30">
                                         <g id="Layer_2" data-name="Layer 2">

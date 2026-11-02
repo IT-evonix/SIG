@@ -123,8 +123,7 @@ own career paths in these dynamic fields.')
                                 eligible
                                 students since inception and SIG offers a variety of programmes including
                                 M.Sc.(Geoinformatics) ,
-                                M.Sc. (Data Science & Spatial Analytics), M.Tech (Geoinformatics and Surveying
-                                Technology),
+                                M.Sc. (Data Science & Spatial Analytics), M.Tech (Geoinformatics),
                                 Certificate Course Photogrammetry and Remote Sensing and customised certificate courses.
                             </p>
                             <p class="m-0">

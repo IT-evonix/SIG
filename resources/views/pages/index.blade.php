@@ -55,6 +55,12 @@ industry-focused courses and build a future-ready career. Apply now!')
                     class="img-fluid">
             </div>
         </div>
+        <div class="banner_listing swiper-slide">
+            <div class="banner_imgbox_listing">
+                <img src="{{ asset('assets/images/home/banner-image-04.webp') }}" alt="Banner Image"
+                    class="img-fluid">
+            </div>
+        </div>
     </div>
     <div class="swiper-pagination"></div>
 </div>

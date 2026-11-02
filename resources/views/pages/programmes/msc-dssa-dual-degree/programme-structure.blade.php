@@ -66,21 +66,21 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                 <div class="my_tabbing">
                                     <ul class="nav nav-tabs custom-tabs" id="batchTabs" role="tablist">
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="batch-2026-tab" data-bs-toggle="tab"
+                                            <button class="nav-link" id="batch-2026-tab" data-bs-toggle="tab"
                                                 data-bs-target="#batch-2026" type="button" role="tab">
                                                 Batch 2026-2028
                                             </button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="batch-2025-tab" data-bs-toggle="tab"
+                                            <button class="nav-link active" id="batch-2025-tab" data-bs-toggle="tab"
                                                 data-bs-target="#batch-2025" type="button" role="tab">
                                                 Batch 2025-2027
                                             </button>
                                         </li>
                                     </ul>
                                     <div class="tab-content" id="batchTabsContent">
-                                        <div class="tab-pane fade show active" id="batch-2026" role="tabpanel">
-                                            <div class="program_structure_content">
+                                        <div class="tab-pane fade" id="batch-2026" role="tabpanel">
+                                            <!-- <div class="program_structure_content">
                                                 <div class="program_structure_listing">
                                                     <h2 class="program_structure_heading">Semester 1 - Generic Core
                                                         Courses</h2>
@@ -420,9 +420,9 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                         </table>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
-                                       <div class="tab-pane fade" id="batch-2025" role="tabpanel">
+                                       <div class="tab-pane fade show active" id="batch-2025" role="tabpanel">
                                             <div class="program_structure_content">
                                                 <div class="program_structure_listing">
                                                     <h2 class="program_structure_heading">Semester 1 - Generic Core Courses</h2>
@@ -477,13 +477,13 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>9</td>
+                                                                    <td></td>
                                                                     <td>Health and Wellness Module I #</td>
                                                                     <td>0</td>
                                                                 </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>21</strong></td>
+                                                                <tr class="total-row">
+                                                                    <td colspan="2">Total:</td>
+                                                                    <td>21</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -528,92 +528,37 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                                 </tr>
                                                                 <tr>
                                                                     <td>6</td>
-                                                                    <td>Health and Wellness Module II #</td>
-                                                                    <td>0</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>12</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 2 - Specialisation Core Courses : Artificial Intelligence Algorithms</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
                                                                     <td>Data Analysis Using Python</td>
                                                                     <td>3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>2</td>
+                                                                    <td>7</td>
                                                                     <td>Computer Vision</td>
                                                                     <td>3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>3</td>
+                                                                    <td>8</td>
                                                                     <td>Programming for computational sciences</td>
                                                                     <td>3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>4</td>
+                                                                    <td>9</td>
                                                                     <td>Big Data Analytical Techniques and Practical Applications</td>
                                                                     <td>2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>11</strong></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="program_structure_listing">
-                                                    <h2 class="program_structure_heading">Semester 2 - Specialisation Core Courses : Geointelligence</h2>
-                                                    <div class="table-responsive">
-                                                        <table class="table mb-0 fee_table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Sr. No.</th>
-                                                                    <th>Course Title</th>
-                                                                    <th>Total Credits</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>Advance Python Programming for Spatial Analytics</td>
-                                                                    <td>3</td>
+                                                                    <td>10</td>
+                                                                    <td>Health and Wellness Module II #</td>
+                                                                    <td>0</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>2</td>
-                                                                    <td>Programming for Spatial Sciences</td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>Geospatial Analytics</td>
-                                                                    <td>3</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>Spatial Big Data and Storage Analytics</td>
-                                                                    <td>2</td>
+                                                                    <td></td>
+                                                                    <td>Health and Wellness *</td>
+                                                                    <td></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>11</strong></td>
+                                                                    <td><strong>23</strong></td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -626,11 +571,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                             <tbody>
                                                                 <tr>
                                                                     <td colspan="3">
-                                                                        Semester 3 and Semester 4 Courses delivered as per the syllabus and
-                                                                        structure of Master of Science Degree Technical Systems Control -
-                                                                        Artificial Intelligence and Space Sciences from the RUDN University
-                                                                        Russia. Students will take courses to fulfill the credit requirements
-                                                                        of SIU programme.
+                                                                        Courses delivered as per the syllabus and structure of Master of Science Degree Technical Systems Control - Artificial Intelligence and Space Sciences from the RUDN University Russia. Students will take courses to fulfill the credit requirements of SIU programme.
                                                                     </td>
                                                                 </tr>
                                                             </tbody>

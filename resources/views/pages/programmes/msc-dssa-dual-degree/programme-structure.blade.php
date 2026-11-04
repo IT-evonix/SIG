@@ -430,60 +430,60 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                         <table class="table mb-0 fee_table">
                                                             <thead>
                                                                 <tr>
-                                                                    <th>Sr. No.</th>
+                                                                    <th class="text-center">Sr. No.</th>
                                                                     <th>Course Title</th>
-                                                                    <th>Total Credits</th>
+                                                                    <th class="text-center">Total Credits</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td>1</td>
+                                                                    <td class="text-center">1</td>
                                                                     <td>Mathematics for Spatial Sciences</td>
-                                                                    <td>4</td>
+                                                                    <td class="text-center">4</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                     <td>Principles and Practices of Data Protection</td>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                     <td>Statistics and Probability</td>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>4</td>
+                                                                    <td class="text-center">4</td>
                                                                     <td>Python for Data Science</td>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>5</td>
+                                                                    <td class="text-center">5</td>
                                                                     <td>Business Communication</td>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>6</td>
+                                                                    <td class="text-center">6</td>
                                                                     <td>Introduction to Database Management System</td>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>7</td>
+                                                                    <td class="text-center">7</td>
                                                                     <td>Research Methodology in Computational Sciences</td>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>8</td>
+                                                                    <td class="text-center">8</td>
                                                                     <td>Introduction to Geospatial Technology</td>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td></td>
+                                                                    <td class="text-center"></td>
                                                                     <td>Health and Wellness Module I #</td>
-                                                                    <td>0</td>
+                                                                    <td class="text-center">0</td>
                                                                 </tr>
                                                                 <tr class="total-row">
-                                                                    <td colspan="2">Total:</td>
-                                                                    <td>21</td>
+                                                                    <td colspan="2"><strong>Total:</strong></td>
+                                                                    <td class="text-center"><strong>21</strong></td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -495,70 +495,70 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                         <table class="table mb-0 fee_table">
                                                             <thead>
                                                                 <tr>
-                                                                    <th>Sr. No.</th>
+                                                                    <th class="text-center">Sr. No.</th>
                                                                     <th>Course Title</th>
-                                                                    <th>Total Credits</th>
+                                                                    <th class="text-center">Total Credits</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td>1</td>
+                                                                    <td class="text-center">1</td>
                                                                     <td>Machine learning</td>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                     <td>SQL and Spatial Database management</td>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                     <td>Flexi-Credit Course</td>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>4</td>
+                                                                    <td class="text-center">4</td>
                                                                     <td>Data Driven Governance</td>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>5</td>
+                                                                    <td class="text-center">5</td>
                                                                     <td>Inferential Statistics</td>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>6</td>
+                                                                    <td class="text-center">6</td>
                                                                     <td>Data Analysis Using Python</td>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>7</td>
+                                                                    <td class="text-center">7</td>
                                                                     <td>Computer Vision</td>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>8</td>
+                                                                    <td class="text-center">8</td>
                                                                     <td>Programming for computational sciences</td>
-                                                                    <td>3</td>
+                                                                    <td class="text-center">3</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>9</td>
+                                                                    <td class="text-center">9</td>
                                                                     <td>Big Data Analytical Techniques and Practical Applications</td>
-                                                                    <td>2</td>
+                                                                    <td class="text-center">2</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>10</td>
+                                                                    <td class="text-center">10</td>
                                                                     <td>Health and Wellness Module II #</td>
-                                                                    <td>0</td>
+                                                                    <td class="text-center">0</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td></td>
+                                                                    <td class="text-center"></td>
                                                                     <td>Health and Wellness *</td>
-                                                                    <td></td>
+                                                                    <td class="text-center"></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td colspan="2"><strong>Total:</strong></td>
-                                                                    <td><strong>23</strong></td>
+                                                                    <td class="text-center"><strong>23</strong></td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>

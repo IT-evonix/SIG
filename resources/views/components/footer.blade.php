@@ -25,7 +25,7 @@
                                     </svg>
                                 </div>
                                 <div class="footer_content">
-                                    5th Floor, Atur Centre, Gokhale Cross Road, Model Colony, Pune – 411016
+                                    Atur Centre, Gokhale Cross Road, Model Colony, Pune – 411016
                                 </div>
                             </div>
                             <div class="footer_topbox_leftbox_listing">
@@ -57,13 +57,13 @@
                                 </div>
                                 <div class="footer_content">
                                     <div class="footer_content_first">
-                                        <a href="mailto:Enquiry@sig.ac.in">Enquiry@sig.ac.in</a>
+                                        <a href="mailto:enquiry@sig.ac.in">enquiry@sig.ac.in</a>
                                     </div>
                                     <div class="footer_content_second">
-                                        <a href="mailto:Admissions@sig.ac.in">Admissions@sig.ac.in</a>
+                                        <a href="mailto:admissions@sig.ac.in">admissions@sig.ac.in</a>
                                     </div>
                                     <div class="footer_content_third">
-                                        <a href="mailto:Info@sig.ac.in">Info@sig.ac.in</a>
+                                        <a href="mailto:info@sig.ac.in">info@sig.ac.in</a>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                                 <li><a href="{{ route('pages.about.about-us') }}">Overview</a></li>
                                 <li><a href="https://www.siu.edu.in/" target="_blank">Symbiosis</a></li>
                                 <li><a href="https://www.siu.edu.in/about-us/vision-mission" target="_blank">Vision & Mission</a></li>
-                                <li><a href="{{ route('index') }}">Visionaries</a></li>
+                                <!-- <li><a href="{{ route('index') }}">Visionaries</a></li> -->
                                 <li><a href="https://www.siu.edu.in/leadership/prof-dr-s-b-mujumdar" target="_blank">Leadership</a></li>
                                 <li><a href="{{ route('pages.about.director') }}">Director</a></li>
                                 <li><a href="https://www.symbiosis.ac.in/" target="_blank">Society</a></li>
@@ -88,23 +88,26 @@
                             <ul class="footer_listing">
                                 <li><a href="{{ route('pages.programmes.msc-geoinformatics.academic-calendar') }}">Academic Calendar</a></li>
                                 <li><a href="{{ route('pages.placement.placement') }}">Placements</a></li>
-                                <li><a href="{{ route('index') }}">Alumni</a></li>
-                                <li><a href="{{ route('index') }}">Collaborations</a></li>
-                                <li><a href="{{ route('index') }}">Testimonials</a></li>
+                                <!-- <li><a href="{{ route('index') }}">Alumni</a></li> -->
+                                <!-- <li><a href="{{ route('index') }}">Collaborations</a></li> -->
+                                <!-- <li><a href="{{ route('index') }}">Testimonials</a></li> -->
                                 <li><a href="{{ route('pages.student-corner.newsevents') }}">News & Events</a></li>
-                                <li><a href="{{ route('index') }}">Careers</a></li>
+                                <li><a href="https://career-nt.siu.edu.in/" target="_blank">Careers</a></li>
                                 <li><a href="{{ asset('assets/pdf/Rules-for-Refund-of-Fees.pdf') }}" target="_blank">Refund Rules</a></li>
+                                <li><a href="{{ route('pages.contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="footer_topbox_right_listing">
                             <h4 class="footer_heading">Admissions</h4>
                             <ul class="footer_listing">
-                                <li><a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}">Post Graduate Programmes</a></li>
+                                <li><a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}">M.Sc. Geoinformatics</a></li>
+                                <li><a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}">M.Sc. Data Science & Spatial Analytics</a></li>
+                                <li><a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}">M.Sc. Data Science & Spatial Analytics Dual Degree</a></li>
+                                <li><a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank">M.Tech. Geoinformatics</a></li>
                                 <li><a href="{{ route('pages.programmes.certificate-course-drone-data-processing.certificate-course-in-data-processing') }}">Certificate Programme</a></li>
-                                <li><a href="{{ route('index') }}">Diploma Programme</a></li>
+                                <!-- <li><a href="{{ route('index') }}">Diploma Programme</a></li> -->
                                 <li><a href="https://scri.siu.edu.in/" target="_blank">Ph.D. Programme</a></li>
                                 <li><a href="https://www.siu.edu.in/admissions/overview#pgPro" target="_blank">Prospectus</a></li>
-                                <li><a href="{{ route('pages.contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="footer_topbox_right_listing">
@@ -323,85 +326,9 @@
 <!-- popup model on top header ends -->
 
 <!-- caution notice start -->
-<div class="caution_notice_btn" data-bs-toggle="modal" data-bs-target="#cautionNoticeModal">
+<!-- <div class="caution_notice_btn" data-bs-toggle="modal" data-bs-target="#cautionNoticeModal">
     Caution Notice
-</div>
-<div class="caution_notice_popup">
-    <div class="top_header_popup">
-        <!-- Modal -->
-        <div class="modal fade top_header_popup_modal" id="cautionNoticeModal" tabindex="-1"
-            aria-labelledby="topHeaderModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content top_header_popup_content">
-                    <!-- Modal Header -->
-                    <div class="top_header_popup_header">
-                        <div class="top_header_popup_heading">
-                            Caution Notice
-                        </div>
-                        <button type="button" class="top_header_popup_close" data-bs-dismiss="modal" aria-label="Close">
+</div> -->
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                aria-hidden="true">
-                                <path d="m18 6-12 12" />
-                                <path d="m6 6 12 12" />
-                            </svg>
-
-                        </button>
-                    </div>
-
-                    <div class="top_header_popup_body">
-                        <p>
-                            Admission to all the courses and programmes at Symbiosis International (Deemed University)
-                            (SIU) are strictly on merit, based on the eligibility criteria, admission criteria and
-                            processes prescribed by the University from time to time and assessment of individual
-                            performance in different entrance tests / procedures conducted by SIU including Symbiosis
-                            National Aptitude Test [SNAP], Symbiosis Entrance Test [SET], Symbiosis Law Admission Test
-                            [SLAT], Symbiosis All India Admission Test [AIAT], Symbiosis Entrance Exam for Design
-                            [SEED], Symbiosis Institute of Technology Engineering Entrance Exam [SITEEE] and Symbiosis
-                            Ph.D. Entrance Test (PET).
-                        </p>
-                        <p>
-                            It is a matter of Policy that Symbiosis International (Deemed University) does not charge
-                            capitation fee for admission from students and this is widely and prominently published as
-                            well on all the relevant places like prospectus, website, Admission Booklets, etc.
-                        </p>
-                        <p>
-                            All aspirants / parents are hereby notified that some individuals and/or organisations are
-                            giving / making false and misleading advertisements / claims in newspapers, websites, social
-                            media platforms or other means that they can secure/ ensure admission to various programme
-                            offered by Symbiosis International (Deemed University). Such individuals or organisations
-                            may also seek or demand money from aspirants or their parents in consideration of such
-                            purported assurances.
-                        </p>
-                        <p>
-                            Aspirants and parents are advised to rely only on information and communications issued
-                            through the University's official channels, and to independently verify any claim regarding
-                            admission made by any third party.
-                        </p>
-                        <p>
-                            It is informed at large that the University has not authorised or appointed any individual,
-                            agent, consultant or organisation to guarantee, assure or otherwise represent that admission
-                            to any course or programme, can be secured against payment of money or through any means
-                            other than the prescribed admission process. In this regard, Symbiosis International (Deemed
-                            University) requests the aspirants / parents to refrain from entering into any transaction
-                            with such elements. Despite this Notice, if any aspirant / parent still proceeds with or
-                            enters into transaction with such elements, they would be doing so at their own risk and
-                            cost.
-                        </p>
-                        <p>
-                            Symbiosis International (Deemed University) further notifies that any aspirant attempting to
-                            approach Symbiosis International (Deemed University) for admission through or at the
-                            instances of such agents will be permanently debarred from admission to all the courses and
-                            programmes at Symbiosis International (Deemed University).
-                        </p>
-                        <p class="m-0"><strong>By order</strong></p>
-                        <p class="caution_red_para">Registrar</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- caution notice ends -->

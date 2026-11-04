@@ -81,14 +81,14 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                     <button class="nav-link active" id="batch-2025-tab"
                                                         data-bs-toggle="tab" data-bs-target="#batch-2025" type="button"
                                                         role="tab">
-                                                        PG 2026-28 Batch
+                                                        Batch 2026-28
                                                     </button>
                                                 </li>
 
                                                 <li class="nav-item" role="presentation">
                                                     <button class="nav-link" id="batch-2024-tab" data-bs-toggle="tab"
                                                         data-bs-target="#batch-2024" type="button" role="tab">
-                                                        PG 2025–27 Batch
+                                                        Batch 2025–27
                                                     </button>
                                                 </li>
 

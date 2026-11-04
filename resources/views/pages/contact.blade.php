@@ -121,7 +121,7 @@ Data Science in India. Contact us for your enquiries.')
                                         </svg>
                                     </div>
                                     <div class="contact_adderess_text">
-                                        5th Floor, Atur Centre, Gokhale Cross Road, Model Colony, Pune – 411016
+                                        Atur Centre, Gokhale Cross Road, Model Colony, Pune – 411016
                                     </div>
                                 </div>
                                 <div class="contact_adderess_listing">

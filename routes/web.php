@@ -28,6 +28,10 @@ Route::get('/infrastructure', function () {
     return view('pages.about.infrastructure');
 })->name('pages.about.infrastructure');
 
+Route::get('/iqac', function () {
+    return view('pages.about.iqac');
+})->name('pages.about.iqac');
+
 // ABOUT ENDS -------------------------------------------------------
 
 // CONTACT US START -------------------------------------------------------

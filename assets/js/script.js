@@ -440,3 +440,18 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Home banner slider ends
+
+// Caution notice popup start
+document.addEventListener('DOMContentLoaded', function () {
+
+    const cautionModalElement = document.getElementById('cautionNoticeModal');
+
+    if (cautionModalElement && document.body.dataset.page === 'index') {
+
+        const cautionModal = new bootstrap.Modal(cautionModalElement);
+        cautionModal.show();
+
+    }
+
+});
+// Caution notice popup ends

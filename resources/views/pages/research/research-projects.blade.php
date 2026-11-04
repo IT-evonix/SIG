@@ -64,7 +64,7 @@ innovation converge to shape the future. Explore now!')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="research_publication_mainbox">
-                                <h2 class="inner_heading">Best Research Projects</h2>
+                                <h2 class="inner_heading">Research Projects</h2>
                                 <div class="research_publication_wrapper">
                                     <div class="research_publication_listing">
                                         <div class="research_publication_listing_number">1</div>

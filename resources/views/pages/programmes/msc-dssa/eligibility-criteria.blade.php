@@ -9,8 +9,10 @@ courses and advance your career with a master\'s in Geoinformatics.')
 <div class="inner_banner_section">
     <div class="inner_banner_imgbox">
         <div class="banner_imgbox">
-            <img src="{{ asset('assets/images/inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid inner_desktop_banner_image">
-            <img src="{{ asset('assets/images/mobile-inner-banner.webp') }}" alt="Inner Banner Image" class="img-fluid inner_mobile_banner_image">
+            <img src="{{ asset('assets/images/inner-banner.webp') }}" alt="Inner Banner Image"
+                class="img-fluid inner_desktop_banner_image">
+            <img src="{{ asset('assets/images/mobile-inner-banner.webp') }}" alt="Inner Banner Image"
+                class="img-fluid inner_mobile_banner_image">
         </div>
     </div>
     <div class="inner_banner_overlay_box"></div>
@@ -73,11 +75,10 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                             <div class="eligibility_creteria_left_listing_number">01</div>
                                             <div class="eligibility_creteria_left_listing_para">
                                                 <p class="m-0">
-                                                    Candidate should be Graduate in Engineering, IT, Science, Computer
-                                                    Science, Agriculture, Geography, Planning, Architecture, Commerce
-                                                    and Management from any recognised University/ Institution of
-                                                    National Importance with a minimum of 50% marks or equivalent grade
-                                                    (45% Marks or equivalent grade for Scheduled Caste/Scheduled Tribes)
+                                                    Graduate in Engineering, IT, Science, Computer Science, and Computer
+                                                    Application of any recognised university/ Institution of National
+                                                    Importance with 50% minimum of marks or equivalent grade (45% Marks
+                                                    or equivalent grade for Scheduled Caste/ Scheduled Tribes).
                                                 </p>
                                             </div>
                                         </div>

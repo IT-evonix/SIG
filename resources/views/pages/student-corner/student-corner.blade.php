@@ -71,9 +71,29 @@ industry-focused courses and build a future-ready career. Apply now!')
                                     class="img-fluid">
                             </div>
                             <div class="student_corner_content">
-                                <h2 class="student_corner_heading">Examination Portal</h2>
+                                <h2 class="student_corner_heading">Examination Registration</h2>
                                 <div class="student_corner_btn">
                                     <a href=" http://eduwiz.intechsolutionspune.in/eduwiz/login.html" target="_blank">
+                                        <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
+                                            <g>
+                                                <path
+                                                    d="m22.707 11.293-7-7a1 1 0 0 0-1.414 1.414L19.586 11H2a1 1 0 0 0 0 2h17.586l-5.293 5.293a1 1 0 1 0 1.414 1.414l7-7a1 1 0 0 0 0-1.414"
+                                                    fill="#ffffff" opacity="1" data-original="#000000"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="student_corner_listing">
+                            <div class="student_corner_imgbox">
+                                <img src="{{ asset('assets/images/student-corner/img-11.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="student_corner_content">
+                                <h2 class="student_corner_heading">Results Declaration</h2>
+                                <div class="student_corner_btn">
+                                    <a href="https://siuexam.siu.edu.in/cgi-bin/SiuExmReslt.exe/dsprslt?dbnm=siucore#" target="_blank">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -113,7 +133,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <div class="student_corner_content">
                                 <h2 class="student_corner_heading">Scholarship</h2>
                                 <div class="student_corner_btn">
-                                    <a href="{{ route('pages.comming-soon') }}">
+                                    <a href="https://www.siu.edu.in/admissions/scholarship" target="_blank">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path
@@ -174,6 +194,46 @@ industry-focused courses and build a future-ready career. Apply now!')
                                 <h2 class="student_corner_heading">Student Uniform</h2>
                                 <div class="student_corner_btn">
                                     <a href="https://symbiuniforms.com/" target="_blank">
+                                        <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
+                                            <g>
+                                                <path
+                                                    d="m22.707 11.293-7-7a1 1 0 0 0-1.414 1.414L19.586 11H2a1 1 0 0 0 0 2h17.586l-5.293 5.293a1 1 0 1 0 1.414 1.414l7-7a1 1 0 0 0 0-1.414"
+                                                    fill="#ffffff" opacity="1" data-original="#000000"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="student_corner_listing">
+                            <div class="student_corner_imgbox">
+                                <img src="{{ asset('assets/images/student-corner/img-12.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="student_corner_content">
+                                <h2 class="student_corner_heading">Admission & Finance </h2>
+                                <div class="student_corner_btn">
+                                    <a href="https://siufinance.ishinfo.com/SIUDAdmission/" target="_blank">
+                                        <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
+                                            <g>
+                                                <path
+                                                    d="m22.707 11.293-7-7a1 1 0 0 0-1.414 1.414L19.586 11H2a1 1 0 0 0 0 2h17.586l-5.293 5.293a1 1 0 1 0 1.414 1.414l7-7a1 1 0 0 0 0-1.414"
+                                                    fill="#ffffff" opacity="1" data-original="#000000"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="student_corner_listing">
+                            <div class="student_corner_imgbox">
+                                <img src="{{ asset('assets/images/student-corner/img-13.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="student_corner_content">
+                                <h2 class="student_corner_heading">Documents</h2>
+                                <div class="student_corner_btn">
+                                    <a href="https://www.siu.edu.in/verification-attestation-transcript-duplicate-certificate" target="_blank">
                                         <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
                                             <g>
                                                 <path

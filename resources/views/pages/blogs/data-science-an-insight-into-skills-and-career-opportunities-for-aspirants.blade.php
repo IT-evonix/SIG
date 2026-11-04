@@ -95,7 +95,7 @@
                                 Build skills that solve real-world challenges and create global impact.
                             </p>
                             <div class="blog_program_listing_mainbox">
-                                <a href="" class="blog_program_list">
+                                <a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}" class="blog_program_list">
                                     <div class="blog_program_list_icon">
                                         <img src="{{ asset('assets/images/blog/icon-satellite.svg') }}" alt="Program icon" class="img-fluid">
                                     </div>
@@ -112,12 +112,12 @@
                                         </svg>
                                     </div>
                                 </a>
-                                <a href="" class="blog_program_list">
+                                <a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}" class="blog_program_list">
                                     <div class="blog_program_list_icon">
                                         <img src="{{ asset('assets/images/blog/icon-analytics.svg') }}" alt="Program icon" class="img-fluid">
                                     </div>
                                     <div class="blog_program_list_conent">
-                                        <h5 class="blog_program_list_heading">M.Sc. Data Science</h5>
+                                        <h5 class="blog_program_list_heading">M.Sc. Data Science & Spatial Analytics</h5>
                                     </div>
                                     <div class="blog_program_list_right">
                                         <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
@@ -129,12 +129,12 @@
                                         </svg>
                                     </div>
                                 </a>
-                                <a href="" class="blog_program_list">
+                                <a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}" class="blog_program_list">
                                     <div class="blog_program_list_icon">
                                         <img src="{{ asset('assets/images/blog/icon-layer.svg') }}" alt="Program icon" class="img-fluid">
                                     </div>
                                     <div class="blog_program_list_conent">
-                                        <h5 class="blog_program_list_heading">Spatial Analytics</h5>
+                                        <h5 class="blog_program_list_heading">M.Sc. Data Science & Spatial Analytics Dual Degree</h5>
                                     </div>
                                     <div class="blog_program_list_right">
                                         <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">
@@ -146,12 +146,12 @@
                                         </svg>
                                     </div>
                                 </a>
-                                <a href="" class="blog_program_list">
+                                <a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank" class="blog_program_list">
                                     <div class="blog_program_list_icon">
                                         <img src="{{ asset('assets/images/blog/icon-geological.svg') }}" alt="Program icon" class="img-fluid">
                                     </div>
                                     <div class="blog_program_list_conent">
-                                        <h5 class="blog_program_list_heading">M.Tech. Geoinformatics & Surveying Technology</h5>
+                                        <h5 class="blog_program_list_heading">M.Tech. Geoinformatics</h5>
                                     </div>
                                     <div class="blog_program_list_right">
                                         <svg width="18" height="18" x="0" y="0" viewBox="0 0 24 24">

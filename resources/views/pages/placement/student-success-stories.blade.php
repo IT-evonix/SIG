@@ -72,6 +72,20 @@ placement opportunities. Get more details here.')
                                             <div class="student_success_storis_package_devider"></div>
                                             <div class="student_success_storis_package">14 <span>LPA</span></div>
                                         </div>
+                                        <a href="https://youtu.be/r_QehuhQGl4" class="youtube_btn_success_story" target="_blank">
+                                            <div class="home_n_e_right_video_icon">
+                                                <svg width="40" height="40" x="0" y="0" viewBox="0 0 512 512">
+                                                    <g>
+                                                        <circle cx="256.5" cy="256" r="256" fill="#FF0000"
+                                                            transform="rotate(-45 256.472 256.066)"
+                                                            data-original="#2497f3"></circle>
+                                                        <path fill="#ffffff" fill-rule="evenodd"
+                                                            d="m383.55 233.228-172.85-99.79a26.3 26.3 0 0 0-39.44 22.762v199.6a26.04 26.04 0 0 0 13.14 22.77 26.07 26.07 0 0 0 26.3 0l172.85-99.8a26.3 26.3 0 0 0 0-45.54z"
+                                                            opacity="1" data-original="#ffffff"></path>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                        </a>  
                                     </div>
                                     <div class="student_success_storis_content">
                                         <h3 class="student_success_storis_headingbox">Shravani Pawar</h3>
@@ -108,6 +122,25 @@ placement opportunities. Get more details here.')
                                     <div class="student_success_storis_image">
                                         <img src="{{ asset('assets/images/placement/success-story-02.webp') }}" alt=""
                                             class="img-fluid">
+                                        <div class="student_success_storis_packagebox">
+                                            <div class="student_success_storis_package_heading">Package</div>
+                                            <div class="student_success_storis_package_devider"></div>
+                                            <div class="student_success_storis_package">11.4 <span>LPA</span></div>
+                                        </div>
+                                        <a href="https://youtube.com/shorts/4nM-s22TsmY?feature=share" class="youtube_btn_success_story" target="_blank">
+                                            <div class="home_n_e_right_video_icon">
+                                                <svg width="40" height="40" x="0" y="0" viewBox="0 0 512 512">
+                                                    <g>
+                                                        <circle cx="256.5" cy="256" r="256" fill="#FF0000"
+                                                            transform="rotate(-45 256.472 256.066)"
+                                                            data-original="#2497f3"></circle>
+                                                        <path fill="#ffffff" fill-rule="evenodd"
+                                                            d="m383.55 233.228-172.85-99.79a26.3 26.3 0 0 0-39.44 22.762v199.6a26.04 26.04 0 0 0 13.14 22.77 26.07 26.07 0 0 0 26.3 0l172.85-99.8a26.3 26.3 0 0 0 0-45.54z"
+                                                            opacity="1" data-original="#ffffff"></path>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                        </a>                                          
                                     </div>
                                     <div class="student_success_storis_content">
                                         <h3 class="student_success_storis_headingbox">Ishita Bandopadhyay</h3>

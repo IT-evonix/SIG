@@ -20,7 +20,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                     <div class="banner_content_box">
                         <div class="banner_content_box_left">
                             <h1 class="top_heading">
-                                <span class="top_heading_red">MAPS</span>
+                                <span class="top_heading_red">MAP</span>
                                 <span>TODAY,</span>
                                 <span class="top_heading_red">BETTER</span>
                                 <span class="top_heading_yellow">TOMORROW</span>
@@ -345,11 +345,11 @@ industry-focused courses and build a future-ready career. Apply now!')
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <h2 class="heading">what <span>people say</span></h2>
-                    <p class="heading_para">
+                    <!-- <p class="heading_para">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley,
                         thae librarian at St Bride Printing Library in London, took a 1914 Cicero translation
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>
@@ -751,8 +751,13 @@ industry-focused courses and build a future-ready career. Apply now!')
                                     These initiatives help students pursue their educational goals with confidence while
                                     reducing their financial burden.
                                 </p>
-                                <div class="my_btn_box">
-                                    <a href="{{ route('pages.student-corner.scholarships') }}">Explore Scholarships</a>
+                                <div class="home_scholorship_btnbox">
+                                    <div class="my_btn_box">
+                                        <a href="https://www.siu.edu.in/admissions/scholarship" target="_blank">Explore Scholarships</a>
+                                    </div>
+                                    <div class="my_btn_box">
+                                        <a href="{{ route('pages.student-corner.scholarships') }}">Scholarship Recipients</a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="scholar_main_rightbox"></div>

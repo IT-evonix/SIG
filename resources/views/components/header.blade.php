@@ -15,7 +15,7 @@
     <!-- top header without scrolling button animation start -->
      <div class="top_header_without_scrolling">
         <a href="#" target="_blank" class="top_header_listing top_header_popup_trigger" data-bs-toggle="modal"
-        data-bs-target="#topHeaderModal">Admission Open 2027</a>
+        data-bs-target="#topHeaderModal">Admissions Open for 2027-29 Batch</a>
     </div>
     <!-- top header without scrolling button animation ends -->
 </div>
@@ -56,6 +56,8 @@
                                                         <li><a href="https://www.siu.edu.in/about-us/authorities-committees/board-management" target="_blank">Executive council</a></li>
                                                         <li><a href="https://www.siu.edu.in/about-us/authorities-committees/university-sports-board" target="_blank">University Sports Board</a></li>
                                                         <li><a href="{{ asset('assets/pdf/Code-of-Conduct.pdf') }}" target="_blank">Code of Conduct</a></li>
+                                                        <li><a href="https://www.symbiosis-ambedkarmemorial.org/" target="_blank">Dr. Babasaheb Ambedkar Museum & Memorial</a></li>
+                                                        <li><a href="https://afroasian.symbiosis.ac.in/" target="_blank">Afro Asian Cultural Museum</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="about_submenu_listing">
@@ -69,6 +71,7 @@
                                                         <!-- <li><a href="{{ route('pages.comming-soon') }}">Visiting Faculty </a></li> -->
                                                         <li><a href="{{ route('pages.about.administrative-staff') }}">Administrative Staff</a></li>
                                                         <li><a href="{{ route('pages.about.infrastructure') }}">Infrastructure</a></li>
+                                                        <!-- <li><a href="{{ route('pages.about.iqac') }}">IQAC</a></li> -->
                                                     </ul>
                                                 </div>
                                             </div>
@@ -83,7 +86,7 @@
                                             <ul class="submenu">
                                                 <li><a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}">M.Sc. Geoinformatics</a></li>
                                                 <li><a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}">M. Sc. Data Science and Spatial Analytics</a></li>
-                                                <li><a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}">MSc. Data Science and Spatial Analytics - Dual Degree</a></li>
+                                                <li><a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}">M. Sc. Data Science and Spatial Analytics - Dual Degree</a></li>
                                                 <li><a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank">M.Tech Geoinformatics</a></li>
                                                 <li><a href="{{ route('pages.programmes.certificate-course-drone-data-processing.certificate-course-in-data-processing') }}">Certificate Course Drone Data Acquisition and Processing</a></li>
                                                 <li><a href="{{ route('pages.programmes.certificate-course-data-visualization.certificate-course-in-data-visual') }}">Certification in Data Visualization</a></li>

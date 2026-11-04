@@ -52,7 +52,7 @@ members, showcasing their academic backgrounds & research contributions.')
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Prof. (Dr.) T.P. Singh</h3>
+                                    <h3 class="faculty_name">Dr. (Prof.) Tarun Pratap Singh</h3>
                                     <div class="faculty_designation">Professor & Director</div>
                                 </div>
                                 <div class="faculty_info_box">
@@ -375,7 +375,7 @@ members, showcasing their academic backgrounds & research contributions.')
                         <!-- Modal Header -->
                         <div class="top_header_popup_header">
                             <div class="top_header_popup_heading">
-                                Prof. (Dr.) T.P. Singh
+                                Dr. (Prof.) Tarun Pratap Singh
                             </div>
                             <button type="button" class="top_header_popup_close" data-bs-dismiss="modal"
                                 aria-label="Close">

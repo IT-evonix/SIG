@@ -62,9 +62,12 @@ courses and advance your career with a master\'s in Geoinformatics.')
                         <div class="inner_page_contentbox">
                             <div class="programmes_page_first_mainbox">
                                 <div class="programmes_first_left">
-                                    <h2 class="inner_heading">
+                                    <!-- <h2 class="inner_heading">
                                        Master of Science Data Science and Spatial Analytics at SIG and Master of
                                         Science Degree Technical Systems Control
+                                    </h2> -->
+                                    <h2 class="inner_heading">
+                                       Master of Science (Data Science & Spatial Analytics) Dual Degree in collaboration with RUDN University, Russia
                                     </h2>
                                     <p class="m-0">
                                         The M.Sc. Data Science and Spatial Analytics Dual Degree Programme offers
@@ -133,6 +136,10 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                     spatial innovation, and the global space economy.
                                     The details about the offered programme in collaboration with RUDN University.
                                 </p>
+                                <p>
+                                    Click the link below to know more about the details about the offered programme in collaboration with RUDN University.
+                                </p>
+                                <p class="m-0"><a href="https://eng.rudn.ru/education/educational-programs/18071?tab=493" target="_blank">https://eng.rudn.ru/education/educational-programs/18071?tab=493</a></p>
                             </div>
                         </div>
                     </div>

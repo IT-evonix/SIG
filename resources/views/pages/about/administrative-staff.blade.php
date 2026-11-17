@@ -48,61 +48,25 @@ members, showcasing their academic backgrounds & research contributions.')
                     <div class="faculty_profile_mainbox">
                         <div class="faculty_card">
                             <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-15.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-08.webp') }}" alt=""
                                     class="img-fluid">
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Sumeet Choudhary</h3>
-                                    <div class="faculty_designation">Senior Office Superintendent</div>
+                                    <h3 class="faculty_name">Akshay Sawant</h3>
+                                    <div class="faculty_designation">Assistant Coordinator, MSc Geoinformatics</div>
                                 </div>
                             </div>
                         </div>
                         <div class="faculty_card">
                             <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-07.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-09.webp') }}" alt=""
                                     class="img-fluid">
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Ms. Rupali kaware</h3>
-                                    <div class="faculty_designation">Senior Coordinator, PA to Director</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faculty_card">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-05.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mrs. Sonal Rawal</h3>
-                                    <div class="faculty_designation">Sr. Supervisor, Admissions</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faculty_card">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-06.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mrs. Vrushali Kende</h3>
-                                    <div class="faculty_designation">Assistant Coordinator, Admissions</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faculty_card">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-01.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mrs. Gauri Jadhav</h3>
-                                    <div class="faculty_designation">Coordinator, Academics and  M. Tech. Geoinformatics</div>
+                                    <h3 class="faculty_name">Appa Bugadikattekar</h3>
+                                    <div class="faculty_designation">Senior Office Attendant</div>
                                 </div>
                             </div>
                         </div>
@@ -113,20 +77,32 @@ members, showcasing their academic backgrounds & research contributions.')
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mrs. Ashwini Wagh</h3>
+                                    <h3 class="faculty_name">Ashwini Wagh</h3>
                                     <div class="faculty_designation">Assistant Coordinator, MSc Data Science</div>
                                 </div>
                             </div>
                         </div>
                         <div class="faculty_card">
                             <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-08.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-10.webp') }}" alt=""
                                     class="img-fluid">
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Akshay Sawant</h3>
-                                    <div class="faculty_designation">Assistant Coordinator, MSc Geoinformatics</div>
+                                    <h3 class="faculty_name">Deepak Kudale</h3>
+                                    <div class="faculty_designation">Driver cum Sr. Office Attendant</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faculty_card">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-01.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Gauri Jadhav</h3>
+                                    <div class="faculty_designation">Coordinator, Academics and  M. Tech. Geoinformatics</div>
                                 </div>
                             </div>
                         </div>
@@ -137,32 +113,8 @@ members, showcasing their academic backgrounds & research contributions.')
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mrs. Gauri Shinde</h3>
+                                    <h3 class="faculty_name">Gauri Shinde</h3>
                                     <div class="faculty_designation">Supervisor, Examination</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faculty_card">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-04.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mrs. Shreya Chounde</h3>
-                                    <div class="faculty_designation">Office Assistant, Examination</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faculty_card">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-16.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr.Prashant Parekar</h3>
-                                    <div class="faculty_designation">Placement Supervisor</div>
                                 </div>
                             </div>
                         </div>
@@ -173,25 +125,23 @@ members, showcasing their academic backgrounds & research contributions.')
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Jayesh Dabi</h3>
+                                    <h3 class="faculty_name">Jayesh Dabi</h3>
                                     <div class="faculty_designation">System Engineer</div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="faculty_card">
                             <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-18.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-12.webp') }}" alt=""
                                     class="img-fluid">
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Sunil Shahane</h3>
-                                    <div class="faculty_designation">IT Support</div>
+                                    <h3 class="faculty_name">Mahesh Shigwan</h3>
+                                    <div class="faculty_designation">Office Attendant</div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="faculty_card">
                             <div class="faculty_image">
                                 <img src="{{ asset('assets/images/adminstartive-staff/staff-03.webp') }}" alt=""
@@ -199,8 +149,20 @@ members, showcasing their academic backgrounds & research contributions.')
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mrs. Nisha Shivsharan</h3>
+                                    <h3 class="faculty_name">Nisha Shivsharan</h3>
                                     <div class="faculty_designation"> Library Assistant</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faculty_card">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-16.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Prashant Parekar</h3>
+                                    <div class="faculty_designation">Placement Supervisor</div>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +173,7 @@ members, showcasing their academic backgrounds & research contributions.')
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Ravindra Gajmal</h3>
+                                    <h3 class="faculty_name">Ravindra Gajmal</h3>
                                     <div class="faculty_designation">Senior Office Attendant</div>
                                 </div>
                             </div>
@@ -223,45 +185,80 @@ members, showcasing their academic backgrounds & research contributions.')
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Rohidas Kondhalkar</h3>
+                                    <h3 class="faculty_name">Rohidas Kondhalkar</h3>
                                     <div class="faculty_designation">Senior Office Attendant</div>
                                 </div>
                             </div>
                         </div>
                         <div class="faculty_card">
                             <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-09.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-07.webp') }}" alt=""
                                     class="img-fluid">
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Appa Bugadikattekar</h3>
-                                    <div class="faculty_designation">Senior Office Attendant</div>
+                                    <h3 class="faculty_name">Rupali kaware</h3>
+                                    <div class="faculty_designation">Senior Coordinator, PA to Director</div>
                                 </div>
                             </div>
                         </div>
                         <div class="faculty_card">
                             <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-10.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-04.webp') }}" alt=""
                                     class="img-fluid">
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Deepak Kudale</h3>
-                                    <div class="faculty_designation">Driver cum Sr. Office Attendant</div>
+                                    <h3 class="faculty_name">Shreya Chounde</h3>
+                                    <div class="faculty_designation">Office Assistant, Examination</div>
                                 </div>
                             </div>
                         </div>
-                        
                         <div class="faculty_card">
                             <div class="faculty_image">
-                                <img src="{{ asset('assets/images/adminstartive-staff/staff-12.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-05.webp') }}" alt=""
                                     class="img-fluid">
                             </div>
                             <div class="faculty_content">
                                 <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Mahesh Shigwan</h3>
-                                    <div class="faculty_designation">Office Attendant</div>
+                                    <h3 class="faculty_name">Sonal Rawal</h3>
+                                    <div class="faculty_designation">Sr. Supervisor, Admissions</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faculty_card">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-15.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Sumeet Choudhary</h3>
+                                    <div class="faculty_designation">Senior Office Superintendent</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faculty_card">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-18.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Sunil Shahane</h3>
+                                    <div class="faculty_designation">IT Support</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faculty_card">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/adminstartive-staff/staff-06.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Vrushali Kende</h3>
+                                    <div class="faculty_designation">Assistant Coordinator, Admissions</div>
                                 </div>
                             </div>
                         </div>

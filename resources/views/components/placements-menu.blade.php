@@ -98,7 +98,7 @@
         </div>
         <div class="inner_page_menu_text">Student Success Stories</div>
     </a>
-    <a href="{{ route('pages.placement.placement-faq') }}"
+    <!-- <a href="{{ route('pages.placement.placement-faq') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.placement.placement-faq') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">
             <svg width="15" height="8" viewBox="0 0 12 8" fill="none">
@@ -108,7 +108,7 @@
             </svg>
         </div>
         <div class="inner_page_menu_text">FAQ</div>
-    </a>
+    </a> -->
     <a href="{{ route('pages.placement.placement-contact') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.placement.placement-contact') ? 'inner_page_menu_listing_active' : '' }}">
         <div class="inner_page_menu_icon">

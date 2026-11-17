@@ -242,7 +242,7 @@
                 <!-- Modal Header -->
                 <div class="top_header_popup_header">
                     <div class="top_header_popup_heading">
-                        Admissions Registration 2027
+                        Admissions Open for 2027-29 Batch
                     </div>
                     <button type="button" class="top_header_popup_close" data-bs-dismiss="modal" aria-label="Close">
 

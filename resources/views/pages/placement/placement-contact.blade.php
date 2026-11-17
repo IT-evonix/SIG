@@ -66,7 +66,7 @@ placement opportunities. Get more details here.')
                         <div class="inner_page_contentbox">
                             <div class="placement_contact_mainbox">
                                 <div class="placement_contact_leftbox">
-                                    <h2 class="inner_heading">Placement Contact</h2>
+                                    <h2 class="inner_heading">Contact</h2>
                                     <div class="placement_contact_detailbox">
                                         <h3 class="placement_contact_detail_header_heading">Prashant Parekar</h3>
                                         <div class="placement_contact_designation">Placement Supervisor</div>

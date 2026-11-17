@@ -101,7 +101,7 @@
                                             </button>
                                         </li>
 
-                                        <li class="nav-item" role="presentation">
+                                        <!-- <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="batch-2019-tab" data-bs-toggle="tab"
                                                 data-bs-target="#batch-2019" type="button" role="tab">
                                                 2019-2020
@@ -120,7 +120,7 @@
                                                 data-bs-target="#batch-2017" type="button" role="tab">
                                                 2017-2018
                                             </button>
-                                        </li>
+                                        </li> -->
 
                                     </ul>
                                 </div>
@@ -141,7 +141,7 @@
                                                         <tr>
                                                             <th>Sr. No.</th>
                                                             <th>PRN</th>
-                                                            <th>Financial Year</th>
+                                                            <!-- <th>Financial Year</th> -->
                                                             <th>Name of the Student</th>
                                                             <th>Type of Scholarship</th>
                                                             <th>Programme Name</th>
@@ -150,30 +150,30 @@
                                                     </thead>
 
                                                     <tbody>
-                                                        <tr><td>1</td><td>24070241041</td><td>2025-26</td><td>Ms. Monomita Chatterjee</td><td>PG Merit Sem 3</td><td>Master of Science (Geoinformatics)</td><td>2024-26</td></tr>
-                                                        <tr><td>2</td><td>24070241009</td><td>2025-26</td><td>Ms. Anisha Mukherjee</td><td>PG Merit Sem 3</td><td>Master of Science (Geoinformatics)</td><td>2024-26</td></tr>
-                                                        <tr><td>3</td><td>24070241021</td><td>2025-26</td><td>Mr. Cheekati Sarath Kumar</td><td>PG Merit Sem 3</td><td>Master of Science (Geoinformatics)</td><td>2024-26</td></tr>
-                                                        <tr><td>4</td><td>24070241053</td><td>2025-26</td><td>Ms. Riddhima Saha</td><td>PG Merit Sem 3</td><td>Master of Science (Geoinformatics)</td><td>2024-26</td></tr>
-                                                        <tr><td>5</td><td>25070241024</td><td>2025-26</td><td>Mr. Devansh Negi</td><td>PG Merit Sem 1</td><td>Master of Science (Geoinformatics)</td><td>2025-27</td></tr>
-                                                        <tr><td>6</td><td>25070241071</td><td>2025-26</td><td>Mr. Swapnanil Saha</td><td>PG Merit Sem 1</td><td>Master of Science (Geoinformatics)</td><td>2025-27</td></tr>
-                                                        <tr><td>7</td><td>25070241074</td><td>2025-26</td><td>Ms. Tiasa Debnath</td><td>PG Merit Sem 1</td><td>Master of Science (Geoinformatics)</td><td>2025-27</td></tr>
-                                                        <tr><td>8</td><td>25070241045</td><td>2025-26</td><td>Mr. S Karthika</td><td>PG Merit Sem 1</td><td>Master of Science (Geoinformatics)</td><td>2025-27</td></tr>
-                                                        <tr><td>9</td><td>24070243048</td><td>2025-26</td><td>Mr. Sandip Shaw</td><td>PG Merit Sem 3</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2024-26</td></tr>
-                                                        <tr><td>10</td><td>24070243055</td><td>2025-26</td><td>Mr. Upayan Chaudhuri</td><td>PG Merit Sem 3</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2024-26</td></tr>
-                                                        <tr><td>11</td><td>24070243057</td><td>2025-26</td><td>Mr. Vartak Vedant Subhash</td><td>PG Merit Sem 3</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2024-26</td></tr>
-                                                        <tr><td>12</td><td>24070243059</td><td>2025-26</td><td>Ms. Aatreyi Dutt</td><td>PG Merit Sem 3</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2024-26</td></tr>
-                                                        <tr><td>13</td><td>25070243036</td><td>2025-26</td><td>Mr. Tanuj</td><td>PG Merit Sem 1</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2025-27</td></tr>
-                                                        <tr><td>14</td><td>25070243035</td><td>2025-26</td><td>Ms. Sipra Sailendra Patra</td><td>PG Merit Sem 1</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2025-27</td></tr>
-                                                        <tr><td>15</td><td>25070243019</td><td>2025-26</td><td>Mr. Manas Ranjan Patra</td><td>PG Merit Sem 1</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2025-27</td></tr>
-                                                        <tr><td>16</td><td>25070243008</td><td>2025-26</td><td>Mr. Bhamidipati Karthikeya</td><td>PG Merit Sem 1</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2025-27</td></tr>
-                                                        <tr><td>17</td><td>24070146019</td><td>2025-26</td><td>Ms. Trishita Podder</td><td>PG Merit Sem 3</td><td>Master of Technology (Geo-informatics)</td><td>2024-26</td></tr>
-                                                        <tr><td>18</td><td>24070146015</td><td>2025-26</td><td>Ms. Sampuma Saha</td><td>PG Merit Sem 3</td><td>Master of Technology (Geo-informatics)</td><td>2024-26</td></tr>
-                                                        <tr><td>19</td><td>24070146001</td><td>2025-26</td><td>Ms. Bange Pallavi</td><td>PG Merit Sem 3</td><td>Master of Technology (Geo-informatics)</td><td>2024-26</td></tr>
-                                                        <tr><td>20</td><td>24070146018</td><td>2025-26</td><td>Ms. Rutuja Rakesh Tendulkar</td><td>PG Merit Sem 3</td><td>Master of Technology (Geo-informatics)</td><td>2024-26</td></tr>
-                                                        <tr><td>21</td><td>25070146002</td><td>2025-26</td><td>Mr. Bhoir Manthan Santosh</td><td>PG Merit Sem 1</td><td>Master of Technology (Geo-informatics)</td><td>2025-27</td></tr>
-                                                        <tr><td>22</td><td>25070146018</td><td>2025-26</td><td>Ms. Wash Archita Vaibhav</td><td>PG Merit Sem 1</td><td>Master of Technology (Geo-informatics)</td><td>2025-27</td></tr>
-                                                        <tr><td>23</td><td>25070146003</td><td>2025-26</td><td>Ms. Bidushee Kanungo</td><td>PG Merit Sem 1</td><td>Master of Technology (Geo-informatics)</td><td>2025-27</td></tr>
-                                                        <tr><td>24</td><td>25070146008</td><td>2025-26</td><td>Ms. Khade Reema Ravindra</td><td>PG Merit Sem 1</td><td>Master of Technology (Geo-informatics)</td><td>2025-27</td></tr>
+                                                        <tr><td>1</td><td>24070241041</td><td>Ms. Monomita Chatterjee</td><td>PG Merit Sem 3</td><td>Master of Science (Geoinformatics)</td><td>2024-26</td></tr>
+                                                        <tr><td>2</td><td>24070241009</td><td>Ms. Anisha Mukherjee</td><td>PG Merit Sem 3</td><td>Master of Science (Geoinformatics)</td><td>2024-26</td></tr>
+                                                        <tr><td>3</td><td>24070241021</td><td>Mr. Cheekati Sarath Kumar</td><td>PG Merit Sem 3</td><td>Master of Science (Geoinformatics)</td><td>2024-26</td></tr>
+                                                        <tr><td>4</td><td>24070241053</td><td>Ms. Riddhima Saha</td><td>PG Merit Sem 3</td><td>Master of Science (Geoinformatics)</td><td>2024-26</td></tr>
+                                                        <tr><td>5</td><td>25070241024</td><td>Mr. Devansh Negi</td><td>PG Merit Sem 1</td><td>Master of Science (Geoinformatics)</td><td>2025-27</td></tr>
+                                                        <tr><td>6</td><td>25070241071</td><td>Mr. Swapnanil Saha</td><td>PG Merit Sem 1</td><td>Master of Science (Geoinformatics)</td><td>2025-27</td></tr>
+                                                        <tr><td>7</td><td>25070241074</td><td>Ms. Tiasa Debnath</td><td>PG Merit Sem 1</td><td>Master of Science (Geoinformatics)</td><td>2025-27</td></tr>
+                                                        <tr><td>8</td><td>25070241045</td><td>Mr. S Karthika</td><td>PG Merit Sem 1</td><td>Master of Science (Geoinformatics)</td><td>2025-27</td></tr>
+                                                        <tr><td>9</td><td>24070243048</td><td>Mr. Sandip Shaw</td><td>PG Merit Sem 3</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2024-26</td></tr>
+                                                        <tr><td>10</td><td>24070243055</td><td>Mr. Upayan Chaudhuri</td><td>PG Merit Sem 3</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2024-26</td></tr>
+                                                        <tr><td>11</td><td>24070243057</td><td>Mr. Vartak Vedant Subhash</td><td>PG Merit Sem 3</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2024-26</td></tr>
+                                                        <tr><td>12</td><td>24070243059</td><td>Ms. Aatreyi Dutt</td><td>PG Merit Sem 3</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2024-26</td></tr>
+                                                        <tr><td>13</td><td>25070243036</td><td>Mr. Tanuj</td><td>PG Merit Sem 1</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2025-27</td></tr>
+                                                        <tr><td>14</td><td>25070243035</td><td>Ms. Sipra Sailendra Patra</td><td>PG Merit Sem 1</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2025-27</td></tr>
+                                                        <tr><td>15</td><td>25070243019</td><td>Mr. Manas Ranjan Patra</td><td>PG Merit Sem 1</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2025-27</td></tr>
+                                                        <tr><td>16</td><td>25070243008</td><td>Mr. Bhamidipati Karthikeya</td><td>PG Merit Sem 1</td><td>Master of Science (Data Science &amp; Spatial Analytics)</td><td>2025-27</td></tr>
+                                                        <tr><td>17</td><td>24070146019</td><td>Ms. Trishita Podder</td><td>PG Merit Sem 3</td><td>Master of Technology (Geo-informatics)</td><td>2024-26</td></tr>
+                                                        <tr><td>18</td><td>24070146015</td><td>Ms. Sampuma Saha</td><td>PG Merit Sem 3</td><td>Master of Technology (Geo-informatics)</td><td>2024-26</td></tr>
+                                                        <tr><td>19</td><td>24070146001</td><td>Ms. Bange Pallavi</td><td>PG Merit Sem 3</td><td>Master of Technology (Geo-informatics)</td><td>2024-26</td></tr>
+                                                        <tr><td>20</td><td>24070146018</td><td>Ms. Rutuja Rakesh Tendulkar</td><td>PG Merit Sem 3</td><td>Master of Technology (Geo-informatics)</td><td>2024-26</td></tr>
+                                                        <tr><td>21</td><td>25070146002</td><td>Mr. Bhoir Manthan Santosh</td><td>PG Merit Sem 1</td><td>Master of Technology (Geo-informatics)</td><td>2025-27</td></tr>
+                                                        <tr><td>22</td><td>25070146018</td><td>Ms. Wash Archita Vaibhav</td><td>PG Merit Sem 1</td><td>Master of Technology (Geo-informatics)</td><td>2025-27</td></tr>
+                                                        <tr><td>23</td><td>25070146003</td><td>Ms. Bidushee Kanungo</td><td>PG Merit Sem 1</td><td>Master of Technology (Geo-informatics)</td><td>2025-27</td></tr>
+                                                        <tr><td>24</td><td>25070146008</td><td>Ms. Khade Reema Ravindra</td><td>PG Merit Sem 1</td><td>Master of Technology (Geo-informatics)</td><td>2025-27</td></tr>
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -190,7 +190,7 @@
                                                         <tr>
                                                             <th>Sr. No.</th>
                                                             <th>PRN</th>
-                                                            <th>Financial Year</th>
+                                                            <!-- <th>Financial Year</th> -->
                                                             <th>Name of the Student</th>
                                                             <th>Type of Scholarship</th>
                                                             <th>Programme Name</th>
@@ -202,7 +202,7 @@
                                                         <tr>
                                                             <td>1</td>
                                                             <td>23070241059</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Soham Das</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -211,7 +211,7 @@
                                                         <tr>
                                                             <td>2</td>
                                                             <td>23070241018</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Chayanika Ghosh</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -220,7 +220,7 @@
                                                         <tr>
                                                             <td>3</td>
                                                             <td>23070241067</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Sukanya Chakraborty</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -229,7 +229,7 @@
                                                         <tr>
                                                             <td>4</td>
                                                             <td>23070241027</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Kunal Tanwar</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -238,7 +238,7 @@
                                                         <tr>
                                                             <td>5</td>
                                                             <td>23070243044</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Sayanti Mukhopadhyay</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -247,7 +247,7 @@
                                                         <tr>
                                                             <td>6</td>
                                                             <td>23070243064</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>P.Balaji</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -256,7 +256,7 @@
                                                         <tr>
                                                             <td>7</td>
                                                             <td>23070243047</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Siddhi Jadhav</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -265,7 +265,7 @@
                                                         <tr>
                                                             <td>8</td>
                                                             <td>23070243043</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Sayali Doifode</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -274,7 +274,7 @@
                                                         <tr>
                                                             <td>9</td>
                                                             <td>23070146008</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Shraddha Misal</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -283,7 +283,7 @@
                                                         <tr>
                                                             <td>10</td>
                                                             <td>23070146011</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Anish Shelke</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -292,7 +292,7 @@
                                                         <tr>
                                                             <td>11</td>
                                                             <td>23070146001</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Adrija Biswas</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -301,7 +301,7 @@
                                                         <tr>
                                                             <td>12</td>
                                                             <td>23070146015</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Koustav Pramanik</td>
                                                             <td>PG Merit Sem3</td>
                                                             <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -310,7 +310,7 @@
                                                         <tr>
                                                             <td>13</td>
                                                             <td>24070241009</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Anisha Mukherjee</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -319,7 +319,7 @@
                                                         <tr>
                                                             <td>14</td>
                                                             <td>24070241060</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Sarthak Das</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -328,7 +328,7 @@
                                                         <tr>
                                                             <td>15</td>
                                                             <td>24070241031</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Ishita Bandyopadhyay</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -337,7 +337,7 @@
                                                         <tr>
                                                             <td>16</td>
                                                             <td>24070241053</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Riddhima Saha</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -346,7 +346,7 @@
                                                         <tr>
                                                             <td>17</td>
                                                             <td>24070243055</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Upayan Chaudhuri</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -355,7 +355,7 @@
                                                         <tr>
                                                             <td>18</td>
                                                             <td>24070243059</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Aatreyi Dutt</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -364,7 +364,7 @@
                                                         <tr>
                                                             <td>19</td>
                                                             <td>24070243048</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Sandip Shaw</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -373,7 +373,7 @@
                                                         <tr>
                                                             <td>20</td>
                                                             <td>24070243020</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Harnesswala Sarrah Shabbir</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -382,7 +382,7 @@
                                                         <tr>
                                                             <td>21</td>
                                                             <td>24070146019</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Trishita Podder</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Technology (Geoinformatics)</td>
@@ -391,7 +391,7 @@
                                                         <tr>
                                                             <td>22</td>
                                                             <td>24070146015</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Sampurna Shah</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Technology (Geoinformatics)</td>
@@ -400,7 +400,7 @@
                                                         <tr>
                                                             <td>23</td>
                                                             <td>24070146009</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Moumita Bhattacharjee</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Technology (Geoinformatics)</td>
@@ -409,7 +409,7 @@
                                                         <tr>
                                                             <td>24</td>
                                                             <td>24070146012</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Aishwarya Pednekar</td>
                                                             <td>PG Merit Sem1</td>
                                                             <td>Master of Technology (Geoinformatics)</td>
@@ -418,7 +418,7 @@
                                                         <tr>
                                                             <td>25</td>
                                                             <td>24070241074</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Sneha Dey</td>
                                                             <td>NER Scholarship- Semester 1 &amp; 2</td>
                                                             <td>Master of Science (Geoinformatics)</td>
@@ -427,15 +427,12 @@
                                                         <tr>
                                                             <td>26</td>
                                                             <td>23070243037</td>
-                                                            <td>2024-25</td>
+                                                            <!-- <td>2024-25</td> -->
                                                             <td>Ratul Banik</td>
                                                             <td>NER Scholarship- Semester 3 &amp; 4</td>
                                                             <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
                                                             <td>2023-25</td>
                                                         </tr>
-
-
-
                                                         </tbody>
                                                 </table>
                                             </div>
@@ -452,7 +449,7 @@
                                                         <tr>
                                                             <th>Sr. No.</th>
                                                             <th>PRN</th>
-                                                            <th>Financial Year</th>
+                                                            <!-- <th>Financial Year</th> -->
                                                             <th>Name of the Student</th>
                                                             <th>Type of Scholarship</th>
                                                             <th>Programme Name</th>
@@ -464,7 +461,7 @@
                                                         <tr>
                                                                 <td>1</td>
                                                                 <td>22070241057</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Rakesh Menon K.P.</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Science (Geoinformatics)</td>
@@ -473,7 +470,7 @@
                                                             <tr>
                                                                 <td>2</td>
                                                                 <td>22070241043</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>M.D. Towfiq</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Science (Geoinformatics)</td>
@@ -482,7 +479,7 @@
                                                             <tr>
                                                                 <td>3</td>
                                                                 <td>22070241019</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Avisikta Majumder</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Science (Geoinformatics)</td>
@@ -491,7 +488,7 @@
                                                             <tr>
                                                                 <td>4</td>
                                                                 <td>22070241024</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Barnima Das</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Science (Geoinformatics)</td>
@@ -500,7 +497,7 @@
                                                             <tr>
                                                                 <td>5</td>
                                                                 <td>23070241059</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Soham Das</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Science (Geoinformatics)</td>
@@ -509,7 +506,7 @@
                                                             <tr>
                                                                 <td>6</td>
                                                                 <td>23070241027</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Kunal Tanwar</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Science (Geoinformatics)</td>
@@ -518,7 +515,7 @@
                                                             <tr>
                                                                 <td>7</td>
                                                                 <td>23070241018</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Chayanika Ghosh</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Science (Geoinformatics)</td>
@@ -527,7 +524,7 @@
                                                             <tr>
                                                                 <td>8</td>
                                                                 <td>23070241006</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Anisha Guin</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Science (Geoinformatics)</td>
@@ -536,7 +533,7 @@
                                                             <tr>
                                                                 <td>9</td>
                                                                 <td>22070243029</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Manu Mallika</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -545,7 +542,7 @@
                                                             <tr>
                                                                 <td>10</td>
                                                                 <td>22070243007</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Ayush Mitra</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -554,7 +551,7 @@
                                                             <tr>
                                                                 <td>11</td>
                                                                 <td>22070243018</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Divyanshu Singh Bisht</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -563,7 +560,7 @@
                                                             <tr>
                                                                 <td>12</td>
                                                                 <td>22070243051</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Harsh Thakur</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -572,7 +569,7 @@
                                                             <tr>
                                                                 <td>13</td>
                                                                 <td>23070243037</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Ratul Banik</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -581,7 +578,7 @@
                                                             <tr>
                                                                 <td>14</td>
                                                                 <td>23070243044</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Sayanti Mukhopadhyay</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -590,7 +587,7 @@
                                                             <tr>
                                                                 <td>15</td>
                                                                 <td>23070243043</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Sayali Doifode</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -599,7 +596,7 @@
                                                             <tr>
                                                                 <td>16</td>
                                                                 <td>23070243064</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>P.Balaji</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Science (Data Science &amp; Spatial Analytics)</td>
@@ -608,7 +605,7 @@
                                                             <tr>
                                                                 <td>17</td>
                                                                 <td>22070146012</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Prathamesh Patil</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -617,7 +614,7 @@
                                                             <tr>
                                                                 <td>18</td>
                                                                 <td>22070146008</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Poonam Reure</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -626,7 +623,7 @@
                                                             <tr>
                                                                 <td>19</td>
                                                                 <td>22070146009</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Aniket Sonawane</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -635,7 +632,7 @@
                                                             <tr>
                                                                 <td>20</td>
                                                                 <td>22070146011</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Gagan Singhal</td>
                                                                 <td>PG Merit Sem3</td>
                                                                 <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -644,7 +641,7 @@
                                                             <tr>
                                                                 <td>21</td>
                                                                 <td>23070146008</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Shraddha Misal</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -653,7 +650,7 @@
                                                             <tr>
                                                                 <td>22</td>
                                                                 <td>23070146015</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Koustav Pramanik</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -662,7 +659,7 @@
                                                             <tr>
                                                                 <td>23</td>
                                                                 <td>23070146006</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Gayatri Gurumurthy</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -671,7 +668,7 @@
                                                             <tr>
                                                                 <td>24</td>
                                                                 <td>23070146004</td>
-                                                                <td>2023-24</td>
+                                                                <!-- <td>2023-24</td> -->
                                                                 <td>Dhnanjay Darade</td>
                                                                 <td>PG Merit Sem1</td>
                                                                 <td>Master of Technology (Geo-informatics and Surveying Technology)</td>
@@ -693,7 +690,6 @@
                                                         <tr>
                                                             <th>Sr. No.</th>
                                                             <th>PRN</th>
-                                                            <th>Financial Year</th>
                                                             <th>Name of the Student</th>
                                                             <th>Type of Scholarship</th>
                                                             <th>Programme Name</th>
@@ -705,28 +701,27 @@
                                                         <tr>
                                                         <td>1.</td>
                                                         <td> 20070146005</td>
-                                                        <td> 2022-23</td>
                                                         <td> Diksha Kolpe</td>
                                                         <td> PG Merit Sem4</td>
                                                         <td> Master of Technology (Geo-informatics and Surveying Technology)</td>
                                                         <td> 2020-22</td>
                                                         </tr>
-                                                        <tr><td>2.</td><td> 20070146003</td><td> 2022-23</td><td> Ishan Seth</td><td>PG Merit Sem4</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2020-22</td></tr>
-                                                        <tr><td>3.</td><td> 20070146010</td><td> 2022-23</td><td> Sameer Tupkar</td><td> PG Merit Sem4</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2020-22</td></tr>
-                                                        <tr><td>4.</td><td> 20070146006</td><td> 2022-23</td><td> Priyanka More</td><td> PG Merit Sem4</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2020-22</td></tr>
-                                                        <tr><td>5.</td><td> 21070146017</td><td> 2022-23</td><td> Rachana Gaikwad</td><td> PG Merit Sem2</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
-                                                        <tr><td>6.</td><td> 21070146005</td><td> 2022-23</td><td> Debdarshi Das</td><td> PG Merit Sem2</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
-                                                        <tr><td>7.</td><td> 21070146006</td><td> 2022-23</td><td> Rutuja Gorivale</td><td> PG Merit Sem2</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
-                                                        <tr><td>8.</td><td> 21070146011</td><td> 2022-23</td><td> Shivani Bhatia</td><td> PG Merit Sem2</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
-                                                        <tr><td>9.</td><td> 21070146005</td><td> 2022-23</td><td> Debdarshi Das</td><td> PG Merit Sem3</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
-                                                        <tr><td>10.</td><td> 21070146011</td><td> 2022-23</td><td> Shivani Bhatia</td><td> PG Merit Sem3</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
-                                                        <tr><td>11.</td><td> 21070146006</td><td> 2022-23</td><td> Rutuja Gorivale</td><td> PG Merit Sem3</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
-                                                        <tr><td>12.</td><td> 21070146016</td><td> 2022-23</td><td> Bremkumar K</td><td> PG Merit Sem3</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
-                                                        <tr><td>13.</td><td> 22070146012</td><td> 2022-23</td><td> Prathamesh Patil</td><td> PG Merit Sem1</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2022-24</td></tr>
-                                                        <tr><td>14.</td><td> 22070146007</td><td> 2022-23</td><td> Suhel Naykwadi</td><td> PG Merit Sem1</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2022-24</td></tr>
-                                                        <tr><td>15.</td><td> 22070146008</td><td> 2022-23</td><td> Poonam Reure</td><td> PG Merit Sem1</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2022-24</td></tr>
-                                                        <tr><td>16.</td><td> 22070146004</td><td> 2022-23</td><td> Dohan Kanse</td><td> PG Merit Sem1</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2022-24</td></tr>
-                                                        <tr><td>17.</td><td> 22070241016</td><td> 2022-23</td><td> Arenla Longchar</td><td>NER Scholarship- Semester 1 &amp; 2</td><td> Master of Science (Geoinformatics)</td><td> 2022-24</td></tr>
+                                                        <tr><td>2.</td><td> 20070146003</td><td> Ishan Seth</td><td>PG Merit Sem4</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2020-22</td></tr>
+                                                        <tr><td>3.</td><td> 20070146010</td><td> Sameer Tupkar</td><td> PG Merit Sem4</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2020-22</td></tr>
+                                                        <tr><td>4.</td><td> 20070146006</td><td> Priyanka More</td><td> PG Merit Sem4</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2020-22</td></tr>
+                                                        <tr><td>5.</td><td> 21070146017</td><td> Rachana Gaikwad</td><td> PG Merit Sem2</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
+                                                        <tr><td>6.</td><td> 21070146005</td><td> Debdarshi Das</td><td> PG Merit Sem2</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
+                                                        <tr><td>7.</td><td> 21070146006</td><td> Rutuja Gorivale</td><td> PG Merit Sem2</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
+                                                        <tr><td>8.</td><td> 21070146011</td><td> Shivani Bhatia</td><td> PG Merit Sem2</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
+                                                        <tr><td>9.</td><td> 21070146005</td><td> Debdarshi Das</td><td> PG Merit Sem3</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
+                                                        <tr><td>10.</td><td> 21070146011</td><td> Shivani Bhatia</td><td> PG Merit Sem3</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
+                                                        <tr><td>11.</td><td> 21070146006</td><td> Rutuja Gorivale</td><td> PG Merit Sem3</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
+                                                        <tr><td>12.</td><td> 21070146016</td><td> Bremkumar K</td><td> PG Merit Sem3</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2021-23</td></tr>
+                                                        <tr><td>13.</td><td> 22070146012</td><td> Prathamesh Patil</td><td> PG Merit Sem1</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2022-24</td></tr>
+                                                        <tr><td>14.</td><td> 22070146007</td><td> Suhel Naykwadi</td><td> PG Merit Sem1</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2022-24</td></tr>
+                                                        <tr><td>15.</td><td> 22070146008</td><td> Poonam Reure</td><td> PG Merit Sem1</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2022-24</td></tr>
+                                                        <tr><td>16.</td><td> 22070146004</td><td> Dohan Kanse</td><td> PG Merit Sem1</td><td> Master of Technology (Geo-informatics and Surveying Technology)</td><td> 2022-24</td></tr>
+                                                        <tr><td>17.</td><td> 22070241016</td><td> Arenla Longchar</td><td>NER Scholarship- Semester 1 &amp; 2</td><td> Master of Science (Geoinformatics)</td><td> 2022-24</td></tr>
 
                                                         </tbody>
                                                 </table>
@@ -744,7 +739,7 @@
                                                         <tr>
                                                             <th>Sr. No.</th>
                                                             <th>PRN</th>
-                                                            <th>Financial Year</th>
+                                                            <!-- <th>Financial Year</th> -->
                                                             <th>Name of the Student</th>
                                                             <th>Type of Scholarship</th>
                                                             <th>Programme Name</th>
@@ -760,9 +755,9 @@
                                                         <td>
                                                         <p>19070241001</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>A.Abhijeet</p>
                                                         </td>
@@ -783,9 +778,9 @@
                                                         <td>
                                                         <p>20070241039</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Prabhu Sharvan Rajesh</p>
                                                         </td>
@@ -806,9 +801,9 @@
                                                         <td>
                                                         <p>19070243015</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Shuvam Sanyal</p>
                                                         </td>
@@ -829,9 +824,9 @@
                                                         <td>
                                                         <p>20070243002</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Akshita Saxena</p>
                                                         </td>
@@ -852,9 +847,9 @@
                                                         <td>
                                                         <p>19070146007</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Pranav Pandey</p>
                                                         </td>
@@ -875,9 +870,9 @@
                                                         <td>
                                                         <p>20070146006</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Priyanka More</p>
                                                         </td>
@@ -898,9 +893,9 @@
                                                         <td>
                                                         <p>20070241048</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Sadaf Khan</p>
                                                         </td>
@@ -921,9 +916,9 @@
                                                         <td>
                                                         <p>19070243015</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Shuvam Sanyal</p>
                                                         </td>
@@ -944,9 +939,9 @@
                                                         <td>
                                                         <p>20070243021</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Sahil Purohit</p>
                                                         </td>
@@ -967,9 +962,9 @@
                                                         <td>
                                                         <p>19070146007</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Pranav Pandey</p>
                                                         </td>
@@ -990,9 +985,9 @@
                                                         <td>
                                                         <p>20070146006</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2021-22</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Priyanka More</p>
                                                         </td>
@@ -1022,7 +1017,7 @@
                                                         <tr>
                                                             <th>Sr. No.</th>
                                                             <th>PRN</th>
-                                                            <th>Financial Year</th>
+                                                            <!-- <th>Financial Year</th> -->
                                                             <th>Name of the Student</th>
                                                             <th>Type of Scholarship</th>
                                                             <th>Programme Name</th>
@@ -1038,9 +1033,9 @@
                                                         <td>
                                                         <p>19070241001</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>A.Abhijeet</p>
                                                         </td>
@@ -1061,9 +1056,9 @@
                                                         <td>
                                                         <p>19070241052</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Sumouli Basu</p>
                                                         </td>
@@ -1084,9 +1079,9 @@
                                                         <td>
                                                         <p>18070241041</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Sharmistha Halder</p>
                                                         </td>
@@ -1107,9 +1102,9 @@
                                                         <td>
                                                         <p>18070241046</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Soniya Srivastava</p>
                                                         </td>
@@ -1130,9 +1125,9 @@
                                                         <td>
                                                         <p>18070241046</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Soniya Srivastava</p>
                                                         </td>
@@ -1153,9 +1148,9 @@
                                                         <td>
                                                         <p>17070241008</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Asmita Mukherjee</p>
                                                         </td>
@@ -1176,9 +1171,9 @@
                                                         <td>
                                                         <p>19070243008</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Goresh Sharma</p>
                                                         </td>
@@ -1199,9 +1194,9 @@
                                                         <td>
                                                         <p>19070243008</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Goresh Sharma</p>
                                                         </td>
@@ -1222,9 +1217,9 @@
                                                         <td>
                                                         <p>19070146007</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Pranav Pandya</p>
                                                         </td>
@@ -1245,9 +1240,9 @@
                                                         <td>
                                                         <p>19070146007</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Pranav Pandya</p>
                                                         </td>
@@ -1268,9 +1263,9 @@
                                                         <td>
                                                         <p>18070146005</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Pratik Mahadik</p>
                                                         </td>
@@ -1291,9 +1286,9 @@
                                                         <td>
                                                         <p>18070146005</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Pratik Mahadik</p>
                                                         </td>
@@ -1314,9 +1309,9 @@
                                                         <td>
                                                         <p>18070146005</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Pratik Mahadik</p>
                                                         </td>
@@ -1337,9 +1332,9 @@
                                                         <td>
                                                         <p>17070146001</p>
                                                         </td>
-                                                        <td>
+                                                        <!-- <td>
                                                         <p>2020-21</p>
-                                                        </td>
+                                                        </td> -->
                                                         <td>
                                                         <p>Ajay Bhandari</p>
                                                         </td>
@@ -1359,7 +1354,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="batch-2019" role="tabpanel">
+                                <!-- <div class="tab-pane fade" id="batch-2019" role="tabpanel">
                                     <div class="program_structure_content">
                                         <div class="program_structure_listing">
                                             <h2 class="program_structure_heading">SIU PG GIP Scholarship 2019-2020</h2>
@@ -1893,7 +1888,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

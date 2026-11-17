@@ -1915,6 +1915,10 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
   border-radius: 12px;
 }
 
+.staff_profile_main .faculty_card {
+    cursor: auto;
+}
+
 /* FACULTY PAGE ENDS */
 
 /* ADMISSION CALENDAR PAGE START */

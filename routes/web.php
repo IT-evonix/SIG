@@ -52,12 +52,12 @@ Route::get('/programme-outcome', function () {
 })->name('pages.programmes.msc-geoinformatics.programme-outcome');
 
 Route::get('/eligibility-criteria', function () {
-    return view('pages.programmes.msc-geoinformatics.eligibility-criteria');
-})->name('pages.programmes.msc-geoinformatics.eligibility-criteria');
+    return view('pages.admissions.msc-geoinformatics.eligibility-criteria');
+})->name('pages.admissions.msc-geoinformatics.eligibility-criteria');
 
 Route::get('/fees-structure', function () {
-    return view('pages.programmes.msc-geoinformatics.fees-structure');
-})->name('pages.programmes.msc-geoinformatics.fees-structure');
+    return view('pages.admissions.msc-geoinformatics.fees-structure');
+})->name('pages.admissions.msc-geoinformatics.fees-structure');
 
 Route::get('/academic-calendar', function () {
     return view('pages.programmes.msc-geoinformatics.academic-calendar');
@@ -72,20 +72,20 @@ Route::get('/programme-structure', function () {
 })->name('pages.programmes.msc-geoinformatics.programme-structure');
 
 Route::get('/admission-calendar', function () {
-    return view('pages.programmes.msc-geoinformatics.admission-calendar');
-})->name('pages.programmes.msc-geoinformatics.admission-calendar');
+    return view('pages.admissions.msc-geoinformatics.admission-calendar');
+})->name('pages.admissions.msc-geoinformatics.admission-calendar');
 
 Route::get('/how-to-apply', function () {
-    return view('pages.programmes.msc-geoinformatics.how-to-apply');
-})->name('pages.programmes.msc-geoinformatics.how-to-apply');
+    return view('pages.admissions.msc-geoinformatics.how-to-apply');
+})->name('pages.admissions.msc-geoinformatics.how-to-apply');
 
 Route::get('/msc-geoinformatics-scholarships', function () {
-    return view('pages.programmes.msc-geoinformatics.msc-geoinformatics-scholarships');
-})->name('pages.programmes.msc-geoinformatics.msc-geoinformatics-scholarships');
+    return view('pages.admissions.msc-geoinformatics.msc-geoinformatics-scholarships');
+})->name('pages.admissions.msc-geoinformatics.msc-geoinformatics-scholarships');
 
 Route::get('/admission-contact', function () {
-    return view('pages.programmes.msc-geoinformatics.admission-contact');
-})->name('pages.programmes.msc-geoinformatics.admission-contact');
+    return view('pages.admissions.msc-geoinformatics.admission-contact');
+})->name('pages.admissions.msc-geoinformatics.admission-contact');
 
 // Msc dual degree start
 Route::get('/msc-in-dssa-dual-degree', function () {
@@ -97,12 +97,12 @@ Route::get('/dssa-dual-degree-programme-outcome', function () {
 })->name('pages.programmes.msc-dssa-dual-degree.programme-outcome');
 
 Route::get('/dssa-dual-degree-eligibility-criteria', function () {
-    return view('pages.programmes.msc-dssa-dual-degree.eligibility-criteria');
-})->name('pages.programmes.msc-dssa-dual-degree.eligibility-criteria');
+    return view('pages.admissions.msc-dssa-dual-degree.eligibility-criteria');
+})->name('pages.admissions.msc-dssa-dual-degree.eligibility-criteria');
 
 Route::get('/dssa-dual-degree-fees-structure', function () {
-    return view('pages.programmes.msc-dssa-dual-degree.fees-structure');
-})->name('pages.programmes.msc-dssa-dual-degree.fees-structure');
+    return view('pages.admissions.msc-dssa-dual-degree.fees-structure');
+})->name('pages.admissions.msc-dssa-dual-degree.fees-structure');
 
 Route::get('/dssa-dual-degree-stakeholder-feedback', function () {
     return view('pages.programmes.msc-dssa-dual-degree.stakeholder-feedback');
@@ -113,20 +113,20 @@ Route::get('/dssa-dual-degree-programme-structure', function () {
 })->name('pages.programmes.msc-dssa-dual-degree.programme-structure');
 
 Route::get('/dssa-dual-degree-admission-calendar', function () {
-    return view('pages.programmes.msc-dssa-dual-degree.admission-calendar');
-})->name('pages.programmes.msc-dssa-dual-degree.admission-calendar');
+    return view('pages.admissions.msc-dssa-dual-degree.admission-calendar');
+})->name('pages.admissions.msc-dssa-dual-degree.admission-calendar');
 
 Route::get('/dssa-dual-degree-how-to-apply', function () {
-    return view('pages.programmes.msc-dssa-dual-degree.how-to-apply');
-})->name('pages.programmes.msc-dssa-dual-degree.how-to-apply');
+    return view('pages.admissions.msc-dssa-dual-degree.how-to-apply');
+})->name('pages.admissions.msc-dssa-dual-degree.how-to-apply');
 
 Route::get('/dssa-dual-degree-scholarships', function () {
     return view('pages.programmes.msc-dssa-dual-degree.scholarships');
 })->name('pages.programmes.msc-dssa-dual-degree.scholarships');
 
 Route::get('/dssa-dual-degree-admission-contact', function () {
-    return view('pages.programmes.msc-dssa-dual-degree.admission-contact');
-})->name('pages.programmes.msc-dssa-dual-degree.admission-contact');
+    return view('pages.admissions.msc-dssa-dual-degree.admission-contact');
+})->name('pages.admissions.msc-dssa-dual-degree.admission-contact');
 
 Route::get('/dssa-dual-degree-academic-calendar', function () {
     return view('pages.programmes.msc-dssa-dual-degree.dssa-dual-degree-academic-calendar');
@@ -145,12 +145,12 @@ Route::get('/dssa-programme-outcome', function () {
 })->name('pages.programmes.msc-dssa.programme-outcome');
 
 Route::get('/dssa-eligibility-criteria', function () {
-    return view('pages.programmes.msc-dssa.eligibility-criteria');
-})->name('pages.programmes.msc-dssa.eligibility-criteria');
+    return view('pages.admissions.msc-dssa.eligibility-criteria');
+})->name('pages.admissions.msc-dssa.eligibility-criteria');
 
 Route::get('/dssa-fees-structure', function () {
-    return view('pages.programmes.msc-dssa.fees-structure');
-})->name('pages.programmes.msc-dssa.fees-structure');
+    return view('pages.admissions.msc-dssa.fees-structure');
+})->name('pages.admissions.msc-dssa.fees-structure');
 
 Route::get('/dssa-stakeholder-feedback', function () {
     return view('pages.programmes.msc-dssa.stakeholder-feedback');
@@ -161,20 +161,20 @@ Route::get('/dssa-programme-structure', function () {
 })->name('pages.programmes.msc-dssa.programme-structure');
 
 Route::get('/dssa-admission-calendar', function () {
-    return view('pages.programmes.msc-dssa.admission-calendar');
-})->name('pages.programmes.msc-dssa.admission-calendar');
+    return view('pages.admissions.msc-dssa.admission-calendar');
+})->name('pages.admissions.msc-dssa.admission-calendar');
 
 Route::get('/dssa-how-to-apply', function () {
-    return view('pages.programmes.msc-dssa.how-to-apply');
-})->name('pages.programmes.msc-dssa.how-to-apply');
+    return view('pages.admissions.msc-dssa.how-to-apply');
+})->name('pages.admissions.msc-dssa.how-to-apply');
 
 Route::get('/dssa-scholarships', function () {
-    return view('pages.programmes.msc-dssa.scholarships');
-})->name('pages.programmes.msc-dssa.scholarships');
+    return view('pages.admissions.msc-dssa.scholarships');
+})->name('pages.admissions.msc-dssa.scholarships');
 
 Route::get('/dssa-admission-contact', function () {
-    return view('pages.programmes.msc-dssa.admission-contact');
-})->name('pages.programmes.msc-dssa.admission-contact');
+    return view('pages.admissions.msc-dssa.admission-contact');
+})->name('pages.admissions.msc-dssa.admission-contact');
 
 Route::get('/msc-dssa-academic-calendar', function () {
     return view('pages.programmes.msc-dssa.msc-dssa-academic-calendar');

@@ -25,7 +25,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item">M.Sc. DSSA Dual Degree</li>
+                                <li class="breadcrumb-item">M.Sc. in DSSA</li>
                                 <li class="breadcrumb-item active" aria-current="page">Eligibility Criteria</li>
                             </ol>
                         </nav>
@@ -60,8 +60,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                 <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
                                     class="img-fluid">
                             </div>
-                            <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. DSSA Dual Degree</h3>
-                            @include('components.msc-dssa-dual-degree-programme-menu')
+                            <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in DSSA</h3>
+                            @include('components.admissions-msc-dssa-programme-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="eligibility_creteria_mainbox">
@@ -113,7 +113,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         <div class="eligibility_creteria_intake_devider"></div>
                                         <div class="eligibility_creteria_intake_content">
                                             <div class="eligibility_creteria_intake_subheading">Intake</div>
-                                            <div class="eligibility_creteria_intake_heading">10 students</div>
+                                            <div class="eligibility_creteria_intake_heading">60 students</div>
                                         </div>
                                     </div>
                                     <div class="reservation_wrapper">

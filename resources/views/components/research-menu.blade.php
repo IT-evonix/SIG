@@ -41,6 +41,6 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Drought System</div>
+        <div class="inner_page_menu_text">Drought Monitoring System of Maharashtra</div>
     </a>
 </div>

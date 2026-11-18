@@ -23,7 +23,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item">M.Sc. DSSA  Dual Degree</li>
+                                <li class="breadcrumb-item">M.Sc. in Geoinformatics</li>
                                 <li class="breadcrumb-item active" aria-current="page">Fees Structure</li>
                             </ol>
                         </nav>
@@ -58,8 +58,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                 <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
                                     class="img-fluid">
                             </div>
-                            <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. DSSA  Dual Degree</h3>
-                           @include('components.msc-dssa-dual-degree-programme-menu')
+                            <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
+                            @include('components.admissions-msc-geoinformatics-programme-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="fees_structure_mainbox">
@@ -69,70 +69,66 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                         <thead>
                                             <tr>
                                                 <th rowspan="2">
-                                                    Installments For M.Sc. Data Science & Spatial Analytics- Dual Degree Programme (M.Sc. in Data Science & Spatial Analytics — Year 1 at SIG, India; Master of Science Degree – Technical Systems Control – Artificial Intelligence and Space Science — Year 2 at RUDN University, Russia)
-                                                    
+                                                    Installments for Master of Science
+                                                    <span>(Geoinformatics)</span>
+                                                    <span>(Indian Students)</span>
                                                 </th>
 
                                                 <th colspan="2">
                                                     1<sup>st</sup> Year (Amount in Rs.)
                                                 </th>
 
-                                                <!-- <th colspan="2">
+                                                <th colspan="2">
                                                     2<sup>nd</sup> Year (Amount in Rs.)
-                                                </th> -->
+                                                </th>
                                             </tr>
 
                                             <tr>
                                                 <th>1<sup>st</sup> Installment</th>
                                                 <th>2<sup>nd</sup> Installment</th>
-                                                <!-- <th>3<sup>rd</sup> Installment</th>
-                                                <th>4<sup>th</sup> Installment</th> -->
+                                                <th>3<sup>rd</sup> Installment</th>
+                                                <th>4<sup>th</sup> Installment</th>
                                             </tr>
                                         </thead>
 
                                         <tbody>
                                             <tr>
                                                 <td>Academic Fees (Per Annum)</td>
-                                                <td>2,36,250</td>
-                                                <td>2,36,250</td>
-                                                <!-- <td>1,57,850</td>
-                                                <td>1,57,850</td> -->
+                                                <td>1,57,850</td>
+                                                <td>1,57,850</td>
+                                                <td>1,57,850</td>
+                                                <td>1,57,850</td>
                                             </tr>
 
                                             <tr>
                                                 <td>Institute Deposit (Refundable)</td>
                                                 <td>20,000</td>
                                                 <td>-</td>
-                                                <!-- <td>-</td>
-                                                <td>-</td> -->
+                                                <td>-</td>
+                                                <td>-</td>
                                             </tr>
 
                                             <tr>
                                                 <td>Installments</td>
-                                                <td>2,56,250</td>
+                                                <td>1,77,850</td>
                                                 <td>-</td>
-                                                <!-- <td>-</td>
-                                                <td>-</td> -->
+                                                <td>-</td>
+                                                <td>-</td>
                                             </tr>
 
                                             <tr>
                                                 <td>Installments pay by date</td>
                                                 <td>At the time of Admission</td>
                                                 <td>25-Nov-26</td>
-                                                <!-- <td>25-Jun-27</td>
-                                                <td>25-Nov-27</td> -->
+                                                <td>25-Jun-27</td>
+                                                <td>25-Nov-27</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="fees_notebox">
-                                    <strong>Note:</strong>Master of Science (Data Science & Spatial Analytics) at 
-                                    Symbiosis Institute of Geoinformatics and Master of Science Degree - Technical Systems Control 
-                                    - Artificial Intelligence and Space Science at RUDN University, Russia. Students enrolled in this
-                                     program will complete their first year at Symbiosis Institute of Geoinformatics and the second year at RUDN University, Russia.
-
-                                     <br><br>
-                                     The fees for the first year will follow the approved fee structure of Symbiosis Institute of Geoinformatics. The fees for the second year will follow the fee structure of RUDN University, Russia.
+                                    <strong>Note:</strong> **Hostel and Mess Fees for the Subsequent year would be
+                                    communicated before commencement of the next year.
                                 </div>
                             </div>
                         </div>

@@ -103,7 +103,7 @@
                                 programmes at Symbiosis International (Deemed University).
                             </p>
                             <p class="m-0"><strong>By order</strong></p>
-                            <p class="caution_red_para">Registrar</p>
+                            <p class="caution_red_para">Registrar </p>
                         </div>
                     </div>
                 </div>

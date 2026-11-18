@@ -56,8 +56,8 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <div class="faculty_designation">Teaching Associate</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">MSc (Artificial Intelligence & Machine Learning)
-                                    </div>
+                                    <!-- <div class="faculty_qualification">MSc (Artificial Intelligence & Machine Learning)
+                                    </div> -->
                                     <a href="mailto:atul@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -86,8 +86,8 @@ members, showcasing their academic backgrounds & research contributions.')
                                         Geoinformatics )</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">M.Sc., CSIR JRF (NET), Post-Doctoral
-                                        Fellow at IIRES (Yunnan University)</div>
+                                    <!-- <div class="faculty_qualification">M.Sc., CSIR JRF (NET), Post-Doctoral
+                                        Fellow at IIRES (Yunnan University)</div> -->
                                     <a href="mailto:dharmaveer@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -115,7 +115,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <div class="faculty_designation">Assistant Professor</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">M.Sc. (Geoinformatics), UGC-NET</div>
+                                    <!-- <div class="faculty_qualification">M.Sc. (Geoinformatics), UGC-NET</div> -->
                                     <a href="mailto:gauri.deshpande@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -143,7 +143,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <div class="faculty_designation">Professor</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">M.Tech., MSc, MS, (Cincinnati , USA)</div>
+                                    <!-- <div class="faculty_qualification">M.Tech., MSc, MS, (Cincinnati , USA)</div> -->
                                     <a href="mailto:navendu@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -171,8 +171,8 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <div class="faculty_designation">Assistant Professor</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">M.Sc. Computer Science, UGC-NET (Computer Science
-                                        and Applications), SET (Computer Science and Application)</div>
+                                    <!-- <div class="faculty_qualification">M.Sc. Computer Science, UGC-NET (Computer Science
+                                        and Applications), SET (Computer Science and Application)</div> -->
                                     <a href="mailto:neeta@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -200,7 +200,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <div class="faculty_designation">Assistant Professor, Head Examination</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">M.Sc., M.Phil., UGC-NET, SET</div>
+                                    <!-- <div class="faculty_qualification">M.Sc., M.Phil., UGC-NET, SET</div> -->
                                     <a href="mailto:rajesh@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -227,9 +227,9 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <h3 class="faculty_name">Ms. Riya Mukharjee</h3>
                                     <div class="faculty_designation">Research assistant</div>
                                 </div>
-                                <!-- <div class="faculty_info_box">
-                                    <div class="faculty_qualification">M.Phil. (Computer Science), M.sc (Information Technology)</div>
-                                    <a href="mailto:monali@sig.ac.in" class="faculty_email">
+                                <div class="faculty_info_box">
+                                    <!-- <div class="faculty_qualification">M.Phil. (Computer Science), M.sc (Information Technology)</div> -->
+                                    <a href="mailto:riya@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
                                                 <g>
@@ -240,9 +240,9 @@ members, showcasing their academic backgrounds & research contributions.')
                                                 </g>
                                             </svg>
                                         </div>
-                                        <div class="faculty_email_mail">monali@sig.ac.in</div>
+                                        <div class="faculty_email_mail">riya@sig.ac.in</div>
                                     </a>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                         <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_05">
@@ -256,7 +256,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <div class="faculty_designation">Assistant Professor</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">M.Sc., UGC-NET</div>
+                                    <!-- <div class="faculty_qualification">M.Sc., UGC-NET</div> -->
                                     <a href="mailto:sandipan@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -284,8 +284,8 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <div class="faculty_designation">Professor & Director</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">M.Phil. (Engg.), M.Sc.,MS (Paris University
-                                        VI)</div>
+                                    <!-- <div class="faculty_qualification">M.Phil. (Engg.), M.Sc.,MS (Paris University
+                                        VI)</div> -->
                                     <a href="mailto:" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -314,7 +314,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                         Science & Spatial Analytics)</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">B.Tech., M.Tech.</div>
+                                    <!-- <div class="faculty_qualification">B.Tech., M.Tech.</div> -->
                                     <a href="mailto:veena.parihar@sig.ac.in" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -342,7 +342,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                     <div class="faculty_designation">Associate Professor & Deputy Director</div>
                                 </div>
                                 <div class="faculty_info_box">
-                                    <div class="faculty_qualification">MCA, MCM, MDHEA</div>
+                                    <!-- <div class="faculty_qualification">MCA, MCM, MDHEA</div> -->
                                     <a href="mailto:" class="faculty_email">
                                         <div class="faculty_email_icon">
                                             <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
@@ -1512,24 +1512,29 @@ members, showcasing their academic backgrounds & research contributions.')
                         </div>
 
                         <div class="top_header_popup_body">
-                            <!-- <div class="faculty_popup_wrapper">
+                            <div class="faculty_popup_wrapper">
                                 <div class="faculty_popup_firstbox">
                                     <h3 class="faculty_popup_heading">Research Interests & Expertise</h3>
                                     <div class="faculty_popup_firstbox_mainbox">
                                         <div class="faculty_popup_first_list">
                                             <h4 class="faculty_popup_subheading">Broad areas</h4>
                                             <ul class="custom_listing">
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                <li>Remote Sensing</li>
+                                                <li>Geographic Information System (GIS)</li>
+                                                <li>Spatial Analysis</li>
+                                                <li>Urban Studies</li>
+                                                <li>Disaster Management</li>
                                             </ul>
                                         </div>
                                         <div class="faculty_popup_first_list">
                                             <h4 class="faculty_popup_subheading">Specific areas</h4>
                                             <ul class="custom_listing">
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                <li>Agricultural Drought Monitoring</li>
+                                                <li>Thermal Remote Sensing</li>
+                                                <li>Urban Resilience and Planning</li>
+                                                <li>Disaster Risk Assessment</li>
+                                                <li>Multi-Sensor Data Harmonization</li>
+                                                <li>Geospatial Modelling</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1537,7 +1542,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                 <div class="faculty_popup_secondbox">
                                     <h3 class="faculty_popup_heading">Research Profiles</h3>
                                     <div class="faculty_popup_secondbox_wrapper">
-                                        <a href="" target="_blank" class="faculty_popup_secondbox_listing">
+                                        <a href="https://scholar.google.com/citations?hl=en&user=anYASScAAAAJ&utm_source=chatgpt.com" target="_blank" class="faculty_popup_secondbox_listing">
                                             <div class="faculty_popup_secondbox_text">Google Scholar</div>
                                             <div class="faculty_popup_secondbox_icon">
                                                 <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
@@ -1549,7 +1554,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                                 </svg>
                                             </div>
                                         </a>
-                                        <a href="" target="_blank" class="faculty_popup_secondbox_listing">
+                                        <a href="https://orcid.org/0009-0008-9455-7331?utm_source=chatgpt.com" target="_blank" class="faculty_popup_secondbox_listing">
                                             <div class="faculty_popup_secondbox_text">ORCID</div>
                                             <div class="faculty_popup_secondbox_icon">
                                                 <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
@@ -1561,7 +1566,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                                 </svg>
                                             </div>
                                         </a>
-                                        <a href="" target="_blank" class="faculty_popup_secondbox_listing">
+                                        <a href="https://www.researchgate.net/profile/Riya-Mukherjee-10?utm_source=chatgpt.com" target="_blank" class="faculty_popup_secondbox_listing">
                                             <div class="faculty_popup_secondbox_text">ResearcherID</div>
                                             <div class="faculty_popup_secondbox_icon">
                                                 <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
@@ -1573,7 +1578,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                                 </svg>
                                             </div>
                                         </a>
-                                        <a href="" target="_blank" class="faculty_popup_secondbox_listing">
+                                        <a href="https://vidwan.inflibnet.ac.in/dashboard?utm_source=chatgpt.com" target="_blank" class="faculty_popup_secondbox_listing">
                                             <div class="faculty_popup_secondbox_text">Vidwan</div>
                                             <div class="faculty_popup_secondbox_icon">
                                                 <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
@@ -1585,7 +1590,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                                 </svg>
                                             </div>
                                         </a>
-                                        <a href="" target="_blank" class="faculty_popup_secondbox_listing">
+                                        <a href="https://www.linkedin.com/in/riya-mukherjee-977809228/" target="_blank" class="faculty_popup_secondbox_listing">
                                             <div class="faculty_popup_secondbox_text">LinkedIn</div>
                                             <div class="faculty_popup_secondbox_icon">
                                                 <svg width="14" height="14" x="0" y="0" viewBox="0 0 24 24">
@@ -1599,8 +1604,7 @@ members, showcasing their academic backgrounds & research contributions.')
                                         </a>
                                     </div>
                                 </div>
-                            </div> -->
-                            <h4>Coming Soon...</h4>
+                            </div>
                         </div>
                     </div>
                 </div>

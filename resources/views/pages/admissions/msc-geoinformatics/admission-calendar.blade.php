@@ -23,7 +23,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item">M.Sc. DSSA  Dual Degree</li>
+                                <li class="breadcrumb-item">M.Sc. in Geoinformatics</li>
                                 <li class="breadcrumb-item active" aria-current="page">Admission Calendar</li>
                             </ol>
                         </nav>
@@ -58,8 +58,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                 <img src="{{ asset('assets/images/programmes/icon/close.svg') }}" alt="Icon"
                                     class="img-fluid">
                             </div>
-                            <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. DSSA  Dual Degree</h3>
-                            @include('components.msc-dssa-dual-degree-programme-menu')
+                            <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. in Geoinformatics</h3>
+                            @include('components.admissions-msc-geoinformatics-programme-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="admission_calender_mainbox">
@@ -136,7 +136,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                                 <img src="{{ asset('assets/images/programmes/icon/calendar-gray.svg') }}"
                                                     alt="Icon" class="img-fluid">
                                             </div>
-                                            <div class="admission_calender_listing_right_heading">04<sup>th</sup> March
+                                            <div class="admission_calender_listing_right_heading">04<sup>st</sup> March
                                                 2027</div>
                                         </div>
                                     </div>

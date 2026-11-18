@@ -23,8 +23,8 @@ courses and advance your career with a master\'s in Geoinformatics.')
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item">Programmes</li>
-                                <li class="breadcrumb-item active" aria-current="page">M.Sc. DSSA Dual Degree</li>
+                                <li class="breadcrumb-item">M.Sc. DSSA Dual Degree</li>
+                                <li class="breadcrumb-item active" aria-current="page">Overview</li>
                             </ol>
                         </nav>
                     </div>

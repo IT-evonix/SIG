@@ -59,7 +59,7 @@ courses and advance your career with a master\'s in Geoinformatics.')
                                     class="img-fluid">
                             </div>
                             <h3 class="inner_page_menu_heading" id="inner_menu_heading_id">M.Sc. DSSA  Dual Degree</h3>
-                            @include('components.msc-dssa-dual-degree-programme-menu')
+                            @include('components.admissions-msc-dssa-dual-degree-programme-menu')
                         </div>
                         <div class="inner_page_contentbox">
                             <div class="how_to_apply_mainbox">

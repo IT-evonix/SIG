@@ -82,6 +82,9 @@ industry-focused courses and build a future-ready career. Apply now!')
                     Under QS Ranking (351–400)
                 </div>
                 <div class="announcement_listing">
+                    Admission open for Batch 2027-2029
+                </div>
+                <div class="announcement_listing">
                     SIG's M.Sc Geoinformatics & M.Sc Data Science & Spatial Analytics Programmes Gain Global Recognition
                     Under QS Ranking (351–400)
                 </div>
@@ -94,6 +97,9 @@ industry-focused courses and build a future-ready career. Apply now!')
                 <div class="announcement_listing">
                     SIG's M.Sc Geoinformatics & M.Sc Data Science & Spatial Analytics Programmes Gain Global Recognition
                     Under QS Ranking (351–400)
+                </div>
+                <div class="announcement_listing">
+                    Admission open for Batch 2027-2029
                 </div>
                 <div class="announcement_listing">
                     SIG's M.Sc Geoinformatics & M.Sc Data Science & Spatial Analytics Programmes Gain Global Recognition

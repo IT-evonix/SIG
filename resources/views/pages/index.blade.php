@@ -137,7 +137,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             </div>
                             <div class="legacy_listing_content">
                                 <div class="legacy_listing_number" data-target="23">0+</div>
-                                <div class="legacy_listing_text">Years of Excellence</div>
+                                <div class="legacy_listing_text">Years of <br> Excellence</div>
                             </div>
                         </div>
                         <div class="inner_legacy_listing">
@@ -151,7 +151,36 @@ industry-focused courses and build a future-ready career. Apply now!')
                         </div>
                     </div>
                     <div class="legacy_listing_red">
-                        <img src="{{ asset('assets/images/home/naac-image.webp') }}" alt="Naac Icon" class="img-fluid">
+                        <div class="legacy_listing_red_listing legacy_listing_red_listing_first">
+                            <img src="{{ asset('assets/images/home/naac-image.webp') }}" alt="Naac Icon" class="img-fluid">
+                        </div>
+                        <div class="legacy_listing_red_listing legacy_listing_red_listing_second">
+                            <div class="legacy_listing_red_listing_left">
+                                <div class="legacy_listing_number_second">24<sup>th</sup> In</div>
+                                <div class="legacy_listing_text">The University Category</div>
+                            </div>
+                            <div class="legacy_listing_red_listing_right">
+                                <img src="{{ asset('assets/images/home/nirf-logo.webp') }}" alt="Ranking Icon" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="legacy_listing_red_listing legacy_listing_red_listing_third">
+                            <div class="legacy_listing_red_listing_left">
+                                <div class="legacy_listing_number_third">16 <sup>th</sup> In India</div>
+                                <div class="legacy_listing_text">QS World University Rankings Asia 2027</div>
+                            </div>
+                            <div class="legacy_listing_red_listing_right">
+                                <img src="{{ asset('assets/images/home/Global-Infographic.webp') }}" alt="Ranking Icon" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="legacy_listing_red_listing legacy_listing_red_listing_third">
+                            <div class="legacy_listing_red_listing_left">
+                                <div class="legacy_listing_number_third">06 <sup>th</sup> In India</div>
+                                <div class="legacy_listing_text">THE World University Rankings 2027</div>
+                            </div>
+                            <div class="legacy_listing_red_listing_right">
+                                <img src="{{ asset('assets/images/home/white-globe.webp') }}" alt="Ranking Icon" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
                     <div class="legacy_listing_black">
                         <div class="inner_legacy_listing">

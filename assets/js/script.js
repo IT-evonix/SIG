@@ -455,3 +455,32 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 // Caution notice popup ends
+
+// Home ranking scroll start
+
+(function () {
+  const box = document.querySelector('.legacy_listing_red');
+  if (!box) return;
+
+  const items = box.querySelectorAll('.legacy_listing_red_listing');
+  if (items.length < 2) return;
+
+  let i = 0, timer;
+  items[0].classList.add('is_active');
+
+  const next = () => {
+    items[i].classList.remove('is_active');
+    i = (i + 1) % items.length;
+    items[i].classList.add('is_active');
+  };
+
+  const start = () => { stop(); timer = setInterval(next, 3000); };
+  const stop = () => clearInterval(timer);
+
+  box.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') stop(); });
+  box.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') start(); });
+
+  start();
+})();
+
+// Home ranking scroll ends

@@ -30,7 +30,7 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Admission calender</div>
+        <div class="inner_page_menu_text">Admission calendar</div>
     </a>
     <a href="{{ route('pages.admissions.msc-geoinformatics.fees-structure') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.admissions.msc-geoinformatics.fees-structure') ? 'inner_page_menu_listing_active' : '' }}">

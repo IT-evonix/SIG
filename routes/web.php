@@ -335,29 +335,29 @@ Route::get('/blog-detail', function () {
     return view('pages.blog-detail');
 })->name('pages.blog-detail');
 
-Route::get('/data-science-education-and-curriculum-development', function () {
-    return view('pages.blogs.data-science-education-and-curriculum-development');
-})->name('pages.blogs.data-science-education-and-curriculum-development');
+Route::get('blog/data-science-education-and-curriculum-development', function () {
+    return view('pages.blog.data-science-education-and-curriculum-development');
+})->name('pages.blog.data-science-education-and-curriculum-development');
 
-Route::get('/top-10-factors-for-choosing-best-data-science-institute', function () {
-    return view('pages.blogs.top-10-factors-for-choosing-best-data-science-institute');
-})->name('pages.blogs.top-10-factors-for-choosing-best-data-science-institute');
+Route::get('blog/top-10-factors-for-choosing-best-data-science-institute', function () {
+    return view('pages.blog.top-10-factors-for-choosing-best-data-science-institute');
+})->name('pages.blog.top-10-factors-for-choosing-best-data-science-institute');
 
-Route::get('/blockchain-technology', function () {
-    return view('pages.blogs.blockchain-technology');
-})->name('pages.blogs.blockchain-technology');
+Route::get('blog/blockchain-technology', function () {
+    return view('pages.blog.blockchain-technology');
+})->name('pages.blog.blockchain-technology');
 
-Route::get('/data-science-an-insight-into-skills-and-career-opportunities-for-aspirants', function () {
-    return view('pages.blogs.data-science-an-insight-into-skills-and-career-opportunities-for-aspirants');
-})->name('pages.blogs.data-science-an-insight-into-skills-and-career-opportunities-for-aspirants');
+Route::get('blog/data-science-an-insight-into-skills-and-career-opportunities-for-aspirants', function () {
+    return view('pages.blog.data-science-an-insight-into-skills-and-career-opportunities-for-aspirants');
+})->name('pages.blog.data-science-an-insight-into-skills-and-career-opportunities-for-aspirants');
 
-Route::get('/geoinformatics-a-unique-career-opportunity', function () {
-    return view('pages.blogs.geoinformatics-a-unique-career-opportunity');
-})->name('pages.blogs.geoinformatics-a-unique-career-opportunity');
+Route::get('blog/geoinformatics-a-unique-career-opportunity', function () {
+    return view('pages.blog.geoinformatics-a-unique-career-opportunity');
+})->name('pages.blog.geoinformatics-a-unique-career-opportunity');
 
-Route::get('/data-science-career-and-opportunities', function () {
-    return view('pages.blogs.data-science-career-and-opportunities');
-})->name('pages.blogs.data-science-career-and-opportunities');
+Route::get('blog/data-science-career-and-opportunities', function () {
+    return view('pages.blog.data-science-career-and-opportunities');
+})->name('pages.blog.data-science-career-and-opportunities');
 
 // BLOG ENDS ---------------------------------------------------
 

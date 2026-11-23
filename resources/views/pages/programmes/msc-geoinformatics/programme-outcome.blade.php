@@ -19,12 +19,12 @@ courses and advance your career with a master\'s in Geoinformatics.')
             <div class="col-lg-12">
                 <div class="inner_banner_mainbox">
                     <div class="inner_banner_headingbox">
-                        <h1 class="inner_banner_heading">Graduate Attributes and <span>Pogramme Outcome</span></h1>
+                        <h1 class="inner_banner_heading">Graduate Attributes and <span>Programme Outcomes</span></h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
                                 <li class="breadcrumb-item">M.Sc. in Geoinformatics</li>
-                                <li class="breadcrumb-item active" aria-current="page">Pogramme Outcome</li>
+                                <li class="breadcrumb-item active" aria-current="page">Programme Outcomes</li>
                             </ol>
                         </nav>
                     </div>

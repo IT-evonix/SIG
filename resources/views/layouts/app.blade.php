@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="{{ asset('assets/css/header.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="icon" href="{{ asset('favicon.ico') }}">
+
+    <!-- remove below after goes live start -->
+    <meta name='robots' content='noindex, nofollow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />   
+    <!-- remove below after goes live ends-->
+
     <!-- Google Tag Manager -->
     <script>
         (function(w,d,s,l,i){w[l]=w[l]||[];

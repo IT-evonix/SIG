@@ -29,7 +29,7 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Graduate Attributes and Pogramme outcome</div>
+        <div class="inner_page_menu_text">Graduate Attributes and Programme Outcomes</div>
     </a>
     <a href="{{ route('pages.programmes.certificate-course-drone-data-processing.programme-structure') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.certificate-course-drone-data-processing.programme-structure') ? 'inner_page_menu_listing_active' : '' }}">
@@ -61,7 +61,7 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Stackholder's feedback</div>
+        <div class="inner_page_menu_text">Stakeholders’ Feedback</div>
     </a>
     <a href="{{ route('pages.programmes.certificate-course-drone-data-processing.eligibility-criteria') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.certificate-course-drone-data-processing.eligibility-criteria') ? 'inner_page_menu_listing_active' : '' }}">
@@ -82,7 +82,7 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Admission calender</div>
+        <div class="inner_page_menu_text">Admission calendar</div>
     </a>
     <a href="{{ route('pages.programmes.certificate-course-drone-data-processing.fees-structure') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.certificate-course-drone-data-processing.fees-structure') ? 'inner_page_menu_listing_active' : '' }}">

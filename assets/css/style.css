@@ -6757,6 +6757,10 @@ table th {
     height: 100%;
 }
 
+.program_offered_section {
+    padding: 60px 0px 40px;
+}
+
 }
 
 /* ================ MEDIA QUIRIES ENDS ======================== */

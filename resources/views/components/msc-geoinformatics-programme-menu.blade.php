@@ -30,7 +30,7 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Graduate Attributes and Pogramme outcome</div>
+        <div class="inner_page_menu_text">Graduate Attributes and Programme Outcomes</div>
     </a>
     <a href="{{ route('pages.programmes.msc-geoinformatics.programme-structure') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.programme-structure') ? 'inner_page_menu_listing_active' : '' }}">
@@ -63,6 +63,6 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Stackholder's feedback</div>
+        <div class="inner_page_menu_text">Stakeholders’ Feedback</div>
     </a>
 </div>

@@ -379,7 +379,7 @@ industry-focused courses and build a future-ready career. Apply now!')
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h2 class="heading">what <span>people say</span></h2>
+                    <h2 class="heading">Our <span>Alumni</span>, Our <span>Legacy</span></h2>
                     <!-- <p class="heading_para">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley,
@@ -633,7 +633,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Devdatta Tengshe</h5>
                             <p>Co-Founder GeoPune , Senior GIS Manager Ola Campus Pune</p>
                             <div class="team-linkdin">
-                                <a href="hhttps://www.linkedin.com/in/devdattat/" target="_blank"
+                                <a href="https://www.linkedin.com/in/devdattat/" target="_blank"
                                     rel="noopener noreferrer">
                                     <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
                                         alt="Linkdin icon" class="img-fluid">
@@ -648,7 +648,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Dipto Sarkar</h5>
                             <p>Assistant Professor, Carleton University, Ottawa, Canada</p>
                             <div class="team-linkdin">
-                                <a href="linkedin.com/in/diptosarkar/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/diptosarkar/" target="_blank" rel="noopener noreferrer">
                                     <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
                                         alt="Linkdin icon" class="img-fluid">
                                 </a>
@@ -662,7 +662,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Vara Prasad Lingam</h5>
                             <p>Lead GIS Stantec</p>
                             <div class="team-linkdin">
-                                <a href="linkedin.com/in/prasadlingam/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/prasadlingam/" target="_blank" rel="noopener noreferrer">
                                     <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
                                         alt="Linkdin icon" class="img-fluid">
                                 </a>
@@ -737,7 +737,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Dipto Sarkar</h5>
                             <p>Assistant Professor, Carleton University, Ottawa, Canada</p>
                             <div class="team-linkdin">
-                                <a href="linkedin.com/in/diptosarkar/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/diptosarkar/" target="_blank" rel="noopener noreferrer">
                                     <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
                                         alt="Linkdin icon" class="img-fluid">
                                 </a>
@@ -751,7 +751,7 @@ industry-focused courses and build a future-ready career. Apply now!')
                             <h5>Vara Prasad Lingam</h5>
                             <p>Lead GIS Stantec</p>
                             <div class="team-linkdin">
-                                <a href="linkedin.com/in/prasadlingam/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/prasadlingam/" target="_blank" rel="noopener noreferrer">
                                     <img src="{{ asset('assets/images/programmes/icon/linkedin.svg') }}"
                                         alt="Linkdin icon" class="img-fluid">
                                 </a>

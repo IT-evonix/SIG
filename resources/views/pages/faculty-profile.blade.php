@@ -39,41 +39,13 @@ members, showcasing their academic backgrounds & research contributions.')
 
 @section('content')
 
-<main class="faculty_profile_main">
+<main class="faculty_profile_main new_faculty_profile_main">
     <section class="faculty_profile_section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <h2 class="inner_heading">Department of Geoinformatics</h2>
                     <div class="faculty_profile_mainbox">
-                        <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_10">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/faculty/faculty-10.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Mr. Atul Jadhav</h3>
-                                    <div class="faculty_designation">Teaching Associate</div>
-                                </div>
-                                <div class="faculty_info_box">
-                                    <!-- <div class="faculty_qualification">MSc (Artificial Intelligence & Machine Learning)
-                                    </div> -->
-                                    <a href="mailto:atul@sig.ac.in" class="faculty_email">
-                                        <div class="faculty_email_icon">
-                                            <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
-                                                <g>
-                                                    <path
-                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
-                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
-                                                    </path>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="faculty_email_mail">atul@sig.ac.in</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                         <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_03">
                             <div class="faculty_image">
                                 <img src="{{ asset('assets/images/faculty/faculty-03.webp') }}" alt=""
@@ -160,6 +132,128 @@ members, showcasing their academic backgrounds & research contributions.')
                                 </div>
                             </div>
                         </div>
+                        <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_11">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/faculty/faculty-11.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Ms. Riya Mukharjee</h3>
+                                    <div class="faculty_designation">Research assistant</div>
+                                </div>
+                                <div class="faculty_info_box">
+                                    <!-- <div class="faculty_qualification">M.Phil. (Computer Science), M.sc (Information Technology)</div> -->
+                                    <a href="mailto:riya@sig.ac.in" class="faculty_email">
+                                        <div class="faculty_email_icon">
+                                            <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
+                                                <g>
+                                                    <path
+                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
+                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="faculty_email_mail">riya@sig.ac.in</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_05">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/faculty/faculty-05.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Dr. Sandipan Das</h3>
+                                    <div class="faculty_designation">Assistant Professor</div>
+                                </div>
+                                <div class="faculty_info_box">
+                                    <!-- <div class="faculty_qualification">M.Sc., UGC-NET</div> -->
+                                    <a href="mailto:sandipan@sig.ac.in" class="faculty_email">
+                                        <div class="faculty_email_icon">
+                                            <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
+                                                <g>
+                                                    <path
+                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
+                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="faculty_email_mail">sandipan@sig.ac.in</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_01">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/faculty/faculty-01.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Dr. (Prof.) Tarun Pratap Singh</h3>
+                                    <div class="faculty_designation">Professor & Director</div>
+                                </div>
+                                <div class="faculty_info_box">
+                                    <!-- <div class="faculty_qualification">M.Phil. (Engg.), M.Sc.,MS (Paris University
+                                        VI)</div> -->
+                                    <a href="mailto:" class="faculty_email">
+                                        <div class="faculty_email_icon">
+                                            <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
+                                                <g>
+                                                    <path
+                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
+                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="faculty_email_mail">director@sig.ac.in</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="faculty_department_devider"></div>
+                    <h2 class="inner_heading">Department of Data Science</h2>
+                    <div class="faculty_profile_mainbox">
+                        <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_10">
+                            <div class="faculty_image">
+                                <img src="{{ asset('assets/images/faculty/faculty-10.webp') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="faculty_content">
+                                <div class="faculty_headingbox">
+                                    <h3 class="faculty_name">Mr. Atul Jadhav</h3>
+                                    <div class="faculty_designation">Teaching Associate</div>
+                                </div>
+                                <div class="faculty_info_box">
+                                    <!-- <div class="faculty_qualification">MSc (Artificial Intelligence & Machine Learning)
+                                    </div> -->
+                                    <a href="mailto:atul@sig.ac.in" class="faculty_email">
+                                        <div class="faculty_email_icon">
+                                            <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
+                                                <g>
+                                                    <path
+                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
+                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="faculty_email_mail">atul@sig.ac.in</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_08">
                             <div class="faculty_image">
                                 <img src="{{ asset('assets/images/faculty/faculty-08.webp') }}" alt=""
@@ -213,91 +307,6 @@ members, showcasing their academic backgrounds & research contributions.')
                                             </svg>
                                         </div>
                                         <div class="faculty_email_mail">rajesh@sig.ac.in</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_11">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/faculty/faculty-11.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Ms. Riya Mukharjee</h3>
-                                    <div class="faculty_designation">Research assistant</div>
-                                </div>
-                                <div class="faculty_info_box">
-                                    <!-- <div class="faculty_qualification">M.Phil. (Computer Science), M.sc (Information Technology)</div> -->
-                                    <a href="mailto:riya@sig.ac.in" class="faculty_email">
-                                        <div class="faculty_email_icon">
-                                            <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
-                                                <g>
-                                                    <path
-                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
-                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
-                                                    </path>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="faculty_email_mail">riya@sig.ac.in</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_05">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/faculty/faculty-05.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Dr. Sandipan Das</h3>
-                                    <div class="faculty_designation">Assistant Professor</div>
-                                </div>
-                                <div class="faculty_info_box">
-                                    <!-- <div class="faculty_qualification">M.Sc., UGC-NET</div> -->
-                                    <a href="mailto:sandipan@sig.ac.in" class="faculty_email">
-                                        <div class="faculty_email_icon">
-                                            <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
-                                                <g>
-                                                    <path
-                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
-                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
-                                                    </path>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="faculty_email_mail">sandipan@sig.ac.in</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faculty_card" data-bs-toggle="modal" data-bs-target="#faculty_01">
-                            <div class="faculty_image">
-                                <img src="{{ asset('assets/images/faculty/faculty-01.webp') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <div class="faculty_content">
-                                <div class="faculty_headingbox">
-                                    <h3 class="faculty_name">Dr. (Prof.) Tarun Pratap Singh</h3>
-                                    <div class="faculty_designation">Professor & Director</div>
-                                </div>
-                                <div class="faculty_info_box">
-                                    <!-- <div class="faculty_qualification">M.Phil. (Engg.), M.Sc.,MS (Paris University
-                                        VI)</div> -->
-                                    <a href="mailto:" class="faculty_email">
-                                        <div class="faculty_email_icon">
-                                            <svg width="20" height="20" x="0" y="0" viewBox="0 0 100 100">
-                                                <g>
-                                                    <path
-                                                        d="M87 24H25c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2L43.6 50 21.2 69.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8V32c0-4.4-3.6-8-8-8m-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1L57.3 54.2c-.8.6-1.8.6-2.6 0zM87 72H25c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1m4-4c0 .4-.1.8-.2 1.2L68.4 50l22.4-19.2c.1.4.2.8.2 1.2zM11 45c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2H13c-1.1 0-2-.9-2-2m14 12H7c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2"
-                                                        fill="#c4161c" opacity="1" data-original="#000000" class="">
-                                                    </path>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <div class="faculty_email_mail">director@sig.ac.in</div>
                                     </a>
                                 </div>
                             </div>

@@ -1695,6 +1695,10 @@ body:has(.faculty_profile_mainbox) .inner_banner_heading span {
   padding: 180px 0 80px 0;
 }
 
+.new_faculty_profile_main .faculty_profile_section{
+  padding: 80px 0 80px 0;
+}
+
 .faculty_image {
   width: fit-content;
   margin: -100px auto 0 auto;
@@ -4817,6 +4821,17 @@ table th {
 }
 /* Home ranking scroll ends */
 
+.faculty_profile_section .inner_heading {
+  margin: 0 0 124px 0;
+}
+
+.faculty_department_devider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(196, 22, 28, 1) 50%, rgba(255, 255, 255, 0.8) 100%);
+  margin: 40px 0 40px 0;
+}
+
 /* ================ MEDIA QUIRIES START ===================== */
 
 @media (max-width: 1440px) {
@@ -6759,6 +6774,14 @@ table th {
 
 .program_offered_section {
     padding: 60px 0px 40px;
+}
+
+.new_faculty_profile_main .faculty_profile_section{
+  padding: 60px 0 60px 0;
+}
+
+.new_faculty_profile_main .inner_heading {
+  text-align: center;
 }
 
 }

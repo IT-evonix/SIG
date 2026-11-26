@@ -8,7 +8,7 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Admissions Open for 2027</div>
+        <div class="inner_page_menu_text">Apply now</div>
     </a>
     <a href="{{ route('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.programmes.msc-geoinformatics.msc-in-geoinformatics') ? 'inner_page_menu_listing_active' : '' }}">

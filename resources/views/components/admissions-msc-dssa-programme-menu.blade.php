@@ -8,7 +8,7 @@
                     fill="#ffffff" />
             </svg>
         </div>
-        <div class="inner_page_menu_text">Admissions Open for 2027</div>
+        <div class="inner_page_menu_text">Apply now</div>
     </a>
     <a href="{{ route('pages.admissions.msc-dssa.eligibility-criteria') }}"
         class="inner_page_menu_listing {{ request()->routeIs('pages.admissions.msc-dssa.eligibility-criteria') ? 'inner_page_menu_listing_active' : '' }}">

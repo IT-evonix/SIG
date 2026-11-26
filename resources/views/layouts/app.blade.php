@@ -9,14 +9,13 @@
     <link rel="canonical" href="@yield('canonical', url()->current())">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
-    <link rel="stylesheet" href="{{ asset('assets/css/header.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <!--<link rel="stylesheet" href="{{ asset('assets/css/header.css') }}">-->
+    <!--<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">-->
+    <link rel="stylesheet"
+      href="{{ asset('assets/css/header.css') }}?v={{ filemtime(base_path('assets/css/header.css')) }}">
+    <link rel="stylesheet"
+      href="{{ asset('assets/css/style.css') }}?v={{ filemtime(base_path('assets/css/style.css')) }}">
     <link rel="icon" href="{{ asset('favicon.ico') }}">
-
-    <!-- remove below after goes live start -->
-    <meta name='robots' content='noindex, nofollow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />   
-    <!-- remove below after goes live ends-->
-
     <!-- Google Tag Manager -->
     <script>
         (function(w,d,s,l,i){w[l]=w[l]||[];

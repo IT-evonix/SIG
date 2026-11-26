@@ -38,7 +38,7 @@
                                 </div>
                                 <div class="footer_content">
                                     <div class="footer_content_first">
-                                        <a href="tel:+02025672841">020: 25672841</a> / <a href="tel:+02025672843">43</a>
+                                        <a href="tel:+912025672841">020: 25672841</a> / <a href="tel:+912025672843">43</a>
                                     </div>
                                     <div class="footer_content_second">
                                         <a href="tel:+917709998185">+91 7709998185</a>
@@ -104,7 +104,6 @@
                                 <li><a href="{{ route('pages.programmes.msc-dssa.msc-in-dssa') }}">M.Sc. Data Science & Spatial Analytics</a></li>
                                 <li><a href="{{ route('pages.programmes.msc-dssa-dual-degree.msc-in-dssa-dual-degree') }}">M.Sc. Data Science & Spatial Analytics Dual Degree</a></li>
                                 <li><a href="https://www.sitpune.edu.in/m-tech-addmission" target="_blank">M.Tech. Geoinformatics</a></li>
-                                <li><a href="{{ route('pages.programmes.certificate-course-drone-data-processing.certificate-course-in-data-processing') }}">Certificate Programme</a></li>
                                 <!-- <li><a href="{{ route('index') }}">Diploma Programme</a></li> -->
                                 <li><a href="https://scri.siu.edu.in/" target="_blank">Ph.D. Programme</a></li>
                                 <li><a href="https://www.siu.edu.in/admissions/overview#pgPro" target="_blank">Prospectus</a></li>
@@ -134,7 +133,7 @@
                                             </g>
                                         </svg>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/sig-pune-753867113/" target="_blank" class="social_media_listing">
+                                    <a href="https://www.linkedin.com/school/symbiosis-institute-of-geoinformatics/" target="_blank" class="social_media_listing">
                                         <svg width="35" height="35" x="0" y="0" viewBox="0 0 112.196 112.196"
                                             style="enable-background:new 0 0 512 512" xml:space="preserve">
                                             <g>

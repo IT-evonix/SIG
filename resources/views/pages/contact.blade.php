@@ -185,8 +185,8 @@ Data Science in India. Contact us for your enquiries.')
                                         </svg>
                                     </div>
                                     <div class="contact_adderess_text">
-                                        <a href="tel:+02025672841">020 25672841</a>/<a href="tel:+02025672842">42</a>/<a
-                                            href="tel:+02025672843">43</a>
+                                        <a href="tel:+912025672841">020 25672841</a>/<a href="tel:+912025672842">42</a>/<a
+                                            href="tel:+912025672843">43</a>
                                     </div>
                                 </div>
                                 <div class="contact_adderess_listing">
